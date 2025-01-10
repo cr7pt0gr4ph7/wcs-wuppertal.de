@@ -9,6 +9,8 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@fontsource/inter": "^5.1.1",
+    "@fontsource/lobster": "^5.1.1",
     "astro": "^5.1.5"
   }
 }
