@@ -10,19 +10,22 @@ import Parties from "./Parties.astro";
 <div id="container">
   <Navbar />
   <Hero />
-  <NavCards />
-  <About />
-  <Classes />
-  <Parties />
+  <div class="content">
+    <NavCards />
+    <About />
+    <Classes />
+    <Parties />
+  </div>
 </div>
 
 <style is:global>
-  body {
-    font-family: sans-serif;
+  * {
+    box-sizing: border-box;
   }
 
-  h2 {
-    font-size: 32px;
-    margin-top: 85px;
+  body {
+    font-family: sans-serif;
+    background-color: #000000;
+    color: #ffffff;
   }
 </style>

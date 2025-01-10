@@ -1,0 +1,8 @@
+h2 {
+    font-size: 32px;
+    margin-top: 85px;
+}
+
+section {
+    margin-bottom: calc(153px - 85px);
+}
