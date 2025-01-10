@@ -1,11 +1,18 @@
 ---
 import NavCard from "./NavCard.astro";
+
+const image_url =
+  "https://images.unsplash.com/photo-1566737236500-c8ac43014a67";
 ---
 
 <nav class="nav-cards">
-  <NavCard title="Kurse & Workshops" href="#kurse" />
-  <NavCard title="Parties & Events" href="#parties" />
-  <NavCard title="Merchandise" href="https://shop.wcs-wuppertal.de" />
+  <NavCard title="Kurse & Workshops" href="#kurse" image={image_url} />
+  <NavCard title="Parties & Events" href="#parties" image={image_url} />
+  <NavCard
+    title="Merchandise"
+    href="https://shop.wcs-wuppertal.de"
+    image={image_url}
+  />
 </nav>
 
 <style>
