@@ -1,8 +1,9 @@
 h2 {
     font-size: 32px;
-    margin-top: 85px;
+    /* margin-top: 85px; */
+    margin-bottom: 48px;
 }
 
 section {
-    margin-bottom: calc(153px - 85px);
+    margin-top: 153px;
 }

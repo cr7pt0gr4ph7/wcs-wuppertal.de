@@ -19,6 +19,7 @@ const { title, href } = Astro.props;
 
   .nav-card-title {
     font-size: 16px;
+    font-weight: bold;
     transition: font-size 500ms ease-out;
     position: absolute;
     bottom: 0px;
@@ -27,6 +28,11 @@ const { title, href } = Astro.props;
     padding: 6px;
     text-wrap: nowrap;
     overflow: hidden;
+  }
+
+  .nav-card-title span {
+    position: relative;
+    z-index: 1;
   }
 
   .nav-card:hover .nav-card-title {
