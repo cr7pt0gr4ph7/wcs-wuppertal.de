@@ -1,6 +1,37 @@
 ---
+import "@fontsource/lobster";
 ---
 
 <div class="hero">
-  <h1>West Coast Swing</h1>
+  <div class="hero-content">
+    <h1>West Coast Swing</h1>
+  </div>
+  <div class="hero-fadeout"></div>
 </div>
+
+<style>
+  .hero {
+    background-color: #ececec;
+    height: 515px;
+  }
+
+  .hero-content {
+    height: calc(515px - 98px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-fadeout {
+    height: 98px;
+    background: linear-gradient(180deg, #00000000, #000000ff);
+  }
+
+  h1 {
+    font-family: Lobster, sans-serif;
+    font-size: 128px;
+    color: white;
+    margin: 0px;
+    text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+</style>
