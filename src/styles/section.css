@@ -1,18 +1,34 @@
 section {
     margin-top: 153px;
+    margin-bottom: 153px;
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 96px;
     /* margin-top: 85px; */
     margin-bottom: 48px;
 }
 
 h2 .subdued {
     color: #171717;
-    font-weight: 100;
+    font-weight: 300;
 }
 
-h2 .highlighted {
-    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.1);
+h2 .strong {
+    text-shadow: 0px 1px 5px rgba(255, 255, 255, 0.0);
+    transition: text-shadow 1000ms ease-out;
+}
+
+h2:hover {
+    display: block;
+}
+
+section:target > h2 .strong,
+h2:target .strong,
+a:target ~ h2 .strong {
+    text-shadow: 0px 1px 20px rgba(128, 128, 255, 0.15);
+}
+
+h2 .nowrap {
+    text-wrap: nowrap;
 }
