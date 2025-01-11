@@ -1,4 +1,3 @@
-// @ts-check
 import mailObfuscation from 'astro-mail-obfuscation';
 import { defineConfig } from 'astro/config';
 
