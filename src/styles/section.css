@@ -25,12 +25,15 @@ h2:hover {
     display: block;
 }
 
-section:target > h2 .strong,
+section:target>h2 .strong,
 h2:target .strong,
-a:target ~ h2 .strong {
+a:target~h2 .strong {
     text-shadow: 0px 1px 20px rgba(128, 128, 255, 0.15);
 }
 
-h2 .nowrap {
-    text-wrap: nowrap;
+
+@media (min-width: 900px) {
+    h2 .nowrap {
+        text-wrap: nowrap;
+    }
 }
