@@ -25,26 +25,37 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
   <div class="thead"></div>
   <div class="tbody">
     <div class="tr-parent">
-      <div class="tr">
+      <div class="tr primary">
         <div class="td name">WCS Level 1 &amp; 2</div>
         <div class="td dates">
           12.01.2025 <span class="additional-dates"
             >+ <span>5 weitere Starttermine</span></span
           >
         </div>
-        <div class="td">ADTV Tanzschule Schäfer-Koch</div>
-        <div class="td"><a href="#">Anmelden</a></div>
+        <div class="td location">ADTV Tanzschule Schäfer-Koch</div>
+        <div class="td link"><a href="#">Anmelden</a></div>
+      </div>
+      <div class="expander">
+        <div class="extended">
+          <div class="description">
+            Lorem ipsum, dolor sit amet, and some more words to fill this space
+            with some sort of vaguely meaningful text. This is just here to test
+            the layout, so congratulations for reading a text that does not mean
+            anything.
+          </div>
+        </div>
+        <div class="sub-table"></div>
       </div>
     </div>
-    <div class="tr">
+    <div class="tr primary">
       <div class="td name">WCS Level 1</div>
       <div class="td dates">
         12.01.2025 <span class="additional-dates"
           >+ <span>5 weitere Starttermine</span></span
         >
       </div>
-      <div class="td">BUW UniSport</div>
-      <div class="td"><a href="#">Anmelden</a></div>
+      <div class="td location">BUW UniSport</div>
+      <div class="td link"><a href="#">Anmelden</a></div>
     </div>
     <!-- {
       entries.map((entry) => {
@@ -101,7 +112,9 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
     flex-grow: 1;
   }
 
-  .tr {
+  .tr.primary {
     cursor: pointer;
   }
+
+  .description:;
 </style>
