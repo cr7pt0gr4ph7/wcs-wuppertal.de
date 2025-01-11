@@ -80,3 +80,11 @@ a.anchor.anchor-hidden::before {
     content: none;
     display: none;
 }
+
+a.anchor:hover,
+a.anchor:hover span {
+    text-decoration: underline;
+    text-decoration-thickness: .05em;
+    text-underline-offset: .075em;
+    text-decoration-color: white;
+}
