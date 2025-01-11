@@ -24,8 +24,8 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
 <div class="table">
   <div class="thead"></div>
   <div class="tbody">
-    <div class="tr-parent">
-      <div class="tr primary">
+    <details class="tr-parent" open>
+      <summary class="tr primary">
         <div class="td name">WCS Level 1 &amp; 2</div>
         <div class="td dates">
           12.01.2025 <span class="additional-dates"
@@ -34,7 +34,7 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
         </div>
         <div class="td location">ADTV Tanzschule Schäfer-Koch</div>
         <div class="td link"><a href="#">Anmelden</a></div>
-      </div>
+      </summary>
       <div class="expander">
         <div class="extended">
           <div class="description">
@@ -46,7 +46,7 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
         </div>
         <div class="sub-table"></div>
       </div>
-    </div>
+    </details>
     <div class="tr primary">
       <div class="td name">WCS Level 1</div>
       <div class="td dates">
@@ -94,15 +94,16 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
     padding-right: 1rem;
     font-weight: 400;
     font-size: 1rem;
-    line-height: 28px;
-    padding-top: 5px;
-    padding-bottom: 4px;
+    line-height: calc(28 * 1rem / 16);
+    padding-top: calc(5 * 1rem / 16);
+    padding-bottom: calc(4 * 1rem / 16);
     position: relative;
-    bottom: 1px;
+    bottom: calc(1 * 1rem / 16);
   }
 
   .additional-dates span {
   }
+
 
   .tr {
     display: flex;
@@ -116,5 +117,31 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
     cursor: pointer;
   }
 
-  .description:;
+  .description {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-left: .5rem;
+  }
+
+  *[data-column-name]::before {
+    content: attr(data-column-name);
+  }
+
+  .description::before {
+    content: "Beschreibung";
+  }
+
+  *[data-column-name]::before,
+  .description::before {
+    display: block;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1rem;
+    margin-top: 0.25rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: -.5rem;
+    /* color: #2e2e2e; */
+  }
 </style>
