@@ -3,20 +3,36 @@ const { title, href, image } = Astro.props;
 ---
 
 <a class="nav-card" href={href} style={"--bg-image: url(" + image + ")"}>
+  <div class="nav-card-background"></div>
   <div class="nav-card-title"><span>{title}</span></div>
 </a>
 
 <style>
   .nav-card {
-    background-color: #a3a3a3;
-    background-image: var(--bg-image);
-    background-size: cover;
     color: inherit;
     text-decoration: none;
     display: block;
     width: 286px;
     height: 166px;
     position: relative;
+    overflow: hidden;
+  }
+
+  .nav-card-background {
+    background-color: #a3a3a3;
+    background-image: var(--bg-image);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    transform: scale(1.0);
+    transition: transform 800ms ease-in-out;
+  }
+
+  .nav-card:hover .nav-card-background {
+    transform: scale(1.05);
   }
 
   .nav-card-title {
@@ -48,9 +64,11 @@ const { title, href, image } = Astro.props;
     right: 0px;
     bottom: 0px;
     height: 0;
-    transition: height 500ms ease, background-color 500ms ease-out;
+    transition:
+      height 500ms ease,
+      background-color 500ms ease-out;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.0);
+    background-color: rgba(0, 0, 0, 0);
     z-index: 0;
   }
 
