@@ -25,8 +25,8 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
 <div class="table">
   <div class="thead"></div>
   <div class="tbody">
-    <details class="tr-parent" open>
-      <summary class="tr primary">
+    <div class="tr-parent">
+      <div class="tr primary">
         <div class="td name">WCS Level 1 &amp; 2</div>
         <div class="td dates">
           12.01.2025 <span class="additional-dates"
@@ -39,7 +39,7 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
         </div>
         <div class="td location">ADTV Tanzschule Schäfer-Koch</div>
         <div class="td link"><a href="#">Anmelden</a></div>
-      </summary>
+      </div>
       <div class="expander">
         <div class="extended">
           <div class="description">
@@ -52,21 +52,21 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
         <div class="sub-table">
           <div class="tr">
             <div class="td name">WCS Level 1</div>
-            <div class="td dates">12.01.2025</div>
+            <div class="td date">12.01.2025</div>
             <div class="td time">16:30</div>
             <div class="td location">ADTV Tanzschule Schäfer-Koch</div>
             <div class="td link"><a href="#">Anmelden</a></div>
           </div>
           <div class="tr">
             <div class="td name">WCS Level 2</div>
-            <div class="td dates">12.01.2025</div>
+            <div class="td date">12.01.2025</div>
             <div class="td time">17:30</div>
             <div class="td location">ADTV Tanzschule Schäfer-Koch</div>
             <div class="td link"><a href="#">Anmelden</a></div>
           </div>
         </div>
       </div>
-    </details>
+    </div>
     <div class="tr primary">
       <div class="td name">WCS Level 1</div>
       <div class="td dates">
@@ -230,12 +230,50 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
   }
 
   @media (min-width: 900px) {
-    .tr {
-      display: flex;
+    .table {
+      display: grid;
+      grid-template-columns:
+        [start name name-start] 1.2fr
+        [date date-start name-end] 1fr
+        [time time-start date-end] 1fr
+        [location location-start time-end] 2fr
+        [link link-start location-end] 1fr
+        [end link-end];
     }
 
-    .td {
-      flex-grow: 1;
+    .name {
+      grid-column: name;
+    }
+    .dates {
+      grid-column: date-start / time-end;
+    }
+    .date {
+      grid-column: date;
+    }
+    .time,
+    .times {
+      grid-column: time;
+    }
+    .location {
+      grid-column: location;
+    }
+    .link {
+      grid-column: link;
+    }
+    .description {
+      grid-column: start / end;
+    }
+
+    .tbody,
+    .thead,
+    .tr-parent,
+    .tr,
+    .expander,
+    .extended,
+    .sub-table {
+      grid-column: start / end;
+      display: grid;
+      grid-template-columns: subgrid;
     }
 
     .td::before {
