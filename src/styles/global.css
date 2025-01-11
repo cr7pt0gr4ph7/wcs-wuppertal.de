@@ -72,3 +72,8 @@ a.anchor::before {
     padding-right: 2rem;
     padding-left: 2rem;
 }
+
+a.anchor.anchor-hidden::before {
+    content: none;
+    display: none;
+}
