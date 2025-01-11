@@ -36,3 +36,23 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
     }
   </tbody>
 </table>
+
+<style>
+  table {
+    font-size: 1.5rem;
+    border-spacing: 0px 2px;
+    line-height: 45px;
+    width: 100%;
+  }
+
+  tr {
+    background-color: #a3a3a3;
+    color: #000000;
+
+  }
+
+  td {
+    border: none;
+    padding-inline: calc((45px - 1.5rem) / 2);
+  }
+</style>
