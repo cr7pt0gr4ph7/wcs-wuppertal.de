@@ -31,16 +31,26 @@ h2 .subdued {
 }
 
 h2 .strong {
-    text-shadow: 0px 1px 5px rgba(255, 255, 255, 0.0);
     transition: text-shadow 1000ms ease-out;
-}
-
-h2:hover {
-    display: block;
 }
 
 section:target>h2 .strong,
 h2:target .strong,
 a:target~h2 .strong {
-    text-shadow: 0px 1px 20px rgba(128, 128, 255, 0.15);
+    animation-name: highlight-target;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: none;
+}
+
+@keyframes highlight-target {
+    0% {
+        text-shadow: 0px 1px 5px rgba(255, 255, 255, 0.0);
+    }
+    25% {
+        text-shadow: 0px 1px 20px rgba(255, 255, 255, 0.8);
+    }
+    100% {
+        text-shadow: 0px 1px 5px rgba(255, 255, 255, 0.0);
+    }
 }
