@@ -44,7 +44,7 @@ section:target>h2 .strong,
 h2:target .strong,
 a:target~h2 .strong {
     animation-name: highlight-target;
-    animation-duration: 6s;
+    animation-duration: 3s;
     animation-iteration-count: 1;
     animation-fill-mode: none;
     animation-delay: 1s;
@@ -55,8 +55,8 @@ a:target~h2 .strong {
         text-shadow: 0px 1px 5px rgba(255, 255, 255, 0.0);
     }
 
-    25% {
-        text-shadow: 0px 1px 20px rgba(255, 255, 255, 0.6);
+    55% {
+        text-shadow: 0px 1px 20px rgba(255, 255, 255, 0.4);
     }
 
     100% {
