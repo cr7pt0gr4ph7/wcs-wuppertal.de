@@ -101,18 +101,6 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
     bottom: calc(1 * 1rem / 16);
   }
 
-  .additional-dates span {
-  }
-
-
-  .tr {
-    display: flex;
-  }
-
-  .td {
-    flex-grow: 1;
-  }
-
   .tr.primary {
     cursor: pointer;
   }
@@ -121,27 +109,99 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
     font-size: 1.25rem;
     line-height: 1.5;
     font-weight: 400;
-    margin-left: .5rem;
+  }
+
+  .name,
+  .date,
+  .dates,
+  .time,
+  .times,
+  .location,
+  .link,
+  .description,
+  *[data-column-name] {
+    --indent: 0.5rem;
+    margin-left: var(--indent);
   }
 
   *[data-column-name]::before {
     content: attr(data-column-name);
   }
 
+  .name::before {
+    content: "Kurs";
+  }
+  .date::before,
+  .dates::before {
+    content: "Datum";
+    content: "Datum";
+  }
+  .time::before,
+  .times::before {
+    content: "Uhrzeit";
+  }
+  .location::before {
+    content: "Ort";
+  }
+  .link::before {
+    content: "";
+  }
   .description::before {
     content: "Beschreibung";
   }
 
+  .name::before {
+    content: "Was?";
+  }
+  .date::before,
+  .dates::before {
+    content: "Wann?";
+  }
+  .time::before,
+  .times::before {
+    content: "";
+  }
+  .location::before {
+    content: "Wer?";
+  }
+
   *[data-column-name]::before,
+  .name::before,
+  .date::before,
+  .dates::before,
+  .time::before,
+  .times::before,
+  .location::before,
+  .link::before,
   .description::before {
     display: block;
     font-weight: 800;
     font-size: 14px;
     line-height: 1rem;
-    margin-top: 0.25rem;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-left: -.5rem;
-    /* color: #2e2e2e; */
+    margin-left: calc(-1 * var(--indent));
+  }
+
+  @media (min-width: 1120px) {
+    .tr {
+      display: flex;
+    }
+
+    .td {
+      flex-grow: 1;
+    }
+
+    .td::before {
+      content: none !important;
+    }
+
+    .name,
+    .date,
+    .dates,
+    .time,
+    .times,
+    .location,
+    .link {
+      --indent: 0px;
+    }
   }
 </style>
