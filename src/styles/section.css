@@ -19,6 +19,12 @@ h2 {
     }
 }
 
+@media (min-width: 900px) {
+    h2 .nowrap {
+        text-wrap: nowrap;
+    }
+}
+
 h2 .subdued {
     color: #171717;
     font-weight: 300;
@@ -37,11 +43,4 @@ section:target>h2 .strong,
 h2:target .strong,
 a:target~h2 .strong {
     text-shadow: 0px 1px 20px rgba(128, 128, 255, 0.15);
-}
-
-
-@media (min-width: 900px) {
-    h2 .nowrap {
-        text-wrap: nowrap;
-    }
 }
