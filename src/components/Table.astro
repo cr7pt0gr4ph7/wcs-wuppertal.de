@@ -22,13 +22,28 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
 ---
 
 <div class="table">
-  <div class="thead">
-  </div>
+  <div class="thead"></div>
   <div class="tbody">
+    <div class="tr-parent">
+      <div class="tr">
+        <div class="td name">WCS Level 1 &amp; 2</div>
+        <div class="td dates">
+          12.01.2025 <span class="additional-dates"
+            >+ <span>5 weitere Starttermine</span></span
+          >
+        </div>
+        <div class="td">ADTV Tanzschule Schäfer-Koch</div>
+        <div class="td"><a href="#">Anmelden</a></div>
+      </div>
+    </div>
     <div class="tr">
-      <div class="td name">WCS Level 1 &amp; 2</div>
-      <div class="td dates">12.01.2025 <span class="additional-dates">+ <span>5 weitere Starttermine</span></span></div>
-      <div class="td">ADTV Tanzschule Schäfer-Koch</div>
+      <div class="td name">WCS Level 1</div>
+      <div class="td dates">
+        12.01.2025 <span class="additional-dates"
+          >+ <span>5 weitere Starttermine</span></span
+        >
+      </div>
+      <div class="td">BUW UniSport</div>
       <div class="td"><a href="#">Anmelden</a></div>
     </div>
     <!-- {
@@ -64,7 +79,7 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
     /* display: inline-block; */
     background-color: #171717;
     border-radius: 1.5rem;
-    padding-left: .75rem;
+    padding-left: 0.75rem;
     padding-right: 1rem;
     font-weight: 400;
     font-size: 1rem;
@@ -76,5 +91,13 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
   }
 
   .additional-dates span {
+  }
+
+  .tr {
+    display: flex;
+  }
+
+  .td {
+    flex-grow: 1;
   }
 </style>
