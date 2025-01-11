@@ -329,10 +329,10 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.24.2.tgz#34aa0b52d0fbb1a654b596acfa595f0c7b77a77b"
   integrity sha512-7VTgWzgMGvup6aSqDPLiW5zHaxYJGTO4OokMjIlrCtf+VpEL+cXKtCvg723iguPYI5oaUNdS+/V7OU2gvXVWEg==
 
-"@fontsource-variable/inter@^5.1.1":
+"@fontsource-variable/roboto-condensed@^5.1.1":
   version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@fontsource-variable/inter/-/inter-5.1.1.tgz#55997abca7c1da57036a79bab4160ff35bab8f0a"
-  integrity sha512-OpXFTmiH6tHkYijMvQTycFKBLK4X+SRV6tet1m4YOUH7SzIIlMqDja+ocDtiCA72UthBH/vF+3ZtlMr2rN/wIw==
+  resolved "https://registry.yarnpkg.com/@fontsource-variable/roboto-condensed/-/roboto-condensed-5.1.1.tgz#fcdb8c0866bc650b77c5bb5f869477e89b2390e0"
+  integrity sha512-FCdzPL6zevODCQFOGY/tuo2SbJeIUq4bSlXdI3ttuDVetTm5sHUf0Ei9raMdMR1AE2IJFgoQEAbxXSz8zv1oiA==
 
 "@fontsource/lobster@^5.1.1":
   version "5.1.1"
