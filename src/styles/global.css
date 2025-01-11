@@ -81,6 +81,7 @@ a.anchor.anchor-hidden::before {
     display: none;
 }
 
+/*
 a.anchor:hover,
 a.anchor:hover span {
     text-decoration: underline;
@@ -88,3 +89,4 @@ a.anchor:hover span {
     text-underline-offset: .075em;
     text-decoration-color: white;
 }
+*/
