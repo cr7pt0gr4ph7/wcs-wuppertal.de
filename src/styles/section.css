@@ -36,15 +36,11 @@ h2 .subdued {
     font-weight: 300;
 }
 
-h2 .strong {
-    transition: text-shadow 1000ms ease-out;
-}
-
 section:target>h2 .strong,
 h2:target .strong,
 a:target~h2 .strong {
-    animation-name: highlight-target;
-    animation-duration: 3s;
+    animation-name: highlight-target-with-shadow;
+    animation-duration: 4s;
     animation-iteration-count: 1;
     animation-fill-mode: none;
     animation-delay: 1s;
@@ -61,5 +57,31 @@ a:target~h2 .strong {
 
     100% {
         text-shadow: 0px 1px 5px rgba(255, 255, 255, 0.0);
+    }
+}
+
+@keyframes highlight-target-with-shadow {
+    0% {
+        text-shadow:
+            0px 1px 0px rgba(0, 0, 0, 1),
+            0px 1px 0px rgba(0, 0, 0, 1),
+            0px 1px 0px rgba(0, 0, 0, 1),
+            0px 1px 5px rgba(255, 255, 255, 0.0);
+    }
+
+    55% {
+        text-shadow:
+            0px 1px 12px rgba(0, 0, 0, 1),
+            0px 1px 12px rgba(0, 0, 0, 1),
+            0px 1px 12px rgba(0, 0, 0, 1),
+            0px 1px 20px rgba(255, 255, 255, 1);
+    }
+
+    100% {
+        text-shadow:
+            0px 1px 12px rgba(0, 0, 0, 1),
+            0px 1px 12px rgba(0, 0, 0, 1),
+            0px 1px 12px rgba(0, 0, 0, 1),
+            0px 1px 0px rgba(255, 255, 255, 0.0);
     }
 }
