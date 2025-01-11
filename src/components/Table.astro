@@ -94,18 +94,17 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
   .table {
     font-size: 1.5rem;
     line-height: 45px;
-    background-color: #a3a3a3;
-    background-color: #eee;
+    background-color: #171717;
     border-radius: 5px;
-    color: #000000;
+    color: #a3a3a3;
   }
 
   .tr {
-    border-top: 3px solid #999;
+    border-top: 3px solid #000;
   }
 
   .tr.primary {
-    border-top: 3px solid #666;
+    border-top: 3px solid #000;
   }
 
   .table > .tbody > .tr-parent:first-child .tr.primary,
@@ -127,7 +126,7 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
 
   .additional-dates {
     /* display: inline-block; */
-    background-color: #171717;
+    background-color: #a3a3a3;
     border-radius: 1.5rem;
     padding-left: 0.75rem;
     padding-right: 1rem;
@@ -138,7 +137,8 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
     padding-bottom: calc(4 * 1rem / 16);
     position: relative;
     bottom: calc(1 * 1rem / 16);
-    color: #ffffff;
+    color: #000000;
+    display: none;
   }
 
   /* -- */
@@ -314,6 +314,7 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
   .sub-table {
     font-weight: 300;
     font-size: 1.25rem;
-    line-height: 38px;
+    /* line-height: 38px; */
+    display: none;
   }
 </style>
