@@ -43,10 +43,28 @@ const { href: default_href, images } = Astro.props;
   .image {
     display: block;
     box-shadow: 6px 6px 6px 1px #111;
+    position: relative;
   }
 
   .image img {
     display: block;
     max-width: 100%;
+  }
+
+  a.image:hover {
+    --border-width: 1px;
+    --border-offset: 0.45rem;
+    --border-color: #ffffff;
+  }
+
+  a.image::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: calc(-1 * var(--border-offset));
+    bottom: calc(-1 * var(--border-offset));
+    left: calc(-1 * var(--border-offset));
+    right: calc(-1 * var(--border-offset));
+    border: var(--border-width) solid var(--border-color);
   }
 </style>
