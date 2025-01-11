@@ -1,6 +1,6 @@
 ---
 import "../styles/section.css";
-import MockTable from "./MockTable.astro";
+import Table from "./Table.astro";
 ---
 
 <section>
@@ -13,7 +13,7 @@ import MockTable from "./MockTable.astro";
       <span class="strong">Events</span>
     </a>
   </h2>
-  <MockTable />
+  <Table types={["party", "festival"]} />
   <p>
     Weitere Parties &amp; Workshops in ganz NRW findet ihr bei <a
       href="https://westiecommunity.de/"

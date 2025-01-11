@@ -11,7 +11,10 @@ const calendar = defineCollection({
         location: z.string(),
         url: z.string(),
         type: z.object({
-            regular_course: z.boolean().optional()
+            festival: z.boolean().optional(),
+            party: z.boolean().optional(),
+            regular_course: z.boolean().optional(),
+            workshop: z.boolean().optional()
         })
     })
 });
