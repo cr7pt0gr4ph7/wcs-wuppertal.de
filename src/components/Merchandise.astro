@@ -1,5 +1,7 @@
 ---
+import image1 from "../images/life-is-better-when-youre-dancing-turnbeutel.jpg";
 import "../styles/section.css";
+import Images from "./Images.astro";
 ---
 
 <section>
@@ -15,6 +17,15 @@ import "../styles/section.css";
   <p>
     Dann unterstütze mit einer unserer &raquo;WCS Wuppertal&laquo;-T-Shirts,
     -Taschen oder einem unserer anderen Motive aus dem offiziellen
-    <a href="https://shop.wcs-wuppertal.de">WCS Community Wuppertal Merch Shop</a>!
+    <a href="https://shop.wcs-wuppertal.de"
+      >WCS Community Wuppertal Merch Shop</a
+    >!
   </p>
+  <Images
+    images={[
+      { src: image1.src, href: "https://shop.wcs-wuppertal.de" },
+      { src: image1.src },
+      { src: image1.src },
+    ]}
+  />
 </section>

@@ -1,0 +1,52 @@
+---
+interface Props {
+  href?: string;
+  images: {
+    src?: string;
+    image?: ImageMetadata;
+    title?: string;
+    href?: string;
+  }[];
+}
+
+const { href: default_href, images } = Astro.props;
+---
+
+<div class="images">
+  {
+    images?.map(({ title, src, image, href }) => {
+      if (href || default_href) {
+        return (
+          <a class="image" href={href ?? default_href}>
+            <img src={src ?? image?.src} title={title} />
+          </a>
+        );
+      } else {
+        return (
+          <div class="image">
+            <img src={src ?? image?.src} title={title} />
+          </div>
+        );
+      }
+    })
+  }
+</div>
+
+<style>
+  .images {
+    display: flex;
+    gap: 3rem;
+    max-width: 100%;
+    margin-top: 8rem;
+  }
+
+  .image {
+    display: block;
+    box-shadow: 6px 6px 6px 1px #111;
+  }
+
+  .image img {
+    display: block;
+    max-width: 100%;
+  }
+</style>
