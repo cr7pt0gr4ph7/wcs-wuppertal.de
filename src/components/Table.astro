@@ -53,6 +53,13 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
           <div class="tr">
             <div class="td name">WCS Level 1</div>
             <div class="td dates">12.01.2025</div>
+            <div class="td time">16:30</div>
+            <div class="td location">ADTV Tanzschule Schäfer-Koch</div>
+            <div class="td link"><a href="#">Anmelden</a></div>
+          </div>
+          <div class="tr">
+            <div class="td name">WCS Level 2</div>
+            <div class="td dates">12.01.2025</div>
             <div class="td time">17:30</div>
             <div class="td location">ADTV Tanzschule Schäfer-Koch</div>
             <div class="td link"><a href="#">Anmelden</a></div>
@@ -201,7 +208,7 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
   }
 
   .if-small-viewport {
-    display: inline;
+    display: none;
     font-size: 1.25rem;
     position: relative;
     top: 0.15em;
@@ -251,4 +258,12 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
     opacity: 0;
   }
   */
+
+  /** -- */
+
+  .sub-table {
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 38px;
+  }
 </style>
