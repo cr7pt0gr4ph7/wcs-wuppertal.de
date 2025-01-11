@@ -107,6 +107,7 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
     background-color: #080808;
     border-radius: 5px;
     color: #a3a3a3;
+    /* box-shadow: 0px 0px 0px 0px #a3a3a3; */
   }
 
   .tr {
@@ -124,8 +125,8 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
   }
 
   .tr {
-    padding-left: .5rem;
-    padding-right: .5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .extended {
@@ -261,11 +262,11 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
     .table {
       display: grid;
       grid-template-columns:
-        [start name name-start] 1.2fr
-        [date date-start name-end] 1fr
-        [time time-start date-end] 1fr
-        [location location-start time-end] 2fr
-        [link link-start location-end] 1fr
+        [start name name-start] 12fr
+        [date date-start name-end] 6fr
+        [time time-start date-end] 6fr
+        [location location-start time-end] 18fr
+        [link link-start location-end] 8fr
         [end link-end];
     }
 
