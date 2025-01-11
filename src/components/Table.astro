@@ -21,10 +21,17 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
 });
 ---
 
-<table>
-  <thead> </thead>
-  <tbody>
-    {
+<div class="table">
+  <div class="thead">
+  </div>
+  <div class="tbody">
+    <div class="tr">
+      <div class="td name">WCS Level 1 &amp; 2</div>
+      <div class="td dates">12.01.2025 <span class="additional-dates">+ <span>5 weitere Starttermine</span></span></div>
+      <div class="td">ADTV Tanzschule Schäfer-Koch</div>
+      <div class="td"><a href="#">Anmelden</a></div>
+    </div>
+    <!-- {
       entries.map((entry) => {
         return (
           <tr>
@@ -33,26 +40,41 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
           </tr>
         );
       })
-    }
-  </tbody>
-</table>
+    } -->
+  </div>
+</div>
 
 <style>
-  table {
+  .table {
     font-size: 1.5rem;
-    border-spacing: 0px 2px;
     line-height: 45px;
-    width: 100%;
   }
 
   tr {
     background-color: #a3a3a3;
     color: #000000;
-
   }
 
   td {
     border: none;
     padding-inline: calc((45px - 1.5rem) / 2);
+  }
+
+  .additional-dates {
+    /* display: inline-block; */
+    background-color: #171717;
+    border-radius: 1.5rem;
+    padding-left: .75rem;
+    padding-right: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    position: relative;
+    bottom: 1px;
+  }
+
+  .additional-dates span {
   }
 </style>
