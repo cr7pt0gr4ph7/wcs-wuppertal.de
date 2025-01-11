@@ -1,0 +1,38 @@
+---
+import { getCollection, type InferEntrySchema } from "astro:content";
+
+type ItemType = keyof InferEntrySchema<"calendar">["type"];
+
+interface Props {
+  types?: ItemType[];
+}
+
+const { types } = Astro.props;
+
+const entries = await getCollection("calendar", ({ data: { type } }) => {
+  return (
+    !types ||
+    types.some(
+      (t) =>
+        // @ts-ignore
+        !!type[t],
+    )
+  );
+});
+---
+
+<table>
+  <thead> </thead>
+  <tbody>
+    {
+      entries.map((entry) => {
+        return (
+          <tr>
+            <td>{entry.data.name}</td>
+            <td><a href={entry.data.url}>Anmeldung</a></td>
+          </tr>
+        );
+      })
+    }
+  </tbody>
+</table>
