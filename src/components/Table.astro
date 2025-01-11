@@ -91,6 +91,25 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
 </div>
 
 <style>
+  .table {
+    --table-border-radius: 5px;
+    border-radius: var(--table-border-radius);
+  }
+
+  .table > .tbody > .tr-parent:first-child .tr.primary,
+  .table > .tbody > .tr.primary:first-child {
+    border-top-left-radius: var(--table-border-radius);
+    border-top-right-radius: var(--table-border-radius);
+  }
+
+  .table > .tbody > .tr-parent:last-child .tr.primary,
+  .table > .tbody > .tr.primary:last-child {
+    border-bottom-left-radius: var(--table-border-radius);
+    border-bottom-right-radius: var(--table-border-radius);
+  }
+</style>
+
+<style>
   .table a,
   .table a:hover,
   .table a:active,
@@ -104,24 +123,19 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
   .table {
     font-size: 1.5rem;
     line-height: 4rem;
-    background-color: #080808;
-    border-radius: 5px;
-    color: #a3a3a3;
     /* box-shadow: 0px 0px 0px 0px #a3a3a3; */
+    margin-bottom: 3rem;
+    margin-top: -3px;
   }
 
   .tr {
-    border-top: 3px solid #000;
+    margin-top: 3px;
   }
 
-  .tr.primary {
-    border-top: 3px solid #000;
-  }
-
-  .table > .tbody > .tr-parent:first-child .tr.primary,
-  .table > .tbody > .tr.primary:first-child {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+  .tr {
+    background-color: #080808;
+    color: #b3b3b3;
+    border: 1px solid #0d0d0d;
   }
 
   .tr {
