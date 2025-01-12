@@ -13,8 +13,8 @@ html {
 }
 
 body {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: var(--primary-background);
+    color: var(--primary-text);
 }
 
 * {
@@ -73,7 +73,7 @@ a.anchor::before {
     content: var(--show-anchor);
     position: absolute;
     right: 100%;
-    color: #171717;
+    color: var(--tertiary-text);
     font-weight: 300;
     width: .5em;
     height: 100%;
