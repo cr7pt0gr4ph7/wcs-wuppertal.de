@@ -123,7 +123,6 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
   .table {
     font-size: 1.5rem;
     line-height: 1.25;
-    /* box-shadow: 0px 0px 0px 0px #a3a3a3; */
     margin-bottom: 3rem;
     margin-top: -3px;
   }
@@ -131,10 +130,16 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
   .tr {
     margin-top: 3px;
     background-color: var(--table-background);
-    color: var(--table-text);
+    color: var(--table-color);
     border: var(--table-border);
     padding-top: calc((4rem - 1.25 * 1em) / 2);
     padding-bottom: calc((4rem - 1.25 * 1em) / 2);
+  }
+
+  .tr:hover {
+    background-color: var(--table-background-hover);
+    color: var(--table-color-hover);
+    border: var(--table-border-hover);
   }
 
   .tr {
