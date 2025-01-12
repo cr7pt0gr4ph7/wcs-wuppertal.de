@@ -2,7 +2,6 @@
     --primary-background: #000000;
     --primary-shadow: #111111;
     --primary-subdued: #171717;
-    --primary-color-hover: #efefef;
     --primary-color: #ffffff;
 
     /* Table on dark background */
@@ -10,13 +9,13 @@
     --secondary-border: #0d0d0d;
     --secondary-background-hover: #181818;
     --secondary-color: #b3b3b3;
-    --secondary-color-hover: #c3c3c3;
+    --secondary-color-hover: #f3f3f3;
 
     /* Pill on dark background */
     --secondary-inverted-background: #a3a3a3;
-    --secondary-inverted-background-hover: #b3b3b3;
+    --secondary-inverted-background-hover: #f3f3f3;
     --secondary-inverted-color: #000000;
-    --secondary-inverted-color-hover: #080808;
+    --secondary-inverted-color-hover: #181818;
 }
 
 :root {
