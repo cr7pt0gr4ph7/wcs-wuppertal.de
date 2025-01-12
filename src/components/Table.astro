@@ -130,9 +130,9 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
 
   .tr {
     margin-top: 3px;
-    background-color: #080808;
-    color: #b3b3b3;
-    border: 1px solid #0d0d0d;
+    background-color: var(--table-background);
+    color: var(--table-text);
+    border: var(--table-border);
     padding-top: calc((4rem - 1.25 * 1em) / 2);
     padding-bottom: calc((4rem - 1.25 * 1em) / 2);
   }
