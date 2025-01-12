@@ -42,7 +42,7 @@ const { href: default_href, images } = Astro.props;
 
   .image {
     display: block;
-    box-shadow: 6px 6px 6px 1px #111;
+    box-shadow: var(--image-shadow);
     position: relative;
   }
 
@@ -54,7 +54,7 @@ const { href: default_href, images } = Astro.props;
   a.image:hover {
     --border-width: 1px;
     --border-offset: 0.45rem;
-    --border-color: #ffffff;
+    --border-color: var(--image-highlight-border);
   }
 
   a.image::before {

@@ -17,6 +17,10 @@
 }
 
 :root {
+    /* Images */
+    --image-shadow: 6px 6px 6px 1px var(--primary-shadow);
+    --image-highlight-border: var(--primary-text);
+
     /* Page Footer */
     --footer-background: var(--secondary-background);
     --footer-text: var(--secondary-inverted-background); /* TODO: Use --secondary-text? */
