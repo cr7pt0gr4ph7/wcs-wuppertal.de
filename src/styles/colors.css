@@ -15,3 +15,9 @@
     --secondary-inverted-background: #a3a3a3;
     --secondary-inverted-text: #000000;
 }
+
+:root {
+    /* Page Footer */
+    --footer-background: var(--secondary-background);
+    --footer-text: var(--secondary-inverted-background); /* TODO: Use --secondary-text? */
+}
