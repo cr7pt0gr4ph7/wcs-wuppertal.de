@@ -29,6 +29,10 @@
     --table-border: 1px solid var(--secondary-border);
     --table-text: var(--secondary-text);
 
+    /* Pills */
+    --pill-background: var(--secondary-inverted-background);
+    --pill-text: var(--secondary-inverted-text);
+
     /* Images */
     --image-shadow: 6px 6px 6px 1px var(--primary-shadow);
     --image-highlight-border: var(--primary-text);

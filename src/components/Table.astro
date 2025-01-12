@@ -150,7 +150,7 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
 
   .additional-dates {
     /* display: inline-block; */
-    background-color: #a3a3a3;
+    background-color: var(--pill-background);
     border-radius: 1.5rem;
     padding-left: 0.75rem;
     padding-right: 1rem;
@@ -163,7 +163,7 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
     bottom: calc(1 * 1rem / 16);
     text-wrap: nowrap;
     word-break: break-all;
-    color: #000000;
+    color: var(--pill-text);
   }
 
   /* -- */
@@ -255,7 +255,6 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
     font-size: 1.25rem;
     position: relative;
     top: 0.15em;
-    color: #000000;
   }
 
   .if-large-viewport {
