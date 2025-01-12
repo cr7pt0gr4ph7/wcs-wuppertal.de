@@ -1,4 +1,5 @@
 ---
+import "../styles/container.css";
 import About from "./About.astro";
 import Classes from "./Classes.astro";
 import Contact from "./Contact.astro";
@@ -13,10 +14,8 @@ import Parties from "./Parties.astro";
 <div id="container">
   <Navbar />
   <Hero />
-  <div class="content-wide">
+  <div class="content max-width-container">
     <NavCards />
-  </div>
-  <div class="content">
     <About />
     <Classes />
     <Parties />
@@ -25,18 +24,3 @@ import Parties from "./Parties.astro";
   </div>
   <Footer />
 </div>
-
-<style>
-  .content {
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 0 16px;
-    border-bottom: 1px solid black;
-  }
-
-  .content-wide {
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 0 16px;
-  }
-</style>
