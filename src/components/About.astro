@@ -34,7 +34,11 @@ import "../styles/section.css";
       trifft sich beinahe jede Woche zu Parties, Workshops und Festivals in
       Deutschland und Europa.
     </p>
-    <h3>Musikrichtung</h3>
+    <h3>
+      <span class="check-icon"
+        ><Icon name="material-symbols:check-circle-rounded" /></span
+      >Musikrichtung
+    </h3>
     <p>
       Man übertreibt nicht, wenn man West Coast Swing als wahres
       <strong>musikalisches Multitalent</strong> bezeichnet. Von
@@ -125,5 +129,19 @@ import "../styles/section.css";
 
   details p {
     font-size: 1.3rem;
+  }
+
+  h3 {
+    position: relative;
+  }
+
+  h3 .check-icon {
+    position: absolute;
+    right: calc(100% + 2rem);
+    color: rgb(7, 134, 14);
+    color: rgb(7, 134, 14, 0.5);
+    margin-bottom: -1px;
+    font-size: 5rem;
+    top: -1.25rem;
   }
 </style>
