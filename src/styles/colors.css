@@ -17,6 +17,13 @@
 }
 
 :root {
+    /* Navcards */
+    --navcard-background: var(--secondary-inverted-background);
+    --navcard-border: 1px solid #0f0f0f;
+    --navcard-overlay-hidden: rgba(0, 0, 0, 0.0);
+    --navcard-overlay-visible: rgba(0, 0, 0, 0.8);
+    --navcard-text: var(--primary-text);
+
     /* Images */
     --image-shadow: 6px 6px 6px 1px var(--primary-shadow);
     --image-highlight-border: var(--primary-text);

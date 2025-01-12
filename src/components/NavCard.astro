@@ -16,12 +16,12 @@ const { title, href, image } = Astro.props;
     height: 192px;
     position: relative;
     overflow: hidden;
-    border-right: 1px solid #0f0f0f;
-    border-bottom: 1px solid #0f0f0f;
+    border-right: var(--navcard-border);
+    border-bottom: var(--navcard-border);
   }
 
   .nav-card-background {
-    background-color: #a3a3a3;
+    background-color: var(--navcard-background);
     background-image: var(--bg-image);
     background-size: cover;
     position: absolute;
@@ -49,6 +49,7 @@ const { title, href, image } = Astro.props;
     padding: 6px;
     text-wrap: nowrap;
     overflow: hidden;
+    color: var(--navcard-text);
   }
 
   .nav-card-title span {
@@ -71,14 +72,14 @@ const { title, href, image } = Astro.props;
       height 500ms ease,
       background-color 500ms ease-out;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: var(--navcard-overlay-hidden);
     z-index: 0;
   }
 
   .nav-card:hover .nav-card-title::after {
     height: 100%;
     z-index: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--navcard-overlay-visible);
   }
 
   @media (max-width: 950px) {
