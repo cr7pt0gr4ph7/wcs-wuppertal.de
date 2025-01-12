@@ -1,0 +1,17 @@
+:root {
+    --primary-background: #000000;
+    --primary-shadow: #111111;
+    --primary-text: #ffffff;
+
+    /* Non-primary text on dark background */
+    --tertiary-text: #171717;
+
+    /* Table on dark background */
+    --secondary-background: #080808;
+    --secondary-border: #0d0d0d;
+    --secondary-text: #b3b3b3;
+
+    /* Pill on dark background */
+    --secondary-inverted-background: #a3a3a3;
+    --secondary-inverted-text: #000000;
+}
