@@ -11,6 +11,7 @@
 
     /* Pill on dark background */
     --secondary-inverted-background: #a3a3a3;
+    --secondary-inverted-background-hover: #b3b3b3;
     --secondary-inverted-color: #000000;
 }
 
@@ -30,7 +31,9 @@
 
     /* Pills */
     --pill-background: var(--secondary-inverted-background);
+    --pill-background-hover: var(--secondary-inverted-background-hover);
     --pill-color: var(--secondary-inverted-color);
+    --pill-color-hover: var(--secondary-inverted-color);
 
     /* Images */
     --image-shadow: 6px 6px 6px 1px var(--primary-shadow);
