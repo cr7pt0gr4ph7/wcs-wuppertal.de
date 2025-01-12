@@ -28,6 +28,7 @@
     --table-background: var(--secondary-background);
     --table-border: 1px solid var(--secondary-border);
     --table-text: var(--secondary-text);
+    --mock-table-background: var(--secondary-inverted-background);
 
     /* Pills */
     --pill-background: var(--secondary-inverted-background);
