@@ -31,6 +31,7 @@
     --table-background-hover: var(--secondary-background-hover);
     --table-border: 1px solid var(--secondary-border);
     --table-border-hover: 1px solid var(--secondary-border);
+    --table-border-radius: 5px;
     --table-color: var(--secondary-color);
     --table-color-hover: var(--secondary-color-hover);
     --mock-table-background: var(--secondary-inverted-background);
@@ -47,5 +48,6 @@
 
     /* Page Footer */
     --footer-background: var(--secondary-background);
-    --footer-color: var(--secondary-inverted-background); /* TODO: Use --secondary-color? */
+    --footer-color: var(--secondary-inverted-background);
+    /* TODO: Use --secondary-color? */
 }

@@ -26,29 +26,32 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
   <div class="thead"></div>
   <div class="tbody">
     <div class="tr-parent">
-      <div class="tr primary">
-        <div class="td name">WCS Level 1 &amp; 2</div>
-        <div class="td dates">
-          12.01.2025 <span class="additional-dates"
-            >+ <span
-              >5 <span class="if-small-viewport"
-                ><Icon name="material-symbols:event-rounded" /></span
-              ><span class="if-large-viewport">weitere Starttermine</span></span
-            >
-          </span>
-        </div>
-        <div class="td location">ADTV Tanzschule Schäfer-Koch</div>
-        <div class="td link"><a href="#">Anmelden</a></div>
-      </div>
+      <details>
+        <summary class="tr primary">
+          <div class="td name">WCS Level 1 &amp; 2</div>
+          <div class="td dates">
+            12.01.2025 <span class="additional-dates"
+              >+ <span
+                >5 <span class="if-small-viewport"
+                  ><Icon name="material-symbols:event-rounded" /></span
+                ><span class="if-large-viewport">weitere Starttermine</span
+                ></span
+              >
+            </span>
+          </div>
+          <div class="td location">ADTV Tanzschule Schäfer-Koch</div>
+          <div class="td link"><a href="#">Anmelden</a></div>
+        </summary>
+      </details>
       <div class="expander">
-        <div class="extended">
+        <!-- <div class="extended">
           <div class="description">
             Lorem ipsum, dolor sit amet, and some more words to fill this space
             with some sort of vaguely meaningful text. This is just here to test
             the layout, so congratulations for reading a text that does not mean
             anything.
           </div>
-        </div>
+        </div> -->
         <div class="sub-table">
           <div class="tr">
             <div class="td name">WCS Level 1</div>
@@ -92,7 +95,6 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
 
 <style>
   .table {
-    --table-border-radius: 5px;
     border-radius: var(--table-border-radius);
   }
 
@@ -110,6 +112,16 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
 </style>
 
 <style>
+  details + .expander {
+    display: none;
+  }
+
+  details[open] + .expander {
+    display: grid;
+  }
+
+  /* -- */
+
   .table a,
   .table a:hover,
   .table a:active,
@@ -145,10 +157,6 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
   .tr {
     padding-left: 2rem;
     padding-right: 2rem;
-  }
-
-  .extended {
-    display: none !important;
   }
 
   /* -- */
@@ -321,7 +329,9 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
     .tr,
     .expander,
     .extended,
-    .sub-table {
+    .sub-table,
+    details,
+    summary {
       grid-column: start / end;
       display: grid;
       grid-template-columns: subgrid;
@@ -346,8 +356,6 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
 
   .sub-table {
     font-weight: 300;
-    font-size: 1.25rem;
-    /* line-height: 38px; */
-    display: none;
+    /* font-size: 1.25rem; */
   }
 </style>
