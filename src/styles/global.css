@@ -14,7 +14,7 @@ html {
 
 body {
     background-color: var(--primary-background);
-    color: var(--primary-text);
+    color: var(--primary-color);
 }
 
 * {
@@ -73,7 +73,7 @@ a.anchor::before {
     content: var(--show-anchor);
     position: absolute;
     right: 100%;
-    color: var(--tertiary-text);
+    color: var(--primary-subdued);
     font-weight: 300;
     width: .5em;
     height: 100%;

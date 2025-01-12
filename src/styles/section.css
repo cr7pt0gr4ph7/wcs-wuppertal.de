@@ -32,7 +32,7 @@ h2 {
 }
 
 h2 .subdued {
-    color: var(--tertiary-text);
+    color: var(--primary-subdued);
     font-weight: 300;
 }
 

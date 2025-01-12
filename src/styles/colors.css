@@ -1,19 +1,17 @@
 :root {
     --primary-background: #000000;
     --primary-shadow: #111111;
-    --primary-text: #ffffff;
-
-    /* Non-primary text on dark background */
-    --tertiary-text: #171717;
+    --primary-subdued: #171717;
+    --primary-color: #ffffff;
 
     /* Table on dark background */
     --secondary-background: #080808;
     --secondary-border: #0d0d0d;
-    --secondary-text: #b3b3b3;
+    --secondary-color: #b3b3b3;
 
     /* Pill on dark background */
     --secondary-inverted-background: #a3a3a3;
-    --secondary-inverted-text: #000000;
+    --secondary-inverted-color: #000000;
 }
 
 :root {
@@ -22,23 +20,23 @@
     --navcard-border: 1px solid #0f0f0f;
     --navcard-overlay-hidden: rgba(0, 0, 0, 0.0);
     --navcard-overlay-visible: rgba(0, 0, 0, 0.8);
-    --navcard-text: var(--primary-text);
+    --navcard-color: var(--primary-color);
 
     /* Table */
     --table-background: var(--secondary-background);
     --table-border: 1px solid var(--secondary-border);
-    --table-text: var(--secondary-text);
+    --table-color: var(--secondary-color);
     --mock-table-background: var(--secondary-inverted-background);
 
     /* Pills */
     --pill-background: var(--secondary-inverted-background);
-    --pill-text: var(--secondary-inverted-text);
+    --pill-color: var(--secondary-inverted-color);
 
     /* Images */
     --image-shadow: 6px 6px 6px 1px var(--primary-shadow);
-    --image-highlight-border: var(--primary-text);
+    --image-highlight-border: var(--primary-color);
 
     /* Page Footer */
     --footer-background: var(--secondary-background);
-    --footer-text: var(--secondary-inverted-background); /* TODO: Use --secondary-text? */
+    --footer-color: var(--secondary-inverted-background); /* TODO: Use --secondary-color? */
 }
