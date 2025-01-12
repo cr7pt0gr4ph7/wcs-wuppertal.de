@@ -1,4 +1,5 @@
 ---
+import { Icon } from "astro-icon/components";
 import "../styles/section.css";
 ---
 
@@ -20,13 +21,32 @@ import "../styles/section.css";
     besonders?
   </p>
   <div class="indented">
+    <p>
+      <strong>Stell dir vor</strong>, du könntest sofort auf all deine
+      Lieblingsmusik tanzen – und dabei auch noch ganz viel Spaß haben, nette
+      Leute kennenlernen und neue Verbindungen knüpfen. Klingt gut? Dann bist du
+      bei West Coast Swing absolut richtig!
+    </p>
+    <p>
+      Entstanden an der <strong>kalifornischen Westküste</strong>, ist der West
+      Coast Swing mittlerweile über den Atlantik herübergeschwappt und hat sich
+      auch in unseren Breiten eine stetig wachsende Fangemeinde gesichert. Diese
+      trifft sich beinahe jede Woche zu Parties, Workshops und Festivals in
+      Deutschland und Europa.
+    </p>
     <h3>Musikrichtung</h3>
     <p>
-      West Coast Swing ist Dein Allrounder unter den Swing-Tänzen! Zu fast jedem
-      Musikstil tanzbar, orientiert sich dieser Tanz an aktuellen Musiktrends
-      und bleibt gleichzeitig seinen Swing-Wurzeln treu, sodass Du eine riesige
-      Bandbreite an Musik vertanzen kannst. Dreh' Dein Radio auf, und schon
-      kann's losgehen!
+      West Coast Swing ist Dein Allrounder unter den Swing- und Paartänzen! Zu
+      fast jedem Musikstil tanzbar, orientiert sich dieser Tanz an aktuellen
+      Musiktrends und bleibt gleichzeitig seinen Swing-Wurzeln treu. Von
+      <a href="https://www.youtube.com/watch?v=FFszG7_Buto"
+        >Michael Jackson <span class="icon"
+          ><Icon name="material-symbols:play-circle-outline-rounded" /></span
+        ></a
+      > über <a href="#">Taylor Swift</a> bis hin zu <a
+        href="https://www.youtube.com/watch?v=tZT8Z9aZTC8">B.B. King</a
+      >" sodass Du eine riesige Bandbreite an Musik vertanzen kannst. Dreh' Dein
+      Radio auf, und schon kann's losgehen!
     </p>
     <h3>Partnerwechsel</h3>
     <p>
@@ -55,5 +75,12 @@ import "../styles/section.css";
 
   .indented {
     padding-left: 24rem;
+  }
+
+  .icon {
+    position: relative;
+    bottom: -3px;
+    font-size: 20px;
+    font-weight: 300;
   }
 </style>
