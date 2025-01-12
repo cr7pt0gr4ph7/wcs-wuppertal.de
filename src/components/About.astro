@@ -36,7 +36,7 @@ import "../styles/section.css";
     </p>
     <h3>
       <span class="check-icon"
-        ><Icon name="material-symbols:check-circle-rounded" /></span
+        ><Icon name="material-symbols:music-note-rounded" /></span
       >Musikrichtung
     </h3>
     <p>
@@ -70,7 +70,11 @@ import "../styles/section.css";
         </p>
       </details>
     </p>
-    <h3>Führen &amp; Folgen</h3>
+    <h3>
+      <span class="check-icon"
+        ><Icon name="material-symbols:check-rounded" /></span
+      >Führen &amp; Folgen
+    </h3>
     <p>
       Was West Coast Swing zusätzlich so einzigartig macht ist sein Fokus auf „<strong
         >Lead und Follow</strong
@@ -79,7 +83,11 @@ import "../styles/section.css";
       gerlernten Cho&shy;re&shy;o&shy;gra&shy;phien lebt West Coast Swing von
       der Spontaneität und der Freude am Augen&shy;blick.
     </p>
-    <h3>Partnerwechsel</h3>
+    <h3>
+      <span class="check-icon"
+        ><Icon name="material-symbols:check-circle-rounded" /></span
+      >Partnerwechsel
+    </h3>
     <p>
       West Coast Swing lebt von der Idee des <strong>Social Dancing</strong>.
       Schon in Ursprüngen und Wurzeln aus dem Swing fest verankert, hat sich
@@ -90,13 +98,15 @@ import "../styles/section.css";
     </p>
     <p>
       Diese offene Atmosphäre fördert nicht nur deine tänzerische Flexibilität,
-      sondern lässt dich auch schnell Teil dieser <strong
-        >lebendigen Community</strong
-      >
-      werden. Erlebe selbst, wie viel Spaß es macht, sich auf unterschiedliche Tanzstile
-      und Persönlichkeiten einzulassen.
+      sondern lässt dich auch schnell Teil dieser
+      <strong>lebendigen Community</strong> werden. Erlebe selbst, wie viel Spaß
+      es macht, sich auf unterschiedliche Tanzstile und Persönlichkeiten einzulassen.
     </p>
-    <h3>Flexibles Kurssystem</h3>
+    <h3>
+      <span class="check-icon"
+        ><Icon name="material-symbols:check-circle-rounded" /></span
+      >Flexibles Kurssystem
+    </h3>
     <p></p>
   </div>
 </section>
@@ -137,11 +147,22 @@ import "../styles/section.css";
 
   h3 .check-icon {
     position: absolute;
-    right: calc(100% + 2rem);
+    right: calc(100% + 20px);
     color: rgb(7, 134, 14);
     color: rgb(7, 134, 14, 0.5);
+    color: rgb(7, 134, 14, 0.7);
+    color: rgb(7, 134, 14, 1);
     margin-bottom: -1px;
-    font-size: 5rem;
-    top: -1.25rem;
+    font-size: 50px;
+    top: -7px;
+    user-select: none;
+  }
+</style>
+
+<style is:global>
+  h3 .check-icon svg {
+    background-color: rgb(7, 134, 14, 1);
+    color: white;
+    border-radius: 100%;
   }
 </style>
