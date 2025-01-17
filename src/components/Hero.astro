@@ -30,18 +30,20 @@
     background-color: #ececec;
     background-image: url(https://images.unsplash.com/photo-1523301343968-6a6ebf63c672);
     background-size: cover;
-    height: 515px;
+    --hero-total-height: 700px;
+    --hero-fadeout-height: 98px;
+    --hero-content-height: calc(var(--hero-total-height) - var(--hero-fadeout-height));
   }
 
   .hero-content {
-    height: calc(515px - 98px);
+    height: var(--hero-content-height);
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .hero-fadeout {
-    height: 98px;
+    height: var(--hero-fadeout-height);
     background: linear-gradient(180deg, #00000000, #000000ff);
   }
 
