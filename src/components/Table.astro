@@ -174,13 +174,22 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
   /* -- */
 
   .table a,
-  .table a:hover,
   .table a:active,
   .table a:visited,
-  .table a:focus,
   .table a:target {
-    color: #0000bb;
-    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: var(--table-color);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+  }
+
+  .table a:hover,
+  .table a:focus {
+    text-decoration: underline;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
   }
 
   .table {
@@ -249,7 +258,8 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
   }
 
   .name .title {
-    font-weight: bold;
+    font-weight: 500;
+    color: var(--table-color-highlight);
   }
 
   .name,
@@ -347,10 +357,9 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
     .table {
       display: grid;
       grid-template-columns:
-        [start name name-start] 12fr
-        [date date-start name-end] 6fr
-        [time time-start date-end] 6fr
-        [location location-start time-end] 18fr
+        [start name name-start] 15fr
+        [datetime datetime-start name-end] 11fr
+        [location location-start datetime-end] 16fr
         [link link-start location-end] 8fr
         [end link-end];
     }
@@ -359,14 +368,14 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
       grid-column: name;
     }
     .dates {
-      grid-column: date-start / time-end;
+      grid-column: datetime;
     }
     .date {
-      grid-column: date;
+      grid-column: datetime;
     }
     .time,
     .times {
-      grid-column: time;
+      grid-column: datetime;
     }
     .location {
       grid-column: location;

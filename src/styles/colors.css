@@ -4,13 +4,16 @@
     --primary-subdued: #171717;
     --primary-color: #ffffff;
     --primary-color-hover: #635819;
+    --primary-color-underline: #505050;
 
     /* Table on dark background */
     --secondary-background: #080808;
     --secondary-border: #0d0d0d;
     --secondary-background-hover: #181818;
     --secondary-color: #b3b3b3;
+    --secondary-color-highlight: #e3e3e3;
     --secondary-color-hover: #f3f3f3;
+    --secondary-color-underline: #f3d111;
 
     /* Pill on dark background */
     --secondary-inverted-background: #c3c3c3;
@@ -34,7 +37,9 @@
     --table-border-hover: 1px solid var(--secondary-border);
     --table-border-radius: 5px;
     --table-color: var(--secondary-color);
+    --table-color-highlight: var(--secondary-color-highlight);
     --table-color-hover: var(--secondary-color-hover);
+    --table-color-underline: var(--secondary-color-underline);
     --mock-table-background: var(--secondary-inverted-background);
 
     /* Pills */
