@@ -1,5 +1,6 @@
 - id: adtv-tanzschule-schaefer-koch-wcs-schnupperworkshop-2025-02-08
-  title: WCS Schnupperworkshop
+  title: »Valley Weekend Swing«
+  subtitle: WCS-Schnupperworkshop
   location: ADTV Tanzschule Schäfer-Koch
   date: 2025-02-08T19:00:00
   duration: 01:00:00
@@ -110,3 +111,11 @@
   duration: 01:00:00
   url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
   type: { regular_course: true, requires_registration: true }
+
+- id: buw-wuppertal-party-2025-03-19
+  title: »Semester Pre-Opening Party«
+  subtitle: Salsa/Bachata/WCS-Party mit Einsteigerworkshops
+  location: Mensa Grifflenberg @ Uni Wuppertal
+  date: 2025-03-19T18:00:00
+  duration: 06:00:00
+  type: { party: true, workshop: true, requires_registration: false }
