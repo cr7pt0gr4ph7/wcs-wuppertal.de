@@ -1,4 +1,5 @@
 ---
+import image1  from "../assets/kurse-und-workshops.jpg";
 import image2 from "../assets/parties-und-events.jpg";
 import NavCard from "./NavCard.astro";
 
@@ -7,7 +8,7 @@ const image_url =
 ---
 
 <nav class="nav-cards">
-  <NavCard title="Kurse & Workshops" href="#kurse" image={image_url} />
+  <NavCard title="Kurse & Workshops" href="#kurse" image={image1.src} />
   <NavCard title="Parties & Events" href="#parties" image={image2.src} />
   <NavCard
     title="Merchandise"
