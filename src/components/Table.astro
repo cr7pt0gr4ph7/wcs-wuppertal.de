@@ -20,6 +20,25 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
     )
   );
 });
+
+const myDateFormat = new Intl.DateTimeFormat("de-DE", {
+    month: "2-digit",
+    day: "2-digit",
+    year: "numeric"
+  });
+
+  const myTimeFormat = new Intl.DateTimeFormat("de-DE", {
+    hour: "2-digit",
+    minute: "2-digit"
+  });
+
+const formatDate = (date: Date) => {
+  return myDateFormat.format(date);
+};
+
+const formatDateTime = (date: Date) => {
+  return myDateFormat.format(date) + " " + myTimeFormat.format(date) + " Uhr";
+};
 ---
 
 <div class="table">
@@ -47,7 +66,7 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
                       )}
                     </div>
                     <div class="td dates">
-                      {entry.data.date.toLocaleDateString("de-DE")}{" "}
+                      {formatDate(entry.data.date)}{" "}
                       <span class="additional-dates">
                         {"+ "}
                         <span>
@@ -90,7 +109,7 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
                               )}
                             </div>
                             <div class="td dates">
-                              {child.date.toLocaleString("de-DE")}
+                              {formatDateTime(child.date)}
                             </div>
                             <div class="td location">{child.location}</div>
                             <div class="td link">
@@ -123,9 +142,7 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
                     entry.data.title
                   )}
                 </div>
-                <div class="td dates">
-                  {entry.data.date.toLocaleString("de-DE")}
-                </div>
+                <div class="td dates">{formatDateTime(entry.data.date)}</div>
                 <div class="td location">{entry.data.location}</div>
                 <div class="td link">
                   {entry.data.url ? (
