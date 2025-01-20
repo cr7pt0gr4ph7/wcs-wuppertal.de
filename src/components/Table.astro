@@ -26,68 +26,120 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
   <div class="thead"></div>
   <div class="tbody">
     {
-      entries.toSorted((a, b) => a.data.date == b.data.date ? 0 : a.data.date < b.data.date ? -1 : 1).map((entry) => {
-        if (entry.data.children) {
-          return (
-            <div class="tr-parent">
-              <details>
-                <summary class="tr primary">
-                  <div class="td name">{entry.data.name}</div>
-                  <div class="td dates">
-                    {entry.data.date.toLocaleDateString("de-DE")}{" "}
-                    <span class="additional-dates">
-                      {"+ "}
-                      <span>
-                        {entry.data.children.length - 1}
-                        <span class="if-large-viewport">
-                          {" weitere Starttermine"}
+      entries
+        .toSorted((a, b) =>
+          a.data.date == b.data.date ? 0 : a.data.date < b.data.date ? -1 : 1,
+        )
+        .map((entry) => {
+          if (entry.data.children) {
+            return (
+              <div class="tr-parent">
+                <details>
+                  <summary class="tr primary">
+                    <div class="td name">
+                      {entry.data.subtitle ? (
+                        <>
+                          <div class="title">{entry.data.title}</div>
+                          <div class="subtitle">{entry.data.subtitle}</div>
+                        </>
+                      ) : (
+                        entry.data.title
+                      )}
+                    </div>
+                    <div class="td dates">
+                      {entry.data.date.toLocaleDateString("de-DE")}{" "}
+                      <span class="additional-dates">
+                        {"+ "}
+                        <span>
+                          {entry.data.children.length - 1}
+                          <span class="if-large-viewport">
+                            {" weitere Starttermine"}
+                          </span>
                         </span>
                       </span>
-                    </span>
+                    </div>
+                    <div class="td location">{entry.data.location}</div>
+                    <div class="td link">
+                      {entry.data.url ? (
+                        <a href={entry.data.url}>
+                          {entry.data.type.requires_registration
+                            ? "Anmelden"
+                            : "Mehr Infos"}
+                        </a>
+                      ) : null}
+                    </div>
+                  </summary>
+                </details>
+                <div class="expander">
+                  <div class="sub-table">
+                    {entry.data.children
+                      .toSorted((a, b) =>
+                        a.date == b.date ? 0 : a.date < b.date ? -1 : 1,
+                      )
+                      .map((child) => {
+                        return (
+                          <div class="tr">
+                            <div class="td name">
+                              {child.subtitle ? (
+                                <>
+                                  <div class="title">{child.title}</div>
+                                  <div class="subtitle">{child.subtitle}</div>
+                                </>
+                              ) : (
+                                child.title
+                              )}
+                            </div>
+                            <div class="td dates">
+                              {child.date.toLocaleString("de-DE")}
+                            </div>
+                            <div class="td location">{child.location}</div>
+                            <div class="td link">
+                              {child.url ? (
+                                <a href={child.url}>
+                                  {child.type.requires_registration
+                                    ? "Anmelden"
+                                    : "Mehr Infos"}
+                                </a>
+                              ) : null}
+                            </div>
+                          </div>
+                        );
+                      })}
                   </div>
-                  <div class="td location">{entry.data.location}</div>
-                  <div class="td link">
-                    {entry.data.url ? (
-                      <a href={entry.data.url}>{entry.data.type.requires_registration ? "Anmelden" : "Mehr Infos"}</a>
-                    ) : null}
-                  </div>
-                </summary>
-              </details>
-              <div class="expander">
-                <div class="sub-table">
-                  {entry.data.children.toSorted((a, b) => a.date == b.date ? 0 : a.date < b.date ? -1 : 1).map((child) => {
-                    return (
-                      <div class="tr">
-                        <div class="td name">{child.name}</div>
-                        <div class="td date">{child.date.toLocaleDateString("de-DE")}</div>
-                        <div class="td time">{child.time}</div>
-                        <div class="td location">{child.location}</div>
-                        <div class="td link">
-                          {child.url ? (
-                            <a href={child.url}>{child.type.requires_registration ? "Anmelden" : "Mehr Infos"}</a>
-                          ) : null}
-                        </div>
-                      </div>
-                    );
-                  })}
                 </div>
               </div>
-            </div>
-          );
-        } else {
-          return (
-            <div class="tr primary">
-              <div class="td name">{entry.data.name}</div>
-              <div class="td date">{entry.data.date.toLocaleDateString("de-DE")}</div>
-              <div class="td time">{entry.data.time}</div>
-              <div class="td location">{entry.data.location}</div>
-              <div class="td link">
-                {entry.data.url ? <a href={entry.data.url}>{entry.data.type.requires_registration ? "Anmelden" : "Mehr Infos"}</a> : null}
+            );
+          } else {
+            return (
+              <div class="tr primary">
+                <div class="td name">
+                  {" "}
+                  {entry.data.subtitle ? (
+                    <>
+                      <div class="title">{entry.data.title}</div>
+                      <div class="subtitle">{entry.data.subtitle}</div>
+                    </>
+                  ) : (
+                    entry.data.title
+                  )}
+                </div>
+                <div class="td dates">
+                  {entry.data.date.toLocaleString("de-DE")}
+                </div>
+                <div class="td location">{entry.data.location}</div>
+                <div class="td link">
+                  {entry.data.url ? (
+                    <a href={entry.data.url}>
+                      {entry.data.type.requires_registration
+                        ? "Anmelden"
+                        : "Mehr Infos"}
+                    </a>
+                  ) : null}
+                </div>
               </div>
-            </div>
-          );
-        }
-      })
+            );
+          }
+        })
     }
   </div>
 </div>
@@ -194,6 +246,10 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
     font-size: 1.25rem;
     line-height: 1.5;
     font-weight: 400;
+  }
+
+  .name .title {
+    font-weight: bold;
   }
 
   .name,
