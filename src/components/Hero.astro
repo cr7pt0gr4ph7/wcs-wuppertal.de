@@ -1,8 +1,8 @@
 ---
-
+import heroImage from "../assets/eric-nopanen-3skLpaOBlMw-unsplash.jpg";
 ---
 
-<div class="hero">
+<div class="hero" style={"--hero-bg-image: url(" + heroImage.src + ");"}>
   <div class="hero-content">
     <h1>
       <div class="line-one">West Coast Swing</div>
@@ -28,7 +28,7 @@
 
   .hero {
     background-color: #ececec;
-    background-image: url(https://images.unsplash.com/photo-1523301343968-6a6ebf63c672);
+    background-image: var(--hero-bg-image);
     background-size: cover;
     --hero-total-height: 700px;
     --hero-fadeout-height: 98px;
