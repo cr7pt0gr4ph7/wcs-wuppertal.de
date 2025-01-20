@@ -25,71 +25,70 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
 <div class="table">
   <div class="thead"></div>
   <div class="tbody">
-    <div class="tr-parent">
-      <details>
-        <summary class="tr primary">
-          <div class="td name">WCS Level 1 &amp; 2</div>
-          <div class="td dates">
-            12.01.2025 <span class="additional-dates"
-              >+ <span
-                >5 <span class="if-small-viewport"
-                  ><Icon name="material-symbols:event-rounded" /></span
-                ><span class="if-large-viewport">weitere Starttermine</span
-                ></span
-              >
-            </span>
-          </div>
-          <div class="td location">ADTV Tanzschule Schäfer-Koch</div>
-          <div class="td link"><a href="#">Anmelden</a></div>
-        </summary>
-      </details>
-      <div class="expander">
-        <!-- <div class="extended">
-          <div class="description">
-            Lorem ipsum, dolor sit amet, and some more words to fill this space
-            with some sort of vaguely meaningful text. This is just here to test
-            the layout, so congratulations for reading a text that does not mean
-            anything.
-          </div>
-        </div> -->
-        <div class="sub-table">
-          <div class="tr">
-            <div class="td name">WCS Level 1</div>
-            <div class="td date">12.01.2025</div>
-            <div class="td time">16:30</div>
-            <div class="td location">ADTV Tanzschule Schäfer-Koch</div>
-            <div class="td link"><a href="#">Anmelden</a></div>
-          </div>
-          <div class="tr">
-            <div class="td name">WCS Level 2</div>
-            <div class="td date">12.01.2025</div>
-            <div class="td time">17:30</div>
-            <div class="td location">ADTV Tanzschule Schäfer-Koch</div>
-            <div class="td link"><a href="#">Anmelden</a></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="tr primary">
-      <div class="td name">WCS Level 1</div>
-      <div class="td dates">
-        12.01.2025 <span class="additional-dates"
-          >+ <span>5 weitere Starttermine</span></span
-        >
-      </div>
-      <div class="td location">BUW UniSport</div>
-      <div class="td link"><a href="#">Anmelden</a></div>
-    </div>
-    <!-- {
-      entries.map((entry) => {
-        return (
-          <tr>
-            <td>{entry.data.name}</td>
-            <td><a href={entry.data.url}>Anmeldung</a></td>
-          </tr>
-        );
+    {
+      entries.toSorted((a, b) => a.data.date == b.data.date ? 0 : a.data.date < b.data.date ? -1 : 1).map((entry) => {
+        if (entry.data.children) {
+          return (
+            <div class="tr-parent">
+              <details>
+                <summary class="tr primary">
+                  <div class="td name">{entry.data.name}</div>
+                  <div class="td dates">
+                    {entry.data.date.toLocaleDateString("de-DE")}{" "}
+                    <span class="additional-dates">
+                      {"+ "}
+                      <span>
+                        {entry.data.children.length - 1}
+                        <span class="if-large-viewport">
+                          {" weitere Starttermine"}
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                  <div class="td location">{entry.data.location}</div>
+                  <div class="td link">
+                    {entry.data.url ? (
+                      <a href={entry.data.url}>{entry.data.type.requires_registration ? "Anmelden" : "Mehr Infos"}</a>
+                    ) : null}
+                  </div>
+                </summary>
+              </details>
+              <div class="expander">
+                <div class="sub-table">
+                  {entry.data.children.toSorted((a, b) => a.date == b.date ? 0 : a.date < b.date ? -1 : 1).map((child) => {
+                    return (
+                      <div class="tr">
+                        <div class="td name">{child.name}</div>
+                        <div class="td date">{child.date.toLocaleDateString("de-DE")}</div>
+                        <div class="td time">{child.time}</div>
+                        <div class="td location">{child.location}</div>
+                        <div class="td link">
+                          {child.url ? (
+                            <a href={child.url}>{child.type.requires_registration ? "Anmelden" : "Mehr Infos"}</a>
+                          ) : null}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+          );
+        } else {
+          return (
+            <div class="tr primary">
+              <div class="td name">{entry.data.name}</div>
+              <div class="td date">{entry.data.date.toLocaleDateString("de-DE")}</div>
+              <div class="td time">{entry.data.time}</div>
+              <div class="td location">{entry.data.location}</div>
+              <div class="td link">
+                {entry.data.url ? <a href={entry.data.url}>{entry.data.type.requires_registration ? "Anmelden" : "Mehr Infos"}</a> : null}
+              </div>
+            </div>
+          );
+        }
       })
-    } -->
+    }
   </div>
 </div>
 

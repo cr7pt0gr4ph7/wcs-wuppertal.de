@@ -9,13 +9,29 @@ const calendar = defineCollection({
         time: z.string().time(),
         duration: z.string().time(),
         location: z.string(),
-        url: z.string(),
+        url: z.string().optional(),
         type: z.object({
             festival: z.boolean().optional(),
             party: z.boolean().optional(),
             regular_course: z.boolean().optional(),
-            workshop: z.boolean().optional()
-        })
+            workshop: z.boolean().optional(),
+            requires_registration: z.boolean().optional(),
+        }),
+        children: z.array(z.object({
+            name: z.string(),
+            date: z.date(),
+            time: z.string().time(),
+            duration: z.string().time(),
+            location: z.string(),
+            url: z.string().optional(),
+            type: z.object({
+                festival: z.boolean().optional(),
+                party: z.boolean().optional(),
+                regular_course: z.boolean().optional(),
+                workshop: z.boolean().optional(),
+                requires_registration: z.boolean().optional(),
+            }),
+        })).optional()
     })
 });
 
