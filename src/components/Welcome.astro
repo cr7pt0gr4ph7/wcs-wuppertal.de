@@ -12,14 +12,17 @@ import Parties from "./Parties.astro";
 ---
 
 <div id="container">
-  <Hero />
-  <div class="content max-width-container">
+  <header>
+    <Hero />
+  </header>
+  <main class="content max-width-container">
+    <div id="main" style="position: relative; bottom: 110px; width: 0px; height: 0px;"></div>
     <NavCards />
     <About />
     <Classes />
     <Parties />
     <Contact />
     <Merchandise />
-  </div>
+  </main>
   <Footer />
 </div>
