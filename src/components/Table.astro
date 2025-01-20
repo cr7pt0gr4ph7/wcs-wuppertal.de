@@ -182,6 +182,7 @@ const formatDateTime = (date: Date) => {
 <style>
   details + .expander {
     display: none;
+    margin-bottom: .25rem;
   }
 
   details[open] + .expander {
@@ -274,9 +275,19 @@ const formatDateTime = (date: Date) => {
     font-weight: 400;
   }
 
+  .name {
+    font-weight: 450;
+    color: var(--table-color-highlight);
+  }
+
   .name .title {
     font-weight: 500;
     color: var(--table-color-highlight);
+  }
+
+  .name .subtitle {
+    font-weight: 400;
+    color: var(--table-color);
   }
 
   .name,

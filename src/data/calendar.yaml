@@ -18,7 +18,7 @@
 - id: adtv-tanzschule-schaefer-koch-wcs-level-1-und-2
   title: WCS Level 1 & 2
   location: ADTV Tanzschule Schäfer-Koch
-  date: 2025-01-12T16:30:00
+  date: 2025-02-18T16:30:00
   duration: 01:00:00
   url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse
   type: { regular_course: true, requires_registration: true }
@@ -62,3 +62,51 @@
       duration: 01:00:00
       url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse
       type: { regular_course: true, requires_registration: true }
+
+    - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-01-12
+      title: WCS Level 2
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-01-12T17:45:00
+      duration: 01:00:00
+      url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse
+      type: { regular_course: true, requires_registration: true }
+
+    - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-02-18
+      title: WCS Level 2
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-02-18T20:30:00
+      duration: 01:00:00
+      url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse
+      type: { regular_course: true, requires_registration: true }
+
+    - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-02-23
+      title: WCS Level 2
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-02-23T17:45:00
+      duration: 01:00:00
+      url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse
+      type: { regular_course: true, requires_registration: true }
+
+    - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-04-01
+      title: WCS Level 2
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-04-01T20:30:00
+      duration: 01:00:00
+      url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse
+      type: { regular_course: true, requires_registration: true }
+
+    - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-04-06
+      title: WCS Level 2
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-04-06T17:45:00
+      duration: 01:00:00
+      url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse
+      type: { regular_course: true, requires_registration: true }
+
+- id: unisport-buw-wuppertal-wcs-level-1
+  title: WCS Level 1
+  location: UniSport Wuppertal
+  date: 2024-16-10T18:00:00
+  duration: 01:00:00
+  url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
+  type: { regular_course: true, requires_registration: true }
