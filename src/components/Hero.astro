@@ -1,5 +1,6 @@
 ---
 import heroImage from "../assets/eric-nopanen-3skLpaOBlMw-unsplash.jpg";
+import Navbar from "./Navbar.astro";
 
 interface Props {
   title: string;
@@ -9,19 +10,18 @@ interface Props {
 const { title, subtitle } = Astro.props;
 ---
 
-<a
-  class="implicit-link hero"
-  href="#main"
-  style={"--hero-bg-image: url(" + heroImage.src + ");"}
->
-  <div class="hero-content">
-    <h1>
-      <div class="line-one">{title}</div>
-      <div class="line-two">{subtitle}</div>
-    </h1>
-  </div>
-  <div class="hero-fadeout"></div>
-</a>
+<div class="hero" style={"--hero-bg-image: url(" + heroImage.src + ");"}>
+  <Navbar />
+  <a class="implicit-link" href="#main">
+    <div class="hero-content">
+      <h1>
+        <div class="line-one">{title}</div>
+        <div class="line-two">{subtitle}</div>
+      </h1>
+    </div>
+    <div class="hero-fadeout"></div>
+  </a>
+</div>
 
 <style>
   /* roboto-condensed-latin-wght-normal */
@@ -42,7 +42,8 @@ const { title, subtitle } = Astro.props;
     background-color: #ececec;
     background-image: var(--hero-bg-image);
     background-size: cover;
-    --hero-total-height: 700px;
+    --hero-total-height: 500px;
+    --hero-header-height: 4rem;
     --hero-fadeout-height: 98px;
     --hero-content-height: calc(
       var(--hero-total-height) - var(--hero-fadeout-height)

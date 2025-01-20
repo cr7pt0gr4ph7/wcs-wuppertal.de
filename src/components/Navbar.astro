@@ -2,11 +2,62 @@
 
 ---
 
-<nav class="navbar"></nav>
+<nav class="navbar">
+  <div class="max-width-container">
+    <ul>
+      <li><a href="/#kurse">Kurse</a></li>
+      <li><a href="/#workshops">Workshops</a></li>
+      <li><a href="/#parties">Parties</a></li>
+      <li><a href="/#events">Events</a></li>
+    </ul>
+  </div>
+</nav>
 
 <style>
+  a,
+  a:hover,
+  a:active,
+  a:visited,
+  a:focus,
+  a:focus-visible,
+  a:focus-within {
+    color: inherit;
+    text-decoration: none;
+    font-weight: inherit;
+    position: relative;
+  }
+
   .navbar {
-    background-color: #cc3f3f;
-    height: 78px;
+    background: transparent;
+    height: var(--hero-navbar-height);
+  }
+
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: start;
+    column-gap: 3rem;
+    flex-wrap: nowrap;
+  }
+
+  .navbar ul li {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #00000055;
+    line-height: 3rem;
+  }
+
+  .navbar ul li a {
+    transition:
+      color 1s ease,
+      border-bottom-color 0.1s ease;
+    border-bottom: 0.5rem solid transparent;
+  }
+
+  .navbar ul li a:hover,
+  .navbar ul li a:focus {
+    color: #000000;
+    border-bottom-color: #000000aa;
   }
 </style>
