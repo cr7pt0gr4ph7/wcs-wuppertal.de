@@ -14,7 +14,7 @@
   date: 2025-02-08T19:00:00
   duration: 05:00:00
   url: https://www.tanzschule-schaefer-koch.de/
-  type: { party: true, requires_registration: true }
+  type: { party: true, requires_registration: false }
 
 - id: adtv-tanzschule-schaefer-koch-wcs-level-1-und-2
   title: WCS Level 1 & 2
