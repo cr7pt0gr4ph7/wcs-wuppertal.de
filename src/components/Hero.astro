@@ -2,7 +2,7 @@
 import heroImage from "../assets/eric-nopanen-3skLpaOBlMw-unsplash.jpg";
 ---
 
-<div class="hero" style={"--hero-bg-image: url(" + heroImage.src + ");"}>
+<a class="implicit-link hero" href="#main" style={"--hero-bg-image: url(" + heroImage.src + ");"}>
   <div class="hero-content">
     <h1>
       <div class="line-one">West Coast Swing</div>
@@ -10,7 +10,7 @@ import heroImage from "../assets/eric-nopanen-3skLpaOBlMw-unsplash.jpg";
     </h1>
   </div>
   <div class="hero-fadeout"></div>
-</div>
+</a>
 
 <style>
   /* roboto-condensed-latin-wght-normal */
@@ -27,6 +27,7 @@ import heroImage from "../assets/eric-nopanen-3skLpaOBlMw-unsplash.jpg";
   }
 
   .hero {
+    display: block;
     background-color: #ececec;
     background-image: var(--hero-bg-image);
     background-size: cover;

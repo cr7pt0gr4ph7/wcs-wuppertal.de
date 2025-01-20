@@ -21,6 +21,17 @@ body {
     box-sizing: border-box;
 }
 
+a.implicit-link,
+a.implicit-link:hover,
+a.implicit-link:active,
+a.implicit-link:visited,
+a.implicit-link:focus,
+a.implicit-link:focus-visible,
+a.implicit-link:focus-within  {
+    text-decoration: inherit;
+    color: inherit;
+}
+
 p {
     font-size: 1.5rem;
     line-height: 2.25rem;
@@ -29,12 +40,15 @@ p {
 
 p a {
     color: inherit;
-    text-decoration: none;
     font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: var(--secondary-color);
+
 }
 
-p a:hover {
+p a:hover, p a:focus {
     text-decoration: underline;
+    text-decoration-color: var(--primary-color);
 }
 
 h3 {
