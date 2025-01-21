@@ -1,0 +1,195 @@
+---
+interface Props {
+  title?: string;
+  generator?: string;
+  pageTitle?: string;
+  siteTitle?: string;
+  author?: {
+    name?: string;
+    twitter?: string;
+  };
+  locale?: string;
+  description?: string;
+  canonicalUrl?: string;
+  image?: {
+    src: string;
+    height?: string | number;
+    width?: string | number;
+    alt?: string;
+  };
+  publishingDate?: Date;
+  pagination?: {
+    prev?: string;
+    next?: string;
+  };
+  social?: {
+    facebook?: {
+      admins?: string;
+      publisher?: string;
+      appId?: string;
+    };
+    twitter?: {
+      card?: string;
+      username?: string;
+    };
+  };
+  verification?: {
+    google?: string;
+    bing?: string;
+    alexa?: string;
+    yandex?: string;
+    baidu?: string;
+    facebook?: string;
+  };
+}
+
+/*
+<script type="application/ld+json">
+  {{ seo_tag.json_ld | jsonify }}
+</script>
+*/
+
+const {
+  title,
+  generator,
+  pageTitle,
+  siteTitle,
+  author,
+  locale,
+  description,
+  canonicalUrl,
+  image,
+  publishingDate,
+  pagination,
+  social,
+  verification,
+} = Astro.props;
+---
+
+{title && <title>{title}</title>}
+
+{generator && <meta name="generator" content={generator} />}
+
+{pageTitle && <meta property="og:title" content={pageTitle} />}
+{author?.name && <meta name="author" content={author.name} />}
+{locale && <meta property="og:locale" content={locale} />}
+
+{description && <meta name="description" content={description} />}
+{description && <meta property="og:description" content={description} />}
+{description && <meta property="twitter:description" content={description} />}
+
+{canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+{canonicalUrl && <meta property="og:url" content={canonicalUrl} />}
+
+{siteTitle && <meta property="og:site_name" content={siteTitle} />}
+
+{
+  image && (
+    <>
+      <meta property="og:image" content={image.src} />
+      {image.height && (
+        <meta property="og:image:height" content={image.height.toString()} />
+      )}
+      {image.width && (
+        <meta property="og:image:width" content={image.width.toString()} />
+      )}
+      {image.alt && <meta property="og:image:alt" content={image.alt} />}
+    </>
+  )
+}
+
+{
+  publishingDate ? (
+    <>
+      <meta property="og:type" content="article" />
+      <meta
+        property="article:published_time"
+        content={publishingDate?.toISOString()}
+      />
+    </>
+  ) : (
+    <meta property="og:type" content="website" />
+  )
+}
+
+{pagination?.prev && <link rel="prev" href={pagination.prev} />}
+{pagination?.next && <link rel="next" href={pagination.next} />}
+
+{
+  image ? (
+    <>
+      <meta
+        name="twitter:card"
+        content={social?.twitter?.card ?? "summary_large_image"}
+      />
+      <meta property="twitter:image" content={image?.src} />
+    </>
+  ) : (
+    <meta name="twitter:card" content="summary" />
+  )
+}
+
+{image?.alt && <meta name="twitter:image:alt" content={image.alt} />}
+
+{pageTitle && <meta property="twitter:title" content={pageTitle} />}
+
+{
+  social?.twitter?.username && (
+    <>
+      <meta name="twitter:site" content={"@" + social.twitter.username} />
+      {author?.twitter && (
+        <meta name="twitter:creator" content={"@" + author?.twitter} />
+      )}
+    </>
+  )
+}
+
+{
+  social?.facebook && (
+    <>
+      {social.facebook.admins && (
+        <meta property="fb:admins" content={social.facebook.admins} />
+      )}
+      {social.facebook.publisher && (
+        <meta
+          property="article:publisher"
+          content={social.facebook.publisher}
+        />
+      )}
+      {social.facebook.appId && (
+        <meta property="fb:app_id" content={social.facebook.appId} />
+      )}
+    </>
+  )
+}
+
+{
+  verification?.google && (
+    <meta name="google-site-verification" content={verification.google} />
+  )
+}
+{
+  verification?.bing && (
+    <meta name="msvalidate.01" content={verification.bing} />
+  )
+}
+{
+  verification?.alexa && (
+    <meta name="alexaVerifyID" content={verification.alexa} />
+  )
+}
+{
+  verification?.yandex && (
+    <meta name="yandex-verification" content={verification.yandex} />
+  )
+}
+{
+  verification?.baidu && (
+    <meta name="baidu-site-verification" content={verification.baidu} />
+  )
+}
+{
+  verification?.facebook && (
+    <meta name="facebook-domain-verification" content={verification.facebook} />
+  )
+}
