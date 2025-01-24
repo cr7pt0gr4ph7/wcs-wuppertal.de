@@ -1,10 +1,8 @@
 ---
-import Footer from "../components/Footer.astro";
-import Hero from "../components/Hero.astro";
-import Privacy from "../content/Privacy.astro";
+import { default as Privacy, meta } from "../content/Privacy.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Datenschutzerklärung">
-  <Privacy/>
+<Layout {...meta}>
+  <Privacy />
 </Layout>

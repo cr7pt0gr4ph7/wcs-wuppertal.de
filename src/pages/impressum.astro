@@ -1,10 +1,8 @@
 ---
-import Footer from "../components/Footer.astro";
-import Hero from "../components/Hero.astro";
-import Imprint from "../content/Imprint.astro";
+import { default as Imprint, meta } from "../content/Imprint.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Impressum">
+<Layout {...meta}>
   <Imprint />
 </Layout>

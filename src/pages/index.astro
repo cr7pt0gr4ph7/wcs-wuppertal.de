@@ -1,8 +1,8 @@
 ---
-import Welcome from "../content/Welcome.astro";
-import LayoutBase from "../layouts/LayoutBase.astro";
+import { default as Welcome, meta } from "../content/Welcome.astro";
+import Layout from "../layouts/Layout.astro";
 ---
 
-<LayoutBase>
+<Layout {...meta}>
   <Welcome />
-</LayoutBase>
+</Layout>

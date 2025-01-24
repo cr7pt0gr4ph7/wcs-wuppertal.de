@@ -13,9 +13,19 @@ const { title = "", subtitle = "" } = Astro.props;
 
 <LayoutBase>
   <div id="container">
-    <header>
-      <Hero title={title} subtitle={subtitle} />
-    </header>
+    {
+      Astro.slots.has("header") ? (
+        <slot name="header" />
+      ) : (
+        <header>
+          {Astro.slots.has("hero") ? (
+            <slot name="hero" />
+          ) : (
+            <Hero title={title} subtitle={subtitle} />
+          )}
+        </header>
+      )
+    }
     <main class="content max-width-container">
       <div
         id="main"
@@ -25,5 +35,5 @@ const { title = "", subtitle = "" } = Astro.props;
       <slot />
     </main>
   </div>
-  <Footer />
+  {Astro.slots.has("header") ? <slot name="footer" /> : <Footer />}
 </LayoutBase>

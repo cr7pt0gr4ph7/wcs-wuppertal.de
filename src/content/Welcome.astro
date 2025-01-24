@@ -8,24 +8,16 @@ import Contact from "./Contact.astro";
 import Merchandise from "./Merchandise.astro";
 import NavCards from "./NavCards.astro";
 import Parties from "./Parties.astro";
+
+export const meta = {
+  title: "West Coast Swing",
+  subtitle: "lernen in Wuppertal",
+};
 ---
 
-<div id="container">
-  <header>
-    <Hero title="West Coast Swing" subtitle="lernen in Wuppertal" />
-  </header>
-  <main class="content max-width-container">
-    <div
-      id="main"
-      style="position: relative; bottom: 110px; width: 0px; height: 0px;"
-    >
-    </div>
-    <NavCards />
-    <About />
-    <Classes />
-    <Parties />
-    <Contact />
-    <Merchandise />
-  </main>
-  <Footer />
-</div>
+<NavCards />
+<About />
+<Classes />
+<Parties />
+<Contact />
+<Merchandise />
