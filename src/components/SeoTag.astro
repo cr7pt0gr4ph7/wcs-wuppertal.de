@@ -7,7 +7,6 @@ interface Props {
   title?: string;
   name?: string;
   generator?: string;
-  pageTitle?: string;
   site?: {
     title?: string;
     tagline?: string;
@@ -35,6 +34,8 @@ interface Props {
   publishingDate?: Date;
   modificationDate?: Date;
   pagination?: {
+    number?: number;
+    total?: number;
     prev?: UrlLike;
     next?: UrlLike;
   };
@@ -62,12 +63,16 @@ interface Props {
 }
 
 const {
-  title,
+  title: pageTitle,
   generator,
   name: pageName,
-  pageTitle,
   type: pageType,
-  site: { title: siteTitle, logo } = {},
+  site: {
+    title: siteTitle,
+    tagline: siteTagline,
+    description: siteDescription,
+    logo,
+  } = {},
   author,
   isHomepageOrAbout,
   links,
@@ -85,8 +90,27 @@ const {
 const validEntityTypes = ["BlogPosting", "CreativeWork", "WebPage"];
 const validAuthorTypes = ["Organization", "Person"];
 
+const title = (() => {
+  const titleSeparator = " | ";
+  const pageNumberSeparator = " ";
+  const baseTitle = (() => {
+    if (siteTitle && pageTitle != siteTitle) {
+      return pageTitle + titleSeparator + siteTitle;
+    } else if ((siteDescription || siteTagline) && siteTitle) {
+      return siteTitle + titleSeparator + (siteTagline ?? siteDescription);
+    } else {
+      return pageTitle ?? siteTitle;
+    }
+  })();
+
+  if (pagination?.number) {
+    return pagination.number + pageNumberSeparator + baseTitle;
+  }
+  return baseTitle;
+})();
+
 const name =
-  pageName ?? (!isHomepageOrAbout ? undefined : (social?.name ?? siteTitle));
+  pageName ?? pageTitle ?? (!isHomepageOrAbout ? undefined : (social?.name ?? siteTitle));
 
 const jsonData = {
   "@type": "",
