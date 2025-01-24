@@ -1,17 +1,31 @@
 ---
 import Footer from "../components/Footer.astro";
 import Hero from "../components/Hero.astro";
+import SeoTag from "../components/SeoTag.astro";
 import LayoutBase from "./LayoutBase.astro";
 
 interface Props {
   title?: string;
   subtitle?: string;
+  isHomepageOrAbout?: boolean;
 }
 
-const { title = "", subtitle = "" } = Astro.props;
+const { title = "", subtitle = "", isHomepageOrAbout = false } = Astro.props;
 ---
 
 <LayoutBase>
+  <SeoTag
+    slot="head"
+    title={title !== "" && subtitle !== "" ? title + " " + subtitle : title}
+    pageTitle={title !== "" && subtitle !== "" ? title + " " + subtitle : title}
+    isHomepageOrAbout={isHomepageOrAbout}
+    canonicalUrl={new URL(Astro.url.pathname, Astro.site)}
+    locale="de-DE"
+    site={{
+      title: "WCS Wuppertal",
+      logo: new URL("/favicon.svg", Astro.site),
+    }}
+  />
   <div id="container">
     {
       Astro.slots.has("header") ? (

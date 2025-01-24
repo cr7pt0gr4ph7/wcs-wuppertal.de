@@ -1,29 +1,33 @@
 ---
 import { JsonLdRaw } from "./JsonLd";
 
+type UrlLike = URL | string;
+
 interface Props {
   title?: string;
   name?: string;
   generator?: string;
   pageTitle?: string;
-  siteTitle?: string;
-  siteTagline?: string;
-  siteDescription?: string;
+  site?: {
+    title?: string;
+    tagline?: string;
+    description?: string;
+    logo?: UrlLike;
+  };
   author?: {
     name?: string;
     twitter?: string;
     type?: "Organization" | "Person" | string;
-    url?: string;
+    url?: UrlLike;
   };
   isHomepageOrAbout?: boolean;
-  links?: string;
+  links?: UrlLike[];
   locale?: string;
-  logo?: string;
   type?: "BlogPosting" | "CreativeWork" | "WebPage" | string;
   description?: string;
-  canonicalUrl?: string;
+  canonicalUrl?: UrlLike;
   image?: {
-    src: string;
+    src: UrlLike;
     height?: string | number;
     width?: string | number;
     alt?: string;
@@ -31,12 +35,12 @@ interface Props {
   publishingDate?: Date;
   modificationDate?: Date;
   pagination?: {
-    prev?: string;
-    next?: string;
+    prev?: UrlLike;
+    next?: UrlLike;
   };
   social?: {
     name?: string;
-    links?: string[];
+    links?: UrlLike[];
     facebook?: {
       admins?: string;
       publisher?: string;
@@ -63,12 +67,11 @@ const {
   name: pageName,
   pageTitle,
   type: pageType,
-  siteTitle,
+  site: { title: siteTitle, logo } = {},
   author,
   isHomepageOrAbout,
   links,
   locale,
-  logo,
   description,
   canonicalUrl,
   image,
