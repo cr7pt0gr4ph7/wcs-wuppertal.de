@@ -38,7 +38,7 @@ p {
     font-weight: 300;
 }
 
-p a {
+p a, form label a {
     color: inherit;
     font-weight: 700;
     text-decoration: underline;
@@ -47,7 +47,10 @@ p a {
     text-underline-offset: 2px;
 }
 
-p a:hover, p a:focus {
+p a:hover,
+p a:focus,
+form label a:hover,
+form label a:focus {
     text-decoration: underline;
     text-decoration-color: var(--primary-color);
     text-decoration-thickness: auto;

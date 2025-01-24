@@ -10,10 +10,155 @@ import "../styles/section.css";
     </a>
   </h2>
   <p>
-    Du hast noch weitere Fragen? Dann <!--schreib uns hier eine Nachricht, oder-->
+    Du hast noch weitere Fragen? Dann schreib uns hier eine Nachricht, oder
     kontaktier uns unter <a
       href="mailto:info@wcs-wuppertal.de"
       data-obfuscation="0">info@wcs-wuppertal.de</a
     >!
   </p>
+  <form
+    id="contact-form"
+    action="https://docs.google.com/forms/d/e/1FAIpQLScC1UEa94oo2ktWdU8MMVrlETKB9OHOo6byN5okyWr7rM_3jw/formResponse"
+  >
+    <label for="email" hidden
+      >Deine E-Mail Adresse<sup><abbr title="Pflichtfeld">*</abbr></sup></label
+    >
+    <input
+      id="email"
+      type="email"
+      name="emailAddress"
+      placeholder="Deine E-Mail Adresse*"
+      required
+    />
+    <label for="email" hidden
+      >Deine Nachricht<sup><abbr title="Pflichtfeld">*</abbr></sup></label
+    >
+    <textarea
+      id="body"
+      name="entry.1201078651"
+      placeholder="Was möchtest Du wissen? Wie können wir Dir weiterhelfen?*"
+      required></textarea>
+    <div class="checkbox">
+      <input
+        id="privacy-consent"
+        type="checkbox"
+        name="entry.1791131986"
+        value="Mit der Übermittlung des Formulars stimme ich der Datenschutzerklärung (https://wcs-wuppertal.de/datenschutz) sowie der Verarbeitung meiner Anfrage über Google Forms zu"
+        required
+      /><label for="privacy-consent">
+        Mit der Übermittlung des Formulars stimme ich der <a
+          href="https://wcs-wuppertal.de/datenschutz">Datenschutzerklärung</a
+        > sowie der Verarbeitung meiner Anfrage über Google Forms zu<sup
+          ><abbr title="Pflichtfeld">*</abbr></sup
+        ></label
+      >
+    </div>
+    <input type="hidden" name="entry.1791131986_sentinel" value="" />
+    <button type="submit" name="submit" value="Submit"
+      >Anfrage abschicken</button
+    >
+  </form>
 </section>
+
+<style>
+  form {
+    font-size: 1.25rem;
+    line-height: 2.25rem;
+    font-weight: 300;
+    margin-top: 2rem;
+  }
+
+  label {
+    font-weight: 450;
+  }
+
+  .checkbox,
+  input[type="email"],
+  textarea {
+    width: 100%;
+    max-width: 950px;
+    display: block;
+  }
+
+  input[type="email"],
+  button[type="submit"],
+  textarea {
+    color: var(--form-field-color);
+    background: var(--form-field-background);
+    border: var(--form-field-border);
+    border-radius: var(--form-field-border-radius);
+    padding: 1.1rem;
+    font-size: 1.3rem;
+    font-family: inherit;
+    margin-bottom: 1.5rem;
+  }
+
+  .checkbox {
+    margin-bottom: 1.5rem;
+  }
+
+  button[type="submit"] {
+    appearance: none;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  input[type="email"]:focus,
+  input[type="checkbox"]:focus,
+  button[type="submit"]:focus,
+  textarea:focus {
+    background-color: var(--form-field-background-focus);
+    outline: var(--form-field-border-focus);
+    outline-offset: 0px;
+  }
+
+  input[type="email"]::placeholder,
+  textarea::placeholder {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 1.3rem;
+  }
+
+  button[type="submit"] {
+    font-weight: 450;
+    font-size: 1.3rem;
+  }
+
+  input[type="checkbox"] {
+    margin: 0;
+    padding: 0;
+    margin-right: 0.3rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    appearance: none;
+    color: var(--form-field-color);
+    background-color: var(--form-field-background);
+    border: var(--form-field-border);
+    border-radius: 3px;
+    --form-check-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
+  }
+
+  input[type="checkbox"]:checked {
+    background-image: var(--form-check-image);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .checkbox label {
+    font-weight: 200;
+    font-size: 1.3rem;
+  }
+
+  form .checkbox label a {
+    font-weight: 400;
+  }
+
+  .checkbox:hover input[type="checkbox"]:not(:focus) {
+    background-color: var(--form-field-background-hover);
+    border-color: var(--form-field-background-hover);
+    outline: none;
+  }
+</style>

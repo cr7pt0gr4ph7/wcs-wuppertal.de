@@ -8,8 +8,10 @@
 
     /* Table on dark background */
     --secondary-background: #080808;
-    --secondary-border: #0d0d0d;
     --secondary-background-hover: #181818;
+    --secondary-border: #0d0d0d;
+    --secondary-border-hover: #0f0f0f;
+    --secondary-border-focus: #ffffff;
     --secondary-color: #b3b3b3;
     --secondary-color-highlight: #e3e3e3;
     --secondary-color-hover: #f3f3f3;
@@ -29,6 +31,17 @@
     --navcard-overlay-hidden: rgba(0, 0, 0, 0.0);
     --navcard-overlay-visible: rgba(0, 0, 0, 0.8);
     --navcard-color: var(--primary-color);
+
+    /* Forms */
+    --form-field-color: var(--secondary-color);
+    --form-field-background: var(--secondary-background);
+    --form-field-background-hover: var(--secondary-background-hover);
+    --form-field-background-focus: #181818;
+    --form-field-border: var(--form-field-border-width) solid var(--secondary-border);
+    --form-field-border-hover: var(--form-field-border-width) solid var(--secondary-border-hover);
+    --form-field-border-focus: var(--form-field-border-width) solid var(--secondary-border-focus);
+    --form-field-border-width: 1px;
+    --form-field-border-radius: 8px;
 
     /* Table */
     --table-background: var(--secondary-background);
