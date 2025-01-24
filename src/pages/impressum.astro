@@ -5,19 +5,6 @@ import Imprint from "../content/Imprint.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout>
-  <div id="container">
-    <header>
-      <Hero title="Impressum" subtitle="" />
-    </header>
-    <main class="content max-width-container">
-      <div
-        id="main"
-        style="position: relative; bottom: 110px; width: 0px; height: 0px;"
-      >
-      </div>
-      <Imprint />
-    </main>
-  </div>
-  <Footer />
+<Layout title="Impressum">
+  <Imprint />
 </Layout>
