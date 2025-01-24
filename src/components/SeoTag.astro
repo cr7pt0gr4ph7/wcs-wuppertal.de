@@ -1,14 +1,25 @@
 ---
+import { JsonLdRaw } from "./JsonLd";
+
 interface Props {
   title?: string;
+  name?: string;
   generator?: string;
   pageTitle?: string;
   siteTitle?: string;
+  siteTagline?: string;
+  siteDescription?: string;
   author?: {
     name?: string;
     twitter?: string;
+    type?: "Organization" | "Person" | string;
+    url?: string;
   };
+  isHomepageOrAbout?: boolean;
+  links?: string;
   locale?: string;
+  logo?: string;
+  type?: "BlogPosting" | "CreativeWork" | "WebPage" | string;
   description?: string;
   canonicalUrl?: string;
   image?: {
@@ -18,11 +29,14 @@ interface Props {
     alt?: string;
   };
   publishingDate?: Date;
+  modificationDate?: Date;
   pagination?: {
     prev?: string;
     next?: string;
   };
   social?: {
+    name?: string;
+    links?: string[];
     facebook?: {
       admins?: string;
       publisher?: string;
@@ -43,27 +57,113 @@ interface Props {
   };
 }
 
-/*
-<script type="application/ld+json">
-  {{ seo_tag.json_ld | jsonify }}
-</script>
-*/
-
 const {
   title,
   generator,
+  name: pageName,
   pageTitle,
+  type: pageType,
   siteTitle,
   author,
+  isHomepageOrAbout,
+  links,
   locale,
+  logo,
   description,
   canonicalUrl,
   image,
   publishingDate,
+  modificationDate,
   pagination,
   social,
   verification,
 } = Astro.props;
+
+const validEntityTypes = ["BlogPosting", "CreativeWork", "WebPage"];
+const validAuthorTypes = ["Organization", "Person"];
+
+const name =
+  pageName ?? (!isHomepageOrAbout ? undefined : (social?.name ?? siteTitle));
+
+const jsonData = {
+  "@type": "",
+  name: name,
+  description: description,
+  url: canonicalUrl,
+  headline: pageTitle,
+  dateModified: modificationDate ?? publishingDate,
+  datePublished: publishingDate,
+  sameAs: links ?? (isHomepageOrAbout ? social?.links : undefined),
+  logo: logo,
+  type: pageType,
+  get author() {
+    if (!author?.name) {
+      // No author specified
+      return undefined;
+    }
+
+    if (
+      author.type &&
+      !validAuthorTypes.some((validType) => validType == author.type)
+    ) {
+      // Author type is invalid
+      return undefined;
+    }
+
+    return {
+      "@type": author.type ?? "Person",
+      name: author.name,
+      url: author.url,
+    };
+  },
+  get image() {
+    if (!image?.src) {
+      // No image specified
+      return undefined;
+    }
+
+    if (!image.width && !image.height && !image.alt) {
+      // Use shorthand if only path is specified
+      return image.src;
+    }
+
+    return {
+      "@type": "ImageObject",
+      src: image.src,
+      width: image.width,
+      height: image.height,
+      alt: image.alt,
+    };
+  },
+  get publisher() {
+    if (!logo) {
+      return undefined;
+    }
+
+    return {
+      "@type": "Organization",
+      logo: {
+        "@type": "ImageObject",
+        url: logo,
+      },
+      name: author?.name,
+    };
+  },
+  get mainEntityOfPage() {
+    if (
+      !pageType ||
+      !canonicalUrl ||
+      !validEntityTypes.some((validType) => validType == pageType)
+    ) {
+      return undefined;
+    }
+
+    return {
+      "@type": "WebPage",
+      "@id": canonicalUrl,
+    };
+  },
+};
 ---
 
 {title && <title>{title}</title>}
@@ -193,3 +293,5 @@ const {
     <meta name="facebook-domain-verification" content={verification.facebook} />
   )
 }
+
+<script type="application/ld+json" set:html={JsonLdRaw(jsonData, undefined)} />

@@ -14,6 +14,7 @@
     "@iconify-json/material-symbols": "^1.2.12",
     "astro": "^5.1.5",
     "astro-icon": "^1.1.5",
-    "astro-mail-obfuscation": "^2.3.4"
+    "astro-mail-obfuscation": "^2.3.4",
+    "schema-dts": "^1.1.2"
   }
 }
