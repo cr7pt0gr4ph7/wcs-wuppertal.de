@@ -198,7 +198,7 @@ const formatDateTime = (date: Date) => {
     color: inherit;
     font-weight: 700;
     text-decoration: underline;
-    text-decoration-color: var(--table-color);
+    text-decoration-color: var(--table-color-underline);
     text-decoration-thickness: 1px;
     text-underline-offset: 2px;
   }
@@ -206,6 +206,7 @@ const formatDateTime = (date: Date) => {
   .table a:hover,
   .table a:focus {
     text-decoration: underline;
+    text-decoration-color: var(--table-color);
     text-decoration-thickness: auto;
     text-underline-offset: auto;
   }
