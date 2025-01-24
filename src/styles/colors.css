@@ -33,8 +33,9 @@
     /* Table */
     --table-background: var(--secondary-background);
     --table-background-hover: var(--secondary-background-hover);
-    --table-border: 1px solid var(--secondary-border);
-    --table-border-hover: 1px solid var(--secondary-border);
+    --table-border: var(--table-border-width) solid var(--secondary-border);
+    --table-border-hover: var(--table-border-width) solid var(--secondary-border);
+    --table-border-width: 1px;
     --table-border-radius: 5px;
     --table-color: var(--secondary-color);
     --table-color-highlight: var(--secondary-color-highlight);

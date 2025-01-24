@@ -1,5 +1,4 @@
 ---
-import { Icon } from "astro-icon/components";
 import { getCollection, type InferEntrySchema } from "astro:content";
 
 type ItemType = keyof InferEntrySchema<"calendar">["type"];
@@ -22,15 +21,15 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
 });
 
 const myDateFormat = new Intl.DateTimeFormat("de-DE", {
-    month: "2-digit",
-    day: "2-digit",
-    year: "numeric"
-  });
+  month: "2-digit",
+  day: "2-digit",
+  year: "numeric",
+});
 
-  const myTimeFormat = new Intl.DateTimeFormat("de-DE", {
-    hour: "2-digit",
-    minute: "2-digit"
-  });
+const myTimeFormat = new Intl.DateTimeFormat("de-DE", {
+  hour: "2-digit",
+  minute: "2-digit",
+});
 
 const formatDate = (date: Date) => {
   return myDateFormat.format(date);
@@ -50,7 +49,7 @@ const formatDateTime = (date: Date) => {
           a.data.date == b.data.date ? 0 : a.data.date < b.data.date ? -1 : 1,
         )
         .map((entry) => {
-          if (entry.data.children) {
+          if (entry.data.children || entry.data.groups) {
             return (
               <div class="tr-parent">
                 <details>
@@ -70,7 +69,12 @@ const formatDateTime = (date: Date) => {
                       <span class="additional-dates">
                         {"+ "}
                         <span>
-                          {entry.data.children.length - 1}
+                          {(entry.data.children?.length ?? 0) +
+                            (entry.data.groups?.reduce(
+                              (acc, item) => acc + (item.children?.length ?? 0),
+                              0,
+                            ) ?? 0) -
+                            1}
                           <span class="if-large-viewport">
                             {" weitere Starttermine"}
                           </span>
@@ -91,7 +95,7 @@ const formatDateTime = (date: Date) => {
                 </details>
                 <div class="expander">
                   <div class="sub-table">
-                    {entry.data.children
+                    {(entry.data.children ?? [])
                       .toSorted((a, b) =>
                         a.date == b.date ? 0 : a.date < b.date ? -1 : 1,
                       )
@@ -124,6 +128,50 @@ const formatDateTime = (date: Date) => {
                           </div>
                         );
                       })}
+                    {(entry.data.groups ?? []).map((group) => {
+                      return (
+                        <div class="group">
+                          <div class="group-header tr">{group.title}</div>
+                          {(group.children ?? [])
+                            .toSorted((a, b) =>
+                              a.date == b.date ? 0 : a.date < b.date ? -1 : 1,
+                            )
+                            .map((child) => {
+                              return (
+                                <div class="tr">
+                                  <div class="td name">
+                                    {child.subtitle ? (
+                                      <>
+                                        <div class="title">{child.title}</div>
+                                        <div class="subtitle">
+                                          {child.subtitle}
+                                        </div>
+                                      </>
+                                    ) : (
+                                      child.title
+                                    )}
+                                  </div>
+                                  <div class="td dates">
+                                    {formatDateTime(child.date)}
+                                  </div>
+                                  <div class="td location">
+                                    {child.location}
+                                  </div>
+                                  <div class="td link">
+                                    {child.url ? (
+                                      <a href={child.url}>
+                                        {child.type.requires_registration
+                                          ? "Anmelden"
+                                          : "Mehr Infos"}
+                                      </a>
+                                    ) : null}
+                                  </div>
+                                </div>
+                              );
+                            })}
+                        </div>
+                      );
+                    })}
                   </div>
                 </div>
               </div>
@@ -180,9 +228,45 @@ const formatDateTime = (date: Date) => {
 </style>
 
 <style>
+  .group-header {
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: 400;
+    /* /* margin-top: 0.75rem;
+    margin-bottom: 0.5rem; */
+
+    padding-top: calc((3rem - 1em) / 2);
+    padding-bottom: calc((3rem - 1em) / 2);
+    color: var(--primary-subdued);
+    /* padding-left: calc(2rem + var(--table-border-width)); */
+    display: none !important;
+  }
+
+  .group .tr {
+    /* padding-left: 3rem; */
+    font-size: 1.4rem;
+    padding-top: calc((3rem - 1.25em) / 2);
+    padding-bottom: calc((3rem - 1.25em) / 2);
+  }
+
+  .group {
+    margin-top: 0.125rem;
+    margin-bottom: 0.125rem;
+  }
+
+  .group .tr .name {
+    font-weight: 350;
+  }
+
+  .group .group-header + .tr .name {
+    font-weight: 500;
+  }
+
+  /* -- */
+
   details + .expander {
     display: none;
-    margin-bottom: .25rem;
+    margin-bottom: 0.25rem;
   }
 
   details[open] + .expander {
@@ -423,6 +507,8 @@ const formatDateTime = (date: Date) => {
     .expander,
     .extended,
     .sub-table,
+    .group,
+    .group-header,
     details,
     summary {
       grid-column: start / end;
