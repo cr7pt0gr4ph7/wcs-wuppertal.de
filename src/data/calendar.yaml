@@ -1,11 +1,11 @@
 - id: adtv-tanzschule-schaefer-koch-wcs-schnupperworkshop-2025-02-08
   title: »Valley Weekend Swing«
-  subtitle: WCS-Schnupperworkshop
+  subtitle: WCS-Schnupperworkshop + Party
   location: ADTV Tanzschule Schäfer-Koch
   date: 2025-02-08T19:00:00
   duration: 01:00:00
-  url: https://www.tanzschule-schaefer-koch.de/
-  type: { workshop: true, requires_registration: true }
+  url: https://www.facebook.com/events/1045576097172111
+  type: { workshop: true, requires_registration: false }
 
 - id: adtv-tanzschule-schaefer-koch-wcs-party-2025-02-08
   title: »Valley Weekend Swing«
@@ -13,7 +13,7 @@
   location: ADTV Tanzschule Schäfer-Koch
   date: 2025-02-08T19:00:00
   duration: 05:00:00
-  url: https://www.tanzschule-schaefer-koch.de/
+  url: https://www.facebook.com/events/1045576097172111
   type: { party: true, requires_registration: false }
 
 - id: adtv-tanzschule-schaefer-koch-wcs-level-1-und-2
