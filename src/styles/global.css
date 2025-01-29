@@ -38,6 +38,20 @@ p {
     font-weight: 300;
 }
 
+@media(max-width: 900px) {
+    p {
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+}
+
+@media(max-width: 600px) {
+    p {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+}
+
 p a, form label a {
     color: inherit;
     font-weight: 700;

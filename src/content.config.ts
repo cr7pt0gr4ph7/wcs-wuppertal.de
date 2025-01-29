@@ -41,8 +41,8 @@ const eventTypeSchema = z.object({
 });
 
 const eventBaseSchema = z.object({
-    title: z.string(),
-    subtitle: z.string().optional(),
+    title: z.string().transform((str) => str?.replace(/&shy;/g, "\u00AD")?.replace(/&zwsp;/g, "\u200B")),
+    subtitle: z.string().optional().transform((str) => str?.replace(/&shy;/g, "\u00AD")?.replace(/&zwsp;/g, "\u200B")),
     date: z.date(),
     time: z.string().time().optional(),
     duration: z.string().time(),

@@ -1,7 +1,7 @@
 ---
 slug: valley-weekend-swing-februar-2025
-title: »Valley Weekend Swing«
-subtitle: West Coast Swing-Party mit Schnupperworkshop
+title: »Val&shy;ley Week&shy;end Swing«
+subtitle: West Coast Swing-&zwsp;Par&shy;ty mit Schnup­&shy;per­&shy;work­&shy;shop
 location: ADTV Tanzschule Schäfer-Koch
 date: 2025-02-08T19:00:00
 duration: 01:00:00
