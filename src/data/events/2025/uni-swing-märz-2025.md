@@ -17,7 +17,7 @@ type:
 
 In Kooperation mit dem AStA-Wuppertal starten wir das neue Semester mit einer ordentlichen Party!
 
-***Räume***
+***Floors***
 
 Wir haben zwei separate Räume in den Räumlichkeiten des AStA zur Verfügung.
 
@@ -28,17 +28,23 @@ Wir haben zwei separate Räume in den Räumlichkeiten des AStA zur Verfügung.
 
 Die Workshops finden zeitlich versetzt statt, und können alle nacheinander besucht werden!
 
-- 18:00 (bis ca. 18:30) &mdash; _Salsa_-Workshop für Neueinsteiger in Raum 1<br>
-  _(in Raum 2 läuft währenddessen West Coast Swing-Musik)_
-- 18:30 (bis ca. 19:00) &mdash; _Bachata_-Workshop für Neueinsteiger in Raum 1<br>
-  _(in Raum 2 läuft währenddessen West Coast Swing-Musik)_
-- 19:00 (bis ca. 19:30) &mdash; _West Coast Swing_-Workshop für Neueinsteiger in Raum 2<br>
-  _(in Raum 1 läuft währenddessen Salsa/Bachata-Musik)_
-- 19:30 (bis 24:00+): _Salsa_/_Bachata_-Tanzparty in Raum 1 & _West Coast Swing_-Tanzparty in Raum 2
+- 18:00 // Salsa-Workshop für Neueinsteiger
+  _<small>(Workshop in Raum 1, in Raum 2 läuft währenddessen West Coast Swing-Musik)</small>_
+- 18:30 // Bachata-Workshop für Neueinsteiger
+  _<small>(Workshop in Raum 1, in Raum 2 läuft währenddessen West Coast Swing-Musik)</small>_
+- 19:00 // West Coast Swing-Workshop für Neueinsteiger
+  _<small>(Workshop in Raum 2, in Raum 1 läuft währenddessen Salsa/Bachata-Musik)</small>_
+- 19:30 (bis 24:00+) //<br>
+  Salsa/Bachata-Tanzparty in Raum 1<br>
+  West Coast Swing-Tanzparty in Raum 2
 
-**Brauche ich Vorkenntnisse _und/oder_ eine Tanzpartner\*in?**
+**Brauche ich Vorkenntnisse _<span class="thin">und/oder</span>_ eine Tanzpartner\*in?**
 
-Wie für West Coast Swing, Salsa & Bachata üblich werden bei Workshop und Party die Tanzpartner gewechselt. Ihr könnt daher sowohl einzeln als auch zu zweit oder gleich in einer größeren Gruppe kommen. Kommt vorbei, feiert mit und schnuppert in diese lässigen und zugleich vielfältigen Tänze rein!
+Weder noch! Die Workshops richten sich an alle &mdash; auch wenn Du z.B. noch _nie_ in deinem Leben getanzt hast bist du hier genau richtig.
+
+Außerdem werden wie für West Coast Swing, Salsa & Bachata üblich bei Workshop und Party die Tanzpartner gewechselt.
+Ihr könnt daher sowohl einzeln als auch zu zweit oder gleich in einer größeren Gruppe kommen.
+Kommt vorbei & feiert mit!
 
 ***Eintritt***
 
