@@ -13,6 +13,8 @@ type:
     requires_registration: false
 ---
 
+**Am Mittwoch, 19.03.25 ab 18:00 Uhr**
+
 In Kooperation mit dem AStA-Wuppertal starten wir das neue Semester mit einer ordentlichen Party!
 
 ***Zeitplan***

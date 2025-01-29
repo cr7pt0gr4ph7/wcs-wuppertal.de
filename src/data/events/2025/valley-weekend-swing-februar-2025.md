@@ -15,6 +15,8 @@ type:
     requires_registration: true
 ---
 
+**Am Samstag, 18.02.25 ab 19:00 Uhr**
+
 Wir blicken zurück auf (fast) ein Jahr West Coast Swing in Wuppertal - und das natürlich mit einer ordentlichen Party!
 
 **Zeitplan**
