@@ -81,6 +81,7 @@ const links = event.data.links
   }
 
   h4 {
+    margin-top: 2.5rem;
     font-size: 1.25rem;
   }
 
@@ -89,10 +90,23 @@ const links = event.data.links
     padding-left: 0;
   }
 
+  article li {
+      font-size: 1.25rem;
+      margin-bottom: .5rem;
+  }
+
   ul li a {
-    color: inherit;
-    font-weight: 500;
+    color: #eee;
+    font-weight: 400;
     text-underline-offset: 2px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #999;
+
+  }
+
+  ul li a:hover {
+    color: #fff;
+    text-decoration-color: #fff;
   }
 
   h2 {
