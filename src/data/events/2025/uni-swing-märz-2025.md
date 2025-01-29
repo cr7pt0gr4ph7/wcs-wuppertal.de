@@ -17,16 +17,26 @@ type:
 
 In Kooperation mit dem AStA-Wuppertal starten wir das neue Semester mit einer ordentlichen Party!
 
-***Zeitplan***
+***Räume***
 
 Wir haben zwei separate Räume in den Räumlichkeiten des AStA zur Verfügung.
-In **Raum 1** finden die Salsa- & Bachata-Workshops sowie die Salsa/Bachata-Tanzparty statt.
-In **Raum 2** findet der West Coast Swing-Workshop sowie die West Coast Swint-Tanzparty statt.
 
-**18:00** Anfänger-Workshop Salsa in Raum 1 _(in Raum 2 läuft währenddessen West Coast Swing-Musik)_<br>
-**18:30** Anfänger-Workshop Bachata in Raum 1 _(in Raum 2 läuft währenddessen West Coast Swing-Musik)_<br>
-**19:00** Anfänger-Workshop West Coast Swing in Raum 2 _(in Raum 1 läuft währenddessen Salsa/Bachata-Musik)_<br>
-**19:30** Salsa/Bachata-Tanzpart in Raum 1 & WCS-Tanzparty in Raum 2
+- In **Raum 1** finden die _Salsa_&ndash; & _Bachata_&ndash;Workshops sowie die _Salsa/Bachata_&ndash;Tanzparty statt.
+- In **Raum 2** findet der _West Coast Swing_&ndash;Workshop sowie die _West Coast Swing_&ndash;Tanzparty statt.
+
+***Zeitplan***
+
+Die Workshops finden zeitlich versetzt statt, und können alle nacheinander besucht werden!
+
+- 18:00 (bis ca. 18:30) &mdash; _Salsa_-Workshop für Neueinsteiger in Raum 1<br>
+  _(in Raum 2 läuft währenddessen West Coast Swing-Musik)_
+- 18:30 (bis ca. 19:00) &mdash; _Bachata_-Workshop für Neueinsteiger in Raum 1<br>
+  _(in Raum 2 läuft währenddessen West Coast Swing-Musik)_
+- 19:00 (bis ca. 19:30) &mdash; _West Coast Swing_-Workshop für Neueinsteiger in Raum 2<br>
+  _(in Raum 1 läuft währenddessen Salsa/Bachata-Musik)_
+- 19:30 (bis 24:00+): _Salsa_/_Bachata_-Tanzparty in Raum 1 & _West Coast Swing_-Tanzparty in Raum 2
+
+**Brauche ich Vorkenntnisse _und/oder_ eine Tanzpartner\*in?**
 
 Wie für West Coast Swing, Salsa & Bachata üblich werden bei Workshop und Party die Tanzpartner gewechselt. Ihr könnt daher sowohl einzeln als auch zu zweit oder gleich in einer größeren Gruppe kommen. Kommt vorbei, feiert mit und schnuppert in diese lässigen und zugleich vielfältigen Tänze rein!
 
