@@ -2,6 +2,8 @@
 import { getCollection, render } from "astro:content";
 import MinimalLayout from "../../layouts/MinimalLayout.astro";
 import "../../styles/section.css";
+import demoImage from "../../assets/parties-und-events.jpg";
+import { Picture } from "astro:assets";
 
 export async function getStaticPaths() {
   const events = await getCollection("events");
@@ -15,14 +17,64 @@ const { event } = Astro.props;
 const { Content } = await render(event);
 ---
 
-<MinimalLayout title={event.data.title} subtitle={event.data.subtitle} isHomepageOrAbout={false}>
-  <h2>{event.data.title}</h2>
-  <Content />
+<MinimalLayout
+  title={event.data.title}
+  subtitle={event.data.subtitle}
+  isHomepageOrAbout={false}
+>
+  <article>
+    {event.data.title && <h2>{event.data.title}</h2>}
+    {event.data.subtitle && <h3>{event.data.subtitle}</h3>}
+    <div class="image-container">
+      <Picture src={demoImage} alt="Party" />
+    </div>
+    <Content />
+  </article>
 </MinimalLayout>
 
 <style>
   h2 {
+    font-size: 6rem;
     margin-top: 1rem;
+    line-height: 1.25;
     color: #eee;
+  }
+
+  h3 {
+    font-size: 3rem;
+    font-weight: 100;
+  }
+
+  h2 + h3 {
+    margin-top: -2rem;
+    margin-bottom: 2.8rem;
+  }
+
+  .image-container {
+    max-width: min(100%, 500px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (min-width: 900px) {
+    .image-container {
+      float: right;
+      max-width: 50%;
+      max-height: none;
+      padding-left: 1rem;
+      margin-top: 0.5rem;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  article {
+    margin-bottom: 3rem;
+  }
+
+  @media (min-width: 900px) {
+    article {
+      margin-bottom: 15rem;
+    }
   }
 </style>

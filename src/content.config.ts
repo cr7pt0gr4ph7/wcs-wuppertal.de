@@ -52,6 +52,7 @@ const eventBaseSchema = z.object({
         facebook: z.string().optional(),
         instagram: z.string().optional(),
         community: z.string().optional(),
+        maps: z.string().optional(),
     }).optional(),
     url: z.string().optional(),
     type: eventTypeSchema,
@@ -73,7 +74,7 @@ const calendar = defineCollection({
 
 // Internal events
 const events = defineCollection({
-    loader: glob({ pattern: "**/*.md", base: "./src/data/events" }),
+    loader: glob({ pattern: ["**/*.md", "**/*.mdx"], base: "./src/data/events" }),
     schema: eventSchema
 });
 
