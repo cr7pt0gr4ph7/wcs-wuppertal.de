@@ -1034,6 +1034,11 @@ astro-mail-obfuscation@^2.3.4:
     globby "^14.0.2"
     p-limit "^6.1.0"
 
+astro-seo-schema@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/astro-seo-schema/-/astro-seo-schema-5.0.0.tgz#1b4e1860aa2e678a2f321998faa3e4f05795e113"
+  integrity sha512-rbP9BUxvqH4tdgG5VEYDcoAxUhVKv93TdHRQ5zbYUxee1TKAWsNcAG3nqavX83QTTGqU5anvikMcJZXWhGN9wg==
+
 astro@^5.1.5:
   version "5.1.5"
   resolved "https://registry.yarnpkg.com/astro/-/astro-5.1.5.tgz#97582eb8da13452a89dcea96f7dc70c560f30ccc"
