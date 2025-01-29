@@ -1,0 +1,28 @@
+---
+import { getCollection, render } from "astro:content";
+import MinimalLayout from "../../layouts/MinimalLayout.astro";
+import "../../styles/section.css";
+
+export async function getStaticPaths() {
+  const events = await getCollection("events");
+  const result = events.map((event) => ({
+    params: { event_id: event.id },
+    props: { event },
+  }));
+  return result;
+}
+const { event } = Astro.props;
+const { Content } = await render(event);
+---
+
+<MinimalLayout title={event.data.title} subtitle={event.data.subtitle} isHomepageOrAbout={false}>
+  <h2>{event.data.title}</h2>
+  <Content />
+</MinimalLayout>
+
+<style>
+  h2 {
+    margin-top: 1rem;
+    color: #eee;
+  }
+</style>

@@ -26,6 +26,11 @@
 }
 
 :root {
+    /* Minimal Header */
+    --minimal-header-color: #999999;
+    --minimal-header-underline: #282828;
+    --minimal-header-subdued: #303030;
+
     /* Navcards */
     --navcard-background: var(--secondary-inverted-background);
     --navcard-border: 1px solid #0f0f0f;

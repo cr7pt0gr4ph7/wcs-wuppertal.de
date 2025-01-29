@@ -1,0 +1,15 @@
+---
+import MinimalHeader from "../components/MinimalHeader.astro";
+import Layout from "./Layout.astro";
+
+interface Props {
+  title?: string;
+  subtitle?: string;
+  isHomepageOrAbout?: boolean;
+}
+---
+
+<Layout {...Astro.props}>
+  <MinimalHeader slot="header" />
+  <slot />
+</Layout>

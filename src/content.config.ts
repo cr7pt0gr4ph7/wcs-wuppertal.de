@@ -1,4 +1,4 @@
-import { file } from 'astro/loaders';
+import { file, glob } from 'astro/loaders';
 import { defineCollection, z } from 'astro:content';
 
 const eventTypes = [
@@ -65,9 +65,16 @@ const eventSchema = eventBaseSchema.extend({
     children: z.array(eventBaseSchema).optional()
 });
 
+// Internal and external events
 const calendar = defineCollection({
     loader: file("src/data/calendar.yaml"),
     schema: eventSchema
 });
 
-export const collections = { calendar }
+// Internal events
+const events = defineCollection({
+    loader: glob({ pattern: "**/*.md", base: "./src/data/events" }),
+    schema: eventSchema
+});
+
+export const collections = { calendar, events };
