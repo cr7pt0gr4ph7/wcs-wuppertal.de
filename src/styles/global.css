@@ -6,6 +6,11 @@ body {
     scroll-behavior: smooth;
 }
 
+html, body, p, h1, h2, h3 {
+    /* Avoid orphans, widows etc. */
+    text-wrap: pretty;
+}
+
 html {
     line-height: 1.25;
     font-size: 16px;

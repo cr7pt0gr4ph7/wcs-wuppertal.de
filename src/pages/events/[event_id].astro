@@ -15,6 +15,31 @@ export async function getStaticPaths() {
 }
 const { event } = Astro.props;
 const { Content } = await render(event);
+
+const linkTypes = [
+  { name: "Webseite", key: "homepage" },
+  { name: "Google Maps", key: "maps" },
+  { name: "Facebook", key: "facebook" },
+  { name: "Instagram", key: "instagram" },
+] as const;
+
+const links = event.data.links
+  ? linkTypes.flatMap((linkType) => {
+      if (!event.data.links) {
+        return [];
+      }
+      if (!event.data.links[linkType.key]) {
+        return [];
+      }
+      return [
+        {
+          name: linkType.name,
+          key: linkType.key,
+          url: event.data.links[linkType.key],
+        },
+      ];
+    })
+  : [];
 ---
 
 <MinimalLayout
@@ -29,10 +54,47 @@ const { Content } = await render(event);
       <Picture src={demoImage} alt="Party" />
     </div>
     <Content />
+    {
+      links && links.length > 0 ? (
+        <aside>
+          <h4>Links</h4>
+          <ul>
+            {links.map((link) => {
+              return (
+                <li>
+                  <a href={link.url}>{link.name}</a>
+                </li>
+              );
+            })}
+          </ul>
+        </aside>
+      ) : null
+    }
   </article>
 </MinimalLayout>
 
 <style>
+  article::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  ul li a {
+    color: inherit;
+    font-weight: 500;
+    text-underline-offset: 2px;
+  }
+
   h2 {
     font-size: 6rem;
     margin-top: 1rem;
