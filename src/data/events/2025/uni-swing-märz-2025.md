@@ -17,9 +17,21 @@ In Kooperation mit dem AStA-Wuppertal starten wir das neue Semester mit einer or
 
 ***Zeitplan***
 
-18:00 Anfänger-Workshop Salsa in Raum 1 (in Raum 2 läuft währenddessen West Coast Swing-Musik)<br>
-18:30 Anfänger-Workshop Bachata in Raum 1 (in Raum 2 läuft währenddessen West Coast Swing-Musik)<br>
-19:00 Anfänger-Workshop West Coast Swing in Raum 2 (in Raum 1 läuft währenddessen Salsa/Bachata-Musik)<br>
-19:30 Salsa/Bachata-Tanzpart in Raum 1 & WCS-Tanzparty in Raum 2
+Wir haben zwei separate Räume in den Räumlichkeiten des AStA zur Verfügung.
+In **Raum 1** finden die Salsa- & Bachata-Workshops sowie die Salsa/Bachata-Tanzparty statt.
+In **Raum 2** findet der West Coast Swing-Workshop sowie die West Coast Swint-Tanzparty statt.
+
+**18:00** Anfänger-Workshop Salsa in Raum 1 _(in Raum 2 läuft währenddessen West Coast Swing-Musik)_<br>
+**18:30** Anfänger-Workshop Bachata in Raum 1 _(in Raum 2 läuft währenddessen West Coast Swing-Musik)_<br>
+**19:00** Anfänger-Workshop West Coast Swing in Raum 2 _(in Raum 1 läuft währenddessen Salsa/Bachata-Musik)_<br>
+**19:30** Salsa/Bachata-Tanzpart in Raum 1 & WCS-Tanzparty in Raum 2
 
 Wie für West Coast Swing, Salsa & Bachata üblich werden bei Workshop und Party die Tanzpartner gewechselt. Ihr könnt daher sowohl einzeln als auch zu zweit oder gleich in einer größeren Gruppe kommen. Kommt vorbei, feiert mit und schnuppert in diese lässigen und zugleich vielfältigen Tänze rein!
+
+***Eintritt***
+
+Der Eintritt ist kostenlos!
+
+***Wer darf kommen?***
+
+Jeder, auch Nicht-Studenten :)
