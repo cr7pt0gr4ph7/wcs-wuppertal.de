@@ -84,7 +84,10 @@ const formatDateTime = (date: Date) => {
                     <div class="td location">{entry.data.location}</div>
                     <div class="td link">
                       {entry.data.url ? (
-                        entry.data.type.requires_registration ? (
+                        (types?.some(
+                          (eventType) =>
+                            entry.data.type[eventType]?.requires_registration,
+                        ) ?? false) ? (
                           <>
                             <a href={entry.data.url}>Anmelden</a>
                           </>
@@ -95,7 +98,10 @@ const formatDateTime = (date: Date) => {
                             <span>Keine Anmeldung erforderlich</span>
                           </>
                         )
-                      ) : entry.data.type.requires_registration ? (
+                      ) : (types?.some(
+                          (eventType) =>
+                            entry.data.type[eventType]?.requires_registration,
+                        ) ?? false) ? (
                         "Anmeldung erforderlich"
                       ) : (
                         <span>Keine Anmeldung erforderlich</span>
@@ -128,7 +134,11 @@ const formatDateTime = (date: Date) => {
                             <div class="td location">{child.location}</div>
                             <div class="td link">
                               {child.url ? (
-                                child.type.requires_registration ? (
+                                (types?.some(
+                                  (eventType) =>
+                                    child.type[eventType]
+                                      ?.requires_registration,
+                                ) ?? false) ? (
                                   <>
                                     <a href={child.url}>Anmelden</a>
                                   </>
@@ -139,7 +149,11 @@ const formatDateTime = (date: Date) => {
                                     <span>Keine Anmeldung erforderlich</span>
                                   </>
                                 )
-                              ) : child.type.requires_registration ? (
+                              ) : (types?.some(
+                                  (eventType) =>
+                                    child.type[eventType]
+                                      ?.requires_registration,
+                                ) ?? false) ? (
                                 "Anmeldung erforderlich"
                               ) : (
                                 <span>Keine Anmeldung erforderlich</span>
@@ -179,7 +193,11 @@ const formatDateTime = (date: Date) => {
                                   </div>
                                   <div class="td link">
                                     {child.url ? (
-                                      child.type.requires_registration ? (
+                                      (types?.some(
+                                        (eventType) =>
+                                          child.type[eventType]
+                                            ?.requires_registration,
+                                      ) ?? false) ? (
                                         <>
                                           <a href={child.url}>Anmelden</a>
                                         </>
@@ -192,7 +210,11 @@ const formatDateTime = (date: Date) => {
                                           </span>
                                         </>
                                       )
-                                    ) : child.type.requires_registration ? (
+                                    ) : (types?.some(
+                                        (eventType) =>
+                                          child.type[eventType]
+                                            ?.requires_registration,
+                                      ) ?? false) ? (
                                       "Anmeldung erforderlich"
                                     ) : (
                                       <span>Keine Anmeldung erforderlich</span>
@@ -226,7 +248,10 @@ const formatDateTime = (date: Date) => {
                 <div class="td location">{entry.data.location}</div>
                 <div class="td link">
                   {entry.data.url ? (
-                    entry.data.type.requires_registration ? (
+                    (types?.some(
+                      (eventType) =>
+                        entry.data.type[eventType]?.requires_registration,
+                    ) ?? false) ? (
                       <>
                         <a href={entry.data.url}>Anmelden</a>
                       </>
@@ -237,7 +262,10 @@ const formatDateTime = (date: Date) => {
                         <span>Keine Anmeldung erforderlich</span>
                       </>
                     )
-                  ) : entry.data.type.requires_registration ? (
+                  ) : (types?.some(
+                      (eventType) =>
+                        entry.data.type[eventType]?.requires_registration,
+                    ) ?? false) ? (
                     "Anmeldung erforderlich"
                   ) : (
                     <span>Keine Anmeldung erforderlich</span>
@@ -333,14 +361,13 @@ const formatDateTime = (date: Date) => {
     font-weight: 300;
     font-style: italic;
     font-size: 1rem;
-    line-height: calc(0.5*1.5*1.5rem);
+    line-height: calc(0.5 * 1.5 * 1.5rem);
     color: var(--secondary-subdued);
   }
 
   .tr:hover link span {
     color: #808080;
   }
-
 
   .table a:hover,
   .table a:focus {
