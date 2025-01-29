@@ -15,20 +15,32 @@ const { title = "", subtitle = "", isHomepageOrAbout = false } = Astro.props;
 ---
 
 <LayoutBase>
-  <SeoTag
-    slot="head"
-    locale="de-DE"
-    isHomepageOrAbout={isHomepageOrAbout}
-    title={title !== "" && subtitle !== "" ? title + " " + subtitle : title}
-    image={shareImage}
-    site={{
-      title: "WCS Wuppertal",
-      logo: new URL("/favicon.svg", Astro.site),
-      description:
-        "Stell dir vor, du könntest sofort auf all deine Lieblingsmusik tanzen – und dabei auch noch ganz viel Spaß haben, nette Leute kennenlernen und neue Verbindungen knüpfen. Klingt gut? Dann bist du bei West Coast Swing absolut richtig! Entstanden an der kalifornischen Westküste, ist der West Coast Swing mittlerweile über den Atlantik herübergeschwappt und hat sich auch in unseren Breiten eine stetig wachsende Fangemeinde gesichert. Diese trifft sich beinahe jede Woche zu Parties, Workshops und Festivals in Deutschland und Europa.",
-    }}
-    canonicalUrl={new URL(Astro.url.pathname, Astro.site)}
-  />
+  <Fragment slot="head">
+    <slot name="head" />
+    {
+      Astro.slots.has("seo-tag") ? (
+        <slot name="seo-tag" />
+      ) : (
+        <SeoTag
+          locale="de-DE"
+          isHomepageOrAbout={isHomepageOrAbout}
+          title={
+            title !== "" && subtitle !== "" ? title + " " + subtitle : title
+          }
+          image={shareImage}
+          site={{
+            title: "WCS Wuppertal",
+            logo: new URL("/favicon.svg", Astro.site),
+            description:
+              "Stell dir vor, du könntest sofort auf all deine Lieblingsmusik tanzen – und dabei auch noch ganz viel Spaß haben, nette Leute kennenlernen und neue Verbindungen knüpfen. Klingt gut? Dann bist du bei West Coast Swing absolut richtig! Entstanden an der kalifornischen Westküste, ist der West Coast Swing mittlerweile über den Atlantik herübergeschwappt und hat sich auch in unseren Breiten eine stetig wachsende Fangemeinde gesichert. Diese trifft sich beinahe jede Woche zu Parties, Workshops und Festivals in Deutschland und Europa.",
+          }}
+          canonicalUrl={new URL(Astro.url.pathname, Astro.site)}
+          disableJsonLd={Astro.slots.has("seo-json-ld")}
+        />
+      )
+    }
+    <slot name="seo-json-ld"/>
+  </Fragment>
   <div id="container">
     {
       Astro.slots.has("header") ? (

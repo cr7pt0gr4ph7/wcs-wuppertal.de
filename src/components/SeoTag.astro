@@ -4,6 +4,7 @@ import { JsonLdRaw } from "./JsonLd";
 type UrlLike = URL | string;
 
 interface Props {
+  disableJsonLd?: boolean;
   title?: string;
   name?: string;
   generator?: string;
@@ -63,6 +64,7 @@ interface Props {
 }
 
 const {
+  disableJsonLd = false,
   title: pageTitle,
   generator,
   name: pageName,
@@ -110,7 +112,9 @@ const title = (() => {
 })();
 
 const name =
-  pageName ?? pageTitle ?? (!isHomepageOrAbout ? undefined : (social?.name ?? siteTitle));
+  pageName ??
+  pageTitle ??
+  (!isHomepageOrAbout ? undefined : (social?.name ?? siteTitle));
 
 const jsonData = {
   "@type": pageType,
@@ -320,4 +324,12 @@ const jsonData = {
   )
 }
 
-<script type="application/ld+json" is:inline set:html={JsonLdRaw(jsonData, undefined)} />
+{
+  !disableJsonLd && (
+    <script
+      type="application/ld+json"
+      is:inline
+      set:html={JsonLdRaw(jsonData, undefined)}
+    />
+  )
+}
