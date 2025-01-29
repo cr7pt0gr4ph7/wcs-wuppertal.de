@@ -6,7 +6,12 @@ body {
     scroll-behavior: smooth;
 }
 
-html, body, p, h1, h2, h3 {
+html,
+body,
+p,
+h1,
+h2,
+h3 {
     /* Avoid orphans, widows etc. */
     text-wrap: pretty;
 }
@@ -32,32 +37,37 @@ a.implicit-link:active,
 a.implicit-link:visited,
 a.implicit-link:focus,
 a.implicit-link:focus-visible,
-a.implicit-link:focus-within  {
+a.implicit-link:focus-within {
     text-decoration: inherit;
     color: inherit;
 }
 
-p {
+p,
+article ul {
     font-size: 1.5rem;
     line-height: 2.25rem;
     font-weight: 300;
 }
 
 @media(max-width: 900px) {
-    p {
+    p,
+    article ul {
         font-size: 1.25rem;
         line-height: 2rem;
     }
 }
 
 @media(max-width: 600px) {
-    p {
+
+    p,
+    article ul {
         font-size: 1.25rem;
         line-height: 1.75rem;
     }
 }
 
-p a, form label a {
+p a,
+form label a {
     color: inherit;
     font-weight: 700;
     text-decoration: underline;
@@ -82,7 +92,7 @@ h3 {
     margin-bottom: 1rem;
 }
 
-.table ~ h3 {
+.table~h3 {
     margin-top: 5rem;
 }
 
