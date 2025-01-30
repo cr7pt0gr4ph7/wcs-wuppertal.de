@@ -10,21 +10,20 @@ interface Props {
 
 const { title, href, image } = Astro.props;
 
+const targetDensities: `${number}x`[] = ["1x", "2x"];
+
 const optimizedImage = await getImage({
   src: image,
-  densities: ["1x", "2x"],
-  widths: [320, 640],
+  densities: targetDensities,
+  widths: [640, 1200],
 });
-
-const optimizedImageWide = await getImage({
-  src: image,
-  widths: [950],
-});
-
-optimizedImage.src
 ---
 
-<a class="nav-card" href={href} style={`--bg-image: ${toImageSet(optimizedImage, ["1x", "2x"])}`}>
+<a
+  class="nav-card"
+  href={href}
+  style={`--bg-image: ${toImageSet(optimizedImage, targetDensities)}`}
+>
   <div class="nav-card-background"></div>
   <div class="nav-card-title"><span>{title}</span></div>
 </a>
