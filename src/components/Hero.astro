@@ -1,24 +1,36 @@
 ---
-import heroImage from "../assets/eric-nopanen-3skLpaOBlMw-unsplash.jpg";
+import { getImage } from "astro:assets";
+import defaultImage from "../assets/eric-nopanen-3skLpaOBlMw-unsplash.jpg";
+import { toImageSet } from "../utils/images";
 
 interface Props {
   title: string;
   subtitle: string;
+  image?: ImageMetadata;
 }
 
-const { title, subtitle } = Astro.props;
+const { title, subtitle, image = defaultImage } = Astro.props;
+
+const targetDensities: `${number}x`[] = ["1x", "2x"];
+
+const optimizedImage = await getImage({
+  src: image,
+  densities: targetDensities,
+  widths: [1280, 1920],
+});
 ---
 
-<div class="hero" style={"--hero-bg-image: url(" + heroImage.src + ");"}>
+<div
+  class="hero"
+  style={`--hero-bg-image: ${toImageSet(optimizedImage, targetDensities)};`}>
   <a class="implicit-link" href="#main">
-    <div class="hero-content">
-      <h1>
-        <div class="line-one">{title}</div>
-        <div class="line-two">{subtitle}</div>
-      </h1>
-    </div>
-    <div class="hero-fadeout"></div>
-  </a>
+  <div class="hero-content">
+    <h1>
+      <div class="line-one">{title}</div>
+      <div class="line-two">{subtitle}</div>
+    </h1>
+  </div>
+  <div class="hero-fadeout"></div>
 </div>
 
 <style>
