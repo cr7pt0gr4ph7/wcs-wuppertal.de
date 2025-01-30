@@ -1,8 +1,30 @@
 ---
+import { getImage } from "astro:assets";
+import { toImageSet } from "../utils/images";
+
+interface Props {
+  title: string;
+  href: string;
+  image: ImageMetadata;
+}
+
 const { title, href, image } = Astro.props;
+
+const optimizedImage = await getImage({
+  src: image,
+  densities: ["1x", "2x"],
+  widths: [320, 640],
+});
+
+const optimizedImageWide = await getImage({
+  src: image,
+  widths: [950],
+});
+
+optimizedImage.src
 ---
 
-<a class="nav-card" href={href} style={"--bg-image: url(" + image + ")"}>
+<a class="nav-card" href={href} style={`--bg-image: ${toImageSet(optimizedImage, ["1x", "2x"])}`}>
   <div class="nav-card-background"></div>
   <div class="nav-card-title"><span>{title}</span></div>
 </a>
