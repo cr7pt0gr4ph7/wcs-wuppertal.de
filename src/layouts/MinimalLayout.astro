@@ -9,7 +9,7 @@ interface Props {
 }
 ---
 
-<Layout {...Astro.props}>
+<Layout {...Astro.props} hasSeoTag={Astro.slots.has("seo-tag")}>
   {Astro.slots.has("head") && <slot name="head" slot="head" />}
   {Astro.slots.has("seo-tag") && <slot name="seo-tag" slot="seo-tag" />}
   {Astro.slots.has("seo-json-ld") && <slot name="seo-json-ld" slot="seo-json-ld" />}

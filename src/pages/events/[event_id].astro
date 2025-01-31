@@ -44,16 +44,18 @@ const links = event.data.links
   : [];
 
 const { title, subtitle, description } = event.data;
+
+const titleAndSubtitle = subtitle ? title + ": " + subtitle : title;
 ---
 
-<MinimalLayout title={title} subtitle={subtitle} isHomepageOrAbout={false}>
+<MinimalLayout title={titleAndSubtitle} isHomepageOrAbout={false}>
   <Schema
     slot="seo-json-ld"
     item={{
       url: "/events/" + event.id + "/",
       "@context": "https://schema.org",
       "@type": "Event",
-      name: subtitle ? title + ": " + subtitle : title,
+      name: titleAndSubtitle,
       description: description,
       image: demoImage.src,
       startDate: event.data.date.toString(),

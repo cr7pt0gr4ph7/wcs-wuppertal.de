@@ -9,6 +9,7 @@ interface Props {
   title?: string;
   subtitle?: string;
   isHomepageOrAbout?: boolean;
+  hasSeoTag?: boolean;
 }
 
 const { title = "", subtitle = "", isHomepageOrAbout = false } = Astro.props;
@@ -18,7 +19,7 @@ const { title = "", subtitle = "", isHomepageOrAbout = false } = Astro.props;
   <Fragment slot="head">
     <slot name="head" />
     {
-      Astro.slots.has("seo-tag") ? (
+      (Astro.props.hasSeoTag ?? Astro.slots.has("seo-tag")) ? (
         <slot name="seo-tag" />
       ) : (
         <SeoTag
