@@ -1,7 +1,7 @@
 ---
 import { getCollection, type InferEntrySchema } from "astro:content";
-import { hyphenate as hyphenateDe } from "hyphen/de";
 import { Temporal } from "temporal-polyfill";
+import { hyphenate } from "../utils/hyphenate.ts";
 
 type ItemType = keyof InferEntrySchema<"calendar">["type"];
 
@@ -60,10 +60,10 @@ const formatDateTime = (
           Temporal.ZonedDateTime.compare(a.data.date, b.data.date),
         )
         .map((entry) => {
-          const title = hyphenateDe(entry.data.title);
+          const title = hyphenate(entry.data.title);
           const subtitle =
-            entry.data.subtitle && hyphenateDe(entry.data.subtitle);
-          const location = hyphenateDe(entry.data.location);
+            entry.data.subtitle && hyphenate(entry.data.subtitle);
+          const location = hyphenate(entry.data.location);
 
           if (entry.data.children || entry.data.groups) {
             return (
@@ -132,10 +132,10 @@ const formatDateTime = (
                         Temporal.ZonedDateTime.compare(a.date, b.date),
                       )
                       .map((child) => {
-                        const title = hyphenateDe(child.title);
+                        const title = hyphenate(child.title);
                         const subtitle =
-                          child.subtitle && hyphenateDe(child.subtitle);
-                        const location = hyphenateDe(child.location);
+                          child.subtitle && hyphenate(child.subtitle);
+                        const location = hyphenate(child.location);
 
                         return (
                           <div class="tr">
@@ -192,10 +192,10 @@ const formatDateTime = (
                               Temporal.ZonedDateTime.compare(a.date, b.date),
                             )
                             .map((child) => {
-                              const title = hyphenateDe(child.title);
+                              const title = hyphenate(child.title);
                               const subtitle =
-                                child.subtitle && hyphenateDe(child.subtitle);
-                              const location = hyphenateDe(child.location);
+                                child.subtitle && hyphenate(child.subtitle);
+                              const location = hyphenate(child.location);
 
                               return (
                                 <div class="tr">

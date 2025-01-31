@@ -2,12 +2,12 @@
 import { Schema } from "astro-seo-schema";
 import { Picture } from "astro:assets";
 import { getCollection, render } from "astro:content";
-import { hyphenate as hyphenateDe } from "hyphen/de";
 import type { Event, WithContext } from "schema-dts";
 import demoImage from "../../assets/parties-und-events.jpg";
 import NavCards from "../../content/NavCards.astro";
 import MinimalLayout from "../../layouts/MinimalLayout.astro";
 import "../../styles/section.css";
+import { hyphenate } from "../../utils/hyphenate.ts";
 
 export async function getStaticPaths() {
   const events = await getCollection("events");
@@ -88,8 +88,10 @@ const titleAndSubtitle = subtitle ? title + ": " + subtitle : title;
   />
 
   <article>
-    {title && <h2>{hyphenateDe(title)}</h2>}
-    {subtitle && <h3>{hyphenateDe(subtitle)}</h3>}
+    <header>
+      {title && <h2>{hyphenate(title)}</h2>}
+      {subtitle && <h3>{hyphenate(subtitle)}</h3>}
+    </header>
     <div class="image-container">
       <Picture src={demoImage} alt="Party" />
     </div>
@@ -113,6 +115,39 @@ const titleAndSubtitle = subtitle ? title + ": " + subtitle : title;
   </article>
   <NavCards />
 </MinimalLayout>
+
+<style is:global>
+  article h1 {
+    font-size: 2rem;
+    margin-block-start: 1.245rem;
+    margin-block-end: 1.245rem;
+  }
+  article h2 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+  }
+  article h3 {
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+  }
+  article h4 {
+    font-size: 1em;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+  }
+  article h5 {
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+  }
+  article h6 {
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+  }
+</style>
 
 <style>
   article::after {
@@ -149,7 +184,7 @@ const titleAndSubtitle = subtitle ? title + ": " + subtitle : title;
     text-decoration-color: #fff;
   }
 
-  h2 {
+  header h2 {
     font-size: 6rem;
     margin-top: 1rem;
     line-height: 1.25;
@@ -157,23 +192,23 @@ const titleAndSubtitle = subtitle ? title + ": " + subtitle : title;
   }
 
   @media (max-width: 900px) {
-    h2 {
+    header h2 {
       font-size: 4rem;
     }
   }
 
   @media (max-width: 300px) {
-    h2 {
+    header h2 {
       font-size: 3rem;
     }
   }
 
-  h3 {
+  header h3 {
     font-size: 3rem;
     font-weight: 100;
   }
 
-  h2 + h3 {
+  header h2 + h3 {
     margin-top: -2rem;
     margin-bottom: 2.8rem;
   }

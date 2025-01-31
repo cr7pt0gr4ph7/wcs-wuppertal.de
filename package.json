@@ -25,6 +25,7 @@
   },
   "packageManager": "yarn@4.6.0",
   "resolutions": {
+    "@types/hyphen@npm:^1": "patch:@types/hyphen@npm%3A1.6.7#~/.yarn/patches/@types-hyphen-npm-1.6.7-567770791c.patch",
     "devalue@npm:^5.1.1": "patch:devalue@npm%3A5.1.1#~/.yarn/patches/devalue-npm-5.1.1-56bf07adb2.patch",
     "hyphen@npm:^1.10.6": "patch:hyphen@npm%3A1.10.6#~/.yarn/patches/hyphen-npm-1.10.6-1bea686a59.patch",
     "temporal-polyfill@npm:^0.2.5": "patch:temporal-polyfill@npm%3A0.2.5#~/.yarn/patches/temporal-polyfill-npm-0.2.5-44d1689256.patch"

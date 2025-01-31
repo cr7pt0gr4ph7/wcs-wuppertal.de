@@ -1,0 +1,18 @@
+diff --git a/index.d.ts b/index.d.ts
+index 6cd9587e5374b807f8fdee3a07af585ab53a7cbe..2f26507b2ebbd4a310c44aa00d77eaca5a93f841 100644
+--- a/index.d.ts
++++ b/index.d.ts
+@@ -55,6 +55,13 @@ declare namespace hyphen {
+          */
+         debug?: boolean | undefined;
+ 
++        /**
++         * An `Array` of values with exceptions of hyphenation in words. Hard hyphen symbol
++         * `-` should be used to mark the position of further configured hyphenation symbol.
++         * @default []
++         */
++        exceptions?: string[] | undefined;
++
+         /**
+          * The value of the hyphen character that is inserted into the text.
+          * @default \u00AD

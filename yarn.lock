@@ -1024,10 +1024,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/hyphen@npm:^1":
+"@types/hyphen@npm:1.6.7":
   version: 1.6.7
   resolution: "@types/hyphen@npm:1.6.7"
   checksum: 10c0/b4854889f0a3348091cfb09a8920fad15eebc4b4b9b8d1c4f32fce0e0a2d3e15fde4b563015db4bf222fd8d28d7320fb5cc5eb05a8b17e085eaa5d66eac78be1
+  languageName: node
+  linkType: hard
+
+"@types/hyphen@patch:@types/hyphen@npm%3A1.6.7#~/.yarn/patches/@types-hyphen-npm-1.6.7-567770791c.patch":
+  version: 1.6.7
+  resolution: "@types/hyphen@patch:@types/hyphen@npm%3A1.6.7#~/.yarn/patches/@types-hyphen-npm-1.6.7-567770791c.patch::version=1.6.7&hash=db1fe7"
+  checksum: 10c0/d7ad3a44ff46fa1bb0f9e76421b11f5d5aedaf1909f9c673027faa2c872f20d94ad5602cc105431e0d11c4ffc6a1dc7968ee01fa1d4fc8893b0d8a91ed0368e2
   languageName: node
   linkType: hard
 
