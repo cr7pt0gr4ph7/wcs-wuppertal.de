@@ -1,5 +1,6 @@
 import { file, glob } from 'astro/loaders';
 import { defineCollection, z } from 'astro:content';
+import { Temporal } from "temporal-polyfill";
 
 const eventTypes = [
     "festival",
@@ -43,9 +44,12 @@ const eventTypeSchema = z.object({
 const eventBaseSchema = z.object({
     title: z.string().transform((str) => str?.replace(/&shy;/g, "\u00AD")?.replace(/&zwsp;/g, "\u200B")),
     subtitle: z.string().optional().transform((str) => str?.replace(/&shy;/g, "\u00AD")?.replace(/&zwsp;/g, "\u200B")),
-    date: z.date(),
-    time: z.string().time().optional(),
-    duration: z.string().time(),
+    // Astro's YAML parser automatically turns things that look like dates into Date instances
+    // date: z.string().datetime().transform((str) => Temporal.PlainDateTime.from(str).toZonedDateTime("Europe/Berlin")),
+    // endDate: z.string().datetime().transform((str) => Temporal.PlainDateTime.from(str).toZonedDateTime("Europe/Berlin")).optional(),
+    date: z.date().transform((date) => Temporal.Instant.from(date.toISOString()).toZonedDateTimeISO("Europe/Berlin")),
+    endDate: z.date().transform((date) => Temporal.Instant.from(date.toISOString()).toZonedDateTimeISO("Europe/Berlin")).optional(),
+    duration: z.string().time().transform((str) => Temporal.PlainTime.from(str).since(new (Temporal.PlainTime)())),
     location: z.string(),
     links: z.object({
         homepage: z.string().optional(),
@@ -58,18 +62,31 @@ const eventBaseSchema = z.object({
     type: eventTypeSchema,
 });
 
+const withEndDate = <T extends typeof eventBaseSchema>(schema: T) => schema.transform((arg) => {
+    return {
+        endDate: arg.date.add(arg.duration),
+        ...arg
+    }
+});
+
 const eventSchema = eventBaseSchema.extend({
     groups: z.array(z.object({
         title: z.string(),
-        children: z.array(eventBaseSchema).optional()
+        children: z.array(withEndDate(eventBaseSchema)).optional()
     })).optional(),
-    children: z.array(eventBaseSchema).optional()
+    children: z.array(withEndDate(eventBaseSchema)).optional()
+}).transform((arg) => {
+    return {
+        endDate: arg.date.add(arg.duration),
+        ...arg
+    }
 });
 
 // Internal and external events
 const calendar = defineCollection({
     loader: file("src/data/calendar.yaml"),
-    schema: eventSchema
+    schema: eventSchema,
+
 });
 
 // Internal events

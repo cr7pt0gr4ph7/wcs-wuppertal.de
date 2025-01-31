@@ -5,6 +5,7 @@ dist/
 .astro/
 
 # dependencies
+.yarn/install-state.gz
 node_modules/
 
 # logs

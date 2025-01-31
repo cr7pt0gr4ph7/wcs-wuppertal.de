@@ -1,5 +1,6 @@
 ---
 import { getCollection, type InferEntrySchema } from "astro:content";
+import { Temporal } from "temporal-polyfill";
 
 type ItemType = keyof InferEntrySchema<"calendar">["type"];
 
@@ -20,23 +21,32 @@ const entries = await getCollection("calendar", ({ data: { type } }) => {
   );
 });
 
-const myDateFormat = new Intl.DateTimeFormat("de-DE", {
+const myDateFormatOpts: Intl.DateTimeFormatOptions = {
   month: "2-digit",
   day: "2-digit",
   year: "numeric",
-});
-
-const myTimeFormat = new Intl.DateTimeFormat("de-DE", {
-  hour: "2-digit",
-  minute: "2-digit",
-});
-
-const formatDate = (date: Date) => {
-  return myDateFormat.format(date);
 };
 
-const formatDateTime = (date: Date) => {
-  return myDateFormat.format(date) + " " + myTimeFormat.format(date) + " Uhr";
+const myTimeFormatOpts: Intl.DateTimeFormatOptions = {
+  hour: "2-digit",
+  minute: "2-digit",
+};
+
+const formatDate = (
+  date: Temporal.PlainDate | Temporal.PlainDateTime | Temporal.ZonedDateTime,
+) => {
+  return date.toLocaleString("de-DE", myDateFormatOpts);
+};
+
+const formatDateTime = (
+  date: Temporal.PlainDateTime | Temporal.ZonedDateTime,
+) => {
+  return (
+    date.toLocaleString("de-DE", myDateFormatOpts) +
+    " " +
+    date.toLocaleString("de-DE", myTimeFormatOpts) +
+    " Uhr"
+  );
 };
 ---
 
@@ -46,7 +56,7 @@ const formatDateTime = (date: Date) => {
     {
       entries
         .toSorted((a, b) =>
-          a.data.date == b.data.date ? 0 : a.data.date < b.data.date ? -1 : 1,
+          Temporal.ZonedDateTime.compare(a.data.date, b.data.date),
         )
         .map((entry) => {
           if (entry.data.children || entry.data.groups) {
@@ -113,7 +123,7 @@ const formatDateTime = (date: Date) => {
                   <div class="sub-table">
                     {(entry.data.children ?? [])
                       .toSorted((a, b) =>
-                        a.date == b.date ? 0 : a.date < b.date ? -1 : 1,
+                        Temporal.ZonedDateTime.compare(a.date, b.date),
                       )
                       .map((child) => {
                         return (
@@ -168,7 +178,7 @@ const formatDateTime = (date: Date) => {
                           <div class="group-header tr">{group.title}</div>
                           {(group.children ?? [])
                             .toSorted((a, b) =>
-                              a.date == b.date ? 0 : a.date < b.date ? -1 : 1,
+                              Temporal.ZonedDateTime.compare(a.date, b.date),
                             )
                             .map((child) => {
                               return (

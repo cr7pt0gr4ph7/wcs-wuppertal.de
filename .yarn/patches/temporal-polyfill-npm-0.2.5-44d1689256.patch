@@ -1,0 +1,13 @@
+diff --git a/chunks/classApi.js b/chunks/classApi.js
+index e45b6a82ae3b46e116990349bf345fa346e17391..4a3d2eafb7fab35411a47c3c0b7697a6f9eccf4a 100644
+--- a/chunks/classApi.js
++++ b/chunks/classApi.js
+@@ -372,7 +372,7 @@ const xn = {
+   weekOfYear: S,
+   yearOfWeek: c,
+   daysInWeek: d
+-}, eo = /*@__PURE__*/ Object.assign({}, Qn, Xn, $n, _n), to = /*@__PURE__*/ new WeakMap, no = /*@__PURE__*/ to.get.bind(to), oo = /*@__PURE__*/ to.set.bind(to), ro = {
++}, eo = /*@__PURE__*/ Object.assign({}, Qn, Xn, $n, _n), no = /*@__PURE__*/ (t) => t.__slots, oo = /*@__PURE__*/ (t, v) => { t.__slots = v; }, ro = {
+   ...createCalendarFieldMethods(Qn, [ L ]),
+   ...createCalendarFieldMethods(_n, []),
+   ...createCalendarFieldMethods(Xn, [ L, q ]),

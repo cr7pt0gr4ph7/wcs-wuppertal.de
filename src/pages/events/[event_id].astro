@@ -4,6 +4,8 @@ import MinimalLayout from "../../layouts/MinimalLayout.astro";
 import "../../styles/section.css";
 import demoImage from "../../assets/parties-und-events.jpg";
 import { Picture } from "astro:assets";
+import { Schema } from "astro-seo-schema";
+import type { WithContext, Event } from "schema-dts";
 
 export async function getStaticPaths() {
   const events = await getCollection("events");
@@ -40,16 +42,43 @@ const links = event.data.links
       ];
     })
   : [];
+
+const { title, subtitle } = event.data;
 ---
 
-<MinimalLayout
-  title={event.data.title}
-  subtitle={event.data.subtitle}
-  isHomepageOrAbout={false}
->
+<MinimalLayout title={title} subtitle={subtitle} isHomepageOrAbout={false}>
+  <Schema
+    slot="seo-json-ld"
+    item={{
+      "@context": "https://schema.org",
+      "@type": "Event",
+      name: subtitle ? title + ": " + subtitle : title,
+      startDate: event.data.date.toString(),
+      endDate: event.data.endDate?.toString(),
+      eventAttendanceMode: "OfflineEventAttendanceMode",
+      location: {
+        "@type": "Place",
+        name: event.data.location,
+        // address: {
+        //   "@type": "PostalAddress",
+        //   streetAddress: "100 West Snickerpark Dr",
+        //   addressLocality: "Snickertown",
+        //   postalCode: "19019",
+        //   addressRegion: "PA",
+        //   addressCountry: "US",
+        // },
+      },
+      organizer: {
+        "@type": "Organization",
+        name: "WCS Wuppertal",
+        url: "https://wcs-wuppertal.de",
+      },
+    } satisfies WithContext<Event>}
+  />
+
   <article>
-    {event.data.title && <h2>{event.data.title}</h2>}
-    {event.data.subtitle && <h3>{event.data.subtitle}</h3>}
+    {title && <h2>{title}</h2>}
+    {subtitle && <h3>{subtitle}</h3>}
     <div class="image-container">
       <Picture src={demoImage} alt="Party" />
     </div>
@@ -91,8 +120,8 @@ const links = event.data.links
   }
 
   article li {
-      font-size: 1.25rem;
-      margin-bottom: .5rem;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
   }
 
   ul li a {
@@ -101,7 +130,6 @@ const links = event.data.links
     text-underline-offset: 2px;
     text-decoration-thickness: 2px;
     text-decoration-color: #999;
-
   }
 
   ul li a:hover {
@@ -150,6 +178,7 @@ const links = event.data.links
       max-width: 50%;
       max-height: none;
       padding-left: 1rem;
+      padding-bottom: 2rem;
       margin-top: 0.5rem;
       margin-left: 0;
       margin-right: 0;
