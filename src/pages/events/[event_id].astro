@@ -59,14 +59,17 @@ const { title, subtitle } = event.data;
       location: {
         "@type": "Place",
         name: event.data.location,
-        // address: {
-        //   "@type": "PostalAddress",
-        //   streetAddress: "100 West Snickerpark Dr",
-        //   addressLocality: "Snickertown",
-        //   postalCode: "19019",
-        //   addressRegion: "PA",
-        //   addressCountry: "US",
-        // },
+        address: event.data.address
+          ? {
+              "@type": "PostalAddress",
+              name: event.data.address.name,
+              streetAddress: event.data.address.street,
+              addressLocality: event.data.address.city,
+              postalCode: event.data.address.postalCode,
+              addressCountry: event.data.address.countryCode,
+              url: event.data.address.url,
+            }
+          : undefined,
       },
       organizer: {
         "@type": "Organization",

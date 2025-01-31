@@ -3,12 +3,18 @@ slug: valley-weekend-swing-februar-2025
 title: »Val&shy;ley Week&shy;end Swing«
 subtitle: West Coast Swing-&zwsp;Par&shy;ty mit Schnup­&shy;per­&shy;work­&shy;shop
 location: ADTV Tanzschule Schäfer-Koch
+address:
+  streetAddress: Laurentiusstr. 27
+  city: Wuppertal
+  postalCode: "42103"
+  countryCode: DE
+  url: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 date: 2025-02-08T19:00:00
 duration: 01:00:00
 links:
     homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/events-erwachsene-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=74987&cHash=ed5060cf8079f17a2faf20eedea9626f
     facebook: https://www.facebook.com/events/1045576097172111
-    maps: https://maps.app.goo.gl/fTRuV4hcapj9Pjs18
+    maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 type:
     party: { requires_registration: true }
     workshop: { requires_registration: false }

@@ -51,6 +51,14 @@ const eventBaseSchema = z.object({
     endDate: z.date().transform((date) => Temporal.Instant.from(date.toISOString()).toZonedDateTimeISO("Europe/Berlin")).optional(),
     duration: z.string().time().transform((str) => Temporal.PlainTime.from(str).since(new (Temporal.PlainTime)())),
     location: z.string(),
+    address: z.object({
+        name: z.string().optional(),
+        street: z.string().optional(),
+        city: z.string().optional(),
+        postalCode: z.string().optional(),
+        countryCode: z.string().optional(),
+        url: z.string().optional()
+    }).optional(),
     links: z.object({
         homepage: z.string().optional(),
         facebook: z.string().optional(),
