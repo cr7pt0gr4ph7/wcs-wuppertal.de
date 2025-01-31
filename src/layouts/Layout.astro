@@ -3,6 +3,7 @@ import shareImage from "../assets/kurse-und-workshops.jpg";
 import Footer from "../components/Footer.astro";
 import Hero from "../components/Hero.astro";
 import SeoTag from "../components/SeoTag.astro";
+import NavCards from "../content/NavCards.astro";
 import LayoutBase from "./LayoutBase.astro";
 
 interface Props {
@@ -40,7 +41,7 @@ const { title = "", subtitle = "", isHomepageOrAbout = false } = Astro.props;
         />
       )
     }
-    <slot name="seo-json-ld"/>
+    <slot name="seo-json-ld" />
   </Fragment>
   <div id="container">
     {
@@ -63,6 +64,13 @@ const { title = "", subtitle = "", isHomepageOrAbout = false } = Astro.props;
       >
       </div>
       <slot />
+      {
+        Astro.slots.has("related-links") ? (
+          <slot name="related-links" />
+        ) : (
+          <NavCards />
+        )
+      }
     </main>
   </div>
   {Astro.slots.has("footer") ? <slot name="footer" /> : <Footer />}
