@@ -6,6 +6,9 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   site: "https://wcs-wuppertal.de",
   integrations: [mailObfuscation(), icon()],
+  build: {
+    format: 'directory'
+  },
   experimental: {
     responsiveImages: true
   },
