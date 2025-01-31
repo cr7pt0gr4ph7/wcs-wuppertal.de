@@ -50,6 +50,7 @@ const { title, subtitle, description } = event.data;
   <Schema
     slot="seo-json-ld"
     item={{
+      url: "/events/" + event.id + "/",
       "@context": "https://schema.org",
       "@type": "Event",
       name: subtitle ? title + ": " + subtitle : title,
