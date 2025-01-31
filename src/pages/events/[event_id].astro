@@ -43,7 +43,7 @@ const links = event.data.links
     })
   : [];
 
-const { title, subtitle } = event.data;
+const { title, subtitle, description } = event.data;
 ---
 
 <MinimalLayout title={title} subtitle={subtitle} isHomepageOrAbout={false}>
@@ -53,8 +53,11 @@ const { title, subtitle } = event.data;
       "@context": "https://schema.org",
       "@type": "Event",
       name: subtitle ? title + ": " + subtitle : title,
+      description: description,
+      image: demoImage.src,
       startDate: event.data.date.toString(),
       endDate: event.data.endDate?.toString(),
+      eventStatus: "https://schema.org/EventScheduled",
       eventAttendanceMode: "OfflineEventAttendanceMode",
       location: {
         "@type": "Place",

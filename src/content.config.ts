@@ -67,6 +67,7 @@ const eventBaseSchema = z.object({
         maps: z.string().optional(),
     }).optional(),
     url: z.string().optional(),
+    description: z.string().optional(),
     type: eventTypeSchema,
 });
 
