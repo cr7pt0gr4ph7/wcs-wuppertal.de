@@ -1024,6 +1024,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/hyphen@npm:^1":
+  version: 1.6.7
+  resolution: "@types/hyphen@npm:1.6.7"
+  checksum: 10c0/b4854889f0a3348091cfb09a8920fad15eebc4b4b9b8d1c4f32fce0e0a2d3e15fde4b563015db4bf222fd8d28d7320fb5cc5eb05a8b17e085eaa5d66eac78be1
+  languageName: node
+  linkType: hard
+
 "@types/mdast@npm:^4.0.0":
   version: 4.0.4
   resolution: "@types/mdast@npm:4.0.4"
@@ -2701,6 +2708,20 @@ __metadata:
     agent-base: "npm:^7.1.2"
     debug: "npm:4"
   checksum: 10c0/f729219bc735edb621fa30e6e84e60ee5d00802b8247aac0d7b79b0bd6d4b3294737a337b93b86a0bd9e68099d031858a39260c976dc14cdbba238ba1f8779ac
+  languageName: node
+  linkType: hard
+
+"hyphen@npm:1.10.6":
+  version: 1.10.6
+  resolution: "hyphen@npm:1.10.6"
+  checksum: 10c0/a6f564160a32d5d1856bef0a97615e6078d91b0836903432114ab648b7305e9bc5c8a7358dfc087b268616b22221bd61c5c3e5c9a57243c857866aec789b9116
+  languageName: node
+  linkType: hard
+
+"hyphen@patch:hyphen@npm%3A1.10.6#~/.yarn/patches/hyphen-npm-1.10.6-1bea686a59.patch":
+  version: 1.10.6
+  resolution: "hyphen@patch:hyphen@npm%3A1.10.6#~/.yarn/patches/hyphen-npm-1.10.6-1bea686a59.patch::version=1.10.6&hash=410896"
+  checksum: 10c0/f9cdbdd34ab9989159ee6588ce8a4e1200498ced6352261d69e25adda10d6e7e1ce835895e30a68df9d5d90ef862b36f2dc96ddad2f0d1fc96decdd0b25b1ae1
   languageName: node
   linkType: hard
 
@@ -5576,10 +5597,12 @@ __metadata:
     "@fontsource-variable/roboto-condensed": "npm:^5.1.1"
     "@fontsource/lobster": "npm:^5.1.1"
     "@iconify-json/material-symbols": "npm:^1.2.14"
+    "@types/hyphen": "npm:^1"
     astro: "npm:^5.2.1"
     astro-icon: "npm:^1.1.5"
     astro-mail-obfuscation: "npm:^2.3.4"
     astro-seo-schema: "npm:^5.0.0"
+    hyphen: "npm:^1.10.6"
     schema-dts: "npm:^1.1.2"
     temporal-polyfill: "npm:^0.2.5"
     typescript: "npm:^5.7.3"

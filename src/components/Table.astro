@@ -1,5 +1,6 @@
 ---
 import { getCollection, type InferEntrySchema } from "astro:content";
+import { hyphenate as hyphenateDe } from "hyphen/de";
 import { Temporal } from "temporal-polyfill";
 
 type ItemType = keyof InferEntrySchema<"calendar">["type"];
@@ -59,19 +60,24 @@ const formatDateTime = (
           Temporal.ZonedDateTime.compare(a.data.date, b.data.date),
         )
         .map((entry) => {
+          const title = hyphenateDe(entry.data.title);
+          const subtitle =
+            entry.data.subtitle && hyphenateDe(entry.data.subtitle);
+          const location = hyphenateDe(entry.data.location);
+
           if (entry.data.children || entry.data.groups) {
             return (
               <div class="tr-parent">
                 <details>
                   <summary class="tr primary">
                     <div class="td name">
-                      {entry.data.subtitle ? (
+                      {subtitle ? (
                         <>
-                          <div class="title">{entry.data.title}</div>
-                          <div class="subtitle">{entry.data.subtitle}</div>
+                          <div class="title">{title}</div>
+                          <div class="subtitle">{subtitle}</div>
                         </>
                       ) : (
-                        entry.data.title
+                        title
                       )}
                     </div>
                     <div class="td dates">
@@ -91,7 +97,7 @@ const formatDateTime = (
                         </span>
                       </span>
                     </div>
-                    <div class="td location">{entry.data.location}</div>
+                    <div class="td location">{location}</div>
                     <div class="td link">
                       {entry.data.url ? (
                         (types?.some(
@@ -126,22 +132,27 @@ const formatDateTime = (
                         Temporal.ZonedDateTime.compare(a.date, b.date),
                       )
                       .map((child) => {
+                        const title = hyphenateDe(child.title);
+                        const subtitle =
+                          child.subtitle && hyphenateDe(child.subtitle);
+                        const location = hyphenateDe(child.location);
+
                         return (
                           <div class="tr">
                             <div class="td name">
-                              {child.subtitle ? (
+                              {subtitle ? (
                                 <>
-                                  <div class="title">{child.title}</div>
-                                  <div class="subtitle">{child.subtitle}</div>
+                                  <div class="title">{title}</div>
+                                  <div class="subtitle">{subtitle}</div>
                                 </>
                               ) : (
-                                child.title
+                                title
                               )}
                             </div>
                             <div class="td dates">
                               {formatDateTime(child.date)}
                             </div>
-                            <div class="td location">{child.location}</div>
+                            <div class="td location">{location}</div>
                             <div class="td link">
                               {child.url ? (
                                 (types?.some(
@@ -181,26 +192,27 @@ const formatDateTime = (
                               Temporal.ZonedDateTime.compare(a.date, b.date),
                             )
                             .map((child) => {
+                              const title = hyphenateDe(child.title);
+                              const subtitle =
+                                child.subtitle && hyphenateDe(child.subtitle);
+                              const location = hyphenateDe(child.location);
+
                               return (
                                 <div class="tr">
                                   <div class="td name">
-                                    {child.subtitle ? (
+                                    {subtitle ? (
                                       <>
-                                        <div class="title">{child.title}</div>
-                                        <div class="subtitle">
-                                          {child.subtitle}
-                                        </div>
+                                        <div class="title">{title}</div>
+                                        <div class="subtitle">{subtitle}</div>
                                       </>
                                     ) : (
-                                      child.title
+                                      title
                                     )}
                                   </div>
                                   <div class="td dates">
                                     {formatDateTime(child.date)}
                                   </div>
-                                  <div class="td location">
-                                    {child.location}
-                                  </div>
+                                  <div class="td location">{location}</div>
                                   <div class="td link">
                                     {child.url ? (
                                       (types?.some(

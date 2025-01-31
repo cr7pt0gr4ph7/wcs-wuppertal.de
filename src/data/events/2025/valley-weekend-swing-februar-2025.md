@@ -1,7 +1,7 @@
 ---
 slug: valley-weekend-swing-februar-2025
-title: »Val&shy;ley Week&shy;end Swing«
-subtitle: West Coast Swing-&zwsp;Par&shy;ty mit Schnup­&shy;per­&shy;work­&shy;shop
+title: »Valley Weekend Swing«
+subtitle: West Coast Swing-&zwsp;Party mit Schnupperworkshop
 location: ADTV Tanzschule Schäfer-Koch
 address:
   streetAddress: Laurentiusstr. 27
@@ -35,6 +35,13 @@ Wir blicken zurück auf (fast) ein Jahr West Coast Swing in Wuppertal - und das 
 Wie für West Coast Swing üblich werden bei Workshop und Party die Tanzpartner gewechselt. Ihr könnt daher sowohl einzeln als auch zu zweit oder gleich in einer größeren Gruppe kommen. Kommt vorbei, feiert mit und schnuppert in diesen lässigen und zugleich vielfältigen Tanz rein!
 
 **Eintritt & Anmeldung**
+
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
 
 Party 10 € pro Person<br>
 Schnupperworkshop (inkl. Party) 15€ pro Person<br>

@@ -1,0 +1,14 @@
+diff --git a/de/index.js b/de/index.js
+index dfb1621606bea4b05cf7cf11e581e0717923ae58..e58411cbfde332478700e1831d03d9a540e3ca15 100644
+--- a/de/index.js
++++ b/de/index.js
+@@ -1 +1,9 @@
++// Force Node CJS module export detection to recognize these named exports
++module.exports = {
++    hyphenate: null,
++    hyphenateHTML: null,
++    hyphenateHTMLSync: null,
++    hyphenateSync: null,
++    patterns: null
++};
+ module.exports = require("../de-1996/index.js");

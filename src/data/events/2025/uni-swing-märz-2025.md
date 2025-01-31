@@ -1,8 +1,8 @@
 ---
 slug: uni-swing-märz-2025
-title: »SaBaSwing« @ Uni Wup&shy;per&shy;­tal
-subtitle: Sal&shy;sa&zwsp;/&zwsp;Ba&shy;cha&shy;ta&zwsp;/&zwsp;West Coast Swing-&zwsp;Par&shy;ty auf 2 Floors
-location: AStA in der Men&shy;sa Griff&shy;len&shy;berg @ Uni Wup&shy;per&shy;tal
+title: »SaBaSwing« @ Uni Wupper­tal
+subtitle: Salsa&zwsp;/&zwsp;Bachata&zwsp;/&zwsp;West Coast Swing-&zwsp;Party auf 2 Floors
+location: AStA in der Mensa Grifflenberg @ Uni Wuppertal
 address:
   streetAddress: Max-Horkheimer-Str. 15
   city: Wuppertal

@@ -7,7 +7,7 @@ export default defineConfig({
   site: "https://wcs-wuppertal.de",
   integrations: [mailObfuscation(), icon()],
   build: {
-    format: 'directory'
+    format: 'directory',
   },
   experimental: {
     responsiveImages: true

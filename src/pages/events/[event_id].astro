@@ -1,11 +1,12 @@
 ---
+import { Schema } from "astro-seo-schema";
+import { Picture } from "astro:assets";
 import { getCollection, render } from "astro:content";
+import { hyphenate as hyphenateDe } from "hyphen/de";
+import type { Event, WithContext } from "schema-dts";
+import demoImage from "../../assets/parties-und-events.jpg";
 import MinimalLayout from "../../layouts/MinimalLayout.astro";
 import "../../styles/section.css";
-import demoImage from "../../assets/parties-und-events.jpg";
-import { Picture } from "astro:assets";
-import { Schema } from "astro-seo-schema";
-import type { WithContext, Event } from "schema-dts";
 
 export async function getStaticPaths() {
   const events = await getCollection("events");
@@ -86,8 +87,8 @@ const titleAndSubtitle = subtitle ? title + ": " + subtitle : title;
   />
 
   <article>
-    {title && <h2>{title}</h2>}
-    {subtitle && <h3>{subtitle}</h3>}
+    {title && <h2>{hyphenateDe(title)}</h2>}
+    {subtitle && <h3>{hyphenateDe(subtitle)}</h3>}
     <div class="image-container">
       <Picture src={demoImage} alt="Party" />
     </div>
