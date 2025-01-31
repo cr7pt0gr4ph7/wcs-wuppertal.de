@@ -10,7 +10,7 @@ address:
   countryCode: DE
   url: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 date: 2025-02-08T19:00:00
-duration: 01:00:00
+duration: 05:00:00
 links:
     homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/events-erwachsene-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=74987&cHash=ed5060cf8079f17a2faf20eedea9626f
     facebook: https://www.facebook.com/events/1045576097172111

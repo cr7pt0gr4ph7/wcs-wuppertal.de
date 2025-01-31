@@ -47,8 +47,8 @@ const eventBaseSchema = z.object({
     // Astro's YAML parser automatically turns things that look like dates into Date instances
     // date: z.string().datetime().transform((str) => Temporal.PlainDateTime.from(str).toZonedDateTime("Europe/Berlin")),
     // endDate: z.string().datetime().transform((str) => Temporal.PlainDateTime.from(str).toZonedDateTime("Europe/Berlin")).optional(),
-    date: z.date().transform((date) => Temporal.Instant.from(date.toISOString()).toZonedDateTimeISO("Europe/Berlin")),
-    endDate: z.date().transform((date) => Temporal.Instant.from(date.toISOString()).toZonedDateTimeISO("Europe/Berlin")).optional(),
+    date: z.date().transform((date) => Temporal.Instant.from(date.toISOString()).toZonedDateTimeISO("UTC").toPlainDateTime().toZonedDateTime("Europe/Berlin")),
+    endDate: z.date().transform((date) => Temporal.Instant.from(date.toISOString()).toZonedDateTimeISO("UTC").toPlainDateTime().toZonedDateTime("Europe/Berlin")).optional(),
     duration: z.string().time().transform((str) => Temporal.PlainTime.from(str).since(new (Temporal.PlainTime)())),
     location: z.string(),
     address: z.object({
