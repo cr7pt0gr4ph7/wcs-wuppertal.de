@@ -22,18 +22,18 @@ description: |
   Auf Floor 1 gibt es Salsa und Bachata, auf Floor 2 läuft den ganzen Abend eine West Coast Swing-Party.
 ---
 
-**Am Mittwoch, 19.03.25 ab 18:00 Uhr**
+## Am Mittwoch, 19.03.25 ab 18:00 Uhr
 
 In Kooperation mit dem AStA-Wuppertal starten wir das neue Semester mit einer ordentlichen Party!
 
-***Floors***
+## Floors
 
 Wir haben zwei separate Räume in den Räumlichkeiten des AStA zur Verfügung.
 
 - In **Raum 1** finden die _Salsa_&ndash; & _Bachata_&ndash;Workshops sowie die _Salsa/Bachata_&ndash;Tanzparty statt.
 - In **Raum 2** findet der _West Coast Swing_&ndash;Workshop sowie die _West Coast Swing_&ndash;Tanzparty statt.
 
-***Zeitplan***
+## Zeitplan
 
 Die Workshops finden zeitlich versetzt statt, und können alle nacheinander besucht werden!
 
@@ -47,7 +47,7 @@ Die Workshops finden zeitlich versetzt statt, und können alle nacheinander besu
   Salsa/Bachata-Tanzparty in Raum 1<br>
   West Coast Swing-Tanzparty in Raum 2
 
-**Brauche ich Vorkenntnisse _<span class="thin">und/oder</span>_ eine Tanzpartner\*in?**
+## Brauche ich Vorkenntnisse _<span class="thin">und/oder</span>_ eine Tanzpartner\*in?
 
 Weder noch! Die Workshops richten sich an alle &mdash; auch wenn Du z.B. noch _nie_ in deinem Leben getanzt hast bist du hier genau richtig.
 
@@ -55,10 +55,10 @@ Außerdem werden wie für West Coast Swing, Salsa & Bachata üblich bei Workshop
 Ihr könnt daher sowohl einzeln als auch zu zweit oder gleich in einer größeren Gruppe kommen.
 Kommt vorbei & feiert mit!
 
-***Eintritt***
+## Eintritt
 
 Der Eintritt ist kostenlos!
 
-***Wer darf kommen?***
+## Wer darf kommen?
 
 Jeder, auch Nicht-Studenten :)
