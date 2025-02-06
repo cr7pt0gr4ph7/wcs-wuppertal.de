@@ -4,7 +4,6 @@ import { Picture } from "astro:assets";
 import { getCollection, render } from "astro:content";
 import type { Event, WithContext } from "schema-dts";
 import demoImage from "../../assets/parties-und-events.jpg";
-import NavCards from "../../content/NavCards.astro";
 import MinimalLayout from "../../layouts/MinimalLayout.astro";
 import "../../styles/section.css";
 import { hyphenate } from "../../utils/hyphenate.ts";
@@ -113,7 +112,6 @@ const titleAndSubtitle = subtitle ? title + ": " + subtitle : title;
       ) : null
     }
   </article>
-  <NavCards />
 </MinimalLayout>
 
 <style is:global>
