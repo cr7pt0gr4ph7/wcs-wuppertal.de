@@ -7,6 +7,7 @@ import demoImage from "../../assets/parties-und-events.jpg";
 import MinimalLayout from "../../layouts/MinimalLayout.astro";
 import "../../styles/section.css";
 import { hyphenate } from "../../utils/hyphenate.ts";
+import EventFooter from "../../components/events/EventFooter.astro";
 
 export async function getStaticPaths() {
   const events = await getCollection("events");
@@ -18,31 +19,6 @@ export async function getStaticPaths() {
 }
 const { event } = Astro.props;
 const { Content } = await render(event);
-
-const linkTypes = [
-  { name: "Webseite", key: "homepage" },
-  { name: "Google Maps", key: "maps" },
-  { name: "Facebook", key: "facebook" },
-  { name: "Instagram", key: "instagram" },
-] as const;
-
-const links = event.data.links
-  ? linkTypes.flatMap((linkType) => {
-      if (!event.data.links) {
-        return [];
-      }
-      if (!event.data.links[linkType.key]) {
-        return [];
-      }
-      return [
-        {
-          name: linkType.name,
-          key: linkType.key,
-          url: event.data.links[linkType.key],
-        },
-      ];
-    })
-  : [];
 
 const { title, subtitle, description } = event.data;
 
@@ -95,22 +71,7 @@ const titleAndSubtitle = subtitle ? title + ": " + subtitle : title;
       <Picture src={demoImage} alt="Party" />
     </div>
     <Content />
-    {
-      links && links.length > 0 ? (
-        <aside>
-          <h4>Links</h4>
-          <ul>
-            {links.map((link) => {
-              return (
-                <li>
-                  <a href={link.url}>{link.name}</a>
-                </li>
-              );
-            })}
-          </ul>
-        </aside>
-      ) : null
-    }
+    <EventFooter event={event} />
   </article>
 </MinimalLayout>
 
@@ -121,27 +82,28 @@ const titleAndSubtitle = subtitle ? title + ": " + subtitle : title;
     margin-block-end: 1.245rem;
   }
   article h2 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
+    line-height: 1.25;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
   }
   article h3 {
-    font-size: 1.17em;
+    font-size: 1.17rem;
     margin-block-start: 1em;
     margin-block-end: 1em;
   }
   article h4 {
-    font-size: 1em;
+    font-size: 1rem;
     margin-block-start: 1.33em;
     margin-block-end: 1.33em;
   }
   article h5 {
-    font-size: 0.83em;
+    font-size: 0.83rem;
     margin-block-start: 1.67em;
     margin-block-end: 1.67em;
   }
   article h6 {
-    font-size: 0.67em;
+    font-size: 0.67rem;
     margin-block-start: 2.33em;
     margin-block-end: 2.33em;
   }
@@ -152,34 +114,6 @@ const titleAndSubtitle = subtitle ? title + ": " + subtitle : title;
     content: "";
     clear: both;
     display: block;
-  }
-
-  h4 {
-    margin-top: 2.5rem;
-    font-size: 1.25rem;
-  }
-
-  ul {
-    list-style: none;
-    padding-left: 0;
-  }
-
-  article li {
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-  }
-
-  ul li a {
-    color: #eee;
-    font-weight: 400;
-    text-underline-offset: 2px;
-    text-decoration-thickness: 2px;
-    text-decoration-color: #999;
-  }
-
-  ul li a:hover {
-    color: #fff;
-    text-decoration-color: #fff;
   }
 
   header h2 {

@@ -1,0 +1,152 @@
+---
+import type { AnyEntryMap } from "astro:content";
+
+interface Props {
+  event: AnyEntryMap["events"][string];
+}
+
+const {
+  event: {
+    data: { links: rawLinks, location, address },
+  },
+} = Astro.props;
+
+const linkTypes = [
+  { name: "Webseite", key: "homepage" },
+  { name: "Facebook", key: "facebook" },
+  { name: "Instagram", key: "instagram" },
+  { name: "Google Maps", key: "maps" },
+] as const;
+
+const links = rawLinks
+  ? linkTypes.flatMap((linkType) => {
+      if (!rawLinks) {
+        return [];
+      }
+      if (!rawLinks[linkType.key]) {
+        return [];
+      }
+      return [
+        {
+          name: linkType.name,
+          key: linkType.key,
+          url: rawLinks[linkType.key],
+        },
+      ];
+    })
+  : [];
+---
+
+<aside>
+  {
+    links && links.length > 0 ? (
+      <div class="links">
+        <h2>Links</h2>
+        <ul>
+          {links.map((link) => {
+            return (
+              <li>
+                <a href={link.url}>{link.name}</a>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    ) : null
+  }
+  {
+    address && (
+      <div class="address">
+        <h2>Veranstaltungsort</h2>
+        <p>
+          <strong>{address.name ?? location}</strong>
+          <br />
+          {address.street}
+          <br />
+          {address.postalCode} {address.city}
+          {rawLinks?.maps && (
+            <>
+              <br />
+              <a href={rawLinks.maps}>Google Maps</a>
+            </>
+          )}
+        </p>
+      </div>
+    )
+  }
+</aside>
+
+<style>
+  aside {
+    display: flex;
+    flex-direction: row;
+  }
+
+  aside > div {
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+
+  aside > div.links {
+    flex-grow: 1;
+    flex-basis: 320px;
+  }
+
+  aside > div.address {
+    flex-grow: 1;
+    flex-basis: calc(2 * 320px);
+  }
+
+  @media (max-width: 900px) {
+    aside > div.links,
+    aside > div.address {
+      flex-basis: 0;
+    }
+  }
+
+  @media (max-width: 600px) {
+    aside {
+      display: block;
+    }
+
+    aside > div.links,
+    aside > div.address {
+      flex-basis: none;
+    }
+  }
+
+  aside,
+  aside p,
+  aside ul,
+  aside ul li {
+    font-size: 1.25rem;
+  }
+
+  strong {
+    font-weight: 500;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+
+  ul li a,
+  a {
+    color: #eee;
+    font-weight: 400;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #999;
+  }
+
+  ul li a:hover,
+  a:hover {
+    color: #fff;
+    text-decoration-color: #fff;
+  }
+</style>

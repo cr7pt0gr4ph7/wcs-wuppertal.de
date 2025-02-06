@@ -4,7 +4,8 @@ title: »SaBaSwing« @ Uni Wupper­tal
 subtitle: Salsa&zwsp;/&zwsp;Bachata&zwsp;/&zwsp;West Coast Swing-&zwsp;Party auf 2 Floors
 location: AStA in der Mensa Grifflenberg @ Uni Wuppertal
 address:
-  streetAddress: Max-Horkheimer-Str. 15
+  name: AStA der Bergischen Universität Wuppertal @ Uni-Mensa Grifflenberg
+  street: Max-Horkheimer-Str. 15
   city: Wuppertal
   postalCode: "42119"
   countryCode: DE

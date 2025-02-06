@@ -4,7 +4,8 @@ title: »Valley Weekend Swing«
 subtitle: West Coast Swing-&zwsp;Party mit Schnupperworkshop
 location: ADTV Tanzschule Schäfer-Koch
 address:
-  streetAddress: Laurentiusstr. 27
+  name: ADTV Tanzschule Schäfer-Koch
+  street: Laurentiusstr. 27
   city: Wuppertal
   postalCode: "42103"
   countryCode: DE

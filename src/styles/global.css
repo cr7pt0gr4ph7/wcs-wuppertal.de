@@ -42,7 +42,8 @@ a.implicit-link:focus-within {
     color: inherit;
 }
 
-p, article ul {
+p,
+article ul {
     font-size: 1.5rem;
     line-height: 2.25rem;
     font-weight: 300;
@@ -58,11 +59,13 @@ article ul li {
     margin-bottom: .75rem;
 }
 
-p span.thin, article ul span.thin {
+p span.thin,
+article ul span.thin {
     font-weight: 200;
 }
 
 @media(max-width: 900px) {
+
     p,
     article ul {
         font-size: 1.25rem;
