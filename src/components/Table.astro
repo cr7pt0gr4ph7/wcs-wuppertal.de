@@ -545,7 +545,7 @@ const formatDateTime = (
     display: block;
     font-weight: 800;
     font-size: 14px;
-    line-height: 1rem;
+    line-height: 40px;
     margin-left: calc(-1 * var(--indent));
   }
 
@@ -568,6 +568,10 @@ const formatDateTime = (
     .if-large-viewport {
       display: inline;
     }
+  }
+
+  .link {
+    margin-top: 8px;
   }
 
   @media (min-width: 900px) {
@@ -599,6 +603,7 @@ const formatDateTime = (
     }
     .link {
       grid-column: link;
+      margin-top: 0;
     }
     .description {
       grid-column: start / end;
