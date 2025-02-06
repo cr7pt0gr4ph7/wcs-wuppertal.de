@@ -23,18 +23,18 @@ description:
     Wir blicken zurück auf (fast) ein Jahr West Coast Swing in Wuppertal - und das natürlich mit einer Party!
 ---
 
-**Am Samstag, 18.02.25 ab 19:00 Uhr**
+## Am Samstag, 08.02.25 ab 19:00 Uhr
 
 Wir blicken zurück auf (fast) ein Jahr West Coast Swing in Wuppertal - und das natürlich mit einer ordentlichen Party!
 
-**Zeitplan**
+## Zeitplan
 
 19:00 - 20:00 Uhr: WCS-Schnupperworkshop für Einsteiger (ohne Vorkenntnisse)<br>
 20:00 - 24:00 Uhr: WCS-Party
 
 Wie für West Coast Swing üblich werden bei Workshop und Party die Tanzpartner gewechselt. Ihr könnt daher sowohl einzeln als auch zu zweit oder gleich in einer größeren Gruppe kommen. Kommt vorbei, feiert mit und schnuppert in diesen lässigen und zugleich vielfältigen Tanz rein!
 
-**Eintritt & Anmeldung**
+## Eintritt & Anmeldung
 
 Party 10 € pro Person<br>
 Schnupperworkshop (inkl. Party) 15€ pro Person<br>
