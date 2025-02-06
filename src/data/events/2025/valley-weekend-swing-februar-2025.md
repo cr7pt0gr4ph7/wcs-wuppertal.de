@@ -36,13 +36,6 @@ Wie für West Coast Swing üblich werden bei Workshop und Party die Tanzpartner 
 
 **Eintritt & Anmeldung**
 
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
-
 Party 10 € pro Person<br>
 Schnupperworkshop (inkl. Party) 15€ pro Person<br>
 
