@@ -33,12 +33,15 @@ const optimizedImage = await getImage({
     color: inherit;
     text-decoration: none;
     display: block;
-    width: 320px;
-    height: 192px;
+    width: var(--navcard-width);
+    height: var(--navcard-height);
     position: relative;
     overflow: hidden;
     border-right: var(--navcard-border);
     border-bottom: var(--navcard-border);
+
+    --navcard-width: 320px;
+    --navcard-height: 192px;
   }
 
   .nav-card-background {
@@ -103,7 +106,8 @@ const optimizedImage = await getImage({
     background-color: var(--navcard-overlay-visible);
   }
 
-  @media (max-width: 950px) {
+  /* max-width: calc(var(--container-block-padding) * 2 + 3 * var(--navcard-width)) = 16 * 2 + 3 * 320px = 32 + 960 = 992 px */
+  @media (max-width: 1000px) {
     .nav-card {
       width: auto;
       margin-bottom: 16px;
