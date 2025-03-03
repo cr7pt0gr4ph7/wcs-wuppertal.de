@@ -58,11 +58,7 @@ const { title = "", subtitle = "", isHomepageOrAbout = false } = Astro.props;
       )
     }
     <main class="content max-width-container">
-      <div
-        id="main"
-        style="position: relative; bottom: 110px; width: 0px; height: 0px;"
-      >
-      </div>
+      <div id="main"></div>
       <slot />
       {
         Astro.slots.has("related-links") ? (
@@ -75,3 +71,22 @@ const { title = "", subtitle = "", isHomepageOrAbout = false } = Astro.props;
   </div>
   {Astro.slots.has("footer") ? <slot name="footer" /> : <Footer />}
 </LayoutBase>
+
+<style>
+  #main {
+    position: absolute;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+  }
+
+  @media (min-width: 600px) {
+    #main {
+      position: relative;
+      top: auto;
+      bottom: 110px;
+      width: 0px;
+      height: 0px;
+    }
+  }
+</style>
