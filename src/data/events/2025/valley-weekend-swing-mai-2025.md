@@ -24,7 +24,7 @@ description:
     Macht euch bereit für die nächste Ausgabe unserer beliebten West Coast Swing-Party!
 ---
 
-## Am Samstag, 08.02.25 ab 19:00 Uhr
+## Am Samstag, 10.05.25 ab 19:00 Uhr
 
 Macht euch bereit für die nächste Ausgabe unserer beliebten West Coast Swing-Party!
 
