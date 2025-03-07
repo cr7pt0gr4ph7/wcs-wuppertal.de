@@ -13,8 +13,8 @@ address:
 date: 2025-05-10T19:00:00
 duration: 05:00:00
 links:
-    # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/events-erwachsene-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=74987&cHash=ed5060cf8079f17a2faf20eedea9626f
-    # facebook: https://www.facebook.com/events/1045576097172111
+    homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/events-erwachsene-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=75786&cHash=755feaad219408d97dd826d88ed8bcf8
+    facebooK: https://www.facebook.com/events/1064681532344988/
     maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 type:
     party: { requires_registration: false }
