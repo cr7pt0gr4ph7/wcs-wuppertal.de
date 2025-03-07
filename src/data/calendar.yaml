@@ -137,7 +137,29 @@
       - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-05-27
         title: WCS Level 2
         location: ADTV Tanzschule Schäfer-Koch
-        date: 2025-05-27T16:30:00
+        date: 2025-05-27T20:05:00
+        duration: 01:00:00
+        links:
+          homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse
+          maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+        url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse
+        type: { regular_course: true, requires_registration: true }
+
+      - id: adtv-tanzschule-schaefer-koch--wcs-level-3--2025-04-06
+        title: WCS Level 3
+        location: ADTV Tanzschule Schäfer-Koch
+        date: 2025-04-06T17:45:00
+        duration: 01:00:00
+        links:
+          homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse
+          maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+        url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse
+        type: { regular_course: true, requires_registration: true }
+
+      - id: adtv-tanzschule-schaefer-koch--wcs-level-3--2025-05-25
+        title: WCS Level 3
+        location: ADTV Tanzschule Schäfer-Koch
+        date: 2025-05-25T17:45:00
         duration: 01:00:00
         links:
           homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse
@@ -179,6 +201,6 @@
   url: /events/valley-weekend-swing-mai-2025
   links:
     homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/events-erwachsene-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=75786&cHash=755feaad219408d97dd826d88ed8bcf8
-    # facebook:
+    facebook: https://www.facebook.com/events/1064681532344988/
     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
   type: { workshop: true, requires_registration: true }
