@@ -23,7 +23,7 @@ description: |
   Auf Floor 1 gibt es Salsa und Bachata, auf Floor 2 läuft den ganzen Abend eine West Coast Swing-Party.
 ---
 
-## Am Mittwoch, 19.03.25 ab 18:00 Uhr
+## Am Mittwoch, 19.03.25 ab 18:00 Uhr // Auch für Nicht-Studenten! // Eintritt frei
 
 In Kooperation mit dem AStA-Wuppertal starten wir das neue Semester mit einer ordentlichen Party!
 
