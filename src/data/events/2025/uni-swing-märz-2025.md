@@ -56,6 +56,12 @@ Außerdem werden wie für West Coast Swing, Salsa & Bachata üblich bei Workshop
 Ihr könnt daher sowohl einzeln als auch zu zweit oder gleich in einer größeren Gruppe kommen.
 Kommt vorbei & feiert mit!
 
+## Parken
+
+Die Bergische Universität Wuppertal verfügt über kostenlose Parkplätze in der Nähe.
+
+**Wichtiger Hinweis:** Bitte beachtet, dass die universitätseigenen Parkhäuser [um 22:30 Uhr schließen](https://dez5.uni-wuppertal.de/de/services/melden-und-verwalten/parken/))!
+
 ## Eintritt
 
 Der Eintritt ist kostenlos!
