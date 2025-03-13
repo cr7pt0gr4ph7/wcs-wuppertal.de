@@ -49,6 +49,58 @@ const formatDateTime = (
     " Uhr"
   );
 };
+
+type RowData = {
+  title: string;
+  subtitle?: string;
+  date: Temporal.ZonedDateTime;
+  location: string;
+  url?: string;
+  type: InferEntrySchema<"calendar">["type"];
+};
+
+const formatRow = (entry: RowData) => {
+  return (
+    <div class="tr primary">
+      <div class="td name">
+        {" "}
+        {entry.subtitle ? (
+          <>
+            <div class="title">{entry.title}</div>
+            <div class="subtitle">{entry.subtitle}</div>
+          </>
+        ) : (
+          entry.title
+        )}
+      </div>
+      <div class="td dates">{formatDateTime(entry.date)}</div>
+      <div class="td location">{entry.location}</div>
+      <div class="td link">
+        {entry.url ? (
+          (types?.some(
+            (eventType) => entry.type[eventType]?.requires_registration,
+          ) ?? false) ? (
+            <>
+              <a href={entry.url}>Anmelden</a>
+            </>
+          ) : (
+            <>
+              <a href={entry.url}>Mehr Infos</a>
+              {" | "}
+              <span>Keine Anmeldung erforderlich</span>
+            </>
+          )
+        ) : (types?.some(
+            (eventType) => entry.type[eventType]?.requires_registration,
+          ) ?? false) ? (
+          "Anmeldung erforderlich"
+        ) : (
+          <span>Keine Anmeldung erforderlich</span>
+        )}
+      </div>
+    </div>
+  );
+};
 ---
 
 <div class="table">
@@ -253,48 +305,7 @@ const formatDateTime = (
               </div>
             );
           } else {
-            return (
-              <div class="tr primary">
-                <div class="td name">
-                  {" "}
-                  {entry.data.subtitle ? (
-                    <>
-                      <div class="title">{entry.data.title}</div>
-                      <div class="subtitle">{entry.data.subtitle}</div>
-                    </>
-                  ) : (
-                    entry.data.title
-                  )}
-                </div>
-                <div class="td dates">{formatDateTime(entry.data.date)}</div>
-                <div class="td location">{entry.data.location}</div>
-                <div class="td link">
-                  {entry.data.url ? (
-                    (types?.some(
-                      (eventType) =>
-                        entry.data.type[eventType]?.requires_registration,
-                    ) ?? false) ? (
-                      <>
-                        <a href={entry.data.url}>Anmelden</a>
-                      </>
-                    ) : (
-                      <>
-                        <a href={entry.data.url}>Mehr Infos</a>
-                        {" | "}
-                        <span>Keine Anmeldung erforderlich</span>
-                      </>
-                    )
-                  ) : (types?.some(
-                      (eventType) =>
-                        entry.data.type[eventType]?.requires_registration,
-                    ) ?? false) ? (
-                    "Anmeldung erforderlich"
-                  ) : (
-                    <span>Keine Anmeldung erforderlich</span>
-                  )}
-                </div>
-              </div>
-            );
+            return formatRow(entry.data);
           }
         })
     }
