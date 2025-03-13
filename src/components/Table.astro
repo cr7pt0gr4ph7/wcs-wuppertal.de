@@ -59,55 +59,67 @@ type RowData = {
   type: InferEntrySchema<"calendar">["type"];
 };
 
+const columns = {
+  name: {
+    format: (entry: RowData) =>
+      entry.subtitle ? (
+        <div class="td name">
+          <div class="title">{hyphenate(entry.title)}</div>
+          <div class="subtitle">{hyphenate(entry.subtitle)}</div>
+        </div>
+      ) : (
+        <div class="td name">{hyphenate(entry.title)}</div>
+      ),
+  },
+  dates: {
+    format: (entry: RowData) => (
+      <div class="td dates">{formatDateTime(entry.date)}</div>
+    ),
+  },
+  location: {
+    format: (entry: RowData) => (
+      <div class="td location">{hyphenate(entry.location)}</div>
+    ),
+  },
+  link: {
+    format: (entry: RowData) => {
+      const registrationNeeded =
+        types?.some(
+          (eventType) => entry.type[eventType]?.requires_registration,
+        ) ?? false;
+
+      if (registrationNeeded && entry.url) {
+        return (
+          <div class="td link">
+            <a href={entry.url}>Anmelden</a>
+          </div>
+        );
+      } else if (registrationNeeded && !entry.url) {
+        return <div class="td link">{"Anmeldung erforderlich"}</div>;
+      } else {
+        return (
+          <div class="td link">
+            {entry.url && <a href={entry.url}>Mehr Infos</a>}
+            {entry.url && " | "}
+            <span>Keine Anmeldung erforderlich</span>
+          </div>
+        );
+      }
+    },
+  },
+} satisfies Record<string, { format: (entry: RowData) => any }>;
+
+const formatRowContent = (entry: RowData) => (
+  <>
+    {columns.name.format(entry)}
+    {columns.dates.format(entry)}
+    {columns.location.format(entry)}
+    {columns.link.format(entry)}
+  </>
+);
+
 const formatRow = (entry: RowData) => {
   return <div class="tr primary">{formatRowContent(entry)}</div>;
-};
-
-const formatRowContent = (entry: RowData) => {
-  const title = hyphenate(entry.title);
-  const subtitle = entry.subtitle && hyphenate(entry.subtitle);
-  const location = hyphenate(entry.location);
-
-  return (
-    <>
-      <div class="td name">
-        {" "}
-        {subtitle ? (
-          <>
-            <div class="title">{title}</div>
-            <div class="subtitle">{subtitle}</div>
-          </>
-        ) : (
-          title
-        )}
-      </div>
-      <div class="td dates">{formatDateTime(entry.date)}</div>
-      <div class="td location">{location}</div>
-      <div class="td link">
-        {entry.url ? (
-          (types?.some(
-            (eventType) => entry.type[eventType]?.requires_registration,
-          ) ?? false) ? (
-            <>
-              <a href={entry.url}>Anmelden</a>
-            </>
-          ) : (
-            <>
-              <a href={entry.url}>Mehr Infos</a>
-              {" | "}
-              <span>Keine Anmeldung erforderlich</span>
-            </>
-          )
-        ) : (types?.some(
-            (eventType) => entry.type[eventType]?.requires_registration,
-          ) ?? false) ? (
-          "Anmeldung erforderlich"
-        ) : (
-          <span>Keine Anmeldung erforderlich</span>
-        )}
-      </div>
-    </>
-  );
 };
 ---
 
