@@ -60,12 +60,16 @@ type RowData = {
 };
 
 const formatRow = (entry: RowData) => {
+  return <div class="tr primary">{formatRowContent(entry)}</div>;
+};
+
+const formatRowContent = (entry: RowData) => {
   const title = hyphenate(entry.title);
   const subtitle = entry.subtitle && hyphenate(entry.subtitle);
   const location = hyphenate(entry.location);
 
   return (
-    <div class="tr primary">
+    <>
       <div class="td name">
         {" "}
         {subtitle ? (
@@ -102,7 +106,7 @@ const formatRow = (entry: RowData) => {
           <span>Keine Anmeldung erforderlich</span>
         )}
       </div>
-    </div>
+    </>
   );
 };
 ---
