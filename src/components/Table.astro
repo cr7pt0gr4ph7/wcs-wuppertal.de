@@ -59,278 +59,296 @@ type RowData = {
   type: InferEntrySchema<"calendar">["type"];
 };
 
-const columns = {
-  name: {
-    format: (entry: RowData) =>
-      entry.subtitle ? (
-        <div class="td name">
-          <div class="title">{hyphenate(entry.title)}</div>
-          <div class="subtitle">{hyphenate(entry.subtitle)}</div>
-        </div>
-      ) : (
-        <div class="td name">{hyphenate(entry.title)}</div>
-      ),
-  },
-  dates: {
-    format: (entry: RowData) => (
-      <div class="td dates">{formatDateTime(entry.date)}</div>
-    ),
-  },
-  location: {
-    format: (entry: RowData) => (
-      <div class="td location">{hyphenate(entry.location)}</div>
-    ),
-  },
-  link: {
-    format: (entry: RowData) => {
-      const registrationNeeded =
-        types?.some(
-          (eventType) => entry.type[eventType]?.requires_registration,
-        ) ?? false;
-
-      if (registrationNeeded && entry.url) {
-        return (
-          <div class="td link">
-            <a href={entry.url}>Anmelden</a>
-          </div>
-        );
-      } else if (registrationNeeded && !entry.url) {
-        return <div class="td link">{"Anmeldung erforderlich"}</div>;
-      } else {
-        return (
-          <div class="td link">
-            {entry.url && <a href={entry.url}>Mehr Infos</a>}
-            {entry.url && " | "}
-            <span>Keine Anmeldung erforderlich</span>
-          </div>
-        );
-      }
-    },
-  },
-} satisfies Record<string, { format: (entry: RowData) => any }>;
-
-const formatRowContent = (entry: RowData) => (
-  <>
-    {columns.name.format(entry)}
-    {columns.dates.format(entry)}
-    {columns.location.format(entry)}
-    {columns.link.format(entry)}
-  </>
-);
-
-const formatRow = (entry: RowData) => {
-  return <div class="tr primary">{formatRowContent(entry)}</div>;
-};
+type Columns = Record<string, { format: (entry: RowData) => any }>;
 ---
 
-<div class="table">
-  <div class="thead"></div>
-  <div class="tbody">
-    {
-      entries
-        .toSorted((a, b) =>
-          Temporal.ZonedDateTime.compare(a.data.date, b.data.date),
-        )
-        .map((entry) => {
-          const title = hyphenate(entry.data.title);
-          const subtitle =
-            entry.data.subtitle && hyphenate(entry.data.subtitle);
-          const location = hyphenate(entry.data.location);
+{
+  (() => {
+    const columns = {
+      name: {
+        format: (entry: RowData) =>
+          entry.subtitle ? (
+            <div class="td name">
+              <div class="title">{hyphenate(entry.title)}</div>
+              <div class="subtitle">{hyphenate(entry.subtitle)}</div>
+            </div>
+          ) : (
+            <div class="td name">{hyphenate(entry.title)}</div>
+          ),
+      },
+      dates: {
+        format: (entry: RowData) => (
+          <div class="td dates">{formatDateTime(entry.date)}</div>
+        ),
+      },
+      location: {
+        format: (entry: RowData) => (
+          <div class="td location">{hyphenate(entry.location)}</div>
+        ),
+      },
+      link: {
+        format: (entry: RowData) => {
+          const registrationNeeded =
+            types?.some(
+              (eventType) => entry.type[eventType]?.requires_registration,
+            ) ?? false;
 
-          if (entry.data.children || entry.data.groups) {
+          if (registrationNeeded && entry.url) {
             return (
-              <div class="tr-parent">
-                <details>
-                  <summary class="tr primary">
-                    <div class="td name">
-                      {subtitle ? (
-                        <>
-                          <div class="title">{title}</div>
-                          <div class="subtitle">{subtitle}</div>
-                        </>
-                      ) : (
-                        title
-                      )}
-                    </div>
-                    <div class="td dates">
-                      {formatDate(entry.data.date)}{" "}
-                      <span class="additional-dates">
-                        {"+ "}
-                        <span>
-                          {(entry.data.children?.length ?? 0) +
-                            (entry.data.groups?.reduce(
-                              (acc, item) => acc + (item.children?.length ?? 0),
-                              0,
-                            ) ?? 0) -
-                            1}
-                          <span class="if-large-viewport">
-                            {" weitere Starttermine"}
+              <div class="td link">
+                <a href={entry.url}>Anmelden</a>
+              </div>
+            );
+          } else if (registrationNeeded && !entry.url) {
+            return <div class="td link">{"Anmeldung erforderlich"}</div>;
+          } else {
+            return (
+              <div class="td link">
+                {entry.url && <a href={entry.url}>Mehr Infos</a>}
+                {entry.url && " | "}
+                <span>Keine Anmeldung erforderlich</span>
+              </div>
+            );
+          }
+        },
+      },
+    } satisfies Columns;
+
+    const formatRowContent = (entry: RowData) => (
+      <>
+        {columns.name.format(entry)}
+        {columns.dates.format(entry)}
+        {columns.location.format(entry)}
+        {columns.link.format(entry)}
+      </>
+    );
+
+    const formatRow = (entry: RowData) => {
+      return <div class="tr primary">{formatRowContent(entry)}</div>;
+    };
+
+    return (
+      <div class="table">
+        <div class="thead" />
+        <div class="tbody">
+          {entries
+            .toSorted((a, b) =>
+              Temporal.ZonedDateTime.compare(a.data.date, b.data.date),
+            )
+            .map((entry) => {
+              const title = hyphenate(entry.data.title);
+              const subtitle =
+                entry.data.subtitle && hyphenate(entry.data.subtitle);
+              const location = hyphenate(entry.data.location);
+
+              if (entry.data.children || entry.data.groups) {
+                return (
+                  <div class="tr-parent">
+                    <details>
+                      <summary class="tr primary">
+                        <div class="td name">
+                          {subtitle ? (
+                            <>
+                              <div class="title">{title}</div>
+                              <div class="subtitle">{subtitle}</div>
+                            </>
+                          ) : (
+                            title
+                          )}
+                        </div>
+                        <div class="td dates">
+                          {formatDate(entry.data.date)}{" "}
+                          <span class="additional-dates">
+                            {"+ "}
+                            <span>
+                              {(entry.data.children?.length ?? 0) +
+                                (entry.data.groups?.reduce(
+                                  (acc, item) =>
+                                    acc + (item.children?.length ?? 0),
+                                  0,
+                                ) ?? 0) -
+                                1}
+                              <span class="if-large-viewport">
+                                {" weitere Starttermine"}
+                              </span>
+                            </span>
                           </span>
-                        </span>
-                      </span>
-                    </div>
-                    <div class="td location">{location}</div>
-                    <div class="td link">
-                      {entry.data.url ? (
-                        (types?.some(
-                          (eventType) =>
-                            entry.data.type[eventType]?.requires_registration,
-                        ) ?? false) ? (
-                          <>
-                            <a href={entry.data.url}>Anmelden</a>
-                          </>
-                        ) : (
-                          <>
-                            <a href={entry.data.url}>Mehr Infos</a>
-                            {" | "}
-                            <span>Keine Anmeldung erforderlich</span>
-                          </>
-                        )
-                      ) : (types?.some(
-                          (eventType) =>
-                            entry.data.type[eventType]?.requires_registration,
-                        ) ?? false) ? (
-                        "Anmeldung erforderlich"
-                      ) : (
-                        <span>Keine Anmeldung erforderlich</span>
-                      )}
-                    </div>
-                  </summary>
-                </details>
-                <div class="expander">
-                  <div class="sub-table">
-                    {(entry.data.children ?? [])
-                      .toSorted((a, b) =>
-                        Temporal.ZonedDateTime.compare(a.date, b.date),
-                      )
-                      .map((child) => {
-                        const title = hyphenate(child.title);
-                        const subtitle =
-                          child.subtitle && hyphenate(child.subtitle);
-                        const location = hyphenate(child.location);
-
-                        return (
-                          <div class="tr">
-                            <div class="td name">
-                              {subtitle ? (
-                                <>
-                                  <div class="title">{title}</div>
-                                  <div class="subtitle">{subtitle}</div>
-                                </>
-                              ) : (
-                                title
-                              )}
-                            </div>
-                            <div class="td dates">
-                              {formatDateTime(child.date)}
-                            </div>
-                            <div class="td location">{location}</div>
-                            <div class="td link">
-                              {child.url ? (
-                                (types?.some(
-                                  (eventType) =>
-                                    child.type[eventType]
-                                      ?.requires_registration,
-                                ) ?? false) ? (
-                                  <>
-                                    <a href={child.url}>Anmelden</a>
-                                  </>
-                                ) : (
-                                  <>
-                                    <a href={child.url}>Mehr Infos</a>
-                                    {" | "}
-                                    <span>Keine Anmeldung erforderlich</span>
-                                  </>
-                                )
-                              ) : (types?.some(
-                                  (eventType) =>
-                                    child.type[eventType]
-                                      ?.requires_registration,
-                                ) ?? false) ? (
-                                "Anmeldung erforderlich"
-                              ) : (
+                        </div>
+                        <div class="td location">{location}</div>
+                        <div class="td link">
+                          {entry.data.url ? (
+                            (types?.some(
+                              (eventType) =>
+                                entry.data.type[eventType]
+                                  ?.requires_registration,
+                            ) ?? false) ? (
+                              <>
+                                <a href={entry.data.url}>Anmelden</a>
+                              </>
+                            ) : (
+                              <>
+                                <a href={entry.data.url}>Mehr Infos</a>
+                                {" | "}
                                 <span>Keine Anmeldung erforderlich</span>
-                              )}
-                            </div>
-                          </div>
-                        );
-                      })}
-                    {(entry.data.groups ?? []).map((group) => {
-                      return (
-                        <div class="group">
-                          <div class="group-header tr">{group.title}</div>
-                          {(group.children ?? [])
-                            .toSorted((a, b) =>
-                              Temporal.ZonedDateTime.compare(a.date, b.date),
+                              </>
                             )
-                            .map((child) => {
-                              const title = hyphenate(child.title);
-                              const subtitle =
-                                child.subtitle && hyphenate(child.subtitle);
-                              const location = hyphenate(child.location);
+                          ) : (types?.some(
+                              (eventType) =>
+                                entry.data.type[eventType]
+                                  ?.requires_registration,
+                            ) ?? false) ? (
+                            "Anmeldung erforderlich"
+                          ) : (
+                            <span>Keine Anmeldung erforderlich</span>
+                          )}
+                        </div>
+                      </summary>
+                    </details>
+                    <div class="expander">
+                      <div class="sub-table">
+                        {(entry.data.children ?? [])
+                          .toSorted((a, b) =>
+                            Temporal.ZonedDateTime.compare(a.date, b.date),
+                          )
+                          .map((child) => {
+                            const title = hyphenate(child.title);
+                            const subtitle =
+                              child.subtitle && hyphenate(child.subtitle);
+                            const location = hyphenate(child.location);
 
-                              return (
-                                <div class="tr">
-                                  <div class="td name">
-                                    {subtitle ? (
+                            return (
+                              <div class="tr">
+                                <div class="td name">
+                                  {subtitle ? (
+                                    <>
+                                      <div class="title">{title}</div>
+                                      <div class="subtitle">{subtitle}</div>
+                                    </>
+                                  ) : (
+                                    title
+                                  )}
+                                </div>
+                                <div class="td dates">
+                                  {formatDateTime(child.date)}
+                                </div>
+                                <div class="td location">{location}</div>
+                                <div class="td link">
+                                  {child.url ? (
+                                    (types?.some(
+                                      (eventType) =>
+                                        child.type[eventType]
+                                          ?.requires_registration,
+                                    ) ?? false) ? (
                                       <>
-                                        <div class="title">{title}</div>
-                                        <div class="subtitle">{subtitle}</div>
+                                        <a href={child.url}>Anmelden</a>
                                       </>
                                     ) : (
-                                      title
-                                    )}
-                                  </div>
-                                  <div class="td dates">
-                                    {formatDateTime(child.date)}
-                                  </div>
-                                  <div class="td location">{location}</div>
-                                  <div class="td link">
-                                    {child.url ? (
-                                      (types?.some(
-                                        (eventType) =>
-                                          child.type[eventType]
-                                            ?.requires_registration,
-                                      ) ?? false) ? (
-                                        <>
-                                          <a href={child.url}>Anmelden</a>
-                                        </>
-                                      ) : (
-                                        <>
-                                          <a href={child.url}>Mehr Infos</a>
-                                          {" | "}
+                                      <>
+                                        <a href={child.url}>Mehr Infos</a>
+                                        {" | "}
+                                        <span>
+                                          Keine Anmeldung erforderlich
+                                        </span>
+                                      </>
+                                    )
+                                  ) : (types?.some(
+                                      (eventType) =>
+                                        child.type[eventType]
+                                          ?.requires_registration,
+                                    ) ?? false) ? (
+                                    "Anmeldung erforderlich"
+                                  ) : (
+                                    <span>Keine Anmeldung erforderlich</span>
+                                  )}
+                                </div>
+                              </div>
+                            );
+                          })}
+                        {(entry.data.groups ?? []).map((group) => {
+                          return (
+                            <div class="group">
+                              <div class="group-header tr">{group.title}</div>
+                              {(group.children ?? [])
+                                .toSorted((a, b) =>
+                                  Temporal.ZonedDateTime.compare(
+                                    a.date,
+                                    b.date,
+                                  ),
+                                )
+                                .map((child) => {
+                                  const title = hyphenate(child.title);
+                                  const subtitle =
+                                    child.subtitle && hyphenate(child.subtitle);
+                                  const location = hyphenate(child.location);
+
+                                  return (
+                                    <div class="tr">
+                                      <div class="td name">
+                                        {subtitle ? (
+                                          <>
+                                            <div class="title">{title}</div>
+                                            <div class="subtitle">
+                                              {subtitle}
+                                            </div>
+                                          </>
+                                        ) : (
+                                          title
+                                        )}
+                                      </div>
+                                      <div class="td dates">
+                                        {formatDateTime(child.date)}
+                                      </div>
+                                      <div class="td location">{location}</div>
+                                      <div class="td link">
+                                        {child.url ? (
+                                          (types?.some(
+                                            (eventType) =>
+                                              child.type[eventType]
+                                                ?.requires_registration,
+                                          ) ?? false) ? (
+                                            <>
+                                              <a href={child.url}>Anmelden</a>
+                                            </>
+                                          ) : (
+                                            <>
+                                              <a href={child.url}>Mehr Infos</a>
+                                              {" | "}
+                                              <span>
+                                                Keine Anmeldung erforderlich
+                                              </span>
+                                            </>
+                                          )
+                                        ) : (types?.some(
+                                            (eventType) =>
+                                              child.type[eventType]
+                                                ?.requires_registration,
+                                          ) ?? false) ? (
+                                          "Anmeldung erforderlich"
+                                        ) : (
                                           <span>
                                             Keine Anmeldung erforderlich
                                           </span>
-                                        </>
-                                      )
-                                    ) : (types?.some(
-                                        (eventType) =>
-                                          child.type[eventType]
-                                            ?.requires_registration,
-                                      ) ?? false) ? (
-                                      "Anmeldung erforderlich"
-                                    ) : (
-                                      <span>Keine Anmeldung erforderlich</span>
-                                    )}
-                                  </div>
-                                </div>
-                              );
-                            })}
-                        </div>
-                      );
-                    })}
+                                        )}
+                                      </div>
+                                    </div>
+                                  );
+                                })}
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-            );
-          } else {
-            return formatRow(entry.data);
-          }
-        })
-    }
-  </div>
-</div>
+                );
+              } else {
+                return formatRow(entry.data);
+              }
+            })}
+        </div>
+      </div>
+    );
+  })()
+}
 
 <style>
   .table {
