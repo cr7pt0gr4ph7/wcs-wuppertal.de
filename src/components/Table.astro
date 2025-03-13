@@ -60,21 +60,25 @@ type RowData = {
 };
 
 const formatRow = (entry: RowData) => {
+  const title = hyphenate(entry.title);
+  const subtitle = entry.subtitle && hyphenate(entry.subtitle);
+  const location = hyphenate(entry.location);
+
   return (
     <div class="tr primary">
       <div class="td name">
         {" "}
-        {entry.subtitle ? (
+        {subtitle ? (
           <>
-            <div class="title">{entry.title}</div>
-            <div class="subtitle">{entry.subtitle}</div>
+            <div class="title">{title}</div>
+            <div class="subtitle">{subtitle}</div>
           </>
         ) : (
-          entry.title
+          title
         )}
       </div>
       <div class="td dates">{formatDateTime(entry.date)}</div>
-      <div class="td location">{entry.location}</div>
+      <div class="td location">{location}</div>
       <div class="td link">
         {entry.url ? (
           (types?.some(
