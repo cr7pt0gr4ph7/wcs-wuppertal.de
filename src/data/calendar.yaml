@@ -145,6 +145,8 @@
         url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse
         type: { regular_course: true, requires_registration: true }
 
+    - title: WCS Level 3
+      children:
       - id: adtv-tanzschule-schaefer-koch--wcs-level-3--2025-04-06
         title: WCS Level 3
         location: ADTV Tanzschule Schäfer-Koch
