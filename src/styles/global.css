@@ -43,7 +43,8 @@ a.implicit-link:focus-within {
 }
 
 p,
-article ul {
+article ul,
+main section ul {
     font-size: 1.5rem;
     line-height: 2.25rem;
     font-weight: 300;
@@ -55,7 +56,8 @@ article ulx {
     font-weight: 300;
 }
 
-article ul li {
+article ul li,
+main section ul li {
     margin-bottom: .75rem;
 }
 
@@ -66,14 +68,16 @@ h4 span.thin,
 h5 span.thin,
 h6 span.thin,
 p span.thin,
-article ul span.thin {
+article ul span.thin,
+main section ul span.thin {
     font-weight: 200;
 }
 
 @media(max-width: 900px) {
 
     p,
-    article ul {
+    article ul,
+    main section ul {
         font-size: 1.25rem;
         line-height: 2rem;
     }
@@ -82,7 +86,8 @@ article ul span.thin {
 @media(max-width: 600px) {
 
     p,
-    article ul {
+    article ul,
+    main section ul {
         font-size: 1.25rem;
         line-height: 1.75rem;
     }
