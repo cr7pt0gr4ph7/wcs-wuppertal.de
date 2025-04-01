@@ -10,9 +10,11 @@
   type: { regular_course: true, requires_registration: true }
   groups:
     - title: WCS Level 1
+      subtitle: für Einsteiger (Dauer 6 Wochen)
       children:
       - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-02-23
         title: WCS Level 1
+        subtitle: für Einsteiger (Dauer 6 Wochen)
         location: ADTV Tanzschule Schäfer-Koch
         date: 2025-02-18T19:25:00
         duration: 01:00:00
@@ -78,9 +80,11 @@
         type: { regular_course: true, requires_registration: true }
 
     - title: WCS Level 2
+      subtitle: für Fortgeschrittene (Dauer 4 x 6 Wochen = 24 Wochen)
       children:
       - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-02-18
         title: WCS Level 2
+        subtitle: für Fortgeschrittene (Dauer 4 x 6 Wochen = 24 Wochen)
         location: ADTV Tanzschule Schäfer-Koch
         date: 2025-02-18T20:30:00
         duration: 01:00:00
@@ -146,9 +150,11 @@
         type: { regular_course: true, requires_registration: true }
 
     - title: WCS Level 3
+      subtitle: für Fortgeschrittene (Einstieg jederzeit)
       children:
       - id: adtv-tanzschule-schaefer-koch--wcs-level-3--2025-04-06
         title: WCS Level 3
+        subtitle: für Fortgeschrittene (Einstieg jederzeit)
         location: ADTV Tanzschule Schäfer-Koch
         date: 2025-04-06T17:45:00
         duration: 01:00:00
