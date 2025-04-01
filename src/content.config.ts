@@ -81,6 +81,7 @@ const withEndDate = <T extends typeof eventBaseSchema>(schema: T) => schema.tran
 const eventSchema = eventBaseSchema.extend({
     groups: z.array(z.object({
         title: z.string(),
+        subtitle: z.string().optional(),
         children: z.array(withEndDate(eventBaseSchema)).optional()
     })).optional(),
     children: z.array(withEndDate(eventBaseSchema)).optional()
