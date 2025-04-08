@@ -200,7 +200,51 @@
   url: /events/uni-swing-märz-2025
   type: { party: true, workshop: true, requires_registration: false }
 
-- id: adtv-tanzschule-schaefer-koch-wcs-schnupperworkshop-2025-02-08
+- id: adtv-tanzschule-schaefer-koch-wcs-workshop-2025-04-15-19-00
+  title: Workshop »Style your Basics«
+  location: ADTV Tanzschule Schäfer-Koch
+  date: 2025-04-15T19:00:00
+  duration: 01:00:00
+  url: https://www.tanzschule-schaefer-koch.de/aktuelles/singles-news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=1135&cHash=4969c5ddb1963805cb28704450267b90
+  links:
+    homepage: https://www.tanzschule-schaefer-koch.de/aktuelles/singles-news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=1135&cHash=4969c5ddb1963805cb28704450267b90
+    maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+  type: { workshop: true, requires_registration: true }  
+
+- id: adtv-tanzschule-schaefer-koch-wcs-workshop-2025-04-15-19-00
+  title: Workshop »Musicality«
+  location: ADTV Tanzschule Schäfer-Koch
+  date: 2025-04-15T20:00:00
+  duration: 01:00:00
+  url: https://www.tanzschule-schaefer-koch.de/aktuelles/singles-news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=1135&cHash=4969c5ddb1963805cb28704450267b90
+  links:
+    homepage: https://www.tanzschule-schaefer-koch.de/aktuelles/singles-news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=1135&cHash=4969c5ddb1963805cb28704450267b90
+    maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+  type: { workshop: true, requires_registration: true }  
+
+- id: adtv-tanzschule-schaefer-koch-wcs-workshop-2025-04-15-19-00
+  title: Workshop »Hip Catch«
+  location: ADTV Tanzschule Schäfer-Koch
+  date: 2025-04-22T19:00:00
+  duration: 01:00:00
+  url: https://www.tanzschule-schaefer-koch.de/aktuelles/singles-news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=1135&cHash=4969c5ddb1963805cb28704450267b90
+  links:
+    homepage: https://www.tanzschule-schaefer-koch.de/aktuelles/singles-news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=1135&cHash=4969c5ddb1963805cb28704450267b90
+    maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+  type: { workshop: true, requires_registration: true }  
+
+- id: adtv-tanzschule-schaefer-koch-wcs-workshop-2025-04-15-19-00
+  title: Workshop »Bewegungstechnik«
+  location: ADTV Tanzschule Schäfer-Koch
+  date: 2025-04-22T20:00:00
+  duration: 01:00:00
+  url: https://www.tanzschule-schaefer-koch.de/aktuelles/singles-news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=1135&cHash=4969c5ddb1963805cb28704450267b90
+  links:
+    homepage: https://www.tanzschule-schaefer-koch.de/aktuelles/singles-news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=1135&cHash=4969c5ddb1963805cb28704450267b90
+    maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+  type: { workshop: true, requires_registration: true }  
+
+- id: adtv-tanzschule-schaefer-koch-wcs-schnupperworkshop-2025-05-10
   title: »Valley Weekend Swing«
   subtitle: WCS-Schnupperworkshop + Party
   location: ADTV Tanzschule Schäfer-Koch
@@ -213,7 +257,7 @@
     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
   type: { workshop: true, requires_registration: true }
 
-- id: adtv-tanzschule-schaefer-koch-wcs-party-2025-02-08
+- id: adtv-tanzschule-schaefer-koch-wcs-party-2025-05-10
   title: »Valley Weekend Swing«
   subtitle: WCS-Schnupperworkshop + Party
   location: ADTV Tanzschule Schäfer-Koch
