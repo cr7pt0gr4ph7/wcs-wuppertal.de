@@ -5,24 +5,31 @@ import { toImageSet } from "../utils/images";
 interface Props {
   title: string;
   href: string;
-  image: ImageMetadata;
+  image: ImageMetadata | string;
 }
 
 const { title, href, image } = Astro.props;
 
-const targetDensities: `${number}x`[] = ["1x", "2x"];
+let bgImage: string;
+if (typeof image === "string") {
+  bgImage = `url(${image})`;
+} else 
+  const targetDensities: `${number}x`[] = ["1x", "2x"];
 
-const optimizedImage = await getImage({
-  src: image,
-  densities: targetDensities,
-  widths: [640, 1200],
-});
+  const optimizedImage = await getImage({
+    src: image,
+    densities: targetDensities,
+    widths: [640, 1200],
+  });
+
+  bgImage = toImageSet(optimizedImage, targetDensities);
+}
 ---
 
 <a
   class="nav-card"
   href={href}
-  style={`--bg-image: ${toImageSet(optimizedImage, targetDensities)}`}
+  style={`--bg-image: ${bgImage}`}
 >
   <div class="nav-card-background"></div>
   <div class="nav-card-title"><span>{title}</span></div>
