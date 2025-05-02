@@ -13,7 +13,7 @@ const { title, href, image } = Astro.props;
 let bgImage: string;
 if (typeof image === "string") {
   bgImage = `url(${image})`;
-} else 
+} else {
   const targetDensities: `${number}x`[] = ["1x", "2x"];
 
   const optimizedImage = await getImage({
