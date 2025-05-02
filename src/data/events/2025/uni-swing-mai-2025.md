@@ -30,6 +30,7 @@ In Kooperation mit dem AStA-Wuppertal und dem UniSport gibt es die nächste Ausg
 ## Floors
 
 Wir haben zwei separate Räume auf der AStA-Ebene sowie _(bis 21:30 Uhr)_ die Holzterasse davor zur Verfügung - also ingesamt **3 Floors**.
+
 Die folgenden Tanzstile werden gespielt:
 
 - Salsa
@@ -43,9 +44,9 @@ Die Tanzstile wechseln sich über den Abend auf den verschiedenen Tanzflächen a
 Die Workshops finden zeitlich versetzt statt, und können alle nacheinander besucht werden!
 
 - 18:55 // Salsa-Workshop für Neueinsteiger
-  _<small>(der Workshop findet draußen statt, in den zwei )</small>_
+  _<small>(der Workshop findet voraussichtlich draußen statt, auf den zwei anderen Flächen läuft währenddessen Musik)</small>_
 - 19:30 // West Coast Swing-Workshop für Neueinsteiger
-  _<small>(Workshop in Raum 2, in Raum 1 läuft währenddessen Salsa/Bachata-Musik)</small>_
+  _<small>(der Workshop findet voraussichtlich draußen statt, auf den zwei anderen Flächen läuft währenddessen Musik)</small>_
 - 18:00 (bis 24:00+) //<br>
   Salsa/Bachata/West Coast Swing-Tanzparty Indoor + Outdoor
 
