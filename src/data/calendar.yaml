@@ -225,3 +225,19 @@
   duration: 05:30:00
   url: /events/uni-swing-mai-2025
   type: { party: true, workshop: true, requires_registration: false }
+
+- id: outdoor-social-2025-05-29
+  title: Outdoor Social am Elisenturm
+  subtitle: Open Air-Tanzen im Park
+  location: Elisenturm @ Hardt-Anlage Wuppertal
+  date: 2025-05-25T15:00:00
+  duration: 04:00:00
+  type: { party: true, requires_registration: false }
+
+- id: outdoor-social-2025-06-19
+  title: Outdoor Social am Elisenturm
+  subtitle: Open Air-Tanzen im Park
+  location: Elisenturm @ Hardt-Anlage Wuppertal
+  date: 2025-06-19T15:00:00
+  duration: 04:00:00
+  type: { party: true, requires_registration: false }
