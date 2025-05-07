@@ -1,6 +1,6 @@
 ---
 import { Schema } from "astro-seo-schema";
-import { Image } from "astro:assets";
+import { Picture } from "astro:assets";
 import { getCollection, render } from "astro:content";
 import type { Event, WithContext } from "schema-dts";
 import demoImage from "../../assets/parties-und-events.jpg";
@@ -68,7 +68,7 @@ const titleAndSubtitle = subtitle ? title + ": " + subtitle : title;
       {subtitle && <h3>{hyphenate(subtitle)}</h3>}
     </header>
     <div class="image-container">
-      <Image src="https://images.unsplash.com/photo-1655459784225-ae3ad6aef952" alt="Party" />
+      <Picture src="https://images.unsplash.com/photo-1655459784225-ae3ad6aef952" inferSize={true} alt="Party" />
     </div>
     <Content />
     <EventFooter event={event} />
