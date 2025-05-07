@@ -10,8 +10,8 @@ address:
   postalCode: "42119"
   countryCode: DE
   url: https://maps.app.goo.gl/fTRuV4hcapj9Pjs18
-date: 2025-02-08T18:00:00
-duration: 06:00:00
+date: 2025-05-25T18:30:00
+duration: 05:30:00
 links:
     maps: https://maps.app.goo.gl/fTRuV4hcapj9Pjs18
 type:
@@ -23,7 +23,7 @@ description: |
   Auf Floor 1 gibt es Salsa und Bachata, auf Floor 2 läuft den ganzen Abend eine West Coast Swing-Party.
 ---
 
-## Am Mittwoch, 21.05.25 ab 18:00 Uhr // Auch für Nicht-Studenten! // Eintritt frei
+## Am Mittwoch, 21.05.25 ab 18:30 Uhr // Auch für Nicht-Studenten! // Eintritt frei
 
 In Kooperation mit dem AStA-Wuppertal und dem UniSport gibt es die nächste Ausgabe unserer SaBaSwing-Party!
 
@@ -45,9 +45,9 @@ Die Workshops finden zeitlich versetzt statt, und können alle nacheinander besu
 
 - 18:55 // Salsa-Workshop für Neueinsteiger
   _<small>(der Workshop findet voraussichtlich draußen statt, auf den zwei anderen Flächen läuft währenddessen Musik)</small>_
-- 19:30 // West Coast Swing-Workshop für Neueinsteiger
+- 19:45 // West Coast Swing-Workshop für Neueinsteiger
   _<small>(der Workshop findet voraussichtlich draußen statt, auf den zwei anderen Flächen läuft währenddessen Musik)</small>_
-- 18:00 (bis 24:00+) //<br>
+- 18:30 (bis 24:00+) //<br>
   Salsa/Bachata/West Coast Swing-Tanzparty Indoor + Outdoor
 
 ## Brauche ich Vorkenntnisse _<span class="thin">und/oder</span>_ eine Tanzpartner\*in?
