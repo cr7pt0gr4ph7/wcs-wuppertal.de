@@ -48,6 +48,7 @@ const eventBaseSchema = z.object({
     // date: z.string().datetime().transform((str) => Temporal.PlainDateTime.from(str).toZonedDateTime("Europe/Berlin")),
     // endDate: z.string().datetime().transform((str) => Temporal.PlainDateTime.from(str).toZonedDateTime("Europe/Berlin")).optional(),
     date: z.date().transform((date) => Temporal.Instant.from(date.toISOString()).toZonedDateTimeISO("UTC").toPlainDateTime().toZonedDateTime("Europe/Berlin")),
+    dates: z.array(z.date().transform((date) => Temporal.Instant.from(date.toISOString()).toZonedDateTimeISO("UTC").toPlainDateTime().toZonedDateTime("Europe/Berlin"))).optional(),
     endDate: z.date().transform((date) => Temporal.Instant.from(date.toISOString()).toZonedDateTimeISO("UTC").toPlainDateTime().toZonedDateTime("Europe/Berlin")).optional(),
     duration: z.string().time().transform((str) => Temporal.PlainTime.from(str).since(new (Temporal.PlainTime)())),
     location: z.string(),

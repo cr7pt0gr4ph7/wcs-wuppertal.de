@@ -28,6 +28,10 @@ const myDateFormatOpts: Intl.DateTimeFormatOptions = {
   year: "numeric",
 };
 
+const myWeekdayFormatOpts: Intl.DateTimeFormatOptions = {
+  weekday: "long",
+};
+
 const myTimeFormatOpts: Intl.DateTimeFormatOptions = {
   hour: "2-digit",
   minute: "2-digit",
@@ -37,6 +41,17 @@ const formatDate = (
   date: Temporal.PlainDate | Temporal.PlainDateTime | Temporal.ZonedDateTime,
 ) => {
   return date.toLocaleString("de-DE", myDateFormatOpts);
+};
+
+const formatWeekdayAndTime = (
+  date: Temporal.PlainDateTime | Temporal.ZonedDateTime,
+) => {
+  return (
+    date.toLocaleString("de-DE", myWeekdayFormatOpts) +
+    " " +
+    date.toLocaleString("de-DE", myTimeFormatOpts) +
+    " Uhr"
+  );
 };
 
 const formatDateTime = (
@@ -54,6 +69,7 @@ interface BaseRowData {
   title: string;
   subtitle?: string;
   date: Temporal.ZonedDateTime;
+  dates?: Temporal.ZonedDateTime[];
   location: string;
   url?: string;
   type: InferEntrySchema<"calendar">["type"];
@@ -78,6 +94,25 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 
 {
   (() => {
+    const formatDates = (
+      dates: (Temporal.PlainDateTime | Temporal.ZonedDateTime)[],
+    ) => {
+      if (dates.length < 1) {
+        return null;
+      }
+      return (
+        <>
+          {formatWeekdayAndTime(dates[0])}
+          {dates.map((date) => (
+            <>
+              <br />
+              {"ab " + formatDate(date)}
+            </>
+          ))}
+        </>
+      );
+    };
+
     const columns = {
       name: {
         format: (entry: RowData) =>
@@ -93,7 +128,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
       dates: {
         format: (entry: RowData) =>
           !entry.children && !entry.groups ? (
-            <div class="td dates">{formatDateTime(entry.date)}</div>
+            <div class="td dates">{entry.dates ? formatDates(entry.dates) : formatDateTime(entry.date)}</div>
           ) : (
             <div class="td dates">
               {formatDate(entry.date)}{" "}
