@@ -175,21 +175,21 @@
         url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c30242
         type: { regular_course: true, requires_registration: true }
 
-# - id: unisport-buw-wuppertal-wcs-level-1
-#   title: WCS Level 1
-#   location: UniSport Wuppertal
-#   date: 2024-16-10T18:00:00
-#   duration: 01:00:00
-#   url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
-#   type: { regular_course: true, requires_registration: true }
-
-- id: unisport-buw-wuppertal-wcs-level-1-und-2-ferien
+- id: unisport-buw-wuppertal-wcs-level-1
   title: WCS Level 1
   location: UniSport Wuppertal
-  date: 2025-02-06T17:00:00
+  date: 2024-04-09T19:00:00
   duration: 01:00:00
-  url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing_Ferien.html
+  url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
   type: { regular_course: true, requires_registration: true }
+
+# - id: unisport-buw-wuppertal-wcs-level-1-und-2-ferien
+#   title: WCS Level 1
+#   location: UniSport Wuppertal
+#   date: 2025-02-06T17:00:00
+#   duration: 01:00:00
+#   url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing_Ferien.html
+#   type: { regular_course: true, requires_registration: true }
 
 - id: adtv-tanzschule-schaefer-koch-wcs-schnupperworkshop-2025-05-10
   title: »Valley Weekend Swing«
