@@ -10,7 +10,7 @@ address:
   postalCode: "42119"
   countryCode: DE
   url: https://maps.app.goo.gl/fTRuV4hcapj9Pjs18
-date: 2025-05-25T18:30:00
+date: 2025-05-21T18:30:00
 duration: 05:30:00
 links:
     maps: https://maps.app.goo.gl/fTRuV4hcapj9Pjs18
