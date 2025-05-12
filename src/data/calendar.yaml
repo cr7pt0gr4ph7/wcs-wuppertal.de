@@ -217,11 +217,11 @@
     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
   type: { party: true, requires_registration: false }
 
-- id: buw-wuppertal-party-2025-05-25
+- id: buw-wuppertal-party-2025-05-28
   title: »SaBaSwing« @ Uni Wuppertal
   subtitle: Salsa/Bachata/WCS-Party mit Einsteigerworkshops
   location: Mensa Grifflenberg @ Uni Wuppertal
-  date: 2025-05-25T18:30:00
+  date: 2025-05-28T18:30:00
   duration: 05:30:00
   url: /events/uni-swing-mai-2025
   type: { party: true, workshop: true, requires_registration: false }
