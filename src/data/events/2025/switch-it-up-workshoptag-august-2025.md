@@ -58,6 +58,8 @@ Es handelt sich um eine Gruppenaktivität, bei der man sich gegenseitig die Tanz
 
 ### 20:00 - 24:00 Uhr: WCS-Party
 
+## Brauche ich eine\*n Tanzpartner\*in?
+
 Wie für West Coast Swing üblich werden bei Workshop und Party die Tanzpartner gewechselt. Ihr könnt daher sowohl einzeln als auch zu zweit oder gleich in einer größeren Gruppe kommen. Kommt vorbei, feiert mit und schnuppert in diesen lässigen und zugleich vielfältigen Tanz rein!
 
 ## Eintritt & Anmeldung
