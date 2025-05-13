@@ -1,6 +1,6 @@
 ---
 slug: switch-it-up-workshoptag-august-2025
-title: »Switch It Up!« @ TS Schäfer-Koch
+title: »Switch It Up!«
 subtitle: Switching- & Stealing-Workshoptag mit Party
 location: ADTV Tanzschule Schäfer-Koch
 address:
@@ -45,6 +45,7 @@ Wir widmen uns dem auf den ersten Blick komplexen, aber eigentlich ganz einfache
 - Wer führt wann?
 - Wann & wie kann ich die Führung übernehmen?
 - Wann & wie kann ich die Führung übergeben?
+- Welche Techniken kann ich auch in mein normales Tanzen integrieren?
 
 Wenn ihr noch keine Erfahrung in beiden Rollen habt, empfehlen wir vorher die Teilnahme am »Reverse Role Basics«-Workshop.
 
