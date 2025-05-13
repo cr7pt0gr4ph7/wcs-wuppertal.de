@@ -1,6 +1,6 @@
 ---
-slug: valley-weekend-swing-mai-2025
-title: »Switch It Up!«-Workshoptag »!«
+slug: switch-it-up-workshoptag-august-2025
+title: »Switch It Up!«-Workshoptag
 subtitle: Switching- & Stealing-Workshoptag mit Party
 location: ADTV Tanzschule Schäfer-Koch
 address:
@@ -34,15 +34,17 @@ Dem **Switching** (also dem Wechsel der Führung zwischen Dir und Deinem\*Deiner
 
 ### 16:30 - 17:30: Workshop »Reverse Role Basics«
 
-Als Vorbereitung auf den Switching-Workshop werden hier die Grundlagen der jeweils »anderen« Rolle unterrichtet – wer bisher vor allem Leader getanzt hat kann hier die Followerschritte lernen, und umgekehrt.
+Als Vorbereitung auf den Switching-Workshop werden hier die **Grundlagen der jeweils »anderen« Rolle** unterrichtet – wer bisher vor allem Leader getanzt hat kann hier die Followerschritte lernen, und umgekehrt.
 
 Falls ihr die Grundlagen beider Rollen schon beherrscht ist dieser Workshop keine zwingende Voraussetzung für den Switching-Workshop danach.
 
-Die Teilnahme an diesem Workshop ist kostenlos bei Teilnahme an den anderen Workshops.
-
 ### 17:45 - 18:45: Workshop »Switch It Up«
 
-Wir widmen uns dem auf den ersten Blick komplexen, aber eigentlich ganz einfachen Thema des »Switching«, also der fließenden Wechsel der Führungsverantwortung.
+Wir widmen uns dem auf den ersten Blick komplexen, aber eigentlich ganz einfachen Thema des »Switching«, also der fließenden Übergabe der Führungsrolle während des Tanzes.
+
+- Wer führt wann?
+- Wann & wie kann ich die Führung übernehmen?
+- 
 
 Wenn ihr noch keine Erfahrung in beiden Rollen habt, empfehlen wir vorher die Teilnahme am »Reverse Role Basics«-Workshop.
 
