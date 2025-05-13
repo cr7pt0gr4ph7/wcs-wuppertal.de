@@ -1,6 +1,6 @@
 ---
 slug: valley-weekend-swing-mai-2025
-title: »Switch It Up!«-Workshoptag
+title: »Switch It Up!«-Workshoptag »!«
 subtitle: Switching- & Stealing-Workshoptag mit Party
 location: ADTV Tanzschule Schäfer-Koch
 address:
@@ -24,10 +24,11 @@ description:
     Macht euch bereit für die nächste Ausgabe unserer beliebten West Coast Swing-Party!
 ---
 
-## Am Samstag, 16.08.25 ab 17:30 Uhr
+## Am Samstag, 16.08.25 ab 16:30 Uhr
 
-In dieser Ausgabe unseres Workshoptages widmen wir uns zwei spannenden Themen, die besonders viel Spaß versprechen:
-Dem Switching (also dem Wechsel der Führung zwischen Dir und Deinem\*Deiner Tanzpartner\*in) und dem Stealing (dem Tauschen des\*der Tanzpartner*in während des Tanzes).
+In dieser Ausgabe unseres WCS_Workshoptages widmen wir uns zwei spannenden Themen, die besonders viel Spaß versprechen:
+
+Dem **Switching** (also dem Wechsel der Führung zwischen Dir und Deinem\*Deiner Tanzpartner\*in) und dem **Stealing** (dem Tauschen des\*der Tanzpartners*in während des Tanzes).
 
 ## Zeitplan
 
@@ -35,11 +36,15 @@ Dem Switching (also dem Wechsel der Führung zwischen Dir und Deinem\*Deiner Tan
 
 Als Vorbereitung auf den Switching-Workshop werden hier die Grundlagen der jeweils »anderen« Rolle unterrichtet – wer bisher vor allem Leader getanzt hat kann hier die Followerschritte lernen, und umgekehrt.
 
-Egal ob einfach aus Interesse, um den Tanz besser zu verstehen oder als Vorbereitung für den folgenden Switching-Workshop?
+Falls ihr die Grundlagen beider Rollen schon beherrscht ist dieser Workshop keine zwingende Voraussetzung für den Switching-Workshop danach.
+
+Die Teilnahme an diesem Workshop ist kostenlos.
 
 ### 17:45 - 18:45: Workshop »Switch It Up«
 
-Wir widmen uns dem auf den ersten Blick komplexen, aber eigentlich ganz einfachen Thema des »Switching«, also 
+Wir widmen uns dem auf den ersten Blick komplexen, aber eigentlich ganz einfachen Thema des »Switching«, also der fließenden Wechsel der Führungsverantwortung.
+
+Wenn ihr noch keine Erfahrung in beiden Rollen habt, empfehlen wir vorher die Teilnahme am »Reverse Role Basics«-Workshop.
 
 ### 19:00 - 20:00: Workshop »Stealing for Fun & Profit«
 
@@ -54,4 +59,4 @@ Wie für West Coast Swing üblich werden bei Workshop und Party die Tanzpartner 
 Alle Workshops (inkl. Party) 35 € pro Person (3 x 60 min Workshop + Party)
 Party 10 € pro Person
 
-Anmeldung zum Workshop über info(at)wcs-wuppertal.de
+Anmeldung zum Workshop über info(at)wcs-wuppertal.de mit der Angabe, ob ihr bisher vor allem Leader oder Follower getanzt habt.
