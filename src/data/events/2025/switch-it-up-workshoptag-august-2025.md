@@ -1,6 +1,6 @@
 ---
 slug: switch-it-up-workshoptag-august-2025
-title: »Switch It Up!« Intensive
+title: »Switch It Up!« @ TS Schäfer-Koch
 subtitle: Switching- & Stealing-Workshoptag mit Party
 location: ADTV Tanzschule Schäfer-Koch
 address:
@@ -14,7 +14,7 @@ date: 2025-08-16T16:60:00
 duration: 07:30:00
 links:
     homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/events-erwachsene-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=75786&cHash=755feaad219408d97dd826d88ed8bcf8
-    facebooK: https://www.facebook.com/events/1064681532344988/
+    facebook: https://www.facebook.com/events/1064681532344988/
     maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 type:
     party: { requires_registration: false }
@@ -26,7 +26,7 @@ description:
 
 ## Am Samstag, 16.08.25 ab 16:30 Uhr
 
-In dieser Ausgabe unseres WCS_Workshoptages widmen wir uns zwei spannenden Themen, die besonders viel Spaß versprechen:
+In dieser Ausgabe unseres WCS-Workshoptages widmen wir uns zwei spannenden Themen, die besonders viel Spaß versprechen:
 
 Dem **Switching** (also dem Wechsel der Führung zwischen Dir und Deinem\*Deiner Tanzpartner\*in) und dem **Stealing** (dem Tauschen des\*der Tanzpartners*in während des Tanzes).
 
