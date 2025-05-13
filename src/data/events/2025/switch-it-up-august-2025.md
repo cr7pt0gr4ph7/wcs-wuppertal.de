@@ -44,7 +44,7 @@ Wir widmen uns dem auf den ersten Blick komplexen, aber eigentlich ganz einfache
 
 - Wer führt wann?
 - Wann & wie kann ich die Führung übernehmen?
-- 
+- Wann & wie kann ich die Führung übergeben?
 
 Wenn ihr noch keine Erfahrung in beiden Rollen habt, empfehlen wir vorher die Teilnahme am »Reverse Role Basics«-Workshop.
 
