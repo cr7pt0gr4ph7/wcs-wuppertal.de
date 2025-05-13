@@ -1,5 +1,5 @@
 ---
-slug: switch-it-up-workshoptag-august-2025
+slug: switch-it-up-august-2025
 title: »Switch It Up!«
 subtitle: Switching- & Stealing-Workshoptag mit Party
 location: ADTV Tanzschule Schäfer-Koch
