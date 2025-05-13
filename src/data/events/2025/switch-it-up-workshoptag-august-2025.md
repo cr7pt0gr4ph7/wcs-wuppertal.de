@@ -36,7 +36,7 @@ Dem [**Switching**][switching-video] (also dem Wechsel der Führung zwischen Dir
 
 Als Vorbereitung auf den Switching-Workshop werden hier die **Grundlagen der jeweils »anderen« Rolle** unterrichtet – wer bisher vor allem Leader getanzt hat kann hier die Followerschritte lernen, und umgekehrt.
 
-Falls ihr die Grundlagen beider Rollen schon beherrscht ist dieser Workshop keine zwingende Voraussetzung für den Switching-Workshop danach.
+Falls ihr die Grundlagen beider Rollen schon beherrscht ist dieser Workshop keine zwingende Voraussetzung für den Switching-Workshop danach, darf aber natürlich trotzdem gerne besucht werden.
 
 ### 17:45 - 18:45: Workshop »Switch It Up«
 
@@ -54,7 +54,7 @@ Ansonsten sind keine Vorerfahrungen mit dem Thema erforderlich.
 
 Beim [»Stealing«][stealing-video] geht es darum, während eines Tanzes fließend die Tanzpartner zu wechseln, ohne den Tanz oder die Figuren zu unterbrechen.
 
-Was ist Switching? Was für Regeln gelten? Wie tausche ich am besten?
+Es handelt sich um eine Gruppenaktivität, bei der man sich gegenseitig die Tanzpartner "klaut".
 
 ### 20:00 - 24:00 Uhr: WCS-Party
 
