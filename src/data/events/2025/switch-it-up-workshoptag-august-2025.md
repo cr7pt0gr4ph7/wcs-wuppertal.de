@@ -28,7 +28,7 @@ description:
 
 In dieser Ausgabe unseres WCS-Workshoptages widmen wir uns zwei spannenden Themen, die besonders viel Spaß versprechen:
 
-Dem [**Switching**][switch-video] (also dem Wechsel der Führung zwischen Dir und Deinem\*Deiner Tanzpartner\*in) und dem [**Stealing**][stealing-video] (dem Tauschen des\*der Tanzpartners*in während des Tanzes).
+Dem [**Switching**][switching-video] (also dem Wechsel der Führung zwischen Dir und Deinem\*Deiner Tanzpartner\*in) und dem [**Stealing**][stealing-video] (dem Tauschen des\*der Tanzpartners*in während des Tanzes).
 
 ## Zeitplan
 
@@ -40,7 +40,7 @@ Falls ihr die Grundlagen beider Rollen schon beherrscht ist dieser Workshop kein
 
 ### 17:45 - 18:45: Workshop »Switch It Up«
 
-Wir widmen uns dem auf den ersten Blick komplexen, aber eigentlich ganz einfachen Thema des [»Switching«], also der fließenden Übergabe der Führungsrolle während des Tanzes.
+Wir widmen uns dem auf den ersten Blick komplexen, aber eigentlich ganz einfachen Thema des [»Switching«][switching-video], also der fließenden Übergabe der Führungsrolle während des Tanzes.
 
 - Wer führt wann?
 - Wann & wie kann ich die Führung übernehmen?
