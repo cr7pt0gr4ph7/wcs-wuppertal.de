@@ -38,7 +38,7 @@ Als Vorbereitung auf den Switching-Workshop werden hier die Grundlagen der jewei
 
 Falls ihr die Grundlagen beider Rollen schon beherrscht ist dieser Workshop keine zwingende Voraussetzung für den Switching-Workshop danach.
 
-Die Teilnahme an diesem Workshop ist kostenlos.
+Die Teilnahme an diesem Workshop ist kostenlos bei Teilnahme an den anderen Workshops.
 
 ### 17:45 - 18:45: Workshop »Switch It Up«
 
