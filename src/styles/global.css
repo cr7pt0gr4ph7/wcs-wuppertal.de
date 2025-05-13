@@ -171,3 +171,15 @@ a.anchor:hover span {
     text-decoration-color: white;
 }
 */
+
+article h2 {
+    font-size: 1.625rem;
+    margin-block-start: 0.923076923em;
+    margin-block-end: 0.923076923em;
+}
+
+article h3 {
+    font-size: 1.375rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
