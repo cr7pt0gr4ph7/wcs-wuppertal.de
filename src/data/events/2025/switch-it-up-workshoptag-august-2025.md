@@ -28,7 +28,7 @@ description:
 
 In dieser Ausgabe unseres WCS-Workshoptages widmen wir uns zwei spannenden Themen, die besonders viel Spaß versprechen:
 
-Dem **Switching** (also dem Wechsel der Führung zwischen Dir und Deinem\*Deiner Tanzpartner\*in) und dem **Stealing** (dem Tauschen des\*der Tanzpartners*in während des Tanzes).
+Dem [**Switching**][switch-video] (also dem Wechsel der Führung zwischen Dir und Deinem\*Deiner Tanzpartner\*in) und dem [**Stealing**][stealing-video] (dem Tauschen des\*der Tanzpartners*in während des Tanzes).
 
 ## Zeitplan
 
@@ -40,16 +40,19 @@ Falls ihr die Grundlagen beider Rollen schon beherrscht ist dieser Workshop kein
 
 ### 17:45 - 18:45: Workshop »Switch It Up«
 
-Wir widmen uns dem auf den ersten Blick komplexen, aber eigentlich ganz einfachen Thema des »Switching«, also der fließenden Übergabe der Führungsrolle während des Tanzes.
+Wir widmen uns dem auf den ersten Blick komplexen, aber eigentlich ganz einfachen Thema des [»Switching«], also der fließenden Übergabe der Führungsrolle während des Tanzes.
 
 - Wer führt wann?
 - Wann & wie kann ich die Führung übernehmen?
 - Wann & wie kann ich die Führung übergeben?
-- Welche Techniken kann ich auch in mein normales Tanzen integrieren?
+- Welche Techniken & Ideen kann ich auch in mein restliches Tanzen integrieren?
 
 Wenn ihr noch keine Erfahrung in beiden Rollen habt, empfehlen wir vorher die Teilnahme am »Reverse Role Basics«-Workshop.
+Ansonsten sind keine Vorerfahrungen mit dem Thema erforderlich.
 
 ### 19:00 - 20:00: Workshop »Stealing for Fun & Profit«
+
+Beim [»Stealing«][stealing-video] geht es darum, während eines Tanzes fließend die Tanzpartner zu wechseln, ohne den Tanz oder die Figuren zu unterbrechen.
 
 Was ist Switching? Was für Regeln gelten? Wie tausche ich am besten?
 
@@ -65,3 +68,6 @@ Wie für West Coast Swing üblich werden bei Workshop und Party die Tanzpartner 
 Party 10 € pro Person
 
 Anmeldung zum Workshop über info(at)wcs-wuppertal.de mit der Angabe, ob ihr bisher vor allem Leader oder Follower getanzt habt.
+
+[switching-video]: https://www.youtube.com/watch?v=V3a9Z04ypuM
+[stealing-video]: https://www.youtube.com/watch?v=bIkDWVL_p74
