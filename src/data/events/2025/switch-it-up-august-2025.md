@@ -65,10 +65,10 @@ Wie für West Coast Swing üblich werden bei Workshop und Party die Tanzpartner 
 
 10 € Rabatt für Inhaber unserer [**WCS-Ferienflatrate**](https://wcs-wuppertal.de/events/ferienworkshops-sommer-2025/)!
 
-3 Workshops + Party 35 € pro Person<br>
-2 Workshops + Party 30 € pro Person<br>
-1 Workshop + Party 20 € pro Person<br>
-Party 10 € pro Person
+3 Workshops + Party: 35 € pro Person<br>
+2 Workshops + Party: 30 € pro Person<br>
+1 Workshop + Party: 20 € pro Person<br>
+Party: 10 € pro Person
 
 Anmeldung zum Workshop über info(at)wcs-wuppertal.de mit der Angabe, ob ihr bisher vor allem Leader oder Follower getanzt habt.
 
