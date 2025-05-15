@@ -41,7 +41,7 @@ const eventTypeSchema = z.object({
     return result;
 });
 
-const eventBaseSchema = z.object({
+const eventBaseSchemaStructure = {
     title: z.string().transform((str) => str?.replace(/&shy;/g, "\u00AD")?.replace(/&zwsp;/g, "\u200B")),
     subtitle: z.string().optional().transform((str) => str?.replace(/&shy;/g, "\u00AD")?.replace(/&zwsp;/g, "\u200B")),
     // Astro's YAML parser automatically turns things that look like dates into Date instances
@@ -70,6 +70,16 @@ const eventBaseSchema = z.object({
     url: z.string().optional(),
     description: z.string().optional(),
     type: eventTypeSchema,
+};
+
+const eventBaseSchema = z.object({
+    ...eventBaseSchemaStructure,
+});
+
+const eventFileSchema = z.object({
+    ...eventBaseSchemaStructure,
+    date: eventBaseSchemaStructure.date.optional(),
+    duration: eventBaseSchemaStructure.duration.optional(),
 });
 
 const withEndDate = <T extends typeof eventBaseSchema>(schema: T) => schema.transform((arg) => {
@@ -103,7 +113,7 @@ const calendar = defineCollection({
 // Internal events
 const events = defineCollection({
     loader: glob({ pattern: ["**/*.md", "**/*.mdx"], base: "./src/data/events" }),
-    schema: eventSchema
+    schema: eventFileSchema,
 });
 
 export const collections = { calendar, events };
