@@ -35,7 +35,7 @@ const titleAndSubtitle = subtitle ? title + ": " + subtitle : title;
       name: titleAndSubtitle,
       description: description,
       image: demoImage.src,
-      startDate: event.data.date.toString(),
+      startDate: event.data.date?.toString(),
       endDate: event.data.endDate?.toString(),
       eventStatus: "https://schema.org/EventScheduled",
       eventAttendanceMode: "OfflineEventAttendanceMode",
