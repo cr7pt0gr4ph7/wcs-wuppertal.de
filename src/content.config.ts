@@ -80,8 +80,12 @@ const eventFileSchema = z.object({
     ...eventBaseSchemaStructure,
     date: eventBaseSchemaStructure.date.optional(),
     duration: eventBaseSchemaStructure.duration.optional(),
+}).transform((arg) => {
+    return {
+        endDate: arg.date && arg.duration ? arg.date.add(arg.duration) : undefined,
+        ...arg,
+    };
 });
-
 const withEndDate = <T extends typeof eventBaseSchema>(schema: T) => schema.transform((arg) => {
     return {
         endDate: arg.date.add(arg.duration),
