@@ -70,7 +70,7 @@ Wie für West Coast Swing üblich werden bei Workshop und Party die Tanzpartner 
 1 Workshop + Party: 20 € pro Person<br>
 Party: 10 € pro Person
 
-Anmeldung zum Workshop über info(at)wcs-wuppertal.de mit der Angabe, ob ihr bisher vor allem Leader oder Follower getanzt habt.
+Anmeldung zum Workshop über info(at)wcs-wuppertal.de mit der Angabe, ob ihr bisher vor allem Leader oder Follower (oder beides) getanzt habt.
 
 [switching-video]: https://www.youtube.com/watch?v=V3a9Z04ypuM
 [stealing-video]: https://www.youtube.com/watch?v=bIkDWVL_p74
