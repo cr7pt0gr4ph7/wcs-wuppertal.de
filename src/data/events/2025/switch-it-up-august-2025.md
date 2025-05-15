@@ -55,7 +55,7 @@ Ansonsten sind keine Vorerfahrungen mit dem Thema erforderlich.
 Beim [»Stealing«][stealing-video] geht es darum, während eines Tanzes fließend die Tanzpartner zu wechseln, ohne den Tanz oder die Figuren zu unterbrechen.
 Es handelt sich um eine Gruppenaktivität für 3 oder mehr Tänzer\*innen, bei der man sich gegenseitig die Tanzpartner "klaut".
 
-### 20:00 - 24:00 Uhr: WCS-Party
+### 20:00 - 24:00: WCS-Party
 
 ## Brauche ich eine\*n Tanzpartner\*in?
 
