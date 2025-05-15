@@ -13,8 +13,8 @@ address:
 date: 2025-08-16T16:60:00
 duration: 07:30:00
 links:
-    homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/events-erwachsene-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=75786&cHash=755feaad219408d97dd826d88ed8bcf8
-    facebook: https://www.facebook.com/events/1064681532344988/
+    # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/
+    # facebook: https://www.facebook.com/events/1064681532344988/
     maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 type:
     party: { requires_registration: false }
@@ -63,7 +63,7 @@ Wie für West Coast Swing üblich werden bei Workshop und Party die Tanzpartner 
 
 ## Eintritt & Anmeldung
 
-10 € Rabatt für Inhaber unserer **WCS-Ferienflatrate**.
+10 € Rabatt für Inhaber unserer [**WCS-Ferienflatrate**](https://wcs-wuppertal.de/events/ferienworkshops-sommer-2025/)!
 
 3 Workshops + Party 35 € pro Person<br>
 2 Workshops + Party 30 € pro Person<br>
