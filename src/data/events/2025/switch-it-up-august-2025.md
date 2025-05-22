@@ -10,7 +10,7 @@ address:
   postalCode: "42103"
   countryCode: DE
   url: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
-date: 2025-08-16T16:60:00
+date: 2025-08-16T16:30:00
 duration: 07:30:00
 links:
     # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/
