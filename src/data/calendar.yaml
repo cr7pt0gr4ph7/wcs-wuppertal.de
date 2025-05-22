@@ -241,3 +241,17 @@
   date: 2025-06-19T15:00:00
   duration: 04:00:00
   type: { party: true, requires_registration: false }
+
+- id: switch-it-up-august-2025
+  title: »Switch It Up!«
+  subtitle: Switching- & Stealing-Workshoptag mit Party
+  location: ADTV Tanzschule Schäfer-Koch
+  date: 2025-08-16T16:60:00
+  duration: 07:30:00
+  url: /events/switch-it-up-august-2025
+  links:
+    # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/events-erwachsene-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=75786&cHash=755feaad219408d97dd826d88ed8bcf8
+    # facebook: https://www.facebook.com/events/1064681532344988/
+    maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+  type: { workshop: true, party: true, requires_registration: false }
+
