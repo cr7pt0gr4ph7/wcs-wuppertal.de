@@ -80,22 +80,20 @@ const eventBaseSchema = z.object({
     ...eventBaseSchemaStructure,
 });
 
+const transformEndDate = <T extends { date?: Temporal.ZonedDateTime, duration?: Temporal.Duration }>(arg: T) => {
+    return {
+        endDate: (arg.date && arg.duration ? arg.date.add(arg.duration) : undefined) as T["date"],
+        ...arg,
+    };
+};
+
 const eventFileSchema = z.object({
     ...eventBaseSchemaStructure,
     date: eventBaseSchemaStructure.date.optional(),
     duration: eventBaseSchemaStructure.duration.optional(),
-}).transform((arg) => {
-    return {
-        endDate: arg.date && arg.duration ? arg.date.add(arg.duration) : undefined,
-        ...arg,
-    };
-});
-const withEndDate = <T extends typeof eventBaseSchema>(schema: T) => schema.transform((arg) => {
-    return {
-        endDate: arg.date.add(arg.duration),
-        ...arg
-    }
-});
+}).transform(transformEndDate);
+
+const withEndDate = <T extends typeof eventBaseSchema>(schema: T) => schema.transform(transformEndDate);
 
 const eventSchema = eventBaseSchema.extend({
     groups: z.array(z.object({
@@ -104,18 +102,12 @@ const eventSchema = eventBaseSchema.extend({
         children: z.array(withEndDate(eventBaseSchema)).optional()
     })).optional(),
     children: z.array(withEndDate(eventBaseSchema)).optional()
-}).transform((arg) => {
-    return {
-        endDate: arg.date.add(arg.duration),
-        ...arg
-    }
-});
+}).transform(transformEndDate);
 
 // Internal and external events
 const calendar = defineCollection({
     loader: file("src/data/calendar.yaml"),
     schema: eventSchema,
-
 });
 
 // Internal events
