@@ -25,11 +25,12 @@ const { title, subtitle, description, image: imagePath } = event.data;
 
 let image;
 if (imagePath) {
+  const imagePath2 = imagePath.startsWith("/") || imagePath.indexOf("https://") !== -1 ? imagePath : "/" + imagePath;
   const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/*.{jpeg,jpg,png,gif}');
-  if (!images[imagePath]) {
+  if (!images[imagePath2]) {
     throw new Error(`"${imagePath}" does not exist in glob: "src/assets/*.{jpeg,jpg,png,gif}"`);
   }
-image = images[imagePath]();
+image = images[imagePath2]();
 } else {
   image = "https://images.unsplash.com/photo-1655459784225-ae3ad6aef952";
 }
@@ -45,7 +46,7 @@ const titleAndSubtitle = subtitle ? title + ": " + subtitle : title;
       "@context": "https://schema.org",
       "@type": "Event",
       name: titleAndSubtitle,
-      description: description,  
+      description: description,
       image: demoImage.src,
       startDate: event.data.date?.toString(),
       endDate: event.data.endDate?.toString(),
@@ -79,9 +80,9 @@ const titleAndSubtitle = subtitle ? title + ": " + subtitle : title;
       {title && <h2>{hyphenate(title)}</h2>}
       {subtitle && <h3>{hyphenate(subtitle)}</h3>}
     </header>
-    <div class="image-container">
-      {image && <Picture src={image} inferSize={true} alt="Party" />}
-    </div>
+    {image && <div class="image-container">
+      <Picture src={image} inferSize={true} alt="Party" />
+    </div>}
     <Content />
     <EventFooter event={event} />
   </article>
