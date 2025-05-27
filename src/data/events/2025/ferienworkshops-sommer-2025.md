@@ -1,6 +1,6 @@
 ---
 slug: ferienworkshops-sommer-2025
-title: WCS-Sommerferienworkshops
+title: WCS-Sommerferien-Workshops
 subtitle: in der Tanzschule Schäfer-Koch in Wuppertal
 location: ADTV Tanzschule Schäfer-Koch
 address:
@@ -21,7 +21,7 @@ type:
 
 ## Macht den Sommer bunter!
 
-Im Sommer haben wir ein ganz besonders WCS-Programm für Euch zusammengestellt. - 
+Im Sommer haben wir ein ganz besonders WCS-Programm für Euch zusammengestellt.
 In ingesamt 20 Workshops (+ ein extra Workshoptag) setzen wir uns mit den verschiedensten Themen auseinander, um Euer Tanzen auf das nächste Level zu heben.
 
 ## Anmeldung
