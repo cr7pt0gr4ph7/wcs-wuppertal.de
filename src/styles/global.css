@@ -126,6 +126,21 @@ main section ul span.thin {
     }
 }
 
+article table a,
+main section table a {
+  color: #eee;
+  font-weight: 400;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #999;
+}
+
+article table a:hover,
+main section table a:hover {
+  color: #fff;
+  text-decoration-color: #fff;
+}
+
 p a,
 form label a {
     color: inherit;
@@ -215,4 +230,15 @@ article h3 {
     font-size: 1.4375rem;
     margin-block-start: 1.086956522em;
     margin-block-end: 1.043478261em;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }

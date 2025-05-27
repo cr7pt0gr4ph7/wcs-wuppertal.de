@@ -5,6 +5,30 @@ section {
     margin-bottom: 180px;
 }
 
+sup a[data-footnote-ref] {
+    font-style: italic;
+}
+
+section.footnotes {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+section.footnotes,
+section.footnotes p,
+section.footnotes ul,
+section.footnotes ol,
+section.footnotes ul li,
+section.footnotes ol li,
+article section.footnotes p,
+article section.footnotes ul,
+article section.footnotes ol,
+article section.footnotes ul li,
+article section.footnotes ol li {
+    font-size: 1.125rem;
+    font-style: italic;
+}
+
 section>a[name] {
     position: relative;
     top: -5rem;
