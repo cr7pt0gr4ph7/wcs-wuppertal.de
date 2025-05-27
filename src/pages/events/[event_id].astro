@@ -21,18 +21,30 @@ export async function getStaticPaths() {
 const { event } = Astro.props;
 const { Content } = await render(event);
 
-const { title, subtitle, description, image: imagePath } = event.data;
+const { title, subtitle, description, image: imagePathOrObj } = event.data;
 
-let image;
-if (imagePath) {
-  const imagePath2 = imagePath.startsWith("/") || imagePath.indexOf("https://") !== -1 ? imagePath : "/" + imagePath;
-  const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/*.{jpeg,jpg,png,gif}');
-  if (!images[imagePath2]) {
-    throw new Error(`"${imagePath}" does not exist in glob: "src/assets/*.{jpeg,jpg,png,gif}"`);
-  }
-image = images[imagePath2]();
+let image: {src?: undefined} | { src: string, alt?: string };
+if (!imagePathOrObj) {
+  image = { src: "https://images.unsplash.com/photo-1655459784225-ae3ad6aef952", alt: "Party" };
+} else if (typeof imagePathOrObj === "string") {
+  image = { src: imagePathOrObj };
 } else {
-  image = "https://images.unsplash.com/photo-1655459784225-ae3ad6aef952";
+  image = imagePathOrObj;
+}
+
+let imageProps = null;
+if (image && image.src) {
+  if (image.src.indexOf("https://") === -1 && image.src.indexOf("http://") === -1) {
+    const normalizedPath = image.src.startsWith("/") ? image.src : "/" + image.src;
+    const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/*.{jpeg,jpg,png,gif}');
+    if (!images[normalizedPath]) {
+      throw new Error(`"${image.src}" does not exist in glob: "src/assets/*.{jpeg,jpg,png,gif}"`);
+    }
+    imageProps = {
+      src: images[normalizedPath](),
+      alt: image.alt ?? "Party",
+    }
+  }
 }
 
 const titleAndSubtitle = subtitle ? title + ": " + subtitle : title;
@@ -80,8 +92,8 @@ const titleAndSubtitle = subtitle ? title + ": " + subtitle : title;
       {title && <h2>{hyphenate(title)}</h2>}
       {subtitle && <h3>{hyphenate(subtitle)}</h3>}
     </header>
-    {image && <div class="image-container">
-      <Picture src={image} inferSize={true} alt="Party" />
+    {imageProps && <div class="image-container">
+      <Picture {...imageProps} />
     </div>}
     <Content />
     <EventFooter event={event} />
