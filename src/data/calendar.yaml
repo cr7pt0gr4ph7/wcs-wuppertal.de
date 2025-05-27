@@ -12,173 +12,71 @@
     - title: WCS Level 1
       subtitle: für Einsteiger (Dauer 6 Wochen)
       children:
-      - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-02-23
-        title: WCS Level 1
-        subtitle: für Einsteiger (Dauer 6 Wochen)
-        location: ADTV Tanzschule Schäfer-Koch
-        date: 2025-02-18T19:25:00
-        duration: 01:00:00
-        links:
-          homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
-          maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-        url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
-        type: { regular_course: true, requires_registration: true }
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-05-25
+          title: WCS Level 1
+          location: ADTV Tanzschule Schäfer-Koch
+          date: 2025-05-25T15:15:00
+          duration: 01:00:00
+          links:
+            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
+            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
+          type: { regular_course: true, requires_registration: true }
 
-      - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-02-23
-        title: WCS Level 1
-        location: ADTV Tanzschule Schäfer-Koch
-        date: 2025-02-23T16:30:00
-        duration: 01:00:00
-        links:
-          homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
-          maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-        url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
-        type: { regular_course: true, requires_registration: true }
-
-      - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-04-01
-        title: WCS Level 1
-        location: ADTV Tanzschule Schäfer-Koch
-        date: 2025-04-01T19:00:00
-        duration: 01:00:00
-        links:
-          homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
-          maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-        url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
-        type: { regular_course: true, requires_registration: true }
-
-      - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-04-06
-        title: WCS Level 1
-        location: ADTV Tanzschule Schäfer-Koch
-        date: 2025-04-06T15:15:00
-        duration: 01:00:00
-        links:
-          homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
-          maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-        url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
-        type: { regular_course: true, requires_registration: true }
-
-      - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-05-25
-        title: WCS Level 1
-        location: ADTV Tanzschule Schäfer-Koch
-        date: 2025-05-25T15:15:00
-        duration: 01:00:00
-        links:
-          homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
-          maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-        url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
-        type: { regular_course: true, requires_registration: true }
-
-      - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-05-27
-        title: WCS Level 1
-        location: ADTV Tanzschule Schäfer-Koch
-        date: 2025-05-27T19:00:00
-        duration: 01:00:00
-        links:
-          homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
-          maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-        url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
-        type: { regular_course: true, requires_registration: true }
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-05-27
+          title: WCS Level 1
+          location: ADTV Tanzschule Schäfer-Koch
+          date: 2025-05-27T19:00:00
+          duration: 01:00:00
+          links:
+            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
+            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
+          type: { regular_course: true, requires_registration: true }
 
     - title: WCS Level 2
       subtitle: für Fortgeschrittene (Dauer 4 x 6 Wochen = 24 Wochen)
       children:
-      - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-02-18
-        title: WCS Level 2
-        subtitle: für Fortgeschrittene (Dauer 4 x 6 Wochen = 24 Wochen)
-        location: ADTV Tanzschule Schäfer-Koch
-        date: 2025-02-18T20:30:00
-        duration: 01:00:00
-        links:
-          homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
-          maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-        url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
-        type: { regular_course: true, requires_registration: true }
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-05-25
+          title: WCS Level 2
+          location: ADTV Tanzschule Schäfer-Koch
+          date: 2025-05-25T16:30:00
+          duration: 01:00:00
+          links:
+            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+          type: { regular_course: true, requires_registration: true }
 
-      - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-02-23
-        title: WCS Level 2
-        location: ADTV Tanzschule Schäfer-Koch
-        date: 2025-02-23T17:45:00
-        duration: 01:00:00
-        links:
-          homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
-          maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-        url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
-        type: { regular_course: true, requires_registration: true }
-
-      - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-04-01
-        title: WCS Level 2
-        location: ADTV Tanzschule Schäfer-Koch
-        date: 2025-04-01T20:05:00
-        duration: 01:00:00
-        links:
-          homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
-          maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-        url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
-        type: { regular_course: true, requires_registration: true }
-
-      - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-04-06
-        title: WCS Level 2
-        location: ADTV Tanzschule Schäfer-Koch
-        date: 2025-04-06T16:30:00
-        duration: 01:00:00
-        links:
-          homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
-          maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-        url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
-        type: { regular_course: true, requires_registration: true }
-
-      - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-05-25
-        title: WCS Level 2
-        location: ADTV Tanzschule Schäfer-Koch
-        date: 2025-05-25T16:30:00
-        duration: 01:00:00
-        links:
-          homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
-          maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-        url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
-        type: { regular_course: true, requires_registration: true }
-
-      - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-05-27
-        title: WCS Level 2
-        location: ADTV Tanzschule Schäfer-Koch
-        date: 2025-05-27T20:05:00
-        duration: 01:00:00
-        links:
-          homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
-          maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-        url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
-        type: { regular_course: true, requires_registration: true }
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-05-27
+          title: WCS Level 2
+          location: ADTV Tanzschule Schäfer-Koch
+          date: 2025-05-27T20:05:00
+          duration: 01:00:00
+          links:
+            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+          type: { regular_course: true, requires_registration: true }
 
     - title: WCS Level 3
       subtitle: für Fortgeschrittene (Einstieg jederzeit)
       children:
-      - id: adtv-tanzschule-schaefer-koch--wcs-level-3--2025-04-06
-        title: WCS Level 3
-        subtitle: für Fortgeschrittene (Einstieg jederzeit)
-        location: ADTV Tanzschule Schäfer-Koch
-        date: 2025-04-06T17:45:00
-        duration: 01:00:00
-        links:
-          homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c30242
-          maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-        url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c30242
-        type: { regular_course: true, requires_registration: true }
-
-      - id: adtv-tanzschule-schaefer-koch--wcs-level-3--2025-05-25
-        title: WCS Level 3
-        location: ADTV Tanzschule Schäfer-Koch
-        date: 2025-05-25T17:45:00
-        duration: 01:00:00
-        links:
-          homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c30242
-          maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-        url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c30242
-        type: { regular_course: true, requires_registration: true }
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-3--2025-05-25
+          title: WCS Level 3
+          location: ADTV Tanzschule Schäfer-Koch
+          date: 2025-05-25T17:45:00
+          duration: 01:00:00
+          links:
+            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c30242
+            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c30242
+          type: { regular_course: true, requires_registration: true }
 
 - id: unisport-buw-wuppertal-wcs-level-1
   title: WCS Level 1
   location: UniSport Wuppertal
-  date: 2024-04-09T19:00:00
+  date: 2025-04-09T19:00:00
   duration: 01:00:00
   url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
   type: { regular_course: true, requires_registration: true }
@@ -191,40 +89,40 @@
 #   url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing_Ferien.html
 #   type: { regular_course: true, requires_registration: true }
 
-- id: adtv-tanzschule-schaefer-koch-wcs-schnupperworkshop-2025-05-10
-  title: »Valley Weekend Swing«
-  subtitle: WCS-Schnupperworkshop + Party
-  location: ADTV Tanzschule Schäfer-Koch
-  date: 2025-05-10T19:00:00
-  duration: 01:00:00
-  url: /events/valley-weekend-swing-mai-2025
-  links:
-    homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/events-erwachsene-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=75786&cHash=755feaad219408d97dd826d88ed8bcf8
-    facebook: https://www.facebook.com/events/1064681532344988/
-    maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-  type: { workshop: true, requires_registration: true }
+# - id: adtv-tanzschule-schaefer-koch-wcs-schnupperworkshop-2025-05-10
+#   title: »Valley Weekend Swing«
+#   subtitle: WCS-Schnupperworkshop + Party
+#   location: ADTV Tanzschule Schäfer-Koch
+#   date: 2025-05-10T19:00:00
+#   duration: 01:00:00
+#   url: /events/valley-weekend-swing-mai-2025
+#   links:
+#     homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/events-erwachsene-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=75786&cHash=755feaad219408d97dd826d88ed8bcf8
+#     facebook: https://www.facebook.com/events/1064681532344988/
+#     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+#   type: { workshop: true, requires_registration: true }
 
-- id: adtv-tanzschule-schaefer-koch-wcs-party-2025-05-10
-  title: »Valley Weekend Swing«
-  subtitle: WCS-Schnupperworkshop + Party
-  location: ADTV Tanzschule Schäfer-Koch
-  date: 2025-05-10T19:00:00
-  duration: 01:00:00
-  url: /events/valley-weekend-swing-mai-2025
-  links:
-    homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/events-erwachsene-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=75786&cHash=755feaad219408d97dd826d88ed8bcf8
-    facebook: https://www.facebook.com/events/1064681532344988/
-    maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-  type: { party: true, requires_registration: false }
+# - id: adtv-tanzschule-schaefer-koch-wcs-party-2025-05-10
+#   title: »Valley Weekend Swing«
+#   subtitle: WCS-Schnupperworkshop + Party
+#   location: ADTV Tanzschule Schäfer-Koch
+#   date: 2025-05-10T19:00:00
+#   duration: 01:00:00
+#   url: /events/valley-weekend-swing-mai-2025/
+#   links:
+#     homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/events-erwachsene-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=75786&cHash=755feaad219408d97dd826d88ed8bcf8
+#     facebook: https://www.facebook.com/events/1064681532344988/
+#     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+#   type: { party: true, requires_registration: false }
 
-- id: buw-wuppertal-party-2025-05-21
-  title: »SaBaSwing« @ Uni Wuppertal
-  subtitle: Salsa/Bachata/WCS-Party mit Einsteigerworkshops
-  location: Mensa Grifflenberg @ Uni Wuppertal
-  date: 2025-05-21T18:30:00
-  duration: 05:30:00
-  url: /events/uni-swing-mai-2025
-  type: { party: true, workshop: true, requires_registration: false }
+# - id: buw-wuppertal-party-2025-05-21
+#   title: »SaBaSwing« @ Uni Wuppertal
+#   subtitle: Salsa/Bachata/WCS-Party mit Einsteigerworkshops
+#   location: Mensa Grifflenberg @ Uni Wuppertal
+#   date: 2025-05-21T18:30:00
+#   duration: 05:30:00
+#   url: /events/uni-swing-mai-2025
+#   type: { party: true, workshop: true, requires_registration: false }
 
 - id: outdoor-social-2025-05-29
   title: Outdoor Social am Elisenturm (Abgesagt wegen schlechten Wetters)
@@ -242,16 +140,264 @@
   duration: 04:00:00
   type: { party: true, requires_registration: false }
 
+- id: einsteigerworkshops-sommer-2025
+  title: Einsteigerworkshops
+  subtitle: Macht euren Sommer schöner!
+  location: ADTV Tanzschule Schäfer-Koch
+  date: 2025-07-15T19:45:00
+  duration: 00:00:00
+  url: /events/ferienworkshops-sommer-2025/
+  links:
+    # homepage: https://www.tanzschule-schaefer-koch.de/???/
+    # facebook: https://www.facebook.com/events/???/
+    maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+  type: { workshop: true, requires_registration: false }
+  children:
+    - title: WCS für Einsteiger
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-07-15T19:45:00
+      duration: 01:00:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: WCS für Einsteiger
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-08-17T15:00:00
+      duration: 01:00:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
+- id: wcs-rally-training-2025
+  title: Flashmob-Training
+  location: ADTV Tanzschule Schäfer-Koch
+  date: 2025-07-08T00:00:00
+  duration: 00:00:00
+  url: /events/wcs-rally-training-2025/
+  links:
+    # homepage: https://www.tanzschule-schaefer-koch.de/???/
+    # facebook: https://www.facebook.com/events/???/
+    maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+  type: { workshop: true, requires_registration: true }
+  children:
+    - title: Flashmob-Training
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-07-08T18:15:00
+      duration: 01:30:00
+      url: /events/wcs-rally-training-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: Flashmob-Training
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-07-17T18:00:00
+      duration: 02:00:00
+      url: /events/wcs-rally-training-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: Flashmob-Training
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-07-22T20:00:00
+      duration: 01:00:00
+      url: /events/wcs-rally-training-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: Flashmob-Training
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-07-29T19:30:00
+      duration: 01:30:00
+      url: /events/wcs-rally-training-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: Flashmob-Training
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-08-19T19:00:00
+      duration: 01:00:00
+      url: /events/wcs-rally-training-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: Flashmob-Training
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-08-26T18:00:00
+      duration: 01:30:00
+      url: /events/wcs-rally-training-2025/
+      type: { workshop: true, requires_registration: true }
+
+
+- id: ferienworkshops-sommer-2025
+  title: Sommerferien-Workshops
+  subtitle: Vom 8. Juli bis 26. August 2025
+  location: ADTV Tanzschule Schäfer-Koch
+  date: 2025-07-08T00:00:00
+  duration: 00:00:00
+  url: /events/ferienworkshops-sommer-2025/
+  links:
+    # homepage: https://www.tanzschule-schaefer-koch.de/???/
+    # facebook: https://www.facebook.com/events/???/
+    maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+  type: { workshop: true, requires_registration: true }
+  children:
+    - title: »Connection Technique«
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-07-08T20:00:00
+      duration: 01:00:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: »Cool Moves«
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-07-13T16:30:00
+      duration: 01:00:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: »Dancing to Slow & Very Slow Music«
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-07-13T17:45:00
+      duration: 01:00:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: Surprise Workshop No. 1 mit Jenny Görzen
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-07-15T18:30:00
+      duration: 01:00:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: Surprise Workshop No. 2 mit Jenny Görzen
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-07-15T19:45:00
+      duration: 01:00:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: »Spice Up Your Footwork«
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-07-20T18:00:00
+      duration: 01:00:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: »Musicality for Followers (& How to Enable It As A Leader)«
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-07-20T19:15:00
+      duration: 01:00:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: »Dancing To Fast Music«
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-07-22T18:00:00
+      duration: 01:00:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: »Slot Rotation«
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-07-22T19:00:00
+      duration: 01:00:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: »Pimp Your Whip«
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-07-29T18:15:00
+      duration: 01:00:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: »Where's the Swing?«
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-08-03T15:00:00
+      duration: 01:00:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: »Active Following, Responsive Leading«
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-08-03T16:00:00
+      duration: 01:00:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: »Mirroring & Partnerwork«
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-08-12T18:00:00
+      duration: 01:30:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: »Connection Magic«
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-08-12T19:45:00
+      duration: 01:00:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: »Reverse Role Basics«
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-08-16T16:30:00
+      duration: 01:00:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: »Switch It Up«
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-08-16T17:45:00
+      duration: 01:00:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: »Stealing for Fun & Profit«
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-08-16T19:00:00
+      duration: 01:00:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: »Style Your Basics«
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-08-19T18:00:00
+      duration: 01:00:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: »Spins & Turns«
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-08-24T16:30:00
+      duration: 01:00:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: »(How to) Always Have Good Dances«
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-08-24T17:45:00
+      duration: 01:00:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: »Call & Response – Creating Musical Moments Together«
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-08-24T19:00:00
+      duration: 01:00:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: »Body Waves«
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-08-26T19:45:00
+      duration: 01:00:00
+      url: /events/ferienworkshops-sommer-2025/
+      type: { workshop: true, requires_registration: true }
+
 - id: switch-it-up-august-2025
   title: »Switch It Up!«
   subtitle: Switching- & Stealing-Workshoptag mit Party
   location: ADTV Tanzschule Schäfer-Koch
   date: 2025-08-16T16:30:00
   duration: 07:30:00
-  url: /events/switch-it-up-august-2025
+  url: /events/switch-it-up-august-2025/
   links:
-    # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/events-erwachsene-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=75786&cHash=755feaad219408d97dd826d88ed8bcf8
-    # facebook: https://www.facebook.com/events/1064681532344988/
+    # homepage: https://www.tanzschule-schaefer-koch.de/???/
+    # facebook: https://www.facebook.com/events/???/
     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
   type: { workshop: true, party: true, requires_registration: false }
-

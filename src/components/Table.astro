@@ -142,7 +142,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
                     ) ?? 0) -
                     1}
                   <span class="if-large-viewport">
-                    {" weitere Starttermine"}
+                    {((entry.children?.length === 2) ? (entry.type?.regular_course ? " weiterer Starttermin" : " weiterer Termin") : (entry.type?.regular_course ? " weitere Starttermine" : " weitere Termine"))}
                   </span>
                 </span>
               </span>
