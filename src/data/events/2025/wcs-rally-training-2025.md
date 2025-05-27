@@ -31,7 +31,7 @@ Die Teilnahme an allen Flashmob-Trainings kostet einmalig 10,- €.
 ## Termine
 
 - Dienstag, 8. Juli 2025: 18:15 – 19:45 Uhr (1 Std. 30 Min.)
-- Donnerstag, 17. Juli 2025	18:00 – 20:00 Uhr (2 Std.)
+- Donnerstag, 17. Juli 2025: 18:00 – 20:00 Uhr (2 Std.)
 - Dienstag, 22. Juli 2025: 20:00 – 21:00 Uhr (1 Std.)
 - Dienstag, 29. Juli 2025: 19:30 – 21:00 Uhr (1 Std. 30 Min.)
 - Dienstag, 19. August 2025: 19:00 – 20:00 Uhr (1 Std.)
