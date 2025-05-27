@@ -21,14 +21,15 @@ type:
     requires_registration: true
 ---
 
-# Lernt mit uns die Choreo für den diesjährigen WCS Flashmob!
+# Lernt mit uns die Choreo für den diesjährigen [WCS Flashmob](https://www.youtube.com/watch?v=LLI7BwkEAvo)!
 
 Bei der alljährlichen „International Rally WCS“ wird seit 2010 immer Anfang September der Tanz aus den Tanzschulen nach draußen getragen und so bekannter gemacht!
 
-Ihr wollt auch mitmachen & unsere Szene unterstützen?
-Dann kommt zu unseren Trainingsterminen für die [Flashmob-Choreo](https://www.youtube.com/watch?v=LLI7BwkEAvo)!
+Ihr wollt auch mitmachen & unsere Szene unterstützen? Dann kommt zu unseren untenstehenden Trainingsterminen!
 
 Die Teilnahme an allen Flashmob-Trainings kostet einmalig 10,- €.
+
+Das Datum für die Aufführung des Flashmobs in Wuppertal wird noch bekannt gegeben.
 
 ## Termine
 
