@@ -161,9 +161,16 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
               (eventType) => entry.type[eventType]?.requires_registration,
             ) ?? false;
 
+          const forceMoreInfos =
+            types?.some(
+              (eventType) => entry.type[eventType]?.more_infos,
+            ) ?? false;
+
           if (registrationNeeded && entry.url) {
             return (
               <div class="td link">
+                {forceMoreInfos && <a href={entry.url}>Mehr Infos</a>}
+                {forceMoreInfos && " | "}
                 <a href={entry.url}>Anmelden</a>
               </div>
             );
@@ -174,7 +181,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
               <div class="td link">
                 {entry.url && <a href={entry.url}>Mehr Infos</a>}
                 {entry.url && " | "}
-                <span>Keine Anmeldung erforderlich</span>
+                <span>{(registrationNeeded ? "Anmeldung erforderlich" : "Keine Anmeldung erforderlich")}</span>
               </div>
             );
           }

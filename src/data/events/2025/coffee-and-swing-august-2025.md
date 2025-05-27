@@ -22,7 +22,7 @@ type:
     requires_registration: true
 ---
 
-## Am Samstag, 03.08.25 ab 15:00 Uhr
+## Am Sonntag, 03.08.25 ab 15:00 Uhr
 
 Ein Special im Rahmen unserers [Sommerferienprogramms](/events/ferienworkshops-sommer-2025/): Wir machen uns zusammen einen entspannten Sonntag mit ein paar spannenden Workshops plus Social Dancing.
 

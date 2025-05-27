@@ -177,7 +177,7 @@
     # homepage: https://www.tanzschule-schaefer-koch.de/???/
     # facebook: https://www.facebook.com/events/???/
     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-  type: { workshop: true, requires_registration: true }
+  type: { workshop: true, more_infos: true, requires_registration: true }
   children:
     - title: Flashmob-Training
       location: ADTV Tanzschule Schäfer-Koch
@@ -233,7 +233,7 @@
     # homepage: https://www.tanzschule-schaefer-koch.de/???/
     # facebook: https://www.facebook.com/events/???/
     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-  type: { workshop: true, requires_registration: true }
+  type: { workshop: true, more_infos: true, requires_registration: true }
   children:
     - title: »Connection Technique«
       location: ADTV Tanzschule Schäfer-Koch
@@ -400,7 +400,7 @@
     # homepage: https://www.tanzschule-schaefer-koch.de/???/
     # facebook: https://www.facebook.com/events/???/
     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-  type: { workshop: true, party: true, requires_registration: false }
+  type: { workshop: true, party: { requires_registration: false }, more_infos: true, requires_registration: true }
 
 - id: switch-it-up-august-2025
   title: »Switch It Up!«
@@ -413,4 +413,4 @@
     # homepage: https://www.tanzschule-schaefer-koch.de/???/
     # facebook: https://www.facebook.com/events/???/
     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-  type: { workshop: true, party: true, requires_registration: false }
+  type: { workshop: { requires_registration: true }, party: true, more_infos: true, requires_registration: false }
