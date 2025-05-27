@@ -389,6 +389,19 @@
       url: /events/ferienworkshops-sommer-2025/
       type: { workshop: true, requires_registration: true }
 
+- id: coffee-and-swing-august-2025
+  title: »Coffee & Swing«
+  subtitle: Workshops & Social Dancing
+  location: ADTV Tanzschule Schäfer-Koch
+  date: 2025-08-03T15:00:00
+  duration: 05:00:00
+  url: /events/coffee-and-swing-august-2025/
+  links:
+    # homepage: https://www.tanzschule-schaefer-koch.de/???/
+    # facebook: https://www.facebook.com/events/???/
+    maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+  type: { workshop: true, party: true, requires_registration: false }
+
 - id: switch-it-up-august-2025
   title: »Switch It Up!«
   subtitle: Switching- & Stealing-Workshoptag mit Party
