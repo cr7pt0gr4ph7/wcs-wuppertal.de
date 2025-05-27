@@ -141,6 +141,8 @@ main section table a:hover {
   text-decoration-color: #fff;
 }
 
+h1 a,
+h2 a,
 p a,
 form label a {
     color: inherit;
@@ -151,6 +153,10 @@ form label a {
     text-underline-offset: 2px;
 }
 
+h1 a:hover,
+h1 a:focus,
+h2 a:hover,
+h2 a:focus,
 p a:hover,
 p a:focus,
 form label a:hover,

@@ -29,9 +29,9 @@ Ihr wollt auch mitmachen & unsere Szene unterstützen? Dann kommt zu unseren unt
 
 Die Teilnahme an allen Flashmob-Trainings kostet einmalig 10,- €.
 
-Das Datum für die Aufführung des Flashmobs in Wuppertal wird noch bekannt gegeben.
-
 ## Termine
+
+An folgenden Terminen könnt ihr bei uns die Choreographie für den Flashmob lernen:
 
 |            |                 |                     |                  |
 | ---------- | --------------: | :------------------ | ---------------- |
@@ -41,6 +41,12 @@ Das Datum für die Aufführung des Flashmobs in Wuppertal wird noch bekannt gege
 | Dienstag   |   29. Juli 2025 | *19:30 – 21:00 Uhr* | (1 Std. 30 Min.) |
 | Dienstag   | 19. August 2025 | *19:00 – 20:00 Uhr* | (1 Std.)         |
 | Dienstag   | 26. August 2025 | *18:00 – 19:30 Uhr* | (1 Std. 30 Min)  |
+
+Die Choreotrainings finden alle statt in der Tanzschule Schäfer-Koch in Wuppertal-Elberfeld (Adresse siehe unten).
+
+## Aufführung
+
+Das Datum für die Aufführung des Flashmobs in Wuppertal wird noch bekannt gegeben!
 
 ## Anmeldung
 
