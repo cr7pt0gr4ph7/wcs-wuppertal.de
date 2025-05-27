@@ -44,7 +44,9 @@ a.implicit-link:focus-within {
 
 p,
 article ul,
-main section ul {
+article ol,
+main section ul,
+main section ol {
     font-size: 1.5rem;
     line-height: 2.25rem;
     font-weight: 300;
@@ -56,9 +58,40 @@ article ulx {
     font-weight: 300;
 }
 
+th {
+    text-align: unset;
+}
+
 article ul li,
-main section ul li {
+article ol li,
+main section ul li,
+main section ol li {
     margin-bottom: .75rem;
+}
+
+article table,
+main section table {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 300;
+    border-spacing: 2px;
+    margin-left: -2px;
+    margin-right: -2px;
+}
+
+article table td,
+article table th,
+main section table th,
+main section table td {
+    vertical-align: baseline;
+    border-right: 1.25rem solid transparent;
+}
+
+article table td:last-child,
+article table th:last-child,
+main section table td:last-child,
+main section table th:last-child {
+    margin-left: 0;
 }
 
 h1 span.thin,
