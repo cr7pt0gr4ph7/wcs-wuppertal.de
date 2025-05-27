@@ -385,7 +385,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     position: relative;
     bottom: calc(1 * 1rem / 16);
     text-wrap: nowrap;
-    word-break: break-all;
+    /* word-break: break-all; */ /* "word-wrap: break-all" causes line breaks at unintended positions in Firefox 136 */
   }
 
   .tr:hover .additional-dates {
@@ -518,7 +518,8 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   }
 
   @media (min-width: 900px) {
-    .table {
+    .table,
+    .table details summary.tr {
       display: grid;
       grid-template-columns:
         [start name name-start] 15fr
@@ -526,6 +527,17 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
         [location location-start datetime-end] 16fr
         [link link-start location-end] 8fr
         [end link-end];
+    }
+
+    .table details summary.tr {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .table details summary.tr > .td:first-child {
+      padding-left: 2rem;
+    }
+    .table details summary.tr > .td:last-child {
+      padding-right: 2rem;
     }
 
     .name {
