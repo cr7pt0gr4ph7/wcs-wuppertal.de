@@ -32,9 +32,13 @@ if (!imagePathOrObj) {
   image = imagePathOrObj;
 }
 
+function isLocalImage(src: string): boolean {
+  return src.indexOf("https://") === -1 && src.indexOf("http://") === -1;
+}
+
 let imageProps = null;
 if (image && image.src) {
-  if (image.src.indexOf("https://") === -1 && image.src.indexOf("http://") === -1) {
+  if (isLocalImage(image.src)) {
     const normalizedPath = image.src.startsWith("/") ? image.src : "/" + image.src;
     const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/*.{jpeg,jpg,png,gif}');
     if (!images[normalizedPath]) {
@@ -43,7 +47,13 @@ if (image && image.src) {
     imageProps = {
       src: images[normalizedPath](),
       alt: image.alt ?? "Party",
-    }
+    };
+  } else {
+    imageProps = {
+      src: image.src,
+      alt: image.alt ?? "Party",
+      inferSize: true as const,
+    };
   }
 }
 
