@@ -3,7 +3,8 @@
     "astro-build.astro-vscode",
     "redhat.vscode-yaml",
     "unifiedjs.vscode-mdx",
-    "stripe.markdoc-language-support"
+    "stripe.markdoc-language-support",
+    "yzhang.markdown-all-in-one"
   ],
   "unwantedRecommendations": []
 }
