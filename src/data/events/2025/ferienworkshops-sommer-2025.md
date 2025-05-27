@@ -10,6 +10,9 @@ address:
   postalCode: "42103"
   countryCode: DE
   url: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
+image:
+  src: src/assets/sommerworkshops-2025.png
+  alt: Sommerworkshops 2025
 links:
     # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/
     # facebook: https://www.facebook.com/events/1064681532344988/
