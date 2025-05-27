@@ -1015,7 +1015,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/hast@npm:^3.0.0, @types/hast@npm:^3.0.4":
+"@types/hast@npm:^3.0.0, @types/hast@npm:^3.0.1, @types/hast@npm:^3.0.4":
   version: 3.0.4
   resolution: "@types/hast@npm:3.0.4"
   dependencies:
@@ -1038,7 +1038,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/mdast@npm:^4.0.0":
+"@types/mdast@npm:^4.0.0, @types/mdast@npm:^4.0.1":
   version: 4.0.4
   resolution: "@types/mdast@npm:4.0.4"
   dependencies:
@@ -3069,6 +3069,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mdast-util-extended-table@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "mdast-util-extended-table@npm:2.0.3"
+  dependencies:
+    "@types/hast": "npm:^3.0.1"
+    "@types/mdast": "npm:^4.0.1"
+    "@types/unist": "npm:^3.0.0"
+    mdast-util-from-markdown: "npm:^2.0.0"
+    mdast-util-to-hast: "npm:^13.0.2"
+    mdast-util-to-markdown: "npm:^2.1.0"
+    micromark-extension-extended-table: "npm:^2.0.3"
+    unist-builder: "npm:^4.0.0"
+    unist-util-position: "npm:^5.0.0"
+    unist-util-visit: "npm:^5.0.0"
+  peerDependencies:
+    mdast-util-gfm-table: ^2.0.0
+  checksum: 10c0/4d834a636d03774402b66263b32f72dc7e61d381a9384b8990ce90d440181eeca13c5cc175bcb07f5077c38accb98f045af891541a04c6925d8d142a049344ee
+  languageName: node
+  linkType: hard
+
 "mdast-util-find-and-replace@npm:^3.0.0":
   version: 3.0.2
   resolution: "mdast-util-find-and-replace@npm:3.0.2"
@@ -3188,7 +3208,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mdast-util-to-hast@npm:^13.0.0":
+"mdast-util-to-hast@npm:^13.0.0, mdast-util-to-hast@npm:^13.0.2":
   version: 13.2.0
   resolution: "mdast-util-to-hast@npm:13.2.0"
   dependencies:
@@ -3205,7 +3225,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mdast-util-to-markdown@npm:^2.0.0":
+"mdast-util-to-markdown@npm:^2.0.0, mdast-util-to-markdown@npm:^2.1.0":
   version: 2.1.2
   resolution: "mdast-util-to-markdown@npm:2.1.2"
   dependencies:
@@ -3273,6 +3293,20 @@ __metadata:
     micromark-util-symbol: "npm:^2.0.0"
     micromark-util-types: "npm:^2.0.0"
   checksum: 10c0/87c7a75cd339189eb6f1d6323037f7d108d1331d953b84fe839b37fd385ee2292b27222327c1ceffda46ba5d5d4dee703482475e5ee8744be40c9e308d8acb77
+  languageName: node
+  linkType: hard
+
+"micromark-extension-extended-table@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "micromark-extension-extended-table@npm:2.0.3"
+  dependencies:
+    micromark-util-chunked: "npm:^2.0.0"
+    micromark-util-symbol: "npm:^2.0.0"
+    micromark-util-types: "npm:^2.0.0"
+  peerDependencies:
+    micromark: ^4.0.0
+    micromark-extension-gfm-table: ^2.0.0
+  checksum: 10c0/8cfc88ee4c448c146df27fba69eae9ccc101db15f7ec7ef4cea64262edaa8b103f9325817a772d40129498c3702ee233b58c109a17fd9a5755e1dd4695cc5e9b
   languageName: node
   linkType: hard
 
@@ -4312,6 +4346,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"remark-extended-table@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "remark-extended-table@npm:2.0.3"
+  dependencies:
+    mdast-util-extended-table: "npm:^2.0.3"
+    micromark-extension-extended-table: "npm:^2.0.3"
+  peerDependencies:
+    remark-gfm: ^4.0.0
+    remark-parse: ^11.0.0
+    unified: ^11.0.0
+  checksum: 10c0/0a149558ecde0666199fb7eab822c720764f86dc913f6a3447c8251d28e20cae5f953cff9c76497a1bd1dbed2813c5326cabbfb44557c2c6ff28e6632805684a
+  languageName: node
+  linkType: hard
+
 "remark-gfm@npm:^4.0.0":
   version: 4.0.0
   resolution: "remark-gfm@npm:4.0.0"
@@ -5101,6 +5149,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"unist-builder@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "unist-builder@npm:4.0.0"
+  dependencies:
+    "@types/unist": "npm:^3.0.0"
+  checksum: 10c0/8296a70703bb1be8dfaa2fb59c05480a84df464f359ce61c7db98db2dc4dfb2219a17020a3feaca65c44841e631133cbf829047b9f92941b30dad003f9052d14
+  languageName: node
+  linkType: hard
+
 "unist-util-find-after@npm:^5.0.0":
   version: 5.0.0
   resolution: "unist-util-find-after@npm:5.0.0"
@@ -5610,6 +5667,7 @@ __metadata:
     astro-mail-obfuscation: "npm:^2.3.4"
     astro-seo-schema: "npm:^5.0.0"
     hyphen: "npm:^1.10.6"
+    remark-extended-table: "npm:^2.0.3"
     schema-dts: "npm:^1.1.2"
     temporal-polyfill: "npm:^0.2.5"
     typescript: "npm:^5.7.3"
