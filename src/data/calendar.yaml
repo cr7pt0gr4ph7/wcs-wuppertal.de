@@ -115,6 +115,19 @@
 #     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
 #   type: { party: true, requires_registration: false }
 
+- id: adtv-tanzschule-schaefer-koch-wcs-party-2025-06-28
+  title: »Valley Weekend Swing«
+  subtitle: WCS-Schnupperworkshop + Party
+  location: ADTV Tanzschule Schäfer-Koch
+  date: 2025-06-28T19:00:00
+  duration: 01:00:00
+  url: /events/valley-weekend-swing-juni-2025/
+  links:
+    # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/events-erwachsene-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=75786&cHash=755feaad219408d97dd826d88ed8bcf8
+    # facebook: https://www.facebook.com/events/1064681532344988/
+    maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+    type: { more_infos: true, party: { requires_registration: false }, workshop: { requires_registration: true } }
+
 # - id: buw-wuppertal-party-2025-05-21
 #   title: »SaBaSwing« @ Uni Wuppertal
 #   subtitle: Salsa/Bachata/WCS-Party mit Einsteigerworkshops
