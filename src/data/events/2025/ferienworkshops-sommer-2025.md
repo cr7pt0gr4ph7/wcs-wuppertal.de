@@ -36,7 +36,7 @@ Die Anmeldung zu den Workshops erfolgt über info(at)tanzschule-schaefer-koch.de
 ### Flatrate
 
 Mit unserer WCS-Ferienflatrate seid Ihr ohne weitere Kosten bei allen unseren Ferienworkshops mit dabei,
-und bekommt auch 10 € Rabatt auf den [Swit­ching- & Ste­aling-Work­sh­op­tag + Party am 21.08][switch-it-up].
+und bekommt auch 10 € Rabatt auf den [Swit­ching- & Ste­aling-Work­sh­op­tag + Party am 16.08][switch-it-up].
 
 - 70 € für alle 8 Wochen (= 20 Workshops) _⟹ Nur 3,50 € pro Workshop_
 - 50 € für die ersten 4 Wochen (= 10 Workshops, bis 31.07.) _⟹ Nur 5 € pro Workshop_
