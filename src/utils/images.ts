@@ -22,3 +22,8 @@ export function toImageSet(image: {
     result += ")"
     return result;
 }
+
+
+export function isLocalImage(src: string): boolean {
+    return src.indexOf("https://") === -1 && src.indexOf("http://") === -1;
+}

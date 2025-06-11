@@ -8,6 +8,7 @@ import demoImage from "../../assets/parties-und-events.jpg";
 import MinimalLayout from "../../layouts/MinimalLayout.astro";
 import "../../styles/section.css";
 import { hyphenate } from "../../utils/hyphenate.ts";
+import { isLocalImage } from "../../utils/images.ts";
 import EventFooter from "../../components/events/EventFooter.astro";
 
 export async function getStaticPaths() {
@@ -30,10 +31,6 @@ if (!imagePathOrObj) {
   image = { src: imagePathOrObj };
 } else {
   image = imagePathOrObj;
-}
-
-function isLocalImage(src: string): boolean {
-  return src.indexOf("https://") === -1 && src.indexOf("http://") === -1;
 }
 
 let imageProps = null;
