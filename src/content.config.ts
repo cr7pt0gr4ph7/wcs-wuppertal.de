@@ -26,16 +26,18 @@ eventTypes.forEach((eventType) => {
 
 const eventTypeSchema = z.object({
     ...eventTypeSchemaStructure,
+    additional_text: z.string().optional(),
     more_infos: z.boolean().optional(),
     requires_registration: z.boolean().optional(),
 }).transform((arg) => {
-    let result: { [EventType in typeof eventTypes[number]]?: { more_infos: boolean, requires_registration: boolean } } = {};
+    let result: { [EventType in typeof eventTypes[number]]?: { more_infos: boolean, requires_registration: boolean, additional_text: string | undefined } } = {};
     eventTypes.forEach((eventType) => {
         if (arg[eventType]) {
             result[eventType] = {
                 requires_registration: (typeof arg[eventType] === 'object'
                     ? arg[eventType].requires_registration
                     : arg.requires_registration) ?? false,
+                additional_text: arg.additional_text ?? undefined,
                 more_infos: arg.more_infos ?? false,
             };
         }

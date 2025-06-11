@@ -123,7 +123,9 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
           let imageProps = toImageProps(parseImageObject(entry.image));
           return (
             <div class="td name">
-              {imageProps ? <Picture class="teaser-image" {...imageProps} /> : null}
+              {imageProps ? (
+                <Picture class="teaser-image" {...imageProps} />
+              ) : null}
               {entry.subtitle ? (
                 <div class="title-box">
                   <div class="title">{hyphenate(entry.title)}</div>
@@ -186,29 +188,48 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
             types?.some((eventType) => entry.type[eventType]?.more_infos) ??
             false;
 
+          const additionalText =
+            types?.map(
+              (eventType) => entry.type[eventType]?.additional_text,
+            ).filter(text => text).at(0) ?? "";
+
+          let children = [];
+          if ((!registrationNeeded || forceMoreInfos) && entry.url) {
+            children.push(<a href={entry.url}>Mehr Infos</a>);
+          }
           if (registrationNeeded && entry.url) {
-            return (
-              <div class="td link">
-                {forceMoreInfos && <a href={entry.url}>Mehr Infos</a>}
-                {forceMoreInfos && " | "}
-                <a href={entry.url}>Anmelden</a>
-              </div>
-            );
-          } else if (registrationNeeded && !entry.url) {
-            return <div class="td link">{"Anmeldung erforderlich"}</div>;
+            if (children.length > 0) {
+              children.push(" | ");
+            }
+            children.push(<a href={entry.url}>Anmelden</a>);
+          }
+          if (registrationNeeded && !entry.url) {
+            if (children.length > 0) {
+              children.push(" | ");
+            }
+            children.push(<span>Anmeldung erforderlich</span>);
           } else {
-            return (
-              <div class="td link">
-                {entry.url && <a href={entry.url}>Mehr Infos</a>}
-                {entry.url && " | "}
-                <span>
-                  {registrationNeeded
-                    ? "Anmeldung erforderlich"
-                    : "Keine Anmeldung erforderlich"}
-                </span>
-              </div>
+            if (children.length > 0) {
+              children.push(" | ");
+            }
+            children.push(
+              <span>
+                {registrationNeeded
+                  ? "Anmeldung erforderlich"
+                  : "Keine Anmeldung erforderlich"}
+              </span>,
             );
           }
+          if (additionalText) {
+            if (children.length > 0) {
+              children.push(" | ");
+            }
+            children.push(<span>{additionalText}</span>);
+          }
+
+          return (
+            <div class="td link">{children}</div>
+          );
         },
       },
     } satisfies Columns;
@@ -561,7 +582,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 
     .name Picture {
       max-width: 160px;
-      margin-left: -.5em;
+      margin-left: -0.5em;
       margin-right: 1em;
       align-self: center;
     }
@@ -661,7 +682,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     .location,
     .link {
       --indent: 0px;
-      padding-right: .5em;
+      padding-right: 0.5em;
     }
   }
 
