@@ -8,8 +8,9 @@ import demoImage from "../../assets/parties-und-events.jpg";
 import MinimalLayout from "../../layouts/MinimalLayout.astro";
 import "../../styles/section.css";
 import { hyphenate } from "../../utils/hyphenate.ts";
-import { isLocalImage } from "../../utils/images.ts";
+import { toImageProps } from "../../utils/images.ts";
 import EventFooter from "../../components/events/EventFooter.astro";
+import { parseImageObject } from '../../utils/model';
 
 export async function getStaticPaths() {
   const events = await getCollection("events");
@@ -23,36 +24,10 @@ const { event } = Astro.props;
 const { Content } = await render(event);
 
 const { title, subtitle, description, image: imagePathOrObj } = event.data;
+const image = parseImageObject(imagePathOrObj ?? "https://images.unsplash.com/photo-1655459784225-ae3ad6aef952", { alt: "Party" });
 
-let image: {src?: undefined} | { src: string, alt?: string };
-if (!imagePathOrObj) {
-  image = { src: "https://images.unsplash.com/photo-1655459784225-ae3ad6aef952", alt: "Party" };
-} else if (typeof imagePathOrObj === "string") {
-  image = { src: imagePathOrObj };
-} else {
-  image = imagePathOrObj;
-}
+let imageProps = toImageProps(image);
 
-let imageProps = null;
-if (image && image.src) {
-  if (isLocalImage(image.src)) {
-    const normalizedPath = image.src.startsWith("/") ? image.src : "/" + image.src;
-    const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/*.{jpeg,jpg,png,gif}');
-    if (!images[normalizedPath]) {
-      throw new Error(`"${image.src}" does not exist in glob: "src/assets/*.{jpeg,jpg,png,gif}"`);
-    }
-    imageProps = {
-      src: images[normalizedPath](),
-      alt: image.alt ?? "Party",
-    };
-  } else {
-    imageProps = {
-      src: image.src,
-      alt: image.alt ?? "Party",
-      inferSize: true as const,
-    };
-  }
-}
 
 const titleAndSubtitle = subtitle ? title + ": " + subtitle : title;
 ---
