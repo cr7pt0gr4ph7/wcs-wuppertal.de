@@ -1,7 +1,10 @@
 ---
+import { Picture } from "astro:assets";
 import { getCollection, type InferEntrySchema } from "astro:content";
 import { Temporal } from "temporal-polyfill";
 import { hyphenate } from "../utils/hyphenate.ts";
+import { toImageProps } from "../utils/images";
+import { parseImageObject } from "../utils/model";
 
 type ItemType = keyof InferEntrySchema<"calendar">["type"];
 
@@ -66,6 +69,7 @@ const formatDateTime = (
 };
 
 interface BaseRowData {
+  image?: string | { src: string; alt?: string };
   title: string;
   subtitle?: string;
   date: Temporal.ZonedDateTime;
@@ -115,20 +119,31 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 
     const columns = {
       name: {
-        format: (entry: RowData) =>
-          entry.subtitle ? (
+        format: (entry: RowData) => {
+          let imageProps = toImageProps(parseImageObject(entry.image));
+          return (
             <div class="td name">
-              <div class="title">{hyphenate(entry.title)}</div>
-              <div class="subtitle">{hyphenate(entry.subtitle)}</div>
+              {imageProps ? <Picture class="teaser-image" {...imageProps} /> : null}
+              {entry.subtitle ? (
+                <div class="title-box">
+                  <div class="title">{hyphenate(entry.title)}</div>
+                  <div class="subtitle">{hyphenate(entry.subtitle)}</div>
+                </div>
+              ) : (
+                <div class="title-box">{hyphenate(entry.title)}</div>
+              )}
             </div>
-          ) : (
-            <div class="td name">{hyphenate(entry.title)}</div>
-          ),
+          );
+        },
       },
       dates: {
         format: (entry: RowData) =>
           !entry.children && !entry.groups ? (
-            <div class="td dates">{entry.dates ? formatDates(entry.dates) : formatDateTime(entry.date)}</div>
+            <div class="td dates">
+              {entry.dates
+                ? formatDates(entry.dates)
+                : formatDateTime(entry.date)}
+            </div>
           ) : (
             <div class="td dates">
               {formatDate(entry.date)}{" "}
@@ -142,7 +157,13 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
                     ) ?? 0) -
                     1}
                   <span class="if-large-viewport">
-                    {((entry.children?.length === 2) ? (entry.type?.regular_course ? " weiterer Starttermin" : " weiterer Termin") : (entry.type?.regular_course ? " weitere Starttermine" : " weitere Termine"))}
+                    {entry.children?.length === 2
+                      ? entry.type?.regular_course
+                        ? " weiterer Starttermin"
+                        : " weiterer Termin"
+                      : entry.type?.regular_course
+                        ? " weitere Starttermine"
+                        : " weitere Termine"}
                   </span>
                 </span>
               </span>
@@ -162,9 +183,8 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
             ) ?? false;
 
           const forceMoreInfos =
-            types?.some(
-              (eventType) => entry.type[eventType]?.more_infos,
-            ) ?? false;
+            types?.some((eventType) => entry.type[eventType]?.more_infos) ??
+            false;
 
           if (registrationNeeded && entry.url) {
             return (
@@ -181,7 +201,11 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
               <div class="td link">
                 {entry.url && <a href={entry.url}>Mehr Infos</a>}
                 {entry.url && " | "}
-                <span>{(registrationNeeded ? "Anmeldung erforderlich" : "Keine Anmeldung erforderlich")}</span>
+                <span>
+                  {registrationNeeded
+                    ? "Anmeldung erforderlich"
+                    : "Keine Anmeldung erforderlich"}
+                </span>
               </div>
             );
           }
@@ -517,14 +541,59 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     margin-top: 8px;
   }
 
+  .name Picture {
+    float: right;
+    max-width: 200px;
+    position: relative;
+    top: -40px;
+  }
+
+  .name::after {
+    content: "";
+    clear: botH;
+  }
+
   @media (min-width: 900px) {
+    .name {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .name Picture {
+      max-width: 160px;
+      margin-left: -.5em;
+      margin-right: 1em;
+      align-self: center;
+    }
+
+    .name Picture img {
+      box-shadow: 2px 2px 8px black;
+    }
+
+    .name Picture {
+      filter: saturate(10%) brightness(50%);
+      transition: filter 0.4s ease-in;
+      position: static;
+    }
+
+    .table:hover .name Picture {
+      transition: filter 1s ease-in;
+    }
+
+    .tr:hover .name Picture {
+      filter: saturate(100%);
+      transition: filter 0.3s ease-in;
+    }
+
+    /* -- */
+
     .table,
     .table details summary.tr {
       display: grid;
       grid-template-columns:
-        [start name name-start] 15fr
+        [start name name-start] 18fr
         [datetime datetime-start name-end] 11fr
-        [location location-start datetime-end] 16fr
+        [location location-start datetime-end] 13fr
         [link link-start location-end] 8fr
         [end link-end];
     }
@@ -592,6 +661,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     .location,
     .link {
       --indent: 0px;
+      padding-right: .5em;
     }
   }
 
