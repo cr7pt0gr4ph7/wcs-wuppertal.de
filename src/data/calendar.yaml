@@ -180,6 +180,14 @@
       url: /events/ferienworkshops-sommer-2025/
       type: { workshop: true, requires_registration: true }
 
+- id: queerer-tanzworkshop-juli-2025
+  title: Queerer Tanzworkshop für Neueinsteiger*innen
+  subtitle: in Kooperation mit dem Queer*referat des AStA Wuppertal
+  location: Inside:Out Wuppertal
+  date: 2025-07-10T18:00:00
+  duration: 01:30:00
+  type: { workshop: true, requires_registration: true, additional_text: "Weitere Infos folgen" }
+
 - id: wcs-rally-training-2025
   title: Flashmob-Training
   location: ADTV Tanzschule Schäfer-Koch
