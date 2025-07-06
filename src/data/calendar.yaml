@@ -1,7 +1,7 @@
 - id: adtv-tanzschule-schaefer-koch-wcs-level-1-und-2
   title: WCS Level 1, 2 & 3
   location: ADTV Tanzschule Schäfer-Koch
-  date: 2025-04-01T15:15:00
+  date: 2025-08-31T15:15:00
   duration: 01:00:00
   links:
     homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25063
@@ -12,10 +12,10 @@
     - title: WCS Level 1
       subtitle: für Einsteiger (Dauer 6 Wochen)
       children:
-        - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-05-25
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-08-31
           title: WCS Level 1
           location: ADTV Tanzschule Schäfer-Koch
-          date: 2025-05-25T15:15:00
+          date: 2025-08-31T15:15:00
           duration: 01:00:00
           links:
             homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
@@ -23,10 +23,43 @@
           url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
           type: { regular_course: true, requires_registration: true }
 
-        - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-05-27
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-09-02
           title: WCS Level 1
           location: ADTV Tanzschule Schäfer-Koch
-          date: 2025-05-27T19:00:00
+          date: 2025-09-02T18:45:00
+          duration: 01:00:00
+          links:
+            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
+            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
+          type: { regular_course: true, requires_registration: true }
+
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-10-28
+          title: WCS Level 1
+          location: ADTV Tanzschule Schäfer-Koch
+          date: 2025-10-28T17:50:00
+          duration: 01:00:00
+          links:
+            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
+            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
+          type: { regular_course: true, requires_registration: true }
+
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-10-30
+          title: WCS Level 1
+          location: ADTV Tanzschule Schäfer-Koch
+          date: 2025-10-30T19:45:00
+          duration: 01:00:00
+          links:
+            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
+            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
+          type: { regular_course: true, requires_registration: true }
+
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-11-02
+          title: WCS Level 1
+          location: ADTV Tanzschule Schäfer-Koch
+          date: 2025-11-02T15:15:00
           duration: 01:00:00
           links:
             homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
@@ -37,10 +70,10 @@
     - title: WCS Level 2
       subtitle: für Fortgeschrittene (Dauer 4 x 6 Wochen = 24 Wochen)
       children:
-        - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-05-25
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-08-31
           title: WCS Level 2
           location: ADTV Tanzschule Schäfer-Koch
-          date: 2025-05-25T16:30:00
+          date: 2025-08-31T16:30:00
           duration: 01:00:00
           links:
             homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
@@ -48,10 +81,43 @@
           url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
           type: { regular_course: true, requires_registration: true }
 
-        - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-05-27
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-09-02
           title: WCS Level 2
           location: ADTV Tanzschule Schäfer-Koch
-          date: 2025-05-27T20:05:00
+          date: 2025-09-02T20:00:00
+          duration: 01:00:00
+          links:
+            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+          type: { regular_course: true, requires_registration: true }
+
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-10-28
+          title: WCS Level 2
+          location: ADTV Tanzschule Schäfer-Koch
+          date: 2025-10-28T19:00:00
+          duration: 01:00:00
+          links:
+            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+          type: { regular_course: true, requires_registration: true }
+
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-10-30
+          title: WCS Level 2
+          location: ADTV Tanzschule Schäfer-Koch
+          date: 2025-10-30T18:30:00
+          duration: 01:00:00
+          links:
+            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+          type: { regular_course: true, requires_registration: true }
+
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-11-02
+          title: WCS Level 2
+          location: ADTV Tanzschule Schäfer-Koch
+          date: 2025-11-02T16:30:00
           duration: 01:00:00
           links:
             homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
@@ -62,10 +128,32 @@
     - title: WCS Level 3
       subtitle: für Fortgeschrittene (Einstieg jederzeit)
       children:
-        - id: adtv-tanzschule-schaefer-koch--wcs-level-3--2025-05-25
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-3--2025-08-31
           title: WCS Level 3
           location: ADTV Tanzschule Schäfer-Koch
-          date: 2025-05-25T17:45:00
+          date: 2025-08-31T17:45:00
+          duration: 01:00:00
+          links:
+            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c30242
+            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c30242
+          type: { regular_course: true, requires_registration: true }
+
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-3--2025-10-28
+          title: WCS Level 3
+          location: ADTV Tanzschule Schäfer-Koch
+          date: 2025-10-28T20:00:00
+          duration: 01:00:00
+          links:
+            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c30242
+            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c30242
+          type: { regular_course: true, requires_registration: true }
+
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-3--2025-11-02
+          title: WCS Level 3
+          location: ADTV Tanzschule Schäfer-Koch
+          date: 2025-11-02T17:45:00
           duration: 01:00:00
           links:
             homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c30242
