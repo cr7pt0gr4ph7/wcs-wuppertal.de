@@ -12,6 +12,20 @@
     - title: WCS Level 1
       subtitle: für Einsteiger (Dauer 6 Wochen)
       children:
+        - title: WCS Schnupperworkshop für Neueinsteiger (1 x 60 min)
+          location: ADTV Tanzschule Schäfer-Koch
+          date: 2025-07-15T19:45:00
+          duration: 01:00:00
+          url: /events/ferienworkshops-sommer-2025/
+          type: { workshop: true, requires_registration: true }
+    
+        - title: WCS Schnupperworkshop für Neueinsteiger (1 x 60 min)
+          location: ADTV Tanzschule Schäfer-Koch
+          date: 2025-08-17T15:00:00
+          duration: 01:00:00
+          url: /events/ferienworkshops-sommer-2025/
+          type: { workshop: true, requires_registration: true }
+
         - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-08-31
           title: WCS Level 1 (6 x 60 min)
           location: ADTV Tanzschule Schäfer-Koch
@@ -254,14 +268,14 @@
     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
   type: { workshop: true, requires_registration: false }
   children:
-    - title: WCS für Einsteiger
+    - title: WCS Schnupperworkshop für Neueinsteiger (1 x 60 min)
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-07-15T19:45:00
       duration: 01:00:00
       url: /events/ferienworkshops-sommer-2025/
       type: { workshop: true, requires_registration: true }
 
-    - title: WCS für Einsteiger
+    - title: WCS Schnupperworkshop für Neueinsteiger (1 x 60 min)
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-08-17T15:00:00
       duration: 01:00:00
