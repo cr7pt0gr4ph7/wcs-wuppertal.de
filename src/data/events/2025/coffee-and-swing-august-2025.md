@@ -12,6 +12,9 @@ address:
   url: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 date: 2025-08-16T16:30:00
 duration: 07:30:00
+image:
+  src: src/assets/coffee-and-swing.jpg
+  alt: Coffee & Swing 2025
 links:
     # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/
     # facebook: https://www.facebook.com/events/1064681532344988/
