@@ -85,6 +85,7 @@ interface RowData extends BaseRowData {
     title: string;
     children?: BaseRowData[];
   }[];
+  single_date?: boolean;
 }
 
 const sortByDate = <T extends BaseRowData>(entries: T[]) => {
