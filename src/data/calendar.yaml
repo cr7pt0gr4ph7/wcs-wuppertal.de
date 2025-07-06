@@ -217,18 +217,18 @@
 #     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
 #   type: { party: true, requires_registration: false }
 
-- id: adtv-tanzschule-schaefer-koch-wcs-party-2025-06-28
-  title: »Valley Weekend Swing«
-  subtitle: WCS-Schnupperworkshop + Party
-  location: ADTV Tanzschule Schäfer-Koch
-  date: 2025-06-28T19:00:00
-  duration: 01:00:00
-  url: /events/valley-weekend-swing-juni-2025/
-  links:
-    # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/events-erwachsene-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=75786&cHash=755feaad219408d97dd826d88ed8bcf8
-    # facebook: https://www.facebook.com/events/1064681532344988/
-    maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-  type: { more_infos: true, party: { requires_registration: false }, workshop: { requires_registration: true } }
+# - id: adtv-tanzschule-schaefer-koch-wcs-party-2025-06-28
+#   title: »Valley Weekend Swing«
+#   subtitle: WCS-Schnupperworkshop + Party
+#   location: ADTV Tanzschule Schäfer-Koch
+#   date: 2025-06-28T19:00:00
+#   duration: 01:00:00
+#   url: /events/valley-weekend-swing-juni-2025/
+#   links:
+#     # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/events-erwachsene-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=75786&cHash=755feaad219408d97dd826d88ed8bcf8
+#     # facebook: https://www.facebook.com/events/1064681532344988/
+#     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+#   type: { more_infos: true, party: { requires_registration: false }, workshop: { requires_registration: true } }
 
 # - id: buw-wuppertal-party-2025-05-21
 #   title: Workshop »SaBaSwing« @ Uni Wuppertal
@@ -239,21 +239,21 @@
 #   url: /events/uni-swing-mai-2025
 #   type: { party: true, workshop: true, requires_registration: false }
 
-- id: outdoor-social-2025-05-29
-  title: Outdoor Social am Elisenturm (Abgesagt wegen schlechten Wetters)
-  subtitle: Open Air-Tanzen im Park
-  location: Elisenturm @ Hardt-Anlage Wuppertal
-  date: 2025-05-29T15:00:00
-  duration: 04:00:00
-  type: { party: true, requires_registration: false }
+# - id: outdoor-social-2025-05-29
+#   title: Outdoor Social am Elisenturm (Abgesagt wegen schlechten Wetters)
+#   subtitle: Open Air-Tanzen im Park
+#   location: Elisenturm @ Hardt-Anlage Wuppertal
+#   date: 2025-05-29T15:00:00
+#   duration: 04:00:00
+#   type: { party: true, requires_registration: false }
 
-- id: outdoor-social-2025-06-19
-  title: Outdoor Social am Elisenturm
-  subtitle: Open Air-Tanzen im Park
-  location: Elisenturm @ Hardt-Anlage Wuppertal
-  date: 2025-06-19T15:00:00
-  duration: 04:00:00
-  type: { party: true, requires_registration: false }
+# - id: outdoor-social-2025-06-19
+#   title: Outdoor Social am Elisenturm
+#   subtitle: Open Air-Tanzen im Park
+#   location: Elisenturm @ Hardt-Anlage Wuppertal
+#   date: 2025-06-19T15:00:00
+#   duration: 04:00:00
+#   type: { party: true, requires_registration: false }
 
 - id: einsteigerworkshops-sommer-2025
   title: Einsteigerworkshops
