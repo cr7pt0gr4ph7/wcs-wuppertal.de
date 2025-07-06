@@ -291,6 +291,10 @@
   location: Inside:Out Wuppertal
   date: 2025-07-10T18:00:00
   duration: 01:30:00
+  image:
+    src: src/assets/rainbow-heart.jpg
+    alt: Queerer Tanzworkshop für Neueinsteiger*innen
+  url: /events/inside-out-juli-2025/
   type: { workshop: true, requires_registration: true, additional_text: "Weitere Infos folgen" }
 
 - id: wcs-rally-training-2025
