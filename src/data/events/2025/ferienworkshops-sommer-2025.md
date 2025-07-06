@@ -77,10 +77,10 @@ Der 90-minütige »Mirroring & Partnerwork«-Workshop am 12.08.2025 um 18:00 Uhr
 | >        | >     | >                                                                                | <br>**Dienstag, 29. Juli 2025**                                                                                                       |
 | 29.07.25 | 18:15 | »Pimp Your Whip«                                                                 | 60 min                                                                                                                                |
 | 29.07.25 | 19:30 | _Flashmob-Training_ \* (_[Infos & Anmeldung zum Flashmob-Training hier][irwcs]_) | 90 min                                                                                                                                |
-| >        | >     | >                                                                                | <br>**Sonntag, 3. August 2025 // 15:00 - 20:00 Uhr:** _»Coffee & Swing« - Workshops & Social Dancing_                                 |
+| >        | >     | >                                                                                | <br>**Sonntag, 3. August 2025 // 15:00 - 20:00 Uhr:** [_»Coffee & Swing« - Workshops & Social Dancing_][coffee-and-swing]        |
 | 03.08.25 | 15:00 | »Where's the Swing?«                                                             | 60 min                                                                                                                                |
 | 03.08.25 | 16:00 | »Active Following, Responsive Leading«                                           | 60 min                                                                                                                                |
-| 03.08.25 | 17:00 | Social Dancing                                                                   | bis ca. 20 Uhr                                                                                                                        |
+| 03.08.25 | 17:00 | Social Dancing (Eintritt frei für Workshopteilnehnmer)                           | bis ca. 20 Uhr                                                                                                                        |
 | >        | >     | >                                                                                | <br>**Dienstag, 12. August 2025**                                                                                                     |
 | 12.08.25 | 18:00 | »Mirroring & Partnerwork«                                                        | 90 min                                                                                                                                |
 | 12.08.25 | 19:45 | »Connection Magic«                                                               | 60 min                                                                                                                                |
@@ -107,4 +107,5 @@ _\*: Das [Flashmob-Training][irwcs] ist nicht Teil der WCS-Flatrate, sondern kos
 _⋆: Die Workshops am [Workshoptag am Samstag, 16.08.2025][switch-it-up] sind nicht Teil der WCS-Flatrate; Flatrate-Inhaber bekommen 10,- € Rabatt auf Workshop + Party._
 
 [irwcs]: https://wcs-wuppertal.de/events/wcs-rally-training-2025/
+[coffee-and-swing]: https://wcs-wuppertal.de/events/coffee-and-swing-august-2025/
 [switch-it-up]: https://wcs-wuppertal.de/events/switch-it-up-august-2025/
