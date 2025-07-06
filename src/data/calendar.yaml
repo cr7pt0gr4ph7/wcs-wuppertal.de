@@ -525,6 +525,9 @@
   date: 2025-08-03T15:00:00
   duration: 05:00:00
   url: /events/coffee-and-swing-august-2025/
+  image:
+    src: src/assets/coffee-and-swing.jpg
+    alt: Coffee & Swing 2025
   links:
     # homepage: https://www.tanzschule-schaefer-koch.de/???/
     # facebook: https://www.facebook.com/events/???/
