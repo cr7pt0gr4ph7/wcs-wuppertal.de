@@ -29,9 +29,10 @@ type:
 
 Hast du Lust zu tanzen ohne dir über Geschlechterrollen Gedanken machen zu müssen?
 
-Dann probier doch mal West Coast Swing aus! Dieser queere Tanzworkshop findet in einem Safe Space statt, sodass du keine Sorgen machen musst. Der Workshop ist kostenlos und für Einsteiger\*innen ideal!
+Dann probier doch mal West Coast Swing aus! Dieser queere Tanzworkshop findet in einem Safe Space statt, sodass du keine Sorgen machen musst. Der Workshop ist **kostenlos** und für Einsteiger\*innen ideal!
 
 Wann? 10.07.2025 von 18:00 bis 19:30 Uhr
+
 Wo? I'm Inside Out (Hochstraße 60)
 
-Anmeldung über queer(at)asta.uni-wuppertal.de
+Anmeldung über queer(at)asta.uni-wuppertal.de!
