@@ -231,7 +231,7 @@
   type: { more_infos: true, party: { requires_registration: false }, workshop: { requires_registration: true } }
 
 # - id: buw-wuppertal-party-2025-05-21
-#   title: »SaBaSwing« @ Uni Wuppertal
+#   title: Workshop »SaBaSwing« @ Uni Wuppertal
 #   subtitle: Salsa/Bachata/WCS-Party mit Einsteigerworkshops
 #   location: Mensa Grifflenberg @ Uni Wuppertal
 #   date: 2025-05-21T18:30:00
@@ -364,21 +364,21 @@
     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
   type: { workshop: true, more_infos: true, requires_registration: true }
   children:
-    - title: »Connection Technique«
+    - title: Workshop »Connection Technique«
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-07-08T20:00:00
       duration: 01:00:00
       url: /events/ferienworkshops-sommer-2025/
       type: { workshop: true, requires_registration: true }
 
-    - title: »Cool Moves«
+    - title: Workshop »Cool Moves«
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-07-13T16:30:00
       duration: 01:00:00
       url: /events/ferienworkshops-sommer-2025/
       type: { workshop: true, requires_registration: true }
 
-    - title: »Dancing to Slow & Very Slow Music«
+    - title: Workshop »Dancing to Slow & Very Slow Music«
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-07-13T17:45:00
       duration: 01:00:00
@@ -399,119 +399,119 @@
       url: /events/ferienworkshops-sommer-2025/
       type: { workshop: true, requires_registration: true }
 
-    - title: »Spice Up Your Footwork«
+    - title: Workshop »Spice Up Your Footwork«
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-07-20T18:00:00
       duration: 01:00:00
       url: /events/ferienworkshops-sommer-2025/
       type: { workshop: true, requires_registration: true }
 
-    - title: »Musicality for Followers (& How to Enable It As A Leader)«
+    - title: Workshop »Musicality for Followers (& How to Enable It As A Leader)«
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-07-20T19:15:00
       duration: 01:00:00
       url: /events/ferienworkshops-sommer-2025/
       type: { workshop: true, requires_registration: true }
 
-    - title: »Dancing To Fast Music«
+    - title: Workshop »Dancing To Fast Music«
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-07-22T18:00:00
       duration: 01:00:00
       url: /events/ferienworkshops-sommer-2025/
       type: { workshop: true, requires_registration: true }
 
-    - title: »Slot Rotation«
+    - title: Workshop »Slot Rotation«
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-07-22T19:00:00
       duration: 01:00:00
       url: /events/ferienworkshops-sommer-2025/
       type: { workshop: true, requires_registration: true }
 
-    - title: »Pimp Your Whip«
+    - title: Workshop »Pimp Your Whip«
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-07-29T18:15:00
       duration: 01:00:00
       url: /events/ferienworkshops-sommer-2025/
       type: { workshop: true, requires_registration: true }
 
-    - title: »Where's the Swing?«
+    - title: Workshop »Where's the Swing?«
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-08-03T15:00:00
       duration: 01:00:00
       url: /events/ferienworkshops-sommer-2025/
       type: { workshop: true, requires_registration: true }
 
-    - title: »Active Following, Responsive Leading«
+    - title: Workshop »Active Following, Responsive Leading«
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-08-03T16:00:00
       duration: 01:00:00
       url: /events/ferienworkshops-sommer-2025/
       type: { workshop: true, requires_registration: true }
 
-    - title: »Mirroring & Partnerwork«
+    - title: Workshop »Mirroring & Partnerwork«
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-08-12T18:00:00
       duration: 01:30:00
       url: /events/ferienworkshops-sommer-2025/
       type: { workshop: true, requires_registration: true }
 
-    - title: »Connection Magic«
+    - title: Workshop »Connection Magic«
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-08-12T19:45:00
       duration: 01:00:00
       url: /events/ferienworkshops-sommer-2025/
       type: { workshop: true, requires_registration: true }
 
-    - title: »Reverse Role Basics«
+    - title: Workshop »Reverse Role Basics«
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-08-16T16:30:00
       duration: 01:00:00
       url: /events/ferienworkshops-sommer-2025/
       type: { workshop: true, requires_registration: true }
 
-    - title: »Switch It Up«
+    - title: Workshop »Switch It Up«
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-08-16T17:45:00
       duration: 01:00:00
       url: /events/ferienworkshops-sommer-2025/
       type: { workshop: true, requires_registration: true }
 
-    - title: »Stealing for Fun & Profit«
+    - title: Workshop »Stealing for Fun & Profit«
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-08-16T19:00:00
       duration: 01:00:00
       url: /events/ferienworkshops-sommer-2025/
       type: { workshop: true, requires_registration: true }
 
-    - title: »Style Your Basics«
+    - title: Workshop »Style Your Basics«
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-08-19T18:00:00
       duration: 01:00:00
       url: /events/ferienworkshops-sommer-2025/
       type: { workshop: true, requires_registration: true }
 
-    - title: »Spins & Turns«
+    - title: Workshop »Spins & Turns«
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-08-24T16:30:00
       duration: 01:00:00
       url: /events/ferienworkshops-sommer-2025/
       type: { workshop: true, requires_registration: true }
 
-    - title: »(How to) Always Have Good Dances«
+    - title: Workshop »(How to) Always Have Good Dances«
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-08-24T17:45:00
       duration: 01:00:00
       url: /events/ferienworkshops-sommer-2025/
       type: { workshop: true, requires_registration: true }
 
-    - title: »Call & Response – Creating Musical Moments Together«
+    - title: Workshop »Call & Response – Creating Musical Moments Together«
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-08-24T19:00:00
       duration: 01:00:00
       url: /events/ferienworkshops-sommer-2025/
       type: { workshop: true, requires_registration: true }
 
-    - title: »Body Waves«
+    - title: Workshop »Body Waves«
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-08-26T19:45:00
       duration: 01:00:00
