@@ -105,7 +105,8 @@ const eventSchema = eventBaseSchema.extend({
         subtitle: z.string().optional(),
         children: z.array(withEndDate(eventBaseSchema)).optional()
     })).optional(),
-    children: z.array(withEndDate(eventBaseSchema)).optional()
+    children: z.array(withEndDate(eventBaseSchema)).optional(),
+    single_date: z.boolean().optional(),
 }).transform(transformEndDate);
 
 // Internal and external events
