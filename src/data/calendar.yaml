@@ -545,8 +545,7 @@
       url: /events/coffee-and-swing-august-2025/
       type: { workshop: true, requires_registration: true }
 
-    - title: Social Dancing
-      subtitle: Eintritt frei für Workshopteilnehmer
+    - title: Social Dancing (Eintritt frei für Workshopteilnehmer)
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-08-03T17:00:00
       duration: 03:00:00
