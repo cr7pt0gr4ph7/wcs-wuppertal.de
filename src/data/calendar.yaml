@@ -531,6 +531,28 @@
     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
   type: { workshop: true, party: { requires_registration: false }, more_infos: true, requires_registration: true }
 
+    - title: Workshop »Where's the Swing?«
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-08-03T15:00:00
+      duration: 01:00:00
+      url: /events/coffee-and-swing-august-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: Workshop »Active Following, Responsive Leading«
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-08-03T16:00:00
+      duration: 01:00:00
+      url: /events/coffee-and-swing-august-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: Social Dancing
+      subtitle: Eintritt frei für Workshopteilnehmer
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-08-03T17:00:00
+      duration: 03:00:00
+      url: /events/coffee-and-swing-august-2025/
+      type: { party: true, requires_registration: false }
+
 - id: switch-it-up-august-2025
   title: »Switch It Up!«
   subtitle: Switching- & Stealing-Workshoptag mit Party
