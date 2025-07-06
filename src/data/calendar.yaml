@@ -533,6 +533,7 @@
     # facebook: https://www.facebook.com/events/???/
     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
   type: { workshop: true, party: { requires_registration: false }, more_infos: true, requires_registration: true }
+  single_date: true
   children:
     - title: Workshop »Where's the Swing?«
       location: ADTV Tanzschule Schäfer-Koch
