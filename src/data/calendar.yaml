@@ -295,7 +295,7 @@
     src: src/assets/rainbow-heart.jpg
     alt: Queerer Tanzworkshop für Neueinsteiger*innen
   url: /events/inside-out-juli-2025/
-  type: { workshop: true, requires_registration: true, additional_text: "Weitere Infos folgen" }
+  type: { workshop: true, requires_registration: true, more_infos: true }
 
 - id: wcs-rally-training-2025
   title: Flashmob-Training
