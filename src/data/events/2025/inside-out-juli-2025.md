@@ -16,6 +16,8 @@ image:
   src: src/assets/queerer-tanzworkshop-juli-2025.png
   alt: Queerer Tanzworkshop am 10.07.2025 von 18:00 bis 19:30 Uhr
 links:
+  homepage: https://inside-out-wuppertal.de/
+  # homepage: https://inside-out-wuppertal.de/event/west-coast-swing-workshop/
   instagram: https://www.instagram.com/p/DLDPjWfKzG5/
   maps: https://maps.app.goo.gl/1X4oozWh4N1MMXah8
 type:
