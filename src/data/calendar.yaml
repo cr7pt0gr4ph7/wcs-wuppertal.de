@@ -13,7 +13,7 @@
       subtitle: für Einsteiger (Dauer 6 Wochen)
       children:
         - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-08-31
-          title: WCS Level 1
+          title: WCS Level 1 (6 x 60 min)
           location: ADTV Tanzschule Schäfer-Koch
           date: 2025-08-31T15:15:00
           duration: 01:00:00
@@ -24,7 +24,7 @@
           type: { regular_course: true, requires_registration: true }
 
         - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-09-02
-          title: WCS Level 1
+          title: WCS Level 1 (6 x 60 min)
           location: ADTV Tanzschule Schäfer-Koch
           date: 2025-09-02T18:45:00
           duration: 01:00:00
@@ -35,7 +35,7 @@
           type: { regular_course: true, requires_registration: true }
 
         - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-10-28
-          title: WCS Level 1
+          title: WCS Level 1 (6 x 60 min)
           location: ADTV Tanzschule Schäfer-Koch
           date: 2025-10-28T17:50:00
           duration: 01:00:00
@@ -46,7 +46,7 @@
           type: { regular_course: true, requires_registration: true }
 
         - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-10-30
-          title: WCS Level 1
+          title: WCS Level 1 (6 x 60 min)
           location: ADTV Tanzschule Schäfer-Koch
           date: 2025-10-30T19:45:00
           duration: 01:00:00
@@ -57,7 +57,7 @@
           type: { regular_course: true, requires_registration: true }
 
         - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-11-02
-          title: WCS Level 1
+          title: WCS Level 1 (6 x 60 min)
           location: ADTV Tanzschule Schäfer-Koch
           date: 2025-11-02T15:15:00
           duration: 01:00:00
@@ -71,7 +71,7 @@
       subtitle: für Fortgeschrittene (Dauer 4 x 6 Wochen = 24 Wochen)
       children:
         - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-08-31
-          title: WCS Level 2
+          title: WCS Level 2 (4 Blöcke á 6 x 60 min)
           location: ADTV Tanzschule Schäfer-Koch
           date: 2025-08-31T16:30:00
           duration: 01:00:00
@@ -82,7 +82,7 @@
           type: { regular_course: true, requires_registration: true }
 
         - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-09-02
-          title: WCS Level 2
+          title: WCS Level 2 (4 Blöcke á 6 x 60 min)
           location: ADTV Tanzschule Schäfer-Koch
           date: 2025-09-02T20:00:00
           duration: 01:00:00
@@ -93,7 +93,7 @@
           type: { regular_course: true, requires_registration: true }
 
         - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-10-28
-          title: WCS Level 2
+          title: WCS Level 2 (4 Blöcke á 6 x 60 min)
           location: ADTV Tanzschule Schäfer-Koch
           date: 2025-10-28T19:00:00
           duration: 01:00:00
@@ -104,7 +104,7 @@
           type: { regular_course: true, requires_registration: true }
 
         - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-10-30
-          title: WCS Level 2
+          title: WCS Level 2 (4 Blöcke á 6 x 60 min)
           location: ADTV Tanzschule Schäfer-Koch
           date: 2025-10-30T18:30:00
           duration: 01:00:00
@@ -115,7 +115,7 @@
           type: { regular_course: true, requires_registration: true }
 
         - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-11-02
-          title: WCS Level 2
+          title: WCS Level 2 (4 Blöcke á 6 x 60 min)
           location: ADTV Tanzschule Schäfer-Koch
           date: 2025-11-02T16:30:00
           duration: 01:00:00
@@ -129,7 +129,7 @@
       subtitle: für Fortgeschrittene (Einstieg jederzeit)
       children:
         - id: adtv-tanzschule-schaefer-koch--wcs-level-3--2025-08-31
-          title: WCS Level 3
+          title: WCS Level 3 (Fortlaufend, 6 x 60 min pro Block)
           location: ADTV Tanzschule Schäfer-Koch
           date: 2025-08-31T17:45:00
           duration: 01:00:00
@@ -140,7 +140,7 @@
           type: { regular_course: true, requires_registration: true }
 
         - id: adtv-tanzschule-schaefer-koch--wcs-level-3--2025-10-28
-          title: WCS Level 3
+          title: WCS Level 3 (Fortlaufend, 6 x 60 min pro Block)
           location: ADTV Tanzschule Schäfer-Koch
           date: 2025-10-28T20:00:00
           duration: 01:00:00
@@ -151,7 +151,7 @@
           type: { regular_course: true, requires_registration: true }
 
         - id: adtv-tanzschule-schaefer-koch--wcs-level-3--2025-11-02
-          title: WCS Level 3
+          title: WCS Level 3 (Fortlaufend, 6 x 60 min pro Block)
           location: ADTV Tanzschule Schäfer-Koch
           date: 2025-11-02T17:45:00
           duration: 01:00:00
