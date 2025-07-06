@@ -50,3 +50,7 @@ Kostenlos für Inhaber unserer [**WCS-Ferienflatrate**](https://wcs-wuppertal.de
 Nur Social Dancing: 5 €
 
 Anmeldung zum Workshop über info(at)wcs-wuppertal.de oder info(at)tanzschule-schaefer-koch.de.
+
+## Die weiteren Workshops unseres Ferienprogramms...
+
+...findet ihr [hier](https://wcs-wuppertal.de/events/ferienworkshops-sommer-2025/)!
