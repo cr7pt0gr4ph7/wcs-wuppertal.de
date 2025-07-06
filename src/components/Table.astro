@@ -143,9 +143,11 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
         format: (entry: RowData) =>
           ((!entry.children && !entry.groups) || entry.single_date) ? (
             <div class="td dates">
-              {entry.dates
-                ? formatDates(entry.dates)
-                : formatDateTime(entry.date)}
+              {entry.single_date
+                ? formatDate(entry.date)
+                : entry.dates
+                  ? formatDates(entry.dates)
+                  : formatDateTime(entry.date)}
             </div>
           ) : (
             <div class="td dates">
