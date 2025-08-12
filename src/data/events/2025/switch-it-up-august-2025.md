@@ -51,12 +51,17 @@ Wir widmen uns dem auf den ersten Blick komplexen, aber eigentlich ganz einfache
 - Welche Techniken & Ideen kann ich auch in mein restliches Tanzen integrieren?
 
 Wenn ihr noch keine Erfahrung in beiden Rollen habt, empfehlen wir vorher die Teilnahme am »Reverse Role Basics«-Workshop.
-Ansonsten sind keine Vorerfahrungen mit dem Thema erforderlich.
+Ansonsten sind keine Vorerfahrungen mit dem Thema "Switching" erforderlich.
+
+Ihr solltet aber mindestens 1/2 Jahr WCS-Erfahrung haben, und euch in mindestens einer Rolle mit allen Basics (Left Side Pass, Sugar Push, Sugar Tuck, Whip) sicher fühlen.
 
 ### 19:00 - 20:00: Workshop »Stealing for Fun & Profit«
 
 Beim [»Stealing«][stealing-video] geht es darum, während eines Tanzes fließend die Tanzpartner zu wechseln, ohne den Tanz oder die Figuren zu unterbrechen.
 Es handelt sich um eine Gruppenaktivität für 3 oder mehr Tänzer\*innen, bei der man sich gegenseitig die Tanzpartner "klaut".
+
+Voraussetzung für diesen Workshop ist, dass ihr in mindestens einer Rolle die wesentlichen Basic-Figuren (Left Side Pass, Sugar Push, etc.) sicher beherrscht, und diese ohne Nachdenken tanzen könnt.
+Ansonsten setzen wir nur Offenheit & Lust, was Neues auszuprobieren voraus :)
 
 ### 20:00 - 24:00: WCS-Party
 
