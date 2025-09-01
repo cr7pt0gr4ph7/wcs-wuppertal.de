@@ -21,7 +21,7 @@ type:
     requires_registration: true
 ---
 
-# Lernt mit uns die Choreo für den diesjährigen [WCS Flashmob](https://www.youtube.com/watch?v=LLI7BwkEAvo)!
+# Unterstützt uns beim diesjährigen [WCS Flashmob](https://www.youtube.com/watch?v=LLI7BwkEAvo)!
 
 Bei der alljährlichen „International Rally WCS“ wird seit 2010 immer Anfang September der Tanz aus den Tanzschulen nach draußen getragen und so bekannter gemacht!
 
