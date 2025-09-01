@@ -170,6 +170,21 @@
   type: { regular_course: true, requires_registration: true }
 
 - id: wcs-rally-training-2025
+  title: Flashmob-Aufführung
+  location: ADTV Tanzschule Schäfer-Koch
+  date: 2025-07-08T00:00:00
+  duration: 00:00:00
+  url: /events/wcs-rally-training-2025/
+  image:
+    src: src/assets/irwcs-logo-preview.jpg
+    alt: Aufführung der International Rally WCS 2025 aka. WCS Flashmob in Wuppertal
+  links:
+    # homepage: https://www.tanzschule-schaefer-koch.de/???/
+    # facebook: https://www.facebook.com/events/???/
+    maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+  type: { workshop: true, party: true, more_infos: true, requires_registration: true }
+
+- id: wcs-rally-training-2025
   title: Flashmob-Training
   location: ADTV Tanzschule Schäfer-Koch
   date: 2025-07-08T00:00:00
