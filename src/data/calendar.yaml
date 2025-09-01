@@ -210,35 +210,77 @@
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-07-17T18:00:00
       duration: 02:00:00
-      url: /events/wcs-rally-training-2025/
+      url: /events/wcs-rally-2025/
       type: { workshop: true, requires_registration: true }
 
     - title: Flashmob-Training
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-07-22T20:00:00
       duration: 01:00:00
-      url: /events/wcs-rally-training-2025/
+      url: /events/wcs-rally-2025/
       type: { workshop: true, requires_registration: true }
 
     - title: Flashmob-Training
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-07-29T19:30:00
       duration: 01:30:00
-      url: /events/wcs-rally-training-2025/
+      url: /events/wcs-rally-2025/
       type: { workshop: true, requires_registration: true }
 
     - title: Flashmob-Training
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-08-19T19:00:00
       duration: 01:00:00
-      url: /events/wcs-rally-training-2025/
+      url: /events/wcs-rally-2025/
       type: { workshop: true, requires_registration: true }
 
     - title: Flashmob-Training
       location: ADTV Tanzschule Schäfer-Koch
       date: 2025-08-26T18:00:00
       duration: 01:30:00
-      url: /events/wcs-rally-training-2025/
+      url: /events/wcs-rally-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: Flashmob-Training
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-09-09T17:45:00
+      duration: 01:00:00
+      url: /events/wcs-rally-2025/
+      type: { workshop: true, requires_registration: true }
+  
+    - title: Flashmob-Training
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-09-18T19:45:00
+      duration: 01:00:00
+      url: /events/wcs-rally-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: Flashmob-Training
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-09-25T19:45:00
+      duration: 01:00:00
+      url: /events/wcs-rally-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: Flashmob-Training
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-09-30T17:45:00
+      duration: 01:00:00
+      url: /events/wcs-rally-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: Flashmob-Training
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-10-02T19:45:00
+      duration: 01:00:00
+      url: /events/wcs-rally-2025/
+      type: { workshop: true, requires_registration: true }
+
+    - title: Flashmob-Training
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2025-10-09T19:45:00
+      duration: 01:00:00
+      url: /events/wcs-rally-2025/
       type: { workshop: true, requires_registration: true }
 
 - id: wcs-intensive-mit-marissa-und-dominik-2025
