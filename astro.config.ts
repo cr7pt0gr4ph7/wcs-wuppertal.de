@@ -21,5 +21,15 @@ export default defineConfig({
   },
   image: {
     experimentalLayout: 'full-width'
+  },
+  redirects: {
+    "/events/wcs-rally-training-2025": {
+      status: 302,
+      destination: "/events/wcs-rally-2025/"
+    },
+    "/events/wcs-rally-training-2025/": {
+      status: 302,
+      destination: "/events/wcs-rally-2025/"
+    },
   }
 });
