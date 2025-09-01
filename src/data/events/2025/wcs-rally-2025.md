@@ -39,14 +39,20 @@ Die Anmeldung zur Teilnahme an der Aufführung erfolgt **[über das Formular hie
 
 An folgenden Terminen könnt ihr bei uns die Choreographie für den Flashmob lernen:
 
-|            |                 |                     |                  |
-| ---------- | --------------: | :------------------ | ---------------- |
-| Dienstag   |    8. Juli 2025 | *18:15 – 19:45 Uhr* | (1 Std. 30 Min.) |
-| Donnerstag |   17. Juli 2025 | *18:00 – 20:00 Uhr* | (2 Std.)         |
-| Dienstag   |   22. Juli 2025 | *20:00 – 21:00 Uhr* | (1 Std.)         |
-| Dienstag   |   29. Juli 2025 | *19:30 – 21:00 Uhr* | (1 Std. 30 Min.) |
-| Dienstag   | 19. August 2025 | *19:00 – 20:00 Uhr* | (1 Std.)         |
-| Dienstag   | 26. August 2025 | *18:00 – 19:30 Uhr* | (1 Std. 30 Min)  |
+|            |                    |                     |                  |
+| ---------- | -----------------: | :------------------ | ---------------- |
+| Dienstag   |       8. Juli 2025 | *18:15 – 19:45 Uhr* | (1 Std. 30 Min.) |
+| Donnerstag |      17. Juli 2025 | *18:00 – 20:00 Uhr* | (2 Std.)         |
+| Dienstag   |      22. Juli 2025 | *20:00 – 21:00 Uhr* | (1 Std.)         |
+| Dienstag   |      29. Juli 2025 | *19:30 – 21:00 Uhr* | (1 Std. 30 Min.) |
+| Dienstag   |    19. August 2025 | *19:00 – 20:00 Uhr* | (1 Std.)         |
+| Dienstag   |    26. August 2025 | *18:00 – 19:30 Uhr* | (1 Std. 30 Min)  |
+| Dienstag   |  9. September 2025 | *17:45 - 18:45 Uhr* | (1 Std.)         |
+| Donnerstag | 18. September 2025 | *19:45 - 20:45 Uhr* | (1 Std.)         |
+| Donnerstag | 25. September 2025 | *19:45 - 20:45 Uhr* | (1 Std.)         |
+| Dienstag   | 30. September 2025 | *17:45 - 18:45 Uhr* | (1 Std.)         |
+| Donnerstag |    2. Oktober 2025 | *19:45 - 20:45 Uhr* | (1 Std.)         |
+| Donnerstag |    9. Oktober 2025 | *19:45 - 20:45 Uhr* | (1 Std.)         |
 
 Die Choreotrainings finden alle statt in der Tanzschule Schäfer-Koch in Wuppertal-Elberfeld (Adresse siehe unten).
 
