@@ -25,3 +25,5 @@ type:
 # Am Samstag, 18.10.2025 ab 17:30 Uhr
 
 Weitere Infos folgen!
+
+Anmeldung über info(at)wcs-wuppertal.de.
