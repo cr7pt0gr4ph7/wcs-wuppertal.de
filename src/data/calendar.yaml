@@ -283,13 +283,13 @@
       url: /events/wcs-rally-2025/
       type: { workshop: true, requires_registration: true }
 
-- id: wcs-intensive-mit-marissa-und-dominik-2025
-  title: WCS Musicality-Intensive + Party mit Marissa & Dominik
+- id: wcs-intensive-mit-mariella-und-dominik-2025
+  title: WCS Musicality-Intensive + Party mit Mariella & Dominik
   subtitle: Intensive + Party
   location: ADTV Tanzschule Schäfer-Koch
   date: 2025-10-18T17:30:00
   duration: 02:00:00
-  url: /events/wcs-intensive-mit-marissa-und-dominik-2025/
+  url: /events/wcs-intensive-mit-mariella-und-dominik-2025/
   # image:
   #   src: src/assets/switch-it-up.jpg
   #   alt: Switch It Up!
