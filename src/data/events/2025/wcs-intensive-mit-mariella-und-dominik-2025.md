@@ -53,15 +53,14 @@ Bei einem ingesamt 2,5-stündigen Einsteigerworkshop aka. "Bootcamp" (aufgeteilt
 
 ### Intensive + Party
 
-Early Bird: 40 € pro Person für 2-stündiges Intensive + Party
-Late Bird: 45 € pro Person
-At The Door: 45 € pro Person
+Early Bird (bis 30.09.): 40 € pro Person für 2-stündiges Intensive + Party
+Late Bird (bis 17.10.): 45 € pro Person
+At The Door: 48 € pro Person
 Nur Party: 10 €
 
 ### Bootcamp:
 
 Normalpreis (bis 17.10.): 35 € p.P. für Bootcamp + Party
-At The Door: 40 € p.P.
-
+At The Door: 38 € p.P.
 
 Anmeldung über info(at)wcs-wuppertal.de.
