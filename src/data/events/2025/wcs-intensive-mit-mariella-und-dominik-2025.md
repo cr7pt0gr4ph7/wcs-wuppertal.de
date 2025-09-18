@@ -46,8 +46,8 @@ Bei einem ingesamt 2,5-stündigen Einsteigerworkshop aka. "Bootcamp" (aufgeteilt
 
 ### Bootcamp für Neueinsteiger
 
-- 15:30 - 17:00 Uhr :: Bootcamp-Workshop mit Lukas Waslowski (Teil 1)
-- 17:00 - 19:00 Uhr :: Dinner Break zur freien Verfügung
+- 16:00 - 17:30 Uhr :: Bootcamp-Workshop mit Lukas Waslowski (Teil 1)
+- 17:30 - 19:00 Uhr :: Dinner Break zur freien Verfügung
 - 19:00 - 20:00 Uhr :: Bootcamp-Workshop mit Lukas Waslowski (Teil 2)
 
 ### Social Party
