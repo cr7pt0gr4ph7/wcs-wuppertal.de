@@ -41,28 +41,31 @@ Bei einem ingesamt 2,5-stündigen Einsteigerworkshop aka. "Bootcamp" (aufgeteilt
 ## Zeitplan
 
 ### Intensive mit Mariella & Dominik
+
 - 18:00 - 20:00 Uhr :: Intensive mit Mariella & Dominik
 
 ### Bootcamp für Neueinsteiger
+
 - 16:00 - 17:30 Uhr :: Bootcamp-Workshop mit Lukas Waslowski (Teil 1)
 - 17:30 - 19:00 Uhr :: Dinner Break zur freien Verfügung
 - 19:00 - 20:00 Uhr :: Bootcamp-Workshop mit Lukas Waslowski (Teil 2)
 
 ### Social Party
+
 - Ab 20:00 Uhr :: WCS Party mit DJ Lukas
 
 ## Eintritt & Anmeldung
 
 ### Intensive mit Mariella & Dominik
 
-Early Bird (bis 30.09.): 40 € pro Person für 2-stündiges Intensive + Party
-Late Bird (bis 17.10.): 45 € pro Person
-At The Door: 48 € pro Person
+Early Bird (bis 30.09.): 40 € pro Person für 2-stündiges Intensive + Party<br>
+Late Bird (bis 17.10.): 45 € pro Person<br>
+At The Door: 48 € pro Person<br>
 Nur Party: 10 €
 
 ### Bootcamp für Neueinsteiger
 
-Normalpreis (bis 17.10.): 35 € p.P. für Bootcamp + Party
+Normalpreis (bis 17.10.): 35 € p.P. für Bootcamp + Party<br>
 At The Door: 38 € p.P.
 
 Anmeldung über info(at)wcs-wuppertal.de.
