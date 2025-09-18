@@ -26,7 +26,7 @@ type:
 
 **Extra für euch in Wuppertal:** Die Advanced-Tänzer:innen und Trainer:innen **Mariella Mbantopoulos** & **Dominik Neugebauer** mit einem spannenden Thema:
 
-▶ **„Countdown to One — Musicality mit Style“**!
+## „Countdown to One — Musicality mit Style“!
 
 Kurz vor der großen Eins oder einem Phrasenwechsel passiert die Magie der Musik.
 In diesem Workshop lernst Du, diese Momente bewusst musikalisch zu vertanzen.
