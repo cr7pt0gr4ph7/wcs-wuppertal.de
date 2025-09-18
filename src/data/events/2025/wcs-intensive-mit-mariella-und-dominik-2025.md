@@ -1,7 +1,7 @@
 ---
 slug: wcs-intensive-mit-mariella-und-dominik-2025
 title: WCS Musicality Intensive mit Mariella & Dominik + Party
-# subtitle:
+subtitle: „Countdown to One — Musicality mit Style“
 location: ADTV Tanzschule Schäfer-Koch
 address:
   name: ADTV Tanzschule Schäfer-Koch
