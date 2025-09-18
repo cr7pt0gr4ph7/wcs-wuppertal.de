@@ -40,25 +40,26 @@ Bei einem ingesamt 2,5-stündigen Einsteigerworkshop aka. "Bootcamp" (aufgeteilt
 
 ## Zeitplan
 
-### Bootcamp für Neueinsteiger
-- 16:00 - 17:30 :: Bootcamp-Workshop mit Lukas Waslowski (Teil 1)
-- 17:30 - 19:00 :: Dinner Break zur freien Verfügung
-- 19:00 - 20:00 :: Bootcamp-Workshop mit Lukas Waslowski (Teil 2)
-
 ### Intensive mit Mariella & Dominik
 - 18:00 - 20:00 :: Intensive mit Mariella & Dominik
 - Ab 20:00 :: WCS Party mit DJ Lukas
 
+### Bootcamp für Neueinsteiger
+- 16:00 - 17:30 :: Bootcamp-Workshop mit Lukas Waslowski (Teil 1)
+- 17:30 - 19:00 :: Dinner Break zur freien Verfügung
+- 19:00 - 20:00 :: Bootcamp-Workshop mit Lukas Waslowski (Teil 2)
+- Ab 20:00 :: WCS Party mit DJ Lukas
+
 ## Eintritt & Anmeldung
 
-### Intensive + Party
+### Intensive mit Mariella & Dominik
 
 Early Bird (bis 30.09.): 40 € pro Person für 2-stündiges Intensive + Party
 Late Bird (bis 17.10.): 45 € pro Person
 At The Door: 48 € pro Person
 Nur Party: 10 €
 
-### Bootcamp:
+### Bootcamp für Neueinsteiger
 
 Normalpreis (bis 17.10.): 35 € p.P. für Bootcamp + Party
 At The Door: 38 € p.P.
