@@ -41,14 +41,14 @@ Bei einem ingesamt 2,5-stündigen Einsteigerworkshop aka. "Bootcamp" (aufgeteilt
 ## Zeitplan
 
 ### Intensive mit Mariella & Dominik
-- 18:00 - 20:00 :: Intensive mit Mariella & Dominik
-- Ab 20:00 :: WCS Party mit DJ Lukas
+- 18:00 - 20:00 Uhr — Intensive mit Mariella & Dominik
+- Ab 20:00 Uhr — WCS Party mit DJ Lukas
 
 ### Bootcamp für Neueinsteiger
-- 16:00 - 17:30 :: Bootcamp-Workshop mit Lukas Waslowski (Teil 1)
-- 17:30 - 19:00 :: Dinner Break zur freien Verfügung
-- 19:00 - 20:00 :: Bootcamp-Workshop mit Lukas Waslowski (Teil 2)
-- Ab 20:00 :: WCS Party mit DJ Lukas
+- 16:00 - 17:30 Uhr — Bootcamp-Workshop mit Lukas Waslowski (Teil 1)
+- 17:30 - 19:00 Uhr — Dinner Break zur freien Verfügung
+- 19:00 - 20:00 Uhr — Bootcamp-Workshop mit Lukas Waslowski (Teil 2)
+- Ab 20:00 Uhr — WCS Party mit DJ Lukas
 
 ## Eintritt & Anmeldung
 
