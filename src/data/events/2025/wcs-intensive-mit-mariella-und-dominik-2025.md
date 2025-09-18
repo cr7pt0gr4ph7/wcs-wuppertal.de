@@ -22,7 +22,7 @@ type:
     requires_registration: true
 ---
 
-# Am Samstag, 18.10.2025 ab 16:00/18:00 Uhr
+# Am Samstag, 18.10.2025 ab 16:00/17:30 Uhr
 
 **Extra für euch in Wuppertal:** Die Advanced-Tänzer:innen und Trainer:innen **Mariella Mbantopoulos** & **Dominik Neugebauer** mit einem spannenden Thema:
 
@@ -42,12 +42,12 @@ Bei einem ingesamt 2,5-stündigen Einsteigerworkshop aka. "Bootcamp" (aufgeteilt
 
 ### Intensive mit Mariella & Dominik
 
-- 18:00 - 20:00 Uhr :: Intensive mit Mariella & Dominik
+- 17:30 - 19:30 Uhr :: Intensive mit Mariella & Dominik
 
 ### Bootcamp für Neueinsteiger
 
-- 16:00 - 17:30 Uhr :: Bootcamp-Workshop mit Lukas Waslowski (Teil 1)
-- 17:30 - 19:00 Uhr :: Dinner Break zur freien Verfügung
+- 15:30 - 17:00 Uhr :: Bootcamp-Workshop mit Lukas Waslowski (Teil 1)
+- 17:00 - 19:00 Uhr :: Dinner Break zur freien Verfügung
 - 19:00 - 20:00 Uhr :: Bootcamp-Workshop mit Lukas Waslowski (Teil 2)
 
 ### Social Party
