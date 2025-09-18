@@ -60,7 +60,8 @@ Bei einem ingesamt 2,5-stündigen Einsteigerworkshop aka. "Bootcamp" (aufgeteilt
 
 Early Bird (bis 30.09.): 40 € pro Person für Intensive + Party<br>
 Late Bird (bis 17.10.): 45 € p.P.<br>
-At The Door: 48 € p.P.<br>
+At The Door: 48 € p.P.
+
 Nur Party: 10 € p.P.
 
 ### Bootcamp für Neueinsteiger
