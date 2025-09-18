@@ -24,7 +24,7 @@ type:
 
 # Am Samstag, 18.10.2025 ab 17:30 Uhr
 
-**Extra für euch in Wuppertal:** Die Advanced-Tänzer und Trainer **Mariella Mbantopoulos** & **Dominik Neugebauer** mit einem spannenden Thema:
+**Extra für euch in Wuppertal:** Die Advanced-Tänzer:innen und Trainer:innen **Mariella Mbantopoulos** & **Dominik Neugebauer** mit einem spannenden Thema:
 
 **„Countdown to One — Musicality mit Style“**
 
