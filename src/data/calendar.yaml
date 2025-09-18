@@ -290,9 +290,9 @@
   date: 2025-10-18T17:30:00
   duration: 02:00:00
   url: /events/wcs-intensive-mit-mariella-und-dominik-2025/
-  # image:
-  #   src: src/assets/switch-it-up.jpg
-  #   alt: Switch It Up!
+  image:
+    src: src/assets/mariella-mbantopolous-dominik-neugebauer.jpeg
+    alt: Intensive mit Mariella & Dominik
   links:
     # homepage: https://www.tanzschule-schaefer-koch.de/???/
     # facebook: https://www.facebook.com/events/???/
