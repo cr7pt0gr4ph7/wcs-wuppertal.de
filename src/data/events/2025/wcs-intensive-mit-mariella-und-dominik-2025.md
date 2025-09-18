@@ -1,6 +1,6 @@
 ---
 slug: wcs-intensive-mit-mariella-und-dominik-2025
-title: WCS Musicality Intensive mit Mariella & Dominik + Party
+title: WCS Musicality "Intensive mit Mariella & Dominik + Party
 # subtitle:
 location: ADTV Tanzschule Schäfer-Koch
 address:
@@ -24,6 +24,42 @@ type:
 
 # Am Samstag, 18.10.2025 ab 17:30 Uhr
 
-Weitere Infos folgen!
+Extra für euch in Wuppertal: Die Advanced-Tänzer und Trainer Mariella Mbantopoulos & Dominik Neugebauer mit einem ganz besonderen Thema: Musicality!
+
+Kurz vor der großen Eins oder einem Phrasenwechsel passiert die Magie der Musik.
+In diesem Workshop lernst Du, diese Momente bewusst musikalisch zu vertanzen.
+Wir zeigen Dir Figuren und Ideen, mit denen Du Übergänge spannend und stilvoll gestalten kannst, um den Phrasechange zu treffen.
+
+▶ EXTRA: EINSTEIGERWORKSHOP
+
+Wer bisher noch nicht West Coast Swing tanzt, für den haben wir ebenfalls ein Angebot:
+Bei einem ingesamt 3-stündigen Einsteigerworkshop aka. "Bootcamp" (aufgeteilt in 3x1 Stunde) lernt ihr die wichtigsten Basics
+– und bei der Party danach könnt ihr eure neu gewonnenen Kenntnisse direkt einsetzen!
+
+## Zeitplan
+
+### Bootcamp für Neueinsteiger
+- 16:00 - 17:30 :: Bootcamp-Workshop mit Lukas Waslowski (Teil 1)
+- 17:30 - 19:00 :: Dinner Break zur freien Verfügung
+- 19:00 - 20:00 :: Bootcamp-Workshop mit Lukas Waslowski (Teil 2)
+
+### Intensive mit Mariella & Dominik
+- 18:00 - 20:00 :: Intensive mit Mariella & Dominik
+- Ab 20:00 :: WCS Party mit DJ Lukas
+
+## Eintritt & Anmeldung
+
+### Intensive + Party
+
+Early Bird: 40 € pro Person für 2-stündiges Intensive + Party
+Late Bird: 45 € pro Person
+At The Door: 45 € pro Person
+Nur Party: 10 €
+
+### Bootcamp:
+
+Normalpreis (bis 17.10.): 35 € p.P. für Bootcamp + Party
+At The Door: 40 € p.P.
+
 
 Anmeldung über info(at)wcs-wuppertal.de.
