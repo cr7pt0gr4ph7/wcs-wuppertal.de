@@ -1,6 +1,6 @@
 ---
 slug: wcs-intensive-mit-mariella-und-dominik-2025
-title: WCS Musicality "Intensive mit Mariella & Dominik + Party
+title: WCS Musicality Intensive mit Mariella & Dominik + Party
 # subtitle:
 location: ADTV Tanzschule Schäfer-Koch
 address:
