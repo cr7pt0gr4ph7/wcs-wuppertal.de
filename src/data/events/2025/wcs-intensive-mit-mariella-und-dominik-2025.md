@@ -35,7 +35,7 @@ Wir zeigen Dir Figuren und Ideen, mit denen Du Übergänge spannend und stilvoll
 ▶ EXTRA: EINSTEIGERWORKSHOP
 
 Wer bisher noch nicht West Coast Swing tanzt, für den haben wir ebenfalls ein Angebot:
-Bei einem ingesamt 3-stündigen Einsteigerworkshop aka. "Bootcamp" (aufgeteilt in 3x1 Stunde) lernt ihr die wichtigsten Basics
+Bei einem ingesamt 2,5-stündigen Einsteigerworkshop aka. "Bootcamp" (aufgeteilt in 1x90 min + 1x60 min) lernt ihr die wichtigsten Basics
 – und bei der Party danach könnt ihr eure neu gewonnenen Kenntnisse direkt einsetzen!
 
 ## Zeitplan
