@@ -32,11 +32,13 @@ Kurz vor der großen Eins oder einem Phrasenwechsel passiert die Magie der Musik
 In diesem Workshop lernst Du, diese Momente bewusst musikalisch zu vertanzen.
 Wir zeigen Dir Figuren und Ideen, mit denen Du Übergänge spannend und stilvoll gestalten kannst, um den Phrasechange zu treffen.
 
-▶ EXTRA: EINSTEIGERWORKSHOP
+▶ [EXTRA: EINSTEIGERWORKSHOP][bootcamp]
 
 Wer bisher noch nicht West Coast Swing tanzt, für den haben wir ebenfalls ein Angebot:
-Bei einem ingesamt 2,5-stündigen Einsteigerworkshop aka. "Bootcamp" (aufgeteilt in 1x90 min + 1x60 min) lernt ihr die wichtigsten Basics
+Bei einem ingesamt [2,5-stündigen Einsteigerworkshop aka. "Bootcamp"][bootcamp] (aufgeteilt in 1x90 min + 1x60 min) lernt ihr die wichtigsten Basics
 – und bei der Party danach könnt ihr eure neu gewonnenen Kenntnisse direkt einsetzen!
+
+[bootcamp]: /events/wcs-bootcamp-oktober-2025/
 
 ## Zeitplan
 
