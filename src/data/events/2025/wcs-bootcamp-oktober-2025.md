@@ -10,7 +10,9 @@ address:
   postalCode: "42103"
   countryCode: DE
   url: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9e
-image: src/assets/mariella-mbantopolous-dominik-neugebauer.jpeg
+image:
+    src: src/assets/kurse-und-workshops.jpg
+    alt: 2,5-stündiges Bootcamp für Neueinsteiger
 links:
     # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/
     # facebook: https://www.facebook.com/events/1064681532344988/
