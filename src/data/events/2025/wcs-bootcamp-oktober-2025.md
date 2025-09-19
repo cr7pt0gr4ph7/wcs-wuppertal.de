@@ -32,22 +32,12 @@ Wie für West Coast Swing üblich werden bei Workshop und Party die Tanzpartner 
 ihr könnt daher sowohl einzeln als auch zu zweit oder gleich in einer größeren Gruppe kommen
 Also kommt einfach vorbei und schnuppert in diesen lässigen und zugleich vielfältigen Tanz rein!
 
-▶ [EXTRA: INTENSIVE FÜR FORTGESCHRITTENE](/events/wcs-intensive-mit-mariella-und-dominik-2025/)
+▶ [EXTRA: INTENSIVE FÜR FORTGESCHRITTENE][intensive]
 
-Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unserem 2-stündigen WCS Intensive mit Mariella Mbantopoulos & Dominik Neugebauer garantiert auf seine Kosten.
+Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unserem 2-stündigen [WCS Intensive mit Mariella Mbantopoulos & Dominik Neugebauer][intensive] garantiert auf seine Kosten.
 Die WSDC-Advanced-Tänzer:innen und Trainer:innen werden euch ihre Perspektive auf den Tanz vermitteln & euch auf ein neues tänzerisches Level heben.
 
-## „Countdown to One — Musicality mit Style“!
-
-Kurz vor der großen Eins oder einem Phrasenwechsel passiert die Magie der Musik.
-In diesem Workshop lernst Du, diese Momente bewusst musikalisch zu vertanzen.
-Wir zeigen Dir Figuren und Ideen, mit denen Du Übergänge spannend und stilvoll gestalten kannst, um den Phrasechange zu treffen.
-
-▶ EXTRA: EINSTEIGERWORKSHOP
-
-Wer bisher noch nicht West Coast Swing tanzt, für den haben wir ebenfalls ein Angebot:
-Bei einem ingesamt 2,5-stündigen Einsteigerworkshop aka. "Bootcamp" (aufgeteilt in 1x90 min + 1x60 min) lernt ihr die wichtigsten Basics
-– und bei der Party danach könnt ihr eure neu gewonnenen Kenntnisse direkt einsetzen!
+[intensive]: /events/wcs-intensive-mit-mariella-und-dominik-2025/
 
 ## Zeitplan
 
