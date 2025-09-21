@@ -14,11 +14,11 @@ image:
     src: src/assets/kurse-und-workshops.jpg
     alt: 2,5-stündiges Bootcamp für Neueinsteiger
 links:
+    registration: https://link.wcs-wuppertal.de/anmeldung-oktober-2025
     # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/
     facebook: https://www.facebook.com/events/660564190429792/
     # youtube: https://www.youtube.com/watch?v=LLI7BwkEAvo
     maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
-    # registration: https://link.wcs-wuppertal.de/anmeldung-oktober-2025
 type:
     party: { requires_registration: false }
     workshop: { requires_registration: true }
