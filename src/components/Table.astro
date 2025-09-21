@@ -76,6 +76,9 @@ interface BaseRowData {
   dates?: Temporal.ZonedDateTime[];
   location: string;
   url?: string;
+  links?: {
+    registration?: string;
+  },
   type: InferEntrySchema<"calendar">["type"];
 }
 
