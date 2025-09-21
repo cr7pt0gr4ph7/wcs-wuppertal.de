@@ -12,11 +12,11 @@ address:
   url: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9e
 image: src/assets/mariella-mbantopolous-dominik-neugebauer.jpeg
 links:
+    registration: https://link.wcs-wuppertal.de/anmeldung-oktober-2025
     # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/
     facebook: https://www.facebook.com/events/1505050137611282/
     # youtube: https://www.youtube.com/watch?v=LLI7BwkEAvo
     maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
-    # registration: https://link.wcs-wuppertal.de/anmeldung-oktober-2025
 type:
     party: { requires_registration: false }
     workshop: { requires_registration: true }
