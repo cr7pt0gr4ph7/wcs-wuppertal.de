@@ -68,6 +68,8 @@ const eventBaseSchemaStructure = {
         homepage: z.string().optional(),
         facebook: z.string().optional(),
         instagram: z.string().optional(),
+        youtube: z.string().optional(),
+        whatsapp: z.string().optional(),
         community: z.string().optional(),
         maps: z.string().optional(),
         registration: z.string().optional(),
