@@ -209,13 +209,14 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
           if ((!registrationNeeded || forceMoreInfos) && entry.url) {
             children.push(<a href={entry.url}>Mehr Infos</a>);
           }
-          if (registrationNeeded && entry.url) {
+          let registrationUrl = entry.links?.registration ?? entry.url;
+          if (registrationNeeded && registrationUrl) {
             if (children.length > 0) {
               children.push(" | ");
             }
-            children.push(<a href={entry.url}>Anmelden</a>);
+            children.push(<a href={registrationUrl}>Anmelden</a>);
           }
-          if (registrationNeeded && !entry.url) {
+          if (registrationNeeded && !registrationUrl) {
             if (children.length > 0) {
               children.push(" | ");
             }
