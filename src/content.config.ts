@@ -70,6 +70,7 @@ const eventBaseSchemaStructure = {
         instagram: z.string().optional(),
         community: z.string().optional(),
         maps: z.string().optional(),
+        registration: z.string().optional(),
     }).optional(),
     url: z.string().optional(),
     image: z.union([z.string(), z.object({
