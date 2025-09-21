@@ -73,8 +73,8 @@ Nur Party: 10 € p.P.
 Normalpreis (bis 17.10.): 35 € p.P. für Bootcamp + Party<br>
 At The Door: 38 € p.P.
 
-Das [**Anmeldeformular** findest du **hier**][anmeldung].
-
 Du hast weitere Fragen oder Anmerkungen? Dann schreib uns an info(at)wcs-wuppertal.de!
+
+Das [**Anmeldeformular** findest du **hier**][anmeldung].
 
 [anmeldung]: https://link.wcs-wuppertal.de/anmeldung-oktober-2025
