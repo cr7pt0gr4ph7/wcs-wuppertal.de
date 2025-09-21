@@ -13,9 +13,10 @@ address:
 image: src/assets/mariella-mbantopolous-dominik-neugebauer.jpeg
 links:
     # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/
-    # facebook: https://www.facebook.com/events/1064681532344988/
+    facebook: https://www.facebook.com/events/1505050137611282
     # youtube: https://www.youtube.com/watch?v=LLI7BwkEAvo
     maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
+    # registration: https://link.wcs-wuppertal.de/anmeldung-oktober-2025
 type:
     party: { requires_registration: false }
     workshop: { requires_registration: true }
@@ -71,4 +72,8 @@ Nur Party: 10 € p.P.
 Normalpreis (bis 17.10.): 35 € p.P. für Bootcamp + Party<br>
 At The Door: 38 € p.P.
 
-Anmeldung über info(at)wcs-wuppertal.de.
+Das [**Anmeldeformular** findest du **hier**][anmeldung].
+
+Du hast weitere Fragen oder Anmerkungen? Dann schreib uns an info(at)wcs-wuppertal.de!
+
+[anmeldung]: https://link.wcs-wuppertal.de/anmeldung-oktober-2025
