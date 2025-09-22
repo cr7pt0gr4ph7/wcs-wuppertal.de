@@ -66,12 +66,16 @@ Early Bird (bis 30.09.): 40 € pro Person für Intensive + Party<br>
 Late Bird (bis 17.10.): 45 € p.P.<br>
 At The Door: 48 € p.P.
 
+_Studenten & Azubis: 30 € p.P. (bei Anmeldung bis 10.10.)_
+
 Nur Party: 10 € p.P.
 
 ### Bootcamp für Neueinsteiger
 
 Normalpreis (bis 17.10.): 35 € p.P. für Bootcamp + Party<br>
 At The Door: 38 € p.P.
+
+_Studenten & Azubis: 15 € p.P. (bei Anmeldung bis 10.10.)_
 
 Du hast weitere Fragen oder Anmerkungen? Dann schreib uns an info(at)wcs-wuppertal.de!
 
