@@ -62,9 +62,9 @@ Die WSDC-Advanced-Tänzer:innen und Trainer:innen werden euch ihre Perspektive a
 
 ### Intensive mit Mariella & Dominik
 
-Early Bird (bis 03.10.): 35 € pro Person für Intensive + Party<br>
-Late Bird (bis 17.10.): 40 € p.P.<br>
-At The Door: 45 € p.P.
+Early Bird (bis 03.10.): 40 € pro Person für Intensive + Party<br>
+Late Bird (bis 17.10.): 45 € p.P.<br>
+At The Door: 48 € p.P.
 
 _Studenten & Azubis: 30 € p.P. (bei Anmeldung bis 10.10.)_
 
@@ -72,8 +72,8 @@ Nur Party: 10 € p.P.
 
 ### Bootcamp für Neueinsteiger
 
-Normalpreis (bis 17.10.): 30 € p.P. für Bootcamp + Party<br>
-At The Door: 40 € p.P.
+Normalpreis (bis 17.10.): 35 € p.P. für Bootcamp + Party<br>
+At The Door: 38 € p.P.
 
 _Studenten & Azubis: 15 € p.P. (bei Anmeldung bis 10.10.)_
 
