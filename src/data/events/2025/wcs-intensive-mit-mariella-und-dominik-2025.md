@@ -71,8 +71,8 @@ Nur Party: 10 € p.P.
 
 ### Bootcamp für Neueinsteiger
 
-Normalpreis (bis 17.10.): 35 € p.P. für Bootcamp + Party<br>
-At The Door: 38 € p.P.
+Normalpreis (bis 17.10.): 30 € p.P. für Bootcamp + Party<br>
+At The Door: 35 € p.P.
 
 _Studenten & Azubis: 15 € p.P. (bei Anmeldung bis 10.10.)_
 
