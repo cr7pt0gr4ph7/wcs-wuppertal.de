@@ -62,7 +62,7 @@ Die WSDC-Advanced-Tänzer:innen und Trainer:innen werden euch ihre Perspektive a
 
 ### Intensive mit Mariella & Dominik
 
-Early Bird (bis 03.10.): 40 € pro Person für Intensive + Party<br>
+Early Bird (bis 03.10.): 35 € pro Person für Intensive + Party<br>
 Late Bird (bis 17.10.): 45 € p.P.<br>
 At The Door: 48 € p.P.
 
