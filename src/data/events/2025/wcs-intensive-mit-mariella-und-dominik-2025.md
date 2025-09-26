@@ -61,7 +61,7 @@ Bei einem ingesamt [2,5-stündigen Einsteigerworkshop aka. "Bootcamp"][bootcamp]
 
 ### Intensive mit Mariella & Dominik
 
-Early Bird (bis 30.09.): 40 € pro Person für Intensive + Party<br>
+Early Bird (bis 03.10.): 40 € pro Person für Intensive + Party<br>
 Late Bird (bis 17.10.): 45 € p.P.<br>
 At The Door: 48 € p.P.
 
