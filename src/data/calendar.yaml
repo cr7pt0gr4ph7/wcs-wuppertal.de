@@ -164,10 +164,18 @@
 - id: unisport-buw-wuppertal-wcs-level-1
   title: WCS Level 1
   location: UniSport Wuppertal
-  date: 2025-04-09T19:00:00
+  date: 2025-10-22T19:00:00
   duration: 01:00:00
   url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
   type: { regular_course: true, requires_registration: true }
+
+- id: unisport-buw-wuppertal-wcs-level-1
+  title: Kostenlose Schnupperwoche im WCS Level 1
+  location: UniSport Wuppertal
+  date: 2025-10-22T19:00:00
+  duration: 01:00:00
+  url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
+  type: { workshop: true }
 
 - id: wcs-rally-2025
   title: Flashmob-Aufführung
