@@ -287,19 +287,19 @@
     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
   type: { party: true, more_infos: true, requires_registration: false }
 
-- id: valley-weekend-social-dezember-2025
-  title: »Valley Weekend Social« Sunday Edition
+- id: valley-weekend-swing-dezember-2025
+  title: »Valley Weekend Swing«: Sunday Edition
   subtitle: West Coast Swing-&zwsp;Social mit Workshop
   location: ADTV Tanzschule Schäfer-Koch
   date: 2025-11-08T20:00:00
   duration: 04:00:00
-  url: /events/valley-weekend-social-dezember-2025/
+  url: /events/valley-weekend-swing-dezember-2025/
   image:
     src: src/assets/kurse-und-workshops.jpg
     alt: West Coast Swing-&zwsp;Social mit Workshop
   links:
     # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/
-    registration: /events/valley-weekend-social-dezember-2025/
+    registration: /events/valley-weekend-swing-dezember-2025/
     # facebook: https://www.facebook.com/events/1505050137611282/
     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
   type: { party: true, workshop: true, more_infos: true, requires_registration: false }
