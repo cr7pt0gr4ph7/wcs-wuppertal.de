@@ -1,5 +1,5 @@
 ---
-slug: valley-weekend-swing-mai-2025
+slug: valley-weekend-social-november-2025
 title: »Valley Weekend Social«
 subtitle: West Coast Swing-&zwsp;Party
 location: ADTV Tanzschule Schäfer-Koch
@@ -38,3 +38,5 @@ Wie für West Coast Swing üblich werden bei der Party die Tanzpartner gewechsel
 Party 10 € pro Person
 
 Keine Anmeldung erforderlich.
+
+Du hast noch Fragen? Dann kontaktier uns über das Kontaktformular oder über info(at)wcs-wuppertal.de!
