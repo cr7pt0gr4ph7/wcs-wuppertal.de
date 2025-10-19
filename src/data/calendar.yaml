@@ -12,28 +12,6 @@
     - title: WCS Level 1
       subtitle: für Einsteiger (Dauer 6 Wochen)
       children:
-        - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-08-31
-          title: WCS Level 1 (6 x 60 min)
-          location: ADTV Tanzschule Schäfer-Koch
-          date: 2025-08-31T15:15:00
-          duration: 01:00:00
-          links:
-            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
-            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
-          type: { regular_course: true, requires_registration: true }
-
-        - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-09-02
-          title: WCS Level 1 (6 x 60 min)
-          location: ADTV Tanzschule Schäfer-Koch
-          date: 2025-09-02T18:45:00
-          duration: 01:00:00
-          links:
-            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
-            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
-          type: { regular_course: true, requires_registration: true }
-
         - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2025-10-28
           title: WCS Level 1 (6 x 60 min)
           location: ADTV Tanzschule Schäfer-Koch
@@ -70,28 +48,6 @@
     - title: WCS Level 2
       subtitle: für Fortgeschrittene (Dauer 4 x 6 Wochen = 24 Wochen)
       children:
-        - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-08-31
-          title: WCS Level 2 (4 Blöcke á 6 x 60 min)
-          location: ADTV Tanzschule Schäfer-Koch
-          date: 2025-08-31T16:30:00
-          duration: 01:00:00
-          links:
-            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
-            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
-          type: { regular_course: true, requires_registration: true }
-
-        - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-09-02
-          title: WCS Level 2 (4 Blöcke á 6 x 60 min)
-          location: ADTV Tanzschule Schäfer-Koch
-          date: 2025-09-02T20:00:00
-          duration: 01:00:00
-          links:
-            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
-            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
-          type: { regular_course: true, requires_registration: true }
-
         - id: adtv-tanzschule-schaefer-koch--wcs-level-2--2025-10-28
           title: WCS Level 2 (4 Blöcke á 6 x 60 min)
           location: ADTV Tanzschule Schäfer-Koch
@@ -128,17 +84,6 @@
     - title: WCS Level 3
       subtitle: für Fortgeschrittene (Einstieg jederzeit)
       children:
-        - id: adtv-tanzschule-schaefer-koch--wcs-level-3--2025-08-31
-          title: WCS Level 3 (Fortlaufend, 6 x 60 min pro Block)
-          location: ADTV Tanzschule Schäfer-Koch
-          date: 2025-08-31T17:45:00
-          duration: 01:00:00
-          links:
-            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c30242
-            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c30242
-          type: { regular_course: true, requires_registration: true }
-
         - id: adtv-tanzschule-schaefer-koch--wcs-level-3--2025-10-28
           title: WCS Level 3 (Fortlaufend, 6 x 60 min pro Block)
           location: ADTV Tanzschule Schäfer-Koch
@@ -164,7 +109,7 @@
 - id: unisport-buw-wuppertal-wcs-level-1
   title: WCS Level 1
   location: UniSport Wuppertal
-  date: 2025-10-22T19:00:00
+  date: 2025-10-22T18:00:00
   duration: 01:00:00
   url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
   type: { regular_course: true, requires_registration: true }
@@ -172,7 +117,7 @@
 - id: unisport-buw-wuppertal-wcs-level-1
   title: Kostenlose Schnupperwoche im WCS Level 1
   location: UniSport Wuppertal
-  date: 2025-10-22T19:00:00
+  date: 2025-10-22T18:00:00
   duration: 01:00:00
   url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
   type: { workshop: true }
@@ -324,3 +269,37 @@
     facebook: https://www.facebook.com/events/1505050137611282/
     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
   type: { workshop: { requires_registration: true }, party: true, more_infos: true, requires_registration: false }
+
+- id: valley-weekend-social-november-2025
+  title: »Valley Weekend Social«
+  subtitle: West Coast Swing-&zwsp;Party
+  location: ADTV Tanzschule Schäfer-Koch
+  date: 2025-11-08T20:00:00
+  duration: 04:00:00
+  url: /events/valley-weekend-social-november-2025/
+  image:
+    src: src/assets/kurse-und-workshops.jpg
+    alt: West Coast Swing-Party
+  links:
+    # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/
+    # registration: https://link.wcs-wuppertal.de/anmeldung-oktober-2025
+    # facebook: https://www.facebook.com/events/1505050137611282/
+    maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+  type: { party: true, more_infos: true, requires_registration: false }
+
+- id: valley-weekend-social-dezember-2025
+  title: »Valley Weekend Social« Sunday Edition
+  subtitle: West Coast Swing-&zwsp;Social mit Workshop
+  location: ADTV Tanzschule Schäfer-Koch
+  date: 2025-11-08T20:00:00
+  duration: 04:00:00
+  url: /events/valley-weekend-social-dezember-2025/
+  image:
+    src: src/assets/kurse-und-workshops.jpg
+    alt: West Coast Swing-&zwsp;Social mit Workshop
+  links:
+    # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/
+    registration: /events/valley-weekend-social-dezember-2025/
+    # facebook: https://www.facebook.com/events/1505050137611282/
+    maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+  type: { party: true, workshop: true, more_infos: true, requires_registration: false }
