@@ -10,8 +10,8 @@ address:
   postalCode: "42103"
   countryCode: DE
   url: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
-date: 2025-05-10T19:00:00
-duration: 05:00:00
+date: 2025-11-08T20:00:00
+duration: 04:00:00
 links:
     # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/events-erwachsene-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=75786&cHash=755feaad219408d97dd826d88ed8bcf8
     # facebook: https://www.facebook.com/events/1064681532344988/
@@ -31,7 +31,7 @@ Macht euch bereit für die nächste Ausgabe unserer beliebten West Coast Swing-P
 
 20:00 - 24:00 Uhr: WCS-Party
 
-Wie für West Coast Swing üblich werden bei der Party die Tanzpartner gewechselt. Ihr könnt daher sowohl einzeln als auch zu zweit oder gleich in einer größeren Gruppe kommen. Wir freuen uns über neue Gesichter!
+Wie für West Coast Swing üblich werden bei der Party die Tanzpartner gewechselt. Ihr könnt daher sowohl einzeln als auch zu zweit oder gleich in einer größeren Gruppe kommen. Wir freuen uns immer über neue Gesichter!
 
 ## Eintritt
 
