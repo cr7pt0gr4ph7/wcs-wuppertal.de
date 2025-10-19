@@ -122,40 +122,6 @@
   url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
   type: { workshop: true }
 
-- id: wcs-bootcamp-oktober-2025
-  title: WCS Bootcamp für Neueinsteiger + Party
-  subtitle: 2,5-stündiger Crashkurs mit anschließender Party
-  location: ADTV Tanzschule Schäfer-Koch
-  date: 2025-10-18T16:00:00
-  duration: 02:30:00
-  url: /events/wcs-bootcamp-oktober-2025/
-  image:
-    src: src/assets/kurse-und-workshops.jpg
-    alt: 2,5-stündiges Bootcamp für Neueinsteiger
-  links:
-    # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/
-    registration: https://link.wcs-wuppertal.de/anmeldung-oktober-2025
-    facebook: https://www.facebook.com/events/660564190429792/
-    maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-  type: { workshop: { requires_registration: true }, party: true, regular_course: true, more_infos: true, requires_registration: false }
-
-- id: wcs-intensive-mit-mariella-und-dominik-2025
-  title: WCS Musicality-Intensive + Party mit Mariella & Dominik
-  subtitle: Intensive + Party
-  location: ADTV Tanzschule Schäfer-Koch
-  date: 2025-10-18T17:30:00
-  duration: 02:00:00
-  url: /events/wcs-intensive-mit-mariella-und-dominik-2025/
-  image:
-    src: src/assets/mariella-mbantopolous-dominik-neugebauer.jpeg
-    alt: Intensive mit Mariella & Dominik
-  links:
-    # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/
-    registration: https://link.wcs-wuppertal.de/anmeldung-oktober-2025
-    facebook: https://www.facebook.com/events/1505050137611282/
-    maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-  type: { workshop: { requires_registration: true }, party: true, more_infos: true, requires_registration: false }
-
 - id: valley-weekend-social-november-2025
   title: »Valley Weekend Social«
   subtitle: West Coast Swing-&zwsp;Party
@@ -182,7 +148,7 @@
   url: /events/valley-weekend-swing-dezember-2025/
   image:
     src: src/assets/kurse-und-workshops.jpg
-    alt: West Coast Swing-&zwsp;Social mit Workshop
+    alt: West Coast Swing-&zwsp;Social mit Workshop (und Plätzchen)
   links:
     # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/
     registration: /events/valley-weekend-swing-dezember-2025/
