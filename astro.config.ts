@@ -27,7 +27,7 @@ export default defineConfig({
       status: 302,
       destination: "/#kurse"
     },
-    "/kurse": {
+    "/kurse/": {
       status: 302,
       destination: "/#kurse"
     },
