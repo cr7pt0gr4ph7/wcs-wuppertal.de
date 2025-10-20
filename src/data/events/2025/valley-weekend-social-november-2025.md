@@ -14,7 +14,7 @@ date: 2025-11-08T20:00:00
 duration: 04:00:00
 links:
     # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/events-erwachsene-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=75786&cHash=755feaad219408d97dd826d88ed8bcf8
-    # facebook: https://www.facebook.com/events/1064681532344988/
+    facebook: https://www.facebook.com/events/1384281853120984
     maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 type:
     party: { requires_registration: false }
