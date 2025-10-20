@@ -135,7 +135,7 @@
   links:
     # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/
     # registration: https://link.wcs-wuppertal.de/anmeldung-oktober-2025
-    # facebook: https://www.facebook.com/events/1505050137611282/
+    facebook: https://www.facebook.com/events/1384281853120984/
     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
   type: { party: true, more_infos: true, requires_registration: false }
 
@@ -152,6 +152,6 @@
   links:
     # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/
     registration: /events/valley-weekend-swing-dezember-2025/
-    # facebook: https://www.facebook.com/events/1505050137611282/
+    facebook: https://www.facebook.com/events/859014956707404/
     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
   type: { party: true, workshop: true, more_infos: true, requires_registration: false }
