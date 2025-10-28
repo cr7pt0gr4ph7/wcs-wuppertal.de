@@ -114,13 +114,13 @@
   url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
   type: { regular_course: true, requires_registration: true }
 
-- id: unisport-buw-wuppertal-wcs-level-1
-  title: Kostenlose Schnupperwoche im WCS Level 1
-  location: UniSport Wuppertal
-  date: 2025-10-22T18:00:00
-  duration: 01:00:00
-  url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
-  type: { workshop: true }
+# - id: unisport-buw-wuppertal-wcs-level-1-schnupperwoche
+#   title: Kostenlose Schnupperwoche im WCS Level 1
+#   location: UniSport Wuppertal
+#   date: 2025-10-22T18:00:00
+#   duration: 01:00:00
+#   url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
+#   type: { workshop: true }
 
 - id: valley-weekend-social-november-2025
   title: »Valley Weekend Social«
