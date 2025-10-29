@@ -45,6 +45,72 @@
           url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
           type: { regular_course: true, requires_registration: true }
 
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-01-08
+          title: WCS Level 1 (6 x 60 min)
+          location: ADTV Tanzschule Schäfer-Koch
+          date: 2026-01-08T20:00:00
+          duration: 01:00:00
+          links:
+            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
+            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
+          type: { regular_course: true, requires_registration: true }
+
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-01-11
+          title: WCS Level 1 (6 x 60 min)
+          location: ADTV Tanzschule Schäfer-Koch
+          date: 2026-01-11T15:15:00
+          duration: 01:00:00
+          links:
+            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
+            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
+          type: { regular_course: true, requires_registration: true }
+
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-01-13
+          title: WCS Level 1 (6 x 60 min)
+          location: ADTV Tanzschule Schäfer-Koch
+          date: 2026-01-13T17:50:00
+          duration: 01:00:00
+          links:
+            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
+            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
+          type: { regular_course: true, requires_registration: true }
+
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-02-19
+          title: WCS Level 1 (6 x 60 min)
+          location: ADTV Tanzschule Schäfer-Koch
+          date: 2026-02-19T20:00:00
+          duration: 01:00:00
+          links:
+            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
+            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
+          type: { regular_course: true, requires_registration: true }
+
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-02-22
+          title: WCS Level 1 (6 x 60 min)
+          location: ADTV Tanzschule Schäfer-Koch
+          date: 2026-02-22T15:15:00
+          duration: 01:00:00
+          links:
+            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
+            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
+          type: { regular_course: true, requires_registration: true }
+
+        - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-02-24
+          title: WCS Level 1 (6 x 60 min)
+          location: ADTV Tanzschule Schäfer-Koch
+          date: 2026-02-24T17:50:00
+          duration: 01:00:00
+          links:
+            homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
+            maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+          url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25057
+          type: { regular_course: true, requires_registration: true }
+
     - title: WCS Level 2
       subtitle: für Fortgeschrittene (Dauer 4 x 6 Wochen = 24 Wochen)
       children:
