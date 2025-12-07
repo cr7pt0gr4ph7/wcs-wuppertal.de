@@ -1,5 +1,5 @@
 ---
-slug: valley-weekend-swing-januar-2025
+slug: valley-weekend-swing-januar-2026
 title: »Valley Weekend Swing«
 subtitle: Workshops, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
