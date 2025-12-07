@@ -1,7 +1,7 @@
 ---
 slug: valley-weekend-swing-januar-2026
-title: »Valley Weekend Swing«
-subtitle: Workshops, Bootcamp & Party
+title: »Valley Weekend Swing« | Intensive mit Markus Scherer
+subtitle: 2-stündiges Intensive, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
 address:
   name: ADTV Tanzschule Schäfer-Koch
@@ -26,4 +26,50 @@ description:
 
 ## Am Samstag, 24.01.26
 
-Details coming soon
+**Extra für euch in Wuppertal:** Der All Star-Tänzer **Markus Scherer** mit einem 2-stündigen Intensive — Topic to be announced soon!
+
+▶ [EXTRA: EINSTEIGERWORKSHOP][bootcamp]
+
+Wer bisher noch nicht West Coast Swing tanzt, für den haben wir ebenfalls ein Angebot:
+Bei einem ingesamt [2-stündigen Einsteigerworkshop aka. "Bootcamp"][bootcamp] (aufgeteilt in 2 x 60 min) lernt ihr die wichtigsten Basics
+– und bei der Party danach könnt ihr eure neu gewonnenen Kenntnisse direkt einsetzen!
+
+[bootcamp]: /events/wcs-bootcamp-januar-2026/
+
+## Zeitplan
+
+### Intensive für Fortgeschrittene
+
+- 18:15 - 20:15 Uhr :: Intensive mit Markus Scherer
+
+### Bootcamp für Neueinsteiger
+
+- 16:00 - 18:00 Uhr :: Bootcamp-Workshop mit Lukas Waslowski
+
+### Social Party
+
+- Ab 20:00 Uhr :: WCS Party
+
+## Eintritt & Anmeldung
+
+### Intensive mit Mariella & Dominik
+
+Early Bird (bis 31.12.): 30 € pro Person für Intensive + Party<br>
+Late Bird: 35 € p.P.<br>
+At The Door: 40 € p.P.
+
+_Studenten & Azubis: 20 € p.P. (bei Anmeldung bis 31.12.)_
+
+Nur Party: 10 € p.P.
+
+### Bootcamp für Neueinsteiger
+
+Normalpreis: 25 € p.P. für Bootcamp + Party<br>
+
+_Studenten & Azubis: 15 € p.P._
+
+Du hast weitere Fragen oder Anmerkungen? Dann schreib uns an info(at)wcs-wuppertal.de!
+
+Das [**Anmeldeformular** findest du **hier**][anmeldung].
+
+[anmeldung]: https://link.wcs-wuppertal.de/anmeldung-januar-2026
