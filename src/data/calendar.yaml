@@ -305,7 +305,7 @@
   location: ADTV Tanzschule Schäfer-Koch
   date: 2026-01-24T16:00:00
   duration: 08:00:00
-    image:
+  image:
     src: src/assets/kurse-und-workshops.jpg
     alt: 2-stündiges Intensive, Bootcamp & Party
   type: { party: { requires_registration: false }, workshop: { requires_registration: true }, requires_registration: true }
