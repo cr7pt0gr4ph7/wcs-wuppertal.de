@@ -18,6 +18,7 @@ image:
 links:
     registration: https://link.wcs-wuppertal.de/anmeldung-januar-2026
     facebook: https://www.facebook.com/events/1588595942566482/
+    community: https://westiecommunity.de/?post_type=tribe_events&p=4619%2F/
     maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 type:
     party: { requires_registration: false }
