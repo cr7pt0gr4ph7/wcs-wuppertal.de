@@ -17,6 +17,7 @@ image:
     alt: 2-stündiges Bootcamp für Neueinsteiger
 links:
     registration: https://link.wcs-wuppertal.de/anmeldung-januar-2026
+    facebook: https://www.facebook.com/events/1588595942566482/
     maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 type:
     party: { requires_registration: false }
@@ -40,7 +41,7 @@ Also kommt einfach vorbei und schnuppert in diesen lässigen und zugleich vielf�
 
 ▶ [EXTRA: INTENSIVE FÜR FORTGESCHRITTENE][intensive]
 
-Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unserem 2-stündigen [WCS Intensive mit Markus Scherer][intensive] zum Thema „Ducks and Tilted Turns“ garantiert auf seine Kosten.
+Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unserem 2-stündigen [WCS Intensive mit Markus Scherer][intensive] zum Thema „Ducks and Tilted Turns“ garantiert auf seine Kosten!
 
 ## Zeitplan
 
