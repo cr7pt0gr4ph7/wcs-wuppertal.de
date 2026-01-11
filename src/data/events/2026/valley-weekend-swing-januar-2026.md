@@ -13,8 +13,6 @@ address:
 date: 2026-01-24T16:00:00
 duration: 06:00:00
 links:
-    # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/events-erwachsene-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=75786&cHash=755feaad219408d97dd826d88ed8bcf8
-    # facebook: https://www.facebook.com/events/1064681532344988/
     maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 type:
     party: { requires_registration: false }
@@ -26,12 +24,12 @@ description:
 
 ## Am Samstag, 24.01.26
 
-**Extra für euch in Wuppertal:** Der All Star-Tänzer **Markus Scherer** mit einem 2-stündigen Intensive — Topic to be announced soon!
+**Extra für euch in Wuppertal:** Der All Star-Tänzer **Markus Scherer** mit einem 2-stündigen Intensive zum Thema „Ducks and Tilted Turns“!
 
 ▶ [EXTRA: EINSTEIGERWORKSHOP][bootcamp]
 
 Wer bisher noch nicht West Coast Swing tanzt, für den haben wir ebenfalls ein Angebot:
-Bei einem ingesamt [2-stündigen Einsteigerworkshop aka. "Bootcamp"][bootcamp] (aufgeteilt in 2 x 60 min) lernt ihr die wichtigsten Basics
+Bei einem ingesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootcamp] (aufgeteilt in 2 x 60 min) lernt ihr die wichtigsten Basics
 – und bei der Party danach könnt ihr eure neu gewonnenen Kenntnisse direkt einsetzen!
 
 [bootcamp]: /events/wcs-bootcamp-januar-2026/
@@ -52,19 +50,18 @@ Bei einem ingesamt [2-stündigen Einsteigerworkshop aka. "Bootcamp"][bootcamp] (
 
 ## Eintritt & Anmeldung
 
-### Intensive mit Mariella & Dominik
+### Intensive mit Markus Scherer
 
-Early Bird (bis 31.12.): 30 € pro Person für Intensive + Party<br>
-Late Bird: 35 € p.P.<br>
-At The Door: 40 € p.P.
+Vorverkauf: 30 € pro Person für Intensive + Party<br>
+Tageskasse: 35 € p.P.
 
-_Studenten & Azubis: 20 € p.P. (bei Anmeldung bis 31.12.)_
+_Studenten & Azubis: 20 € p.P._
 
 Nur Party: 10 € p.P.
 
 ### Bootcamp für Neueinsteiger
 
-Normalpreis: 25 € p.P. für Bootcamp + Party<br>
+Normalpreis: 20 € p.P. für Bootcamp + Party<br>
 
 _Studenten & Azubis: 15 € p.P._
 
