@@ -54,7 +54,7 @@ Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unserem 2-s
 
 ### Social Party
 
-- Ab 20:00 Uhr :: WCS Party
+- Ab 20:15 Uhr :: WCS Party
 
 ## Eintritt & Anmeldung
 
