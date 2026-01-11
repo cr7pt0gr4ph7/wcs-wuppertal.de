@@ -14,7 +14,9 @@ date: 2026-01-24T18:15:00
 duration: 05:45:00
 links:
     registration: https://link.wcs-wuppertal.de/anmeldung-januar-2026
+    homepage: https://www.tanzschule-schaefer-koch.de/events/workshops/events-workshops-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=79066&cHash=a0816d7e9ae70c42e68db3f6c49919bbe
     facebook: https://www.facebook.com/events/873258532226547/
+    community: 
     maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 type:
     party: { requires_registration: false }
