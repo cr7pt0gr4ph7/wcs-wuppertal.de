@@ -17,6 +17,7 @@ image:
     alt: 2-stündiges Bootcamp für Neueinsteiger
 links:
     registration: https://link.wcs-wuppertal.de/anmeldung-januar-2026
+    # homepage: https://www.tanzschule-schaefer-koch.de/events/workshops/events-workshops-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=79066&cHash=a0816d7e9ae70c42e68db3f6c49919bb
     facebook: https://www.facebook.com/events/1588595942566482/
     community: https://westiecommunity.de/?post_type=tribe_events&p=4619%2F/
     maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
