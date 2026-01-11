@@ -67,7 +67,7 @@ Nur Party: 10 € p.P.
 
 ### Bootcamp für Neueinsteiger
 
-Normalpreis: 20 € p.P. für Bootcamp + Party<br>
+Normalpreis: 25 € p.P. für Bootcamp + Party<br>
 
 _Studenten & Azubis: 15 € p.P._
 
