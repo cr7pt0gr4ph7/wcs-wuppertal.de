@@ -28,8 +28,8 @@ description:
 
 ## „Ducks and Tilted Turns“!
 
-Du willst deine Drehungen aufpeppen, als Follower mehr Ausdruck bekommen und als Leader einen Followern Optionen für coole Stylings geben?
-Dann lasst euch vom langjährig erfolgreichen WCS- und Zouk-Tänzer, -Lehrer und -Competitor **Markus Scherer** alle wichtigen Tipps und Tricks im Rahmen eines komprimierten Intensives zeigen!
+Du willst deine Drehungen aufpeppen, als Follower mehr Ausdruck bekommen und als Leader deinen Followern Optionen für coole Stylings geben und selbst wie ein Pro aussehen?
+Dann lasst euch vom langjährig erfolgreichen WCS- und Zouk-Tänzer, -Lehrer und -Competitor **Markus Scherer** alle wichtigen Tipps und Tricks im Rahmen eines kompakten Intensives zeigen!
 
 ▶ [EXTRA: EINSTEIGERWORKSHOP][bootcamp]
 
