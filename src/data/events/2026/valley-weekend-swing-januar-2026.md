@@ -24,7 +24,12 @@ description:
 
 ## Am Samstag, 24.01.26
 
-**Extra für euch in Wuppertal:** Der All Star-Tänzer **Markus Scherer** mit einem 2-stündigen Intensive zum Thema „Ducks and Tilted Turns“!
+**Extra für euch in Wuppertal:** Der All Star-Tänzer **Markus Scherer** mit einem 2-stündigen Intensive zum Thema:
+
+## „Ducks and Tilted Turns“!
+
+Du willst deine Drehungen aufpeppen, als Follower mehr Ausdruck bekommen und als Leader einen Followern Optionen für coole Stylings geben?
+Dann lasst euch vom langjährig erfolgreichen WCS- und Zouk-Tänzer, -Lehrer und -Competitor **Markus Scherer** alle wichtigen Tipps und Tricks im Rahmen eines komprimierten Intensives zeigen!
 
 ▶ [EXTRA: EINSTEIGERWORKSHOP][bootcamp]
 
