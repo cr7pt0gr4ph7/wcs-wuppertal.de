@@ -4,15 +4,16 @@ title: »Valley Weekend Swing« | Intensive mit Markus Scherer
 subtitle: 2-stündiges Intensive, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
 address:
-  name: ADTV Tanzschule Schäfer-Koch
-  street: Laurentiusstr. 27
-  city: Wuppertal
-  postalCode: "42103"
-  countryCode: DE
-  url: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
+    name: ADTV Tanzschule Schäfer-Koch
+    street: Laurentiusstr. 27
+    city: Wuppertal
+    postalCode: "42103"
+    countryCode: DE
+    url: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 date: 2026-01-24T16:00:00
 duration: 06:00:00
 links:
+    registration: https://link.wcs-wuppertal.de/anmeldung-januar-2026
     maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 type:
     party: { requires_registration: false }
