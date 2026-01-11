@@ -52,7 +52,7 @@ Bei einem ingesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootcam
 
 ### Social Party
 
-- Ab 20:00 Uhr :: WCS Party
+- Ab 20:15 Uhr :: WCS Party
 
 ## Eintritt & Anmeldung
 
