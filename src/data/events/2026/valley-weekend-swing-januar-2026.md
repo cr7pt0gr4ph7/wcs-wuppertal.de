@@ -19,8 +19,6 @@ type:
     party: { requires_registration: false }
     workshop: { requires_registration: true }
     requires_registration: true
-description:
-    Macht euch bereit für die nächste Ausgabe unserer beliebten West Coast Swing-Party!
 ---
 
 [bootcamp]: /events/wcs-bootcamp-januar-2026/
