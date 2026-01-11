@@ -14,6 +14,7 @@ date: 2026-01-24T18:15:00
 duration: 05:45:00
 links:
     registration: https://link.wcs-wuppertal.de/anmeldung-januar-2026
+    facebook: https://www.facebook.com/events/873258532226547/
     maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 type:
     party: { requires_registration: false }
