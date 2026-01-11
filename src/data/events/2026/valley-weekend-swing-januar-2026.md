@@ -23,7 +23,11 @@ description:
     Macht euch bereit für die nächste Ausgabe unserer beliebten West Coast Swing-Party!
 ---
 
-## Am Samstag, 24.01.26
+[bootcamp]: /events/wcs-bootcamp-januar-2026/
+[intensive]: /events/valley-weekend-swing-januar-2026/
+[anmeldung]: https://link.wcs-wuppertal.de/anmeldung-januar-2026    
+
+## Am Samstag, 24.01.26 ab 18:15 Uhr
 
 **Extra für euch in Wuppertal:** Der All Star-Tänzer **Markus Scherer** mit einem 2-stündigen Intensive zum Thema:
 
@@ -37,8 +41,6 @@ Dann lasst euch vom **langjährig erfolgreichen WCS- und Zouk-Tänzer, -Lehrer u
 Wer bisher noch nicht West Coast Swing tanzt, für den haben wir ebenfalls ein Angebot:
 Bei einem ingesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootcamp] (aufgeteilt in 2 x 60 min) lernt ihr die wichtigsten Basics
 – und bei der Party danach könnt ihr eure neu gewonnenen Kenntnisse direkt einsetzen!
-
-[bootcamp]: /events/wcs-bootcamp-januar-2026/
 
 ## Zeitplan
 
@@ -74,5 +76,3 @@ _Studenten & Azubis: 15 € p.P._
 Du hast weitere Fragen oder Anmerkungen? Dann schreib uns an info(at)wcs-wuppertal.de!
 
 Das [**Anmeldeformular** findest du **hier**][anmeldung].
-
-[anmeldung]: https://link.wcs-wuppertal.de/anmeldung-januar-2026
