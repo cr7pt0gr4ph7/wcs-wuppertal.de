@@ -3,13 +3,6 @@ slug: valley-weekend-swing-juni-2026
 title: »Valley Weekend Swing«
 subtitle: Workshops, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
-address:
-  name: ADTV Tanzschule Schäfer-Koch
-  street: Laurentiusstr. 27
-  city: Wuppertal
-  postalCode: "42103"
-  countryCode: DE
-  url: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 date: 2026-06-20T16:00:00
 duration: 06:00:00
 links:

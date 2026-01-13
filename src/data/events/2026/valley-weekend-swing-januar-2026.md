@@ -3,13 +3,6 @@ slug: valley-weekend-swing-januar-2026
 title: »Valley Weekend Swing« | Intensive mit Markus Scherer
 subtitle: 2-stündiges Intensive, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
-address:
-    name: ADTV Tanzschule Schäfer-Koch
-    street: Laurentiusstr. 27
-    city: Wuppertal
-    postalCode: "42103"
-    countryCode: DE
-    url: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 date: 2026-01-24T18:15:00
 duration: 05:45:00
 links:
@@ -17,7 +10,6 @@ links:
     homepage: https://www.tanzschule-schaefer-koch.de/events/workshops/events-workshops-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=79066&cHash=a0816d7e9ae70c42e68db3f6c49919bbe
     facebook: https://www.facebook.com/events/873258532226547/
     community: https://westiecommunity.de/event/valley-weekend-swing-tanzschule-schaefer-koch/
-    maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 type:
     party: { requires_registration: false }
     workshop: { requires_registration: true }
@@ -26,7 +18,7 @@ type:
 
 [bootcamp]: /events/wcs-bootcamp-januar-2026/
 [intensive]: /events/valley-weekend-swing-januar-2026/
-[anmeldung]: https://link.wcs-wuppertal.de/anmeldung-januar-2026    
+[anmeldung]: https://link.wcs-wuppertal.de/anmeldung-januar-2026
 
 ## Am Samstag, 24.01.26 ab 18:15 Uhr
 

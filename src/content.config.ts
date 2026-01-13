@@ -112,6 +112,34 @@ const eventSchema = eventBaseSchema.extend({
     single_date: z.boolean().optional(),
 }).transform(transformEndDate);
 
+const locationSchema = z.object({
+    name: z.string(),
+    address: z.object({
+        name: z.string().optional(),
+        street: z.string().optional(),
+        city: z.string().optional(),
+        postalCode: z.string().optional(),
+        countryCode: z.string().optional(),
+        url: z.string().optional()
+    }).optional(),
+    links: z.object({
+        homepage: z.string().optional(),
+        facebook: z.string().optional(),
+        instagram: z.string().optional(),
+        youtube: z.string().optional(),
+        whatsapp: z.string().optional(),
+        community: z.string().optional(),
+        maps: z.string().optional(),
+        registration: z.string().optional(),
+    }).optional(),
+});
+
+// Location addresses
+export const locations = defineCollection({
+    loader: file("src/data/locations.yaml"),
+    schema: locationSchema,
+});
+
 // Internal and external events
 const calendar = defineCollection({
     loader: file("src/data/calendar.yaml"),
@@ -124,4 +152,4 @@ const events = defineCollection({
     schema: eventFileSchema,
 });
 
-export const collections = { calendar, events };
+export const collections = { locations, calendar, events };

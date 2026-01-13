@@ -11,6 +11,7 @@ import { hyphenate } from "../../utils/hyphenate.ts";
 import { toImageProps } from "../../utils/images.ts";
 import EventFooter from "../../components/events/EventFooter.astro";
 import { parseImageObject } from '../../utils/model';
+import { getEntry } from 'astro:content';
 
 export async function getStaticPaths() {
   const events = await getCollection("events");
@@ -23,11 +24,16 @@ export async function getStaticPaths() {
 const { event } = Astro.props;
 const { Content } = await render(event);
 
-const { title, subtitle, description, image: imagePathOrObj } = event.data;
+const { title, subtitle, description, image: imagePathOrObj, location, address: inlineAddress } = event.data;
+
+let locationObj = undefined;
+if (!inlineAddress && location) {
+  locationObj = (await getEntry("locations", location))?.data;
+}
+const address = inlineAddress ?? locationObj?.address;
+
 const image = parseImageObject(imagePathOrObj ?? "https://images.unsplash.com/photo-1655459784225-ae3ad6aef952", { alt: "Party" });
-
 let imageProps = toImageProps(image);
-
 
 const titleAndSubtitle = subtitle ? title + ": " + subtitle : title;
 ---
@@ -48,16 +54,16 @@ const titleAndSubtitle = subtitle ? title + ": " + subtitle : title;
       eventAttendanceMode: "OfflineEventAttendanceMode",
       location: {
         "@type": "Place",
-        name: event.data.location,
-        address: event.data.address
+        name: location,
+        address: address
           ? {
               "@type": "PostalAddress",
-              name: event.data.address.name,
-              streetAddress: event.data.address.street,
-              addressLocality: event.data.address.city,
-              postalCode: event.data.address.postalCode,
-              addressCountry: event.data.address.countryCode,
-              url: event.data.address.url,
+              name: address.name,
+              streetAddress: address.street,
+              addressLocality: address.city,
+              postalCode: address.postalCode,
+              addressCountry: address.countryCode,
+              url: address.url,
             }
           : undefined,
       },
@@ -78,7 +84,7 @@ const titleAndSubtitle = subtitle ? title + ": " + subtitle : title;
       <Picture {...imageProps} />
     </div>}
     <Content />
-    <EventFooter event={event} />
+    <EventFooter event={event} address={address} additionalLinks={{maps: locationObj?.links?.maps}}/>
   </article>
 </MinimalLayout>
 

@@ -3,13 +3,6 @@ slug: wcs-bootcamp-januar-2026
 title: WCS Bootcamp + Party
 subtitle: 2-stündiger Crashkurs für Neueinsteiger mit anschließender Party
 location: ADTV Tanzschule Schäfer-Koch
-address:
-    name: ADTV Tanzschule Schäfer-Koch
-    street: Laurentiusstr. 27
-    city: Wuppertal
-    postalCode: "42103"
-    countryCode: DE
-    url: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9e
 date: 2026-01-24T16:00:00
 duration: 08:00:00
 image:
@@ -20,7 +13,6 @@ links:
     # homepage: https://www.tanzschule-schaefer-koch.de/events/workshops/events-workshops-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=79066&cHash=a0816d7e9ae70c42e68db3f6c49919bb
     facebook: https://www.facebook.com/events/1588595942566482/
     community: https://westiecommunity.de/?post_type=tribe_events&p=4619%2F/
-    maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 type:
     party: { requires_registration: false }
     workshop: { requires_registration: true }

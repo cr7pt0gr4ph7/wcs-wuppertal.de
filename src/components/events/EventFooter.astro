@@ -3,12 +3,16 @@ import type { AnyEntryMap } from "astro:content";
 
 interface Props {
   event: AnyEntryMap["events"][string];
+  address: AnyEntryMap["events"][string]["data"]["address"];
+  additionalLinks?: Partial<Record<string, string>>;
 }
 
 const {
   event: {
-    data: { links: rawLinks, location, address },
+    data: { links: rawLinks, location },
   },
+  address,
+  additionalLinks,
 } = Astro.props;
 
 const linkTypes = [
@@ -21,19 +25,19 @@ const linkTypes = [
   { name: "Google Maps", key: "maps" },
 ] as const;
 
-const links = rawLinks
+const rawData = {...(rawLinks ?? {}), ...(additionalLinks ?? {})};
+
+const links = rawData
   ? linkTypes.flatMap((linkType) => {
-      if (!rawLinks) {
-        return [];
-      }
-      if (!rawLinks[linkType.key]) {
+      const linkUrl = rawData[linkType.key];
+      if (!linkUrl) {
         return [];
       }
       return [
         {
           name: linkType.name,
           key: linkType.key,
-          url: rawLinks[linkType.key],
+          url: linkUrl,
         },
       ];
     })
@@ -67,10 +71,10 @@ const links = rawLinks
           {address.street}
           <br />
           {address.postalCode} {address.city}
-          {rawLinks?.maps && (
+          {rawData.maps && (
             <>
               <br />
-              <a href={rawLinks.maps}>Google Maps</a>
+              <a href={rawData.maps}>Google Maps</a>
             </>
           )}
         </p>
