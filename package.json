@@ -24,7 +24,7 @@
     "temporal-polyfill": "^0.2.5",
     "typescript": "^5.7.3"
   },
-  "packageManager": "yarn@4.6.0",
+  "packageManager": "yarn@4.12.0",
   "resolutions": {
     "@types/hyphen@npm:^1": "patch:@types/hyphen@npm%3A1.6.7#~/.yarn/patches/@types-hyphen-npm-1.6.7-567770791c.patch",
     "devalue@npm:^5.1.1": "patch:devalue@npm%3A5.1.1#~/.yarn/patches/devalue-npm-5.1.1-56bf07adb2.patch",
