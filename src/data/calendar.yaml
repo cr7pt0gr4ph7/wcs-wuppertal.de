@@ -300,7 +300,7 @@
 
 - id: valley-weekend-swing-januar-2026
   url: /events/valley-weekend-swing-januar-2026
-  title: »Valley Weekend Swing« | Intensive mit Markus Scherer
+  title: WCS Intensive »Ducks and Tilted Turns« mit Markus Scherer
   subtitle: 2-stündiges Intensive, Bootcamp & Party
   location: ADTV Tanzschule Schäfer-Koch
   date: 2026-01-24T16:00:00
@@ -309,3 +309,16 @@
     src: src/assets/kurse-und-workshops.jpg
     alt: 2-stündiges Intensive, Bootcamp & Party
   type: { party: { requires_registration: false }, workshop: { requires_registration: true }, requires_registration: true }
+
+
+- id: wcs-bootcamp-januar-2026
+  url: /events/wcs-bootcamp-januar-2026
+  title: WCS Bootcamp für Einsteiger
+  subtitle: 2-stündiges Bootcamp & Party
+  location: ADTV Tanzschule Schäfer-Koch
+  date: 2026-01-24T16:00:00
+  duration: 08:00:00
+  image:
+    src: src/assets/kurse-und-workshops.jpg
+    alt: 2-stündiges Bootcamp & Party
+  type: { workshop: { requires_registration: true }, requires_registration: true }
