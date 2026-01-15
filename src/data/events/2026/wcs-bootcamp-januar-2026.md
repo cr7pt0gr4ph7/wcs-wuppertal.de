@@ -26,46 +26,54 @@ type:
 ## Am Samstag, 24.01.26 ab 16:00 Uhr
 
 Alle West Coast Swing-Liebhaber und solche die es werden wollen aufgepasst:
-Bei einem ingesamt 2-stündigen Einsteigerworkshop aka. „Bootcamp“ (aufgeteilt in 2 x 60 min)
-lernt ihr die wichtigsten Basics – und bei der Party danach könnt ihr eure neu gewonnenen Kenntnisse direkt einsetzen!
+Bei einem **ingesamt 2-stündigen Einsteigerworkshop aka. „Bootcamp“** (aufgeteilt in 2 x 60 min)
+lernt ihr die wichtigsten Basics – und bei der Party danach könnt ihr eure **neu gewonnenen Kenntnisse direkt einsetzen**!
 
 Wie für West Coast Swing üblich werden bei Workshop und Party die Tanzpartner gewechselt,
-ihr könnt daher sowohl einzeln als auch zu zweit oder gleich in einer größeren Gruppe kommen
+ihr könnt daher sowohl einzeln als auch zu zweit oder gleich in einer größeren Gruppe kommen.
 Also kommt einfach vorbei und schnuppert in diesen lässigen und zugleich vielfältigen Tanz rein!
+
+---
+
+# Voraussetzungen
+
+Für das Bootcamp sind keine Vorkenntnisse erforderlich!
 
 ▶ [EXTRA: INTENSIVE FÜR FORTGESCHRITTENE][intensive]
 
 Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unserem 2-stündigen [WCS Intensive mit Markus Scherer][intensive] zum Thema „Ducks and Tilted Turns“ garantiert auf seine Kosten!
 
-## Zeitplan
+---
+    
+# Zeitplan
 
-### Intensive für Fortgeschrittene
-
-- 18:15 - 20:15 Uhr :: Intensive mit Markus Scherer
-
-### Bootcamp für Neueinsteiger
+## Bootcamp für Neueinsteiger
 
 - 16:00 - 18:00 Uhr :: Bootcamp-Workshop mit Lukas Waslowski
 
-### Social Party
+## Intensive für Fortgeschrittene
+
+- 18:15 - 20:15 Uhr :: Intensive „Ducks and Tilted Turns“ mit Markus Scherer
+
+## Social Party
 
 - Ab 20:15 Uhr :: WCS Party
 
-## Eintritt & Anmeldung
+---
 
-### Intensive mit Markus Scherer
+# Eintritt & Anmeldung
+
+## Intensive mit Markus Scherer
 
 Vorverkauf: 30 € pro Person für Intensive + Party<br>
 Tageskasse: 35 € p.P.
 
-_Studenten & Azubis: 20 € p.P._
-
+_Studenten & Azubis: 20 € p.P._<br>
 Nur Party: 10 € p.P.
 
-### Bootcamp für Neueinsteiger
+## Bootcamp für Neueinsteiger
 
-Normalpreis: 25 € p.P. für Bootcamp + Party<br>
-
+Normalpreis: 25 € pro Person für Bootcamp + Party<br>
 _Studenten & Azubis: 15 € p.P._
 
 Du hast weitere Fragen oder Anmerkungen? Dann schreib uns an info(at)wcs-wuppertal.de!

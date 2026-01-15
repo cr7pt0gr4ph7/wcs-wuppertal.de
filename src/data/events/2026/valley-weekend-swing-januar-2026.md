@@ -29,41 +29,51 @@ type:
 Du willst deine Drehungen aufpeppen, als Follower mehr Ausdruck bekommen und als Leader deinen Followern Optionen für coole Stylings geben und selbst wie ein Pro aussehen?
 Dann lasst euch vom **langjährig erfolgreichen WCS- und Zouk-Tänzer, -Lehrer und -Competitor Markus Scherer** alle wichtigen Tipps und Tricks im Rahmen eines kompakten Intensives zeigen!
 
+---
+
+# Voraussetzungen
+
+Für das Intensive solltest du mindestens 1/2 bis 1 Jahr lang schon West Coast Swing tanzen,
+und mit allen Basics (Left Side Pass, Underarm Pass, Passing Tuck, Sugar Push, Sugar Tuck, Whip)
+vertraut sein.
+
 ▶ [EXTRA: EINSTEIGERWORKSHOP][bootcamp]
 
 Wer bisher noch nicht West Coast Swing tanzt, für den haben wir ebenfalls ein Angebot:
 Bei einem ingesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootcamp] (aufgeteilt in 2 x 60 min) lernt ihr die wichtigsten Basics
 – und bei der Party danach könnt ihr eure neu gewonnenen Kenntnisse direkt einsetzen!
 
-## Zeitplan
+---
 
-### Intensive für Fortgeschrittene
+# Zeitplan
 
-- 18:15 - 20:15 Uhr :: Intensive mit Markus Scherer
-
-### Bootcamp für Neueinsteiger
+## Bootcamp für Neueinsteiger
 
 - 16:00 - 18:00 Uhr :: Bootcamp-Workshop mit Lukas Waslowski
 
-### Social Party
+## Intensive für Fortgeschrittene
+
+- 18:15 - 20:15 Uhr :: Intensive „Ducks and Tilted Turns“ mit Markus Scherer
+
+## Social Party
 
 - Ab 20:15 Uhr :: WCS Party
 
-## Eintritt & Anmeldung
+---
 
-### Intensive mit Markus Scherer
+# Eintritt & Anmeldung
+
+## Intensive mit Markus Scherer
 
 Vorverkauf: 30 € pro Person für Intensive + Party<br>
 Tageskasse: 35 € p.P.
 
-_Studenten & Azubis: 20 € p.P._
-
+_Studenten & Azubis: 20 € p.P._<br>
 Nur Party: 10 € p.P.
 
-### Bootcamp für Neueinsteiger
+## Bootcamp für Neueinsteiger
 
-Normalpreis: 25 € p.P. für Bootcamp + Party<br>
-
+Normalpreis: 25 € pro Person für Bootcamp + Party<br>
 _Studenten & Azubis: 15 € p.P._
 
 Du hast weitere Fragen oder Anmerkungen? Dann schreib uns an info(at)wcs-wuppertal.de!
