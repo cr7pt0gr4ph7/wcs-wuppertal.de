@@ -1,28 +1,21 @@
 ---
 import { Picture } from "astro:assets";
-import { getCollection, type InferEntrySchema } from "astro:content";
+import { type InferEntrySchema } from "astro:content";
 import { Temporal } from "temporal-polyfill";
 import { hyphenate } from "../utils/hyphenate.ts";
 import { toImageProps } from "../utils/images";
 import { parseImageObject } from "../utils/model";
-
-type ItemType = keyof InferEntrySchema<"calendar">["type"];
+import { getCalendarEntries, type EventType } from "../utils/content";
 
 interface Props {
-  types?: ItemType[];
+  types?: EventType[];
 }
 
 const { types } = Astro.props;
 
-const entries = await getCollection("calendar", ({ data: { type } }) => {
-  return (
-    !types ||
-    types.some(
-      (t) =>
-        // @ts-ignore
-        !!type[t],
-    )
-  );
+const entries = await getCalendarEntries({
+  types,
+  since: Temporal.Now.zonedDateTimeISO().subtract({ days: 1 }),
 });
 
 const myDateFormatOpts: Intl.DateTimeFormatOptions = {
@@ -79,7 +72,7 @@ interface BaseRowData {
   links?: {
     registration?: string;
   },
-  type: InferEntrySchema<"calendar">["type"];
+  type: InferEntrySchema<"calendar" | "events">["type"];
 }
 
 interface RowData extends BaseRowData {

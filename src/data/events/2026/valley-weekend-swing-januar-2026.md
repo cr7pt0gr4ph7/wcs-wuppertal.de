@@ -5,6 +5,9 @@ subtitle: 2-stündiges Intensive, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
 date: 2026-01-24T18:15:00
 duration: 05:45:00
+image:
+    src: src/assets/kurse-und-workshops.jpg
+    alt: 2-stündiges Intensive, Bootcamp & Party
 links:
     registration: https://link.wcs-wuppertal.de/anmeldung-januar-2026
     homepage: https://www.tanzschule-schaefer-koch.de/events/workshops/events-workshops-detail?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=79066&cHash=a0816d7e9ae70c42e68db3f6c49919bbe
