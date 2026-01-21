@@ -1,5 +1,4 @@
 ---
-slug: coffee-and-swing-august-2025
 title: »Coffee & Swing«
 subtitle: Workshops & Social Dancing
 location: ADTV Tanzschule Schäfer-Koch

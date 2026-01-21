@@ -81,6 +81,7 @@ const eventBaseSchemaStructure = {
     })]).optional(),
     description: z.string().optional(),
     type: eventTypeSchema,
+    hide: z.boolean().optional(),
 };
 
 const eventBaseSchema = z.object({
@@ -148,7 +149,11 @@ const calendar = defineCollection({
 
 // Internal events
 const events = defineCollection({
-    loader: glob({ pattern: ["**/*.md", "**/*.mdx"], base: "./src/data/events" }),
+    loader: glob({
+        pattern: ["**/*.md", "**/*.mdx"],
+        base: "./src/data/events",
+        generateId: ({entry, data }) => (data.slug as string) ?? entry.replace(/^[0-9]{4}\/(.*)\.md/, '$1'),
+    }),
     schema: eventFileSchema,
 });
 

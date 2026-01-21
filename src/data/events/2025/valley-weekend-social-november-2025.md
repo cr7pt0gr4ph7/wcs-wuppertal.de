@@ -1,5 +1,4 @@
 ---
-slug: valley-weekend-social-november-2025
 title: »Valley Weekend Social«
 subtitle: West Coast Swing-&zwsp;Party
 location: ADTV Tanzschule Schäfer-Koch

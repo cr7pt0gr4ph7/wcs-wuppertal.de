@@ -1,5 +1,4 @@
 ---
-slug: wcs-bootcamp-oktober-2025
 title: WCS Bootcamp + Party
 subtitle: 2,5-stündiger Crashkurs für Neueinsteiger mit anschließender Party
 location: ADTV Tanzschule Schäfer-Koch

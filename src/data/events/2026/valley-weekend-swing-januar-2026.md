@@ -1,5 +1,4 @@
 ---
-slug: valley-weekend-swing-januar-2026
 title: »Valley Weekend Swing« | Intensive mit Markus Scherer
 subtitle: 2-stündiges Intensive, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
@@ -14,7 +13,7 @@ links:
     facebook: https://www.facebook.com/events/873258532226547/
     community: https://westiecommunity.de/event/valley-weekend-swing-tanzschule-schaefer-koch/
 type:
-    party: { requires_registration: false }
+    party: { requires_registration: false, more_infos: true }
     workshop: { requires_registration: true }
     requires_registration: true
 ---

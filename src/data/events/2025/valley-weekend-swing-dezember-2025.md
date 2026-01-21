@@ -1,5 +1,4 @@
 ---
-slug: valley-weekend-swing-dezember-2025
 title: "»Valley Weekend Swing«: Sunday Edition"
 subtitle: West Coast Swing-&zwsp;Social mit Workshop
 location: ADTV Tanzschule Schäfer-Koch

@@ -1,5 +1,4 @@
 ---
-slug: ferienworkshops-sommer-2025
 title: WCS-Sommerferien-Workshops
 subtitle: Vom 8. Juli bis 26. August 2025
 location: ADTV Tanzschule Schäfer-Koch

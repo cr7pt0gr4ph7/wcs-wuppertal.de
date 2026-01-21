@@ -25,16 +25,19 @@ export async function getCalendarEntries({ types, since }: EventFilter) {
         );
     };
 
-    const calendarEntries = (await getCollection("calendar", filter)).map(e => {
+    const calendarEntries = await getCollection("calendar", filter);
+    const eventEntries = (await getCollection("events", filter)).map(e => {
+        console.log(e);
         return {
             ...e,
             data: {
-                url: `/calendar/${e.id}/`,
-                ...e.data
+                ...e.data,
+                url: e.data.url ?? `/events/${e.id}/`,
             }
         };
     });
-    const eventEntries = await getCollection("events", filter);
 
-    return [...calendarEntries, ...eventEntries];
+    return [...calendarEntries, ...eventEntries].filter((entry) => {
+        return entry.data.hide !== true;
+    });
 };

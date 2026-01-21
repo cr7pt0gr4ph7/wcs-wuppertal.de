@@ -192,6 +192,9 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
               (eventType) => entry.type[eventType]?.requires_registration,
             ) ?? false;
 
+          const workshopRegistrationNeeded =
+            !registrationNeeded && entry.type["workshop"]?.requires_registration;
+
           const forceMoreInfos =
             types?.some((eventType) => entry.type[eventType]?.more_infos) ??
             false;
@@ -225,7 +228,9 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
               <span>
                 {registrationNeeded
                   ? "Anmeldung erforderlich"
-                  : "Keine Anmeldung erforderlich"}
+                  : workshopRegistrationNeeded && types?.find(t => t === "party")
+                    ? "Workshop: Anmeldung erforderlich | Party: Ohne Voranmeldung"
+                    : "Keine Anmeldung erforderlich"}
               </span>,
             );
           }

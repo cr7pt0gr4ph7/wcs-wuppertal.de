@@ -1,10 +1,12 @@
 ---
-slug: valley-weekend-swing-april-2026
 title: »Valley Weekend Swing«
 subtitle: Workshops, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
 date: 2026-04-18T18:00:00
 duration: 06:00:00
+image:
+    src: src/assets/kurse-und-workshops.jpg
+    alt: 2-stündiges Bootcamp für Neueinsteiger
 links:
     registration: https://link.wcs-wuppertal.de/anmeldung-april-2026
     # homepage:

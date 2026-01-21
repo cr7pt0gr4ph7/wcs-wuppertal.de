@@ -1,5 +1,4 @@
 ---
-slug: wcs-rally-2025
 title: WCS Flashmob Training & Aufführung
 subtitle: für die International Rally WCS 2025 (aka. WCS Flashmob)
 location: ADTV Tanzschule Schäfer-Koch
@@ -25,7 +24,7 @@ type:
 
 Bei der alljährlichen „International Rally WCS“ wird seit 2010 immer Anfang September der Tanz aus den Tanzschulen nach draußen getragen und so bekannter gemacht!
 
-Ihr wollt auch mitmachen & unsere Szene unterstützen? Dann kommt zu unseren untenstehenden Trainingsterminen - und natürlich auch zur Aufführung am 11.10.! 
+Ihr wollt auch mitmachen & unsere Szene unterstützen? Dann kommt zu unseren untenstehenden Trainingsterminen - und natürlich auch zur Aufführung am 11.10.!
 
 Die Teilnahme an allen Flashmob-Trainings kostet einmalig 10,- €. Die Teilnahme an der Aufführung ist kostenlos!
 

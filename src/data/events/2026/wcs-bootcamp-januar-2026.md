@@ -1,5 +1,4 @@
 ---
-slug: wcs-bootcamp-januar-2026
 title: WCS Bootcamp + Party
 subtitle: 2-stündiger Crashkurs für Neueinsteiger mit anschließender Party
 location: ADTV Tanzschule Schäfer-Koch
@@ -14,7 +13,6 @@ links:
     facebook: https://www.facebook.com/events/1588595942566482/
     community: https://westiecommunity.de/?post_type=tribe_events&p=4619%2F/
 type:
-    party: { requires_registration: false }
     workshop: { requires_registration: true }
     requires_registration: true
 ---
@@ -44,7 +42,7 @@ Für das Bootcamp sind keine Vorkenntnisse erforderlich!
 Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unserem 2-stündigen [WCS Intensive mit Markus Scherer][intensive] zum Thema „Ducks and Tilted Turns“ garantiert auf seine Kosten!
 
 ---
-    
+
 # Zeitplan
 
 ## Bootcamp für Neueinsteiger

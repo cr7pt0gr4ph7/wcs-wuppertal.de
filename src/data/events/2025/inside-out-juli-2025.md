@@ -1,5 +1,4 @@
 ---
-slug: inside-out-juli-2025
 title: Queerer Tanzworkshop für Neueinsteiger*innen
 subtitle: in Kooperation mit dem Queer*referat des AStA Wuppertal
 location: Inside:Out Wuppertal
