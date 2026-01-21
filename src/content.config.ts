@@ -47,6 +47,10 @@ const eventTypeSchema = z.object({
 });
 
 const eventBaseSchemaStructure = {
+    calendar: z.object({
+        title: z.string().optional().transform((str) => str?.replace(/&shy;/g, "\u00AD")?.replace(/&zwsp;/g, "\u200B")),
+        subtitle: z.string().optional().transform((str) => str?.replace(/&shy;/g, "\u00AD")?.replace(/&zwsp;/g, "\u200B")),
+    }).optional(),
     title: z.string().transform((str) => str?.replace(/&shy;/g, "\u00AD")?.replace(/&zwsp;/g, "\u200B")),
     subtitle: z.string().optional().transform((str) => str?.replace(/&shy;/g, "\u00AD")?.replace(/&zwsp;/g, "\u200B")),
     // Astro's YAML parser automatically turns things that look like dates into Date instances
@@ -157,7 +161,7 @@ const events = defineCollection({
     loader: glob({
         pattern: ["**/*.md", "**/*.mdx"],
         base: "./src/data/events",
-        generateId: ({ entry, data }) => (data.slug as string) ?? entry.replace(/(^|\/)(.*)\.mdx?/, '$2'),
+        generateId: ({ entry, data }) => (data.slug as string) ?? entry.replace(/(?:^|\/)([^\/]*)\.mdx?/, '$1'),
     }),
     schema: eventFileSchema,
 });

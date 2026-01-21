@@ -1,5 +1,7 @@
 ---
-title: WCS Bootcamp + Party | Mai
+calendar:
+    title: WCS Bootcamp + Party | Mai
+title: WCS Bootcamp + Party
 subtitle: 2-stündiger Crashkurs für Neueinsteiger mit anschließender Party
 location: ADTV Tanzschule Schäfer-Koch
 date: 2026-05-09T16:00:00
@@ -23,4 +25,4 @@ type:
 
 ## Am Samstag, 09.05.26 ab 16:00 Uhr
 
-Details coming soon
+Details coming soon!

@@ -1,5 +1,7 @@
 ---
-title: WCS Bootcamp + Party | Januar
+calendar:
+    title: WCS Bootcamp + Party | Januar
+title: WCS Bootcamp + Party
 subtitle: 2-stündiger Crashkurs für Neueinsteiger mit anschließender Party
 location: ADTV Tanzschule Schäfer-Koch
 date: 2026-01-24T16:00:00

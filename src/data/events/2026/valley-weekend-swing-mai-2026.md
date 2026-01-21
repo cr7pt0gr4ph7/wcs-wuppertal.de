@@ -1,4 +1,6 @@
 ---
+calendar:
+    title: Intensive mit Markus Scherer
 title: »Valley Weekend Swing« | Intensive mit Markus Scherer
 subtitle: Workshops, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
@@ -24,4 +26,4 @@ type:
 
 ## Am Samstag, 09.05.26
 
-Details coming soon
+Details coming soon!

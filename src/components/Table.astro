@@ -65,6 +65,10 @@ const formatDateTime = (
 
 interface BaseRowData {
   image?: string | { src: string; alt?: string };
+  calendar?: {
+    title?: string;
+    subtitle?: string;
+  };
   title: string;
   subtitle?: string;
   date: Temporal.ZonedDateTime;
@@ -73,7 +77,7 @@ interface BaseRowData {
   url?: string;
   links?: {
     registration?: string;
-  },
+  };
   type: InferEntrySchema<"calendar" | "events">["type"];
 }
 
@@ -119,19 +123,21 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     const columns = {
       name: {
         format: (entry: RowData) => {
+          const title = entry.calendar?.title ?? entry.title;
+          const subtitle = entry.calendar?.subtitle ?? entry.subtitle;
           let imageProps = toImageProps(parseImageObject(entry.image));
           return (
             <div class="td name">
               {showImages && imageProps ? (
                 <Picture class="teaser-image" {...imageProps} />
               ) : null}
-              {entry.subtitle && showSubtitles ? (
+              {subtitle && showSubtitles ? (
                 <div class="title-box">
-                  <div class="title">{hyphenate(entry.title)}</div>
-                  <div class="subtitle">{hyphenate(entry.subtitle)}</div>
+                  <div class="title">{hyphenate(title)}</div>
+                  <div class="subtitle">{hyphenate(subtitle)}</div>
                 </div>
               ) : (
-                <div class="title-box">{hyphenate(entry.title)}</div>
+                <div class="title-box">{hyphenate(title)}</div>
               )}
             </div>
           );
@@ -140,46 +146,40 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
       dates: {
         format: (entry: RowData) =>
           entry.single_date ? (
-              <div class="td dates">
-                {entry.dates
-                  ? formatDates(entry.dates)
-                  : formatDate(entry.date)}{" "}
-                <span class="additional-dates">
-                  {"+ mehr Infos"}
-                </span>
-              </div>
+            <div class="td dates">
+              {entry.dates ? formatDates(entry.dates) : formatDate(entry.date)}{" "}
+              <span class="additional-dates">{"+ mehr Infos"}</span>
+            </div>
+          ) : !entry.children && !entry.groups ? (
+            <div class="td dates">
+              {entry.dates
+                ? formatDates(entry.dates)
+                : formatDateTime(entry.date)}
+            </div>
           ) : (
-            !entry.children && !entry.groups ? (
-              <div class="td dates">
-                {entry.dates
-                  ? formatDates(entry.dates)
-                  : formatDateTime(entry.date)}
-              </div>
-            ) : (
-              <div class="td dates">
-                {formatDate(entry.date)}{" "}
-                <span class="additional-dates">
-                  {"+ "}
-                  <span>
-                    {(entry.children?.length ?? 0) +
-                      (entry.groups?.reduce(
-                        (acc, item) => acc + (item.children?.length ?? 0),
-                        0,
-                      ) ?? 0) -
-                      1}
-                    <span class="if-large-viewport">
-                      {entry.children?.length === 2
-                        ? entry.type?.regular_course
-                          ? " weiterer Starttermin"
-                          : " weiterer Termin"
-                        : entry.type?.regular_course
-                          ? " weitere Starttermine"
-                          : " weitere Termine"}
-                    </span>
+            <div class="td dates">
+              {formatDate(entry.date)}{" "}
+              <span class="additional-dates">
+                {"+ "}
+                <span>
+                  {(entry.children?.length ?? 0) +
+                    (entry.groups?.reduce(
+                      (acc, item) => acc + (item.children?.length ?? 0),
+                      0,
+                    ) ?? 0) -
+                    1}
+                  <span class="if-large-viewport">
+                    {entry.children?.length === 2
+                      ? entry.type?.regular_course
+                        ? " weiterer Starttermin"
+                        : " weiterer Termin"
+                      : entry.type?.regular_course
+                        ? " weitere Starttermine"
+                        : " weitere Termine"}
                   </span>
                 </span>
-              </div>
-            )
+              </span>
+            </div>
           ),
       },
       location: {
@@ -195,22 +195,38 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
             ) ?? false;
 
           const workshopRegistrationNeeded =
-            !registrationNeeded && entry.type["workshop"]?.requires_registration;
+            !registrationNeeded &&
+            entry.type["workshop"]?.requires_registration;
 
           const forceMoreInfos =
             types?.some((eventType) => entry.type[eventType]?.more_infos) ??
             false;
 
           const additionalText =
-            types?.map(
-              (eventType) => entry.type[eventType]?.additional_text,
-            ).filter(text => text).at(0) ?? "";
+            types
+              ?.map((eventType) => entry.type[eventType]?.additional_text)
+              .filter((text) => text)
+              .at(0) ?? "";
+
+          const showMoreInfos =
+            entry.url &&
+            (forceMoreInfos ||
+              !registrationNeeded ||
+              (entry.links?.registration &&
+                entry.links.registration !== entry.url));
+
+          const registrationUrl = entry.links?.registration ?? entry.url;
+          const showRegistrationLink =
+            registrationUrl &&
+            (registrationNeeded ||
+              (entry.url &&
+                entry.links?.registration &&
+                entry.links?.registration !== entry.url));
 
           let children = [];
-          if ((!registrationNeeded || forceMoreInfos) && entry.url) {
+          if (showMoreInfos && entry.url) {
             children.push(<a href={entry.url}>Mehr Infos</a>);
           }
-          let registrationUrl = entry.links?.registration ?? entry.url;
           if (registrationNeeded && registrationUrl) {
             if (children.length > 0) {
               children.push(" | ");
@@ -230,7 +246,8 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
               <span>
                 {registrationNeeded
                   ? "Anmeldung erforderlich"
-                  : workshopRegistrationNeeded && types?.find(t => t === "party")
+                  : workshopRegistrationNeeded &&
+                      types?.find((t) => t === "party")
                     ? "Anmeldung erforderlich"
                     : "Keine Anmeldung erforderlich"}
               </span>,
@@ -243,9 +260,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
             children.push(<span>{additionalText}</span>);
           }
 
-          return (
-            <div class="td link">{children}</div>
-          );
+          return <div class="td link">{children}</div>;
         },
       },
     } satisfies Columns;

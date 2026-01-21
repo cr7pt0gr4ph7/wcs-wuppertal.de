@@ -1,4 +1,6 @@
 ---
+calendar:
+    title: Valley Weekend Swing
 title: »Valley Weekend Swing«
 subtitle: Workshops, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch

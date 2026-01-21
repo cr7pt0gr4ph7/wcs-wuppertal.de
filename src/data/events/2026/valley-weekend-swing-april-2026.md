@@ -1,5 +1,5 @@
 ---
-title: »Valley Weekend Swing« | Intensive mit Hanna & Jérôme
+title: Intensive mit Hanna & Jérôme
 subtitle: Workshops, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
 date: 2026-04-18T18:00:00

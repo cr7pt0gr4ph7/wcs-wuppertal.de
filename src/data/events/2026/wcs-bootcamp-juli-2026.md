@@ -1,16 +1,16 @@
 ---
 calendar:
-    title: WCS Bootcamp + Party | April
+    title: WCS Bootcamp + Party | Juli
 title: WCS Bootcamp + Party
 subtitle: 2-stündiger Crashkurs für Neueinsteiger mit anschließender Party
 location: ADTV Tanzschule Schäfer-Koch
-date: 2026-04-18T16:00:00
+date: 2026-07-11T16:00:00
 duration: 08:00:00
 image:
     src: src/assets/kurse-und-workshops.jpg
     alt: 2-stündiges Bootcamp für Neueinsteiger
 links:
-    registration: https://link.wcs-wuppertal.de/anmeldung-april-2026
+    registration: https://link.wcs-wuppertal.de/anmeldung-juli-2026
     # homepage:
     # facebook:
     # community:
@@ -19,10 +19,10 @@ type:
     requires_registration: true
 ---
 
-[bootcamp]: /events/wcs-bootcamp-april-2026/
-[intensive]: /events/valley-weekend-swing-april-2026/
-[anmeldung]: https://link.wcs-wuppertal.de/anmeldung-april-2026
+[bootcamp]: /events/wcs-bootcamp-juli-2026/
+[intensive]: /events/valley-weekend-swing-juli-2026/
+[anmeldung]: https://link.wcs-wuppertal.de/anmeldung-juli-2026
 
-## Am Samstag, 18.04.26 ab 16:00 Uhr
+## Am Samstag, 28.02.26 ab 16:00 Uhr
 
 Details coming soon!

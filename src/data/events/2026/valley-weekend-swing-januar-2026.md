@@ -1,4 +1,6 @@
 ---
+calendar:
+    title: Intensive »Ducks and Tilted Turns« mit Markus Scherer
 title: »Valley Weekend Swing« | Intensive mit Markus Scherer
 subtitle: 2-stündiges Intensive, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch

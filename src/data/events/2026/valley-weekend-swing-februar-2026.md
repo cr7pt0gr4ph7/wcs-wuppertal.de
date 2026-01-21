@@ -1,5 +1,8 @@
 ---
-title: »Valley Weekend Swing« | Switch-Workshop mit Laura & Julia
+calendar:
+    title: Switch-Workshoptag mit Laura & Julia
+    subtitle: Workshops, Bootcamp & Party
+title: »Valley Weekend Swing« | Switch-Workshops mit Laura & Julia
 subtitle: Workshops, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
 date: 2026-02-28T18:00:00

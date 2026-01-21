@@ -1,10 +1,11 @@
 ---
+calendar:
+    title: Valley Weekend Swing
 title: »Valley Weekend Swing«
 subtitle: Workshops, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
 date: 2026-03-21T18:00:00
 duration: 06:00:00
-url: /events/valley-weekend-swing-märz-2026/
 image:
     src: src/assets/kurse-und-workshops.jpg
     alt: 2-stündiges Bootcamp für Neueinsteiger
