@@ -60,6 +60,11 @@ h2 .subdued {
     font-weight: 300;
 }
 
+h3 .subdued {
+    color: #606060;
+    font-weight: 500;
+}
+
 section:target>h2 .strong,
 h2:target .strong,
 a:target~h2 .strong {

@@ -6,6 +6,7 @@ const eventTypes = [
     "festival",
     "party",
     "regular_course",
+    "beginner_workshop",
     "workshop",
 ] as const;
 
@@ -86,7 +87,7 @@ const eventBaseSchemaStructure = {
 
 const eventBaseSchema = z.object({
     ...eventBaseSchemaStructure,
-});/
+});
 
 const transformEndDate = <T extends { date?: Temporal.ZonedDateTime, duration?: Temporal.Duration }>(arg: T) => {
     return {

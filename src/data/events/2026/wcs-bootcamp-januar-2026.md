@@ -13,7 +13,7 @@ links:
     facebook: https://www.facebook.com/events/1588595942566482/
     community: https://westiecommunity.de/?post_type=tribe_events&p=4619%2F/
 type:
-    workshop: { requires_registration: true }
+    beginner_workshop: { requires_registration: true }
     requires_registration: true
 ---
 

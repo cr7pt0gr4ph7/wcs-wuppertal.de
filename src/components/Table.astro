@@ -9,9 +9,10 @@ import { getCalendarEntries, type EventType } from "../utils/content";
 
 interface Props {
   types?: EventType[];
+  showImages?: boolean;
 }
 
-const { types } = Astro.props;
+const { types, showImages = true } = Astro.props;
 
 const entries = await getCalendarEntries({
   types,
@@ -120,7 +121,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
           let imageProps = toImageProps(parseImageObject(entry.image));
           return (
             <div class="td name">
-              {imageProps ? (
+              {showImages && imageProps ? (
                 <Picture class="teaser-image" {...imageProps} />
               ) : null}
               {entry.subtitle ? (
