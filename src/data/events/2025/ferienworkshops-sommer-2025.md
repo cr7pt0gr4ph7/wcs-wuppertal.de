@@ -2,13 +2,6 @@
 title: WCS-Sommerferien-Workshops
 subtitle: Vom 8. Juli bis 26. August 2025
 location: ADTV Tanzschule Schäfer-Koch
-address:
-  name: ADTV Tanzschule Schäfer-Koch
-  street: Laurentiusstr. 27
-  city: Wuppertal
-  postalCode: "42103"
-  countryCode: DE
-  url: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 image:
   src: src/assets/sommerworkshops-2025.png
   alt: Sommerworkshops 2025

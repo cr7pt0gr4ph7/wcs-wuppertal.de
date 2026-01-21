@@ -2,13 +2,6 @@
 title: »Switch It Up!«
 subtitle: Switching- & Stealing-Workshoptag mit Party
 location: ADTV Tanzschule Schäfer-Koch
-address:
-  name: ADTV Tanzschule Schäfer-Koch
-  street: Laurentiusstr. 27
-  city: Wuppertal
-  postalCode: "42103"
-  countryCode: DE
-  url: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 date: 2025-08-16T16:30:00
 duration: 07:30:00
 image:

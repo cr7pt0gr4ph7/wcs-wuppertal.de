@@ -2,13 +2,6 @@
 title: WCS Bootcamp + Party
 subtitle: 2,5-stündiger Crashkurs für Neueinsteiger mit anschließender Party
 location: ADTV Tanzschule Schäfer-Koch
-address:
-  name: ADTV Tanzschule Schäfer-Koch
-  street: Laurentiusstr. 27
-  city: Wuppertal
-  postalCode: "42103"
-  countryCode: DE
-  url: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9e
 image:
     src: src/assets/kurse-und-workshops.jpg
     alt: 2,5-stündiges Bootcamp für Neueinsteiger

@@ -2,13 +2,6 @@
 title: WCS Flashmob Training & Aufführung
 subtitle: für die International Rally WCS 2025 (aka. WCS Flashmob)
 location: ADTV Tanzschule Schäfer-Koch
-address:
-  name: ADTV Tanzschule Schäfer-Koch
-  street: Laurentiusstr. 27
-  city: Wuppertal
-  postalCode: "42103"
-  countryCode: DE
-  url: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 image: src/assets/irwcs-logo-large.jpg
 links:
     # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/

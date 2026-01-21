@@ -2,13 +2,6 @@
 title: WCS Intensive „Countdown to One — Musicality mit Style“ mit Mariella & Dominik
 subtitle: 2-stündiges Intensive, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
-address:
-  name: ADTV Tanzschule Schäfer-Koch
-  street: Laurentiusstr. 27
-  city: Wuppertal
-  postalCode: "42103"
-  countryCode: DE
-  url: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9e
 image: src/assets/mariella-mbantopolous-dominik-neugebauer.jpeg
 links:
     registration: https://link.wcs-wuppertal.de/anmeldung-oktober-2025

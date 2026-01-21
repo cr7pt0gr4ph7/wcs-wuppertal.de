@@ -137,7 +137,11 @@ const locationSchema = z.object({
 
 // Location addresses
 export const locations = defineCollection({
-    loader: file("src/data/locations.yaml"),
+    loader: glob({
+        pattern: ["**/*.md", "**/*.mdx"],
+        base: "src/data/locations",
+        generateId: ({ data }) => (data.slug ?? data.id ?? data.name) as string,
+    }),
     schema: locationSchema,
 });
 
@@ -152,7 +156,7 @@ const events = defineCollection({
     loader: glob({
         pattern: ["**/*.md", "**/*.mdx"],
         base: "./src/data/events",
-        generateId: ({entry, data }) => (data.slug as string) ?? entry.replace(/^[0-9]{4}\/(.*)\.md/, '$1'),
+        generateId: ({ entry, data }) => (data.slug as string) ?? entry.replace(/^[0-9]{4}\/(.*)\.mdx?/, '$1'),
     }),
     schema: eventFileSchema,
 });

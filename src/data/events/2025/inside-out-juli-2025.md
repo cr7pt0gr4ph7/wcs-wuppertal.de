@@ -2,13 +2,6 @@
 title: Queerer Tanzworkshop für Neueinsteiger*innen
 subtitle: in Kooperation mit dem Queer*referat des AStA Wuppertal
 location: Inside:Out Wuppertal
-address:
-  name: Inside:Out Wuppertal
-  street: Hochstraße 60
-  city: Wuppertal
-  postalCode: "42105"
-  countryCode: DE
-  url: https://inside-out-wuppertal.de/
 date: 2025-07-10T18:00:00
 duration: 01:30:00
 image:

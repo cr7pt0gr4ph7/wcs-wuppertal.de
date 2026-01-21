@@ -1,11 +1,12 @@
-- id: ADTV Tanzschule Schäfer-Koch
-  name: ADTV Tanzschule Schäfer-Koch
-  address:
+---
+name: ADTV Tanzschule Schäfer-Koch
+address:
     name: ADTV Tanzschule Schäfer-Koch
     street: Laurentiusstr. 27
     city: Wuppertal
     postalCode: "42103"
     countryCode: DE
     url: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
-  links:
+links:
     maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
+---
