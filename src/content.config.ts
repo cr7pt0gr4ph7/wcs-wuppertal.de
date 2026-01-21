@@ -86,7 +86,7 @@ const eventBaseSchemaStructure = {
 
 const eventBaseSchema = z.object({
     ...eventBaseSchemaStructure,
-});
+});/
 
 const transformEndDate = <T extends { date?: Temporal.ZonedDateTime, duration?: Temporal.Duration }>(arg: T) => {
     return {
@@ -156,7 +156,7 @@ const events = defineCollection({
     loader: glob({
         pattern: ["**/*.md", "**/*.mdx"],
         base: "./src/data/events",
-        generateId: ({ entry, data }) => (data.slug as string) ?? entry.replace(/^[0-9]{4}\/(.*)\.mdx?/, '$1'),
+        generateId: ({ entry, data }) => (data.slug as string) ?? entry.replace(/(^|\/)(.*)\.mdx?/, '$2'),
     }),
     schema: eventFileSchema,
 });
