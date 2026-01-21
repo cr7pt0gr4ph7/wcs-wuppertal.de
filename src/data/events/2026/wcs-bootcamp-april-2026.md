@@ -1,9 +1,9 @@
 ---
-title: »Valley Weekend Swing« | Intensive mit Hanna & Jérôme
-subtitle: Workshops, Bootcamp & Party
+title: WCS Bootcamp + Party | April
+subtitle: 2-stündiger Crashkurs für Neueinsteiger mit anschließender Party
 location: ADTV Tanzschule Schäfer-Koch
-date: 2026-04-18T18:00:00
-duration: 06:00:00
+date: 2026-04-18T16:00:00
+duration: 08:00:00
 image:
     src: src/assets/kurse-und-workshops.jpg
     alt: 2-stündiges Bootcamp für Neueinsteiger
@@ -13,8 +13,7 @@ links:
     # facebook:
     # community:
 type:
-    party: { requires_registration: false }
-    workshop: { requires_registration: true }
+    beginner_workshop: { requires_registration: true }
     requires_registration: true
 ---
 
@@ -22,6 +21,4 @@ type:
 [intensive]: /events/valley-weekend-swing-april-2026/
 [anmeldung]: https://link.wcs-wuppertal.de/anmeldung-april-2026
 
-## Am Samstag, 18.04.26
-
-Details coming soon!
+## Am Samstag, 28.02.26 ab 16:00 Uhr
