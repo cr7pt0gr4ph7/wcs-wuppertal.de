@@ -23,6 +23,28 @@ type:
 [intensive]: /events/valley-weekend-swing-april-2026/
 [anmeldung]: https://link.wcs-wuppertal.de/anmeldung-april-2026
 
-## Am Samstag, 18.04.26 ab 16:00 Uhr
+## Am Samstag, 18.04.26
 
-Details coming soon!
+Alle West Coast Swing-Liebhaber und solche die es werden wollen aufgepasst:
+Bei einem **ingesamt 2-stündigen Einsteigerworkshop aka. „Bootcamp“** (aufgeteilt in 2 x 60 min)
+lernt ihr die wichtigsten Basics – und bei der Party danach könnt ihr eure **neu gewonnenen Kenntnisse direkt einsetzen**!
+
+Wie für West Coast Swing üblich werden bei Workshop und Party die Tanzpartner gewechselt,
+ihr könnt daher sowohl einzeln als auch zu zweit oder gleich in einer größeren Gruppe kommen.
+Also kommt einfach vorbei und schnuppert in diesen lässigen und zugleich vielfältigen Tanz rein!
+
+---
+
+# Voraussetzungen
+
+Für das Bootcamp sind keine Vorkenntnisse erforderlich!
+
+▶ [EXTRA: INTENSIVE FÜR FORTGESCHRITTENE][intensive]
+
+Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unserem [WCS Intensive mit Hanna & Jérôme][intensive] garantiert auf seine Kosten!
+
+---
+
+# Anmeldung
+
+Schaut hier später nochmal vorbei sobald die Anmeldung freigeschaltet wurde!
