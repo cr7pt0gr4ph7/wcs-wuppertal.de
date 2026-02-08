@@ -27,7 +27,6 @@ export async function getCalendarEntries({ types, since }: EventFilter) {
 
     const calendarEntries = await getCollection("calendar", filter);
     const eventEntries = (await getCollection("events", filter)).map(e => {
-        console.log(e);
         return {
             ...e,
             data: {

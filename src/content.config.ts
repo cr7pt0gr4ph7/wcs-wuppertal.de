@@ -161,7 +161,19 @@ const events = defineCollection({
     loader: glob({
         pattern: ["**/*.md", "**/*.mdx"],
         base: "./src/data/events",
-        generateId: ({ entry, data }) => (data.slug as string) ?? entry.replace(/(?:^|\/)([^\/]*)\.mdx?/, '$1'),
+        generateId: ({ entry, data }) => {
+            if (data.slug) {
+                return data.slug as string;
+            }
+            const m = /(?:^|\/)([^\/]+)\.mdx?/.exec(entry);
+            if (m && m[1]) {
+                console.log(entry, m[1], m);
+                return m[1];
+            } else {
+                console.log(entry);
+            }
+            return entry;
+        },
     }),
     schema: eventFileSchema,
 });
