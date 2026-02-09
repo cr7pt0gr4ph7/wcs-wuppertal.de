@@ -1,6 +1,6 @@
 ---
 calendar:
-    title: Switch-Workshoptag mit Laura & Julia
+    title: Switch-Workshoptag mit Laura & Julia | »Valley Weekend Swing«
     subtitle: Workshops, Bootcamp & Party
 title: »Valley Weekend Swing« | Switch-Workshops mit Laura & Julia
 subtitle: Workshops, Bootcamp & Party

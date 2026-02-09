@@ -9,8 +9,8 @@ duration: 08:00:00
 image:
     src: src/assets/kurse-und-workshops.jpg
     alt: 2-stündiges Bootcamp für Neueinsteiger
-links:
-    registration: https://link.wcs-wuppertal.de/anmeldung-april-2026
+links: {}
+    # registration: https://link.wcs-wuppertal.de/anmeldung-april-2026
     # homepage:
     # facebook:
     # community:
@@ -23,7 +23,7 @@ type:
 [intensive]: /events/valley-weekend-swing-april-2026/
 [anmeldung]: https://link.wcs-wuppertal.de/anmeldung-april-2026
 
-## Am Samstag, 18.04.26
+## Am Samstag, 18.04.26 ab 16:00
 
 Alle West Coast Swing-Liebhaber und solche die es werden wollen aufgepasst:
 Bei einem **ingesamt 2-stündigen Einsteigerworkshop aka. „Bootcamp“** (aufgeteilt in 2 x 60 min)

@@ -9,19 +9,19 @@ duration: 08:00:00
 image:
     src: src/assets/kurse-und-workshops.jpg
     alt: 2-stündiges Bootcamp für Neueinsteiger
-links:
-    registration: https://link.wcs-wuppertal.de/anmeldung-märz-2026
+links: {}
+    # registration: https://link.wcs-wuppertal.de/anmeldung-märz-2026
     # homepage:
     # facebook:
     # community:
 type:
     beginner_workshop: { requires_registration: true }
     requires_registration: true
-# Kollidiert mit WCS Intensive mit Semion & Maria
+# Kollidiert mit WCS workshops mit Semion & Maria
 ---
 
 [bootcamp]: /events/wcs-bootcamp-märz-2026/
-[intensive]: /events/valley-weekend-swing-märz-2026/
+[workshops]: /events/valley-weekend-swing-märz-2026/
 [anmeldung]: https://link.wcs-wuppertal.de/anmeldung-märz-2026
 
 ## Am Samstag, 21.03.26 ab 16:00 Uhr
@@ -40,8 +40,12 @@ Also kommt einfach vorbei und schnuppert in diesen lässigen und zugleich vielf�
 
 Für das Bootcamp sind keine Vorkenntnisse erforderlich!
 
-▶ [EXTRA: INTENSIVE FÜR FORTGESCHRITTENE][intensive]
+▶ [EXTRA: WORKSHOPS FÜR FORTGESCHRITTENE][workshops]
 
-Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unserem 2-stündigen [WCS Intensive mit Markus Scherer][intensive] garantiert auf seine Kosten!
+Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unseren [WCS-Workshops für Fortgeschrittene][workshops] garantiert auf seine Kosten!
 
 ---
+
+# Anmeldung
+
+Schaut hier später nochmal vorbei sobald die Anmeldung freigeschaltet wurde!

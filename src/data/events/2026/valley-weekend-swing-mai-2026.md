@@ -1,6 +1,6 @@
 ---
 calendar:
-    title: Intensive mit Markus Scherer
+    title: Intensive mit Markus Scherer | »Valley Weekend Swing«
 title: »Valley Weekend Swing« | Intensive mit Markus Scherer
 subtitle: Workshops, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
@@ -8,7 +8,7 @@ date: 2026-05-09T18:00:00
 duration: 06:00:00
 image:
     src: src/assets/kurse-und-workshops.jpg
-    alt: 2-stündiges Bootcamp für Neueinsteiger
+    alt: Workshops & Party
 links:
     registration: https://link.wcs-wuppertal.de/anmeldung-mai-2026
     # homepage:
@@ -52,7 +52,7 @@ Bei einem ingesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootcam
 
 ## Intensive für Fortgeschrittene
 
-- 18:15 - 20:15 Uhr :: Intensive „Ducks and Tilted Turns“ mit Markus Scherer
+- 18:15 - 20:15 Uhr :: Intensive mit Markus Scherer
 
 ## Social Party
 
@@ -64,6 +64,7 @@ Bei einem ingesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootcam
 
 ## Intensive mit Markus Scherer
 
+Early Bird (bis 12.04.): 25 € pro Person für Intensive + Party<br>
 Vorverkauf: 30 € pro Person für Intensive + Party<br>
 Tageskasse: 35 € p.P.
 

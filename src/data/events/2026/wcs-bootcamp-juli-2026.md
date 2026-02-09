@@ -9,8 +9,8 @@ duration: 08:00:00
 image:
     src: src/assets/kurse-und-workshops.jpg
     alt: 2-stündiges Bootcamp für Neueinsteiger
-links:
-    registration: https://link.wcs-wuppertal.de/anmeldung-juli-2026
+links: {}
+    # registration: https://link.wcs-wuppertal.de/anmeldung-juli-2026
     # homepage:
     # facebook:
     # community:
@@ -20,9 +20,31 @@ type:
 ---
 
 [bootcamp]: /events/wcs-bootcamp-juli-2026/
-[intensive]: /events/valley-weekend-swing-juli-2026/
+[workshops]: /events/valley-weekend-swing-juli-2026/
 [anmeldung]: https://link.wcs-wuppertal.de/anmeldung-juli-2026
 
-## Am Samstag, 28.02.26 ab 16:00 Uhr
+## Am Samstag, 11.07.26 ab 16:00 Uhr
 
-Details coming soon!
+Alle West Coast Swing-Liebhaber und solche die es werden wollen aufgepasst:
+Bei einem **ingesamt 2-stündigen Einsteigerworkshop aka. „Bootcamp“** (aufgeteilt in 2 x 60 min)
+lernt ihr die wichtigsten Basics – und bei der Party danach könnt ihr eure **neu gewonnenen Kenntnisse direkt einsetzen**!
+
+Wie für West Coast Swing üblich werden bei Workshop und Party die Tanzpartner gewechselt,
+ihr könnt daher sowohl einzeln als auch zu zweit oder gleich in einer größeren Gruppe kommen.
+Also kommt einfach vorbei und schnuppert in diesen lässigen und zugleich vielfältigen Tanz rein!
+
+---
+
+# Voraussetzungen
+
+Für das Bootcamp sind keine Vorkenntnisse erforderlich!
+
+▶ [EXTRA: WORKSHOPS FÜR FORTGESCHRITTENE][workshops]
+
+Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unseren [WCS-Workshops für Fortgeschrittene][workshops] garantiert auf seine Kosten!
+
+---
+
+# Anmeldung
+
+Schaut hier später nochmal vorbei sobald die Anmeldung freigeschaltet wurde!
