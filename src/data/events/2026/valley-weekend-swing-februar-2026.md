@@ -76,11 +76,11 @@ Bei einem ingesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootcam
 
 ## Switch-Workshops mit Laura & Julia
 
-2 Workshops + Party: 35 € pro Person inkl. Party<br>
+2 Workshops + Party: 35 € pro Person inkl. Party & Bootcamp<br>
 1 Workshop + Party: 25 € p.P.<br>
 Tageskasse: +5 € p.P.
 
-_Studenten & Azubis: 20 € p.P. für 2 Workshops_<br>
+_Studenten & Azubis: 25 € p.P. für 2 Workshops inkl. Party & Bootcamp_<br>
 Nur Party: 10 € p.P.
 
 ## Bootcamp für Neueinsteiger
