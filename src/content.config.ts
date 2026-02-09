@@ -102,8 +102,8 @@ const transformEndDate = <T extends { date?: Temporal.ZonedDateTime, duration?: 
 
 const eventFileSchema = z.object({
     ...eventBaseSchemaStructure,
-    date: eventBaseSchemaStructure.date.optional(),
-    duration: eventBaseSchemaStructure.duration.optional(),
+    // date: eventBaseSchemaStructure.date.optional(),
+    // duration: eventBaseSchemaStructure.duration.optional(),
 }).transform(transformEndDate);
 
 const withEndDate = <T extends typeof eventBaseSchema>(schema: T) => schema.transform(transformEndDate);

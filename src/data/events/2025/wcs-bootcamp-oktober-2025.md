@@ -2,6 +2,8 @@
 title: WCS Bootcamp + Party
 subtitle: 2,5-stündiger Crashkurs für Neueinsteiger mit anschließender Party
 location: ADTV Tanzschule Schäfer-Koch
+date: 2025-10-18T16:00:00
+duration: 08:00:00
 image:
     src: src/assets/kurse-und-workshops.jpg
     alt: 2,5-stündiges Bootcamp für Neueinsteiger

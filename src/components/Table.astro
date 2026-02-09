@@ -283,7 +283,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
         <div class="thead" />
         <div class="tbody">
           {sortByDate(entries.map((entry) => entry.data)).map((entry) => {
-            if (!entry.children && !entry.groups) {
+            if (!(entry as any)?.children && !(entry as any)?.groups) {
               return <div class="tr primary">{formatRowContent(entry)}</div>;
             } else {
               return (
@@ -295,10 +295,10 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
                   </details>
                   <div class="expander">
                     <div class="sub-table">
-                      {sortByDate(entry.children ?? []).map((child) => (
+                      {sortByDate((entry as any)?.children ?? []).map((child) => (
                         <div class="tr">{formatRowContent(child)}</div>
                       ))}
-                      {(entry.groups ?? []).map((group) => {
+                      {((entry as any)?.groups ?? []).map((group: any) => {
                         return (
                           <div class="group">
                             <div class="group-header tr">{group.title}</div>

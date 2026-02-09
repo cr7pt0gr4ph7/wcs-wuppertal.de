@@ -2,6 +2,8 @@
 title: WCS Intensive „Countdown to One — Musicality mit Style“ mit Mariella & Dominik
 subtitle: 2-stündiges Intensive, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
+date: 2025-10-18T16:00:00
+duration: 08:00:00
 image: src/assets/mariella-mbantopolous-dominik-neugebauer.jpeg
 links:
     registration: https://link.wcs-wuppertal.de/anmeldung-oktober-2025
