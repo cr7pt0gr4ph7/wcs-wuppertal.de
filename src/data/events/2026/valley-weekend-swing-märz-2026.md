@@ -9,8 +9,8 @@ duration: 06:00:00
 image:
     src: src/assets/kurse-und-workshops.jpg
     alt: Workshops & Party
-links: {}
-    # registration: https://link.wcs-wuppertal.de/anmeldung-märz-2026
+links:
+    registration: https://link.wcs-wuppertal.de/anmeldung-märz-2026
     # homepage:
     # facebook:
     # community:
@@ -26,16 +26,18 @@ type:
 
 ## Am Samstag, 21.03.26 ab 18:00 Uhr
 
-Workshops für Fortgeschrittene...
+Macht euch bereit für die nächste Ausgabe unserer beliebten West Coast Swing-Party - natürlich wie immer mit Workshops für Anfänger & Fortgeschrittene!
 
-Details coming soon!
+- 2-stündiges Einsteiger-Bootcamp...
+- 2 Workshops für Fortgeschrittene...
+- ...und Social Party!
 
 ---
 
 # Voraussetzungen
 
-Für die Workshops solltest du mindestens 1/2 bis 1 Jahr lang schon West Coast Swing tanzen,
-und mit allen Basics (Left Side Pass, Underarm Pass, Passing Tuck, Sugar Push, Sugar Tuck, Whip)
+Für die Fortgeschrittenen-Workshops solltest du mindestens einen Anfängerkurs gemacht haben &
+und mit den wichtigsten Basics (Left Side Pass, Underarm Pass, Passing Tuck, Sugar Push, Whip)
 vertraut sein.
 
 ▶ [EXTRA: EINSTEIGERWORKSHOP][bootcamp]
@@ -46,6 +48,39 @@ Bei einem ingesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootcam
 
 ---
 
-# Anmeldung
+# Zeitplan
 
-Schaut hier später nochmal vorbei sobald die Anmeldung freigeschaltet wurde!
+## Bootcamp für Neueinsteiger
+
+- 15:30 - 17:30 Uhr :: Bootcamp-Workshop mit Lukas Waslowski
+
+## Switch-Workshops
+
+- 18:00 - 19:00 Uhr :: Workshop "Cutoff" mit Lukas Waslowski
+- 19:15 - 20:15 Uhr :: Workshop "Basic Footwork" mit Lukas Waslowski
+
+## Social Party
+
+- Ab 20:15 Uhr :: WCS Party
+
+---
+
+# Eintritt & Anmeldung
+
+## Workshops für Fortgeschrittene
+
+2 Workshops + Party: 25 € pro Person<br>
+1 Workshop + Party: 20 € p.P.<br>
+Tageskasse: +5 € p.P.
+
+_Studenten & Azubis: 18 € p.P. für 2 Workshops inkl. Party<br>
+Nur Party: 10 € p.P.
+
+## Bootcamp für Neueinsteiger
+
+Normalpreis: 25 € pro Person für Bootcamp + Party<br>
+_Studenten & Azubis: 15 € p.P._
+
+Du hast weitere Fragen oder Anmerkungen? Dann schreib uns an info(at)wcs-wuppertal.de!
+
+Das [**Anmeldeformular** findest du **hier**][anmeldung].
