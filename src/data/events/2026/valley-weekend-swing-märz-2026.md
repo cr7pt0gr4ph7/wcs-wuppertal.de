@@ -37,7 +37,7 @@ Macht euch bereit für die nächste Ausgabe unserer beliebten West Coast Swing-P
 # Voraussetzungen
 
 Für die Fortgeschrittenen-Workshops solltest du mindestens einen Anfängerkurs gemacht haben &
-und mit den wichtigsten Basics (Left Side Pass, Underarm Pass, Passing Tuck, Sugar Push, Whip)
+und mit den wichtigsten Basics (Left Side Pass, Underarm Pass, Passing Tuck, Sugar Push)
 vertraut sein.
 
 ▶ [EXTRA: EINSTEIGERWORKSHOP][bootcamp]
