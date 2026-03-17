@@ -8,7 +8,7 @@ date: 2026-03-21T15:30:00
 duration: 08:30:00
 image:
     src: src/assets/kurse-und-workshops.jpg
-    alt: 2-stündiges Bootcamp für Neueinsteiger
+    alt: 2-stündiger Crashkurs für Neueinsteiger mit anschließender Party
 links:
     registration: https://link.wcs-wuppertal.de/anmeldung-märz-2026
     # homepage:
@@ -24,7 +24,7 @@ type:
 [workshops]: /events/valley-weekend-swing-märz-2026/
 [anmeldung]: https://link.wcs-wuppertal.de/anmeldung-märz-2026
 
-## Am Samstag, 21.03.26 ab 15:30 Uhr
+## Am Samstag, 21.03.2026 ab 15:30 Uhr
 
 Alle West Coast Swing-Liebhaber und solche die es werden wollen aufgepasst:
 Bei einem **ingesamt 2-stündigen Einsteigerworkshop aka. „Bootcamp“** (aufgeteilt in 2 x 60 min)
@@ -52,10 +52,10 @@ Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unseren [WC
 
 - 15:30 - 17:30 Uhr :: Bootcamp-Workshop mit Lukas Waslowski
 
-## Switch-Workshops
+## Workshops für Fortgeschrittene
 
-- 18:00 - 19:00 Uhr :: Workshop "Cutoff" mit Lukas Waslowski
-- 19:15 - 20:15 Uhr :: Workshop "Basic Footwork" mit Lukas Waslowski
+- 18:00 - 19:00 Uhr :: Workshop „Cutoff“ mit Lukas Waslowski
+- 19:15 - 20:15 Uhr :: Workshop „Basic Footwork“ mit Lukas Waslowski
 
 ## Social Party
 
