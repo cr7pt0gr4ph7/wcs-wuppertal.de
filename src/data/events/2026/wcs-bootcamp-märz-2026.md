@@ -12,16 +12,15 @@ image:
 links:
     registration: https://link.wcs-wuppertal.de/anmeldung-märz-2026
     # homepage:
-    # facebook:
+    facebook: https://www.facebook.com/events/1390644489479844
     # community:
 type:
     beginner_workshop: { requires_registration: true }
     requires_registration: true
-# Kollidiert mit WCS workshops mit Semion & Maria
 ---
 
 [bootcamp]: /events/wcs-bootcamp-märz-2026/
-[workshops]: /events/valley-weekend-swing-märz-2026/
+[workshops]: /events/valley-weekend-swing-märz-2026
 [anmeldung]: https://link.wcs-wuppertal.de/anmeldung-märz-2026
 
 ## Am Samstag, 21.03.2026 ab 15:30 Uhr
@@ -68,8 +67,7 @@ Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unseren [WC
 ## Workshops für Fortgeschrittene
 
 2 Workshops + Party: 25 € pro Person<br>
-1 Workshop + Party: 20 € p.P.<br>
-Tageskasse: +5 € p.P.
+1 Workshop + Party: 20 € p.P.
 
 _Studenten & Azubis: 18 € p.P. für 2 Workshops inkl. Party_<br>
 Nur Party: 10 € p.P.
