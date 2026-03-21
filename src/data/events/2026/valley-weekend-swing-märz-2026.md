@@ -1,6 +1,6 @@
 ---
 calendar:
-    title: Workshops mit Lukas Waslowski
+    title: »Valley Weekend Swing«
 title: »Valley Weekend Swing« | Workshops mit Lukas Waslowski
 subtitle: Workshops, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
@@ -26,11 +26,7 @@ type:
 
 ## Am Samstag, 21.03.2026 ab 18:00 Uhr
 
-Macht euch bereit für die nächste Ausgabe unserer beliebten West Coast Swing-Party - natürlich wie immer mit Workshops für Anfänger & Fortgeschrittene!
-
-- 2-stündiges Einsteiger-Bootcamp...
-- 2 Workshops für Fortgeschrittene...
-- ...und Social Party!
+**Extra für euch in Wuppertal:** Der WCS-Trainer **Lukas Waslowski** mit Workshops zum Thema:
 
 ---
 
