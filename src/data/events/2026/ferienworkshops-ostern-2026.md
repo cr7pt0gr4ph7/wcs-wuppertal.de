@@ -2,6 +2,8 @@
 title: WCS-Oster-Workshops
 subtitle: Am 30. März und 2. April 2026
 location: ADTV Tanzschule Schäfer-Koch
+date: 2026-03-30T19:00:00
+duration: 02:00:00
 image:
   src: src/assets/sommerworkshops-2025.png
   alt: Sommerworkshops 2025
