@@ -28,7 +28,9 @@ type:
 
 Die Advanced/All Star-Tänzer und -Trainer **Hanna Junk & Jérôme Speck** mit Workshops zum Thema:
 
-## „Rides“!
+## Workshop 1: „Rides“
+
+## Workshop 2: „Drops“
 
 ---
 
