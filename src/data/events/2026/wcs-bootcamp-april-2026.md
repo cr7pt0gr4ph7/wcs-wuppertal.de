@@ -4,13 +4,13 @@ calendar:
 title: WCS Bootcamp + Party
 subtitle: 2-stündiger Crashkurs für Neueinsteiger mit anschließender Party
 location: ADTV Tanzschule Schäfer-Koch
-date: 2026-04-18T16:00:00
-duration: 08:00:00
+date: 2026-04-18T15:30:00
+duration: 08:30:00
 image:
     src: src/assets/kurse-und-workshops.jpg
-    alt: 2-stündiges Bootcamp für Neueinsteiger
-links: {}
-    # registration: https://link.wcs-wuppertal.de/anmeldung-april-2026
+    alt: 2-stündiger Crashkurs für Neueinsteiger mit anschließender Party
+links:
+    registration: https://link.wcs-wuppertal.de/anmeldung-april-2026
     # homepage:
     # facebook:
     # community:
@@ -20,10 +20,10 @@ type:
 ---
 
 [bootcamp]: /events/wcs-bootcamp-april-2026/
-[intensive]: /events/valley-weekend-swing-april-2026/
+[workshops]: /events/valley-weekend-swing-april-2026
 [anmeldung]: https://link.wcs-wuppertal.de/anmeldung-april-2026
 
-## Am Samstag, 18.04.26 ab 16:00
+## Am Samstag, 18.04.2026 ab 15:30 Uhr
 
 Alle West Coast Swing-Liebhaber und solche die es werden wollen aufgepasst:
 Bei einem **ingesamt 2-stündigen Einsteigerworkshop aka. „Bootcamp“** (aufgeteilt in 2 x 60 min)
@@ -39,12 +39,46 @@ Also kommt einfach vorbei und schnuppert in diesen lässigen und zugleich vielf�
 
 Für das Bootcamp sind keine Vorkenntnisse erforderlich!
 
-▶ [EXTRA: INTENSIVE FÜR FORTGESCHRITTENE][intensive]
+▶ [EXTRA: WORKSHOPS FÜR FORTGESCHRITTENE][workshops]
 
-Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unserem [WCS Intensive mit Hanna & Jérôme][intensive] garantiert auf seine Kosten!
+Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unseren [WCS-Workshops für Fortgeschrittene][workshops] garantiert auf seine Kosten!
 
 ---
 
-# Anmeldung
+# Zeitplan
 
-Schaut hier später nochmal vorbei sobald die Anmeldung freigeschaltet wurde!
+## Bootcamp für Neueinsteiger
+
+- 15:30 - 17:30 Uhr :: Bootcamp-Workshop mit Lukas Waslowski
+
+## Workshops für Fortgeschrittene
+
+- 18:00 - 19:00 Uhr :: Workshop „Rides“ mit Hanna Junk & Jérôme Speck
+- 19:15 - 20:15 Uhr :: Workshop „Drops“ mit Hanna Junk & Jérôme Speck
+
+## Social Party
+
+- Ab 20:15 Uhr :: WCS Party
+
+---
+
+# Eintritt & Anmeldung
+
+## Workshops mit Hanna Junk & Jérôme Speck
+
+2 Workshops + Party: 38 € pro Person<br>
+1 Workshop + Party: 28 € p.P.<br>
+Tageskasse: +5 € p.P.
+
+_Studenten & Azubis: 20 € p.P. für 2 Workshops inkl. Party_
+Nur Party: 10 € p.P.
+
+## Bootcamp für Neueinsteiger
+
+Normalpreis: 25 € pro Person für Bootcamp + Party
+
+_Studenten & Azubis: 15 € p.P._
+
+Du hast weitere Fragen oder Anmerkungen? Dann schreib uns an info(at)wcs-wuppertal.de!
+
+Das [**Anmeldeformular** findest du **hier**][anmeldung].
