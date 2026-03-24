@@ -159,12 +159,13 @@
   type: { regular_course: true, requires_registration: true }
 
 - id: unisport-buw-wuppertal-wcs-level-1-schnupperwoche
-  title: Kostenlose Schnupperwoche im WCS Level 1
+  title: Kostenlose Schnupperwoche im WCS Level 1 beim UniSport Wuppertal
+  subtitle: 1-stündiger Schnupperworkshop für Neueinsteiger
   location: UniSport Wuppertal
   date: 2026-04-15T19:00:00
   duration: 01:00:00
   url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
-  type: { workshop: true, requires_registration: false }
+  type: { beginner_workshop: true, requires_registration: false }
 
 - id: adtv-tanzschule-schaefer-koch-wcs-osterworkshops-schnupperkurs
   title: WCS Schnupperworkshop | April
@@ -172,11 +173,5 @@
   location: ADTV Tanzschule Schäfer-Koch
   date: 2026-03-31T19:00:00
   duration: 01:00:00
-  image:
-    src: src/assets/workshops-ostern.jpg
-    alt: WCS Schnupperworkshop
-  links:
-      # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/
-      # facebook: https://www.facebook.com/events/1064681532344988/
-      maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
+  url: /events/ferienworkshops-ostern-2026/
   type: { beginner_workshop: true, requires_registration: true }
