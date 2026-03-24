@@ -5,7 +5,7 @@ location: ADTV Tanzschule Schäfer-Koch
 date: 2026-03-31T19:00:00
 duration: 02:00:00
 image:
-  src: src/assets/kurse-und-workshops.jpg
+  src: src/assets/workshops-ostern.jpg
   alt: WCS Osterworkshops am 31.03. und 02.04.2026
 links:
     # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/
