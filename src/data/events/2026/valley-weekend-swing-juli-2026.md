@@ -1,6 +1,6 @@
 ---
 calendar:
-    title: Workshops mit Lukas Waslowski
+    title: »Valley Weekend Swing«
 title: »Valley Weekend Swing« | Workshops mit Lukas Waslowski
 subtitle: Workshops, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
@@ -12,7 +12,8 @@ image:
 links:
     registration: https://link.wcs-wuppertal.de/anmeldung-juli-2026
     # homepage:
-    # facebook:    # community:
+    # facebook:
+    # community:
 type:
     party: { requires_registration: false, more_infos: true }
     workshop: { requires_registration: true }
@@ -68,16 +69,17 @@ Bei einem insgesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootca
 
 ## Workshops für Fortgeschrittene
 
-2 Workshops + Party: 25 € pro Person<br>
-1 Workshop + Party: 20 € p.P.<br>
+2 Workshops + Party: 30 € pro Person<br>
+1 Workshop + Party: 25 € p.P.<br>
 Tageskasse: +5 € p.P.
 
-_Studenten & Azubis: 18 € p.P. für 2 Workshops inkl. Party_<br>
+_Studenten & Azubis: 20 € p.P. für 2 Workshops inkl. Party_
 Nur Party: 10 € p.P.
 
 ## Bootcamp für Neueinsteiger
 
-Normalpreis: 25 € pro Person für Bootcamp + Party<br>
+Normalpreis: 25 € pro Person für Bootcamp + Party
+
 _Studenten & Azubis: 15 € p.P._
 
 Du hast weitere Fragen oder Anmerkungen? Dann schreib uns an info(at)wcs-wuppertal.de!

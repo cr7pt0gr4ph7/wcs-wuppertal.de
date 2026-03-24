@@ -65,6 +65,7 @@ Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unseren [WC
 # Eintritt & Anmeldung
 
 ## Workshops für Fortgeschrittene
+
 2 Workshops + Party: 30 € pro Person<br>
 1 Workshop + Party: 25 € p.P.<br>
 Tageskasse: +5 € p.P.

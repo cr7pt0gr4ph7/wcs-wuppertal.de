@@ -68,6 +68,7 @@ Bei einem insgesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootca
 # Eintritt & Anmeldung
 
 ## Workshops für Fortgeschrittene
+
 2 Workshops + Party: 30 € pro Person<br>
 1 Workshop + Party: 25 € p.P.<br>
 Tageskasse: +5 € p.P.

@@ -12,14 +12,15 @@ image:
 links:
     registration: https://link.wcs-wuppertal.de/anmeldung-juli-2026
     # homepage:
-    # facebook:    # community:
+    # facebook:
+    # community:
 type:
     beginner_workshop: { requires_registration: true }
     requires_registration: true
 ---
 
 [bootcamp]: /events/wcs-bootcamp-juli-2026/
-[workshops]: /events/valley-weekend-swing-juli-2026/
+[workshops]: /events/valley-weekend-swing-juli-2026
 [anmeldung]: https://link.wcs-wuppertal.de/anmeldung-juli-2026
 
 ## Am Samstag, 11.07.2026 ab 15:30 Uhr
@@ -65,16 +66,17 @@ Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unseren [WC
 
 ## Workshops für Fortgeschrittene
 
-2 Workshops + Party: 25 € pro Person<br>
-1 Workshop + Party: 20 € p.P.<br>
+2 Workshops + Party: 30 € pro Person<br>
+1 Workshop + Party: 25 € p.P.<br>
 Tageskasse: +5 € p.P.
 
-_Studenten & Azubis: 18 € p.P. für 2 Workshops inkl. Party_<br>
+_Studenten & Azubis: 20 € p.P. für 2 Workshops inkl. Party_
 Nur Party: 10 € p.P.
 
 ## Bootcamp für Neueinsteiger
 
-Normalpreis: 25 € pro Person für Bootcamp + Party<br>
+Normalpreis: 25 € pro Person für Bootcamp + Party
+
 _Studenten & Azubis: 15 € p.P._
 
 Du hast weitere Fragen oder Anmerkungen? Dann schreib uns an info(at)wcs-wuppertal.de!
