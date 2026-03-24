@@ -26,7 +26,7 @@ In den Osterferien geht es weiter mit unseren Workshops für alle West Coast Swi
 
 ## Dienstag, 31. März 2026
 
-- 19:00 - 20:00 Uhr :: Schnupperworkshop
+- 19:00 - 20:00 Uhr :: Schnupperworkshop für Neueinsteiger mit Lukas Waslowski
 - 20:00 - 21:00 Uhr :: Workshop „Blues Footwork“ (Level 3) mit Lukas Waslowski
 
 ## Donnerstag, 2. April 2026

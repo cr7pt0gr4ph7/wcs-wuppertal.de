@@ -1,8 +1,8 @@
-- id: adtv-tanzschule-schaefer-koch-wcs-level-1-und-2
+- id: adtv-tanzschule-schaefer-koch-wcs-level-1
   title: WCS Level 1
-  subtitle: für Einsteiger (Dauer 6 Wochen)
+  subtitle: für Einsteiger (6 x 60 min)
   location: ADTV Tanzschule Schäfer-Koch
-  date: 2026-04-28T19:45:00
+  date: 2026-04-16T19:45:00
   duration: 01:00:00
   links:
     homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25063
@@ -11,7 +11,7 @@
   type: { regular_course: true, requires_registration: true }
   children:
     - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-04-16
-      title: WCS Level 1 (6 x 60 min)
+      title: WCS Level 1 (6 x 60 min) | Donnerstag
       location: ADTV Tanzschule Schäfer-Koch
       date: 2026-04-16T19:45:00
       duration: 01:00:00
@@ -22,7 +22,7 @@
       type: { regular_course: true, requires_registration: true }
 
     - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-04-19
-      title: WCS Level 1 (6 x 60 min)
+      title: WCS Level 1 (6 x 60 min) | Sonntag
       location: ADTV Tanzschule Schäfer-Koch
       date: 2026-04-19T15:15:00
       duration: 01:00:00
@@ -33,7 +33,7 @@
       type: { regular_course: true, requires_registration: true }
 
     - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-06-18
-      title: WCS Level 1 (6 x 60 min)
+      title: WCS Level 1 (6 x 60 min) | Donnerstag
       location: ADTV Tanzschule Schäfer-Koch
       date: 2026-06-18T19:45:00
       duration: 01:00:00
@@ -44,7 +44,7 @@
       type: { regular_course: true, requires_registration: true }
 
     - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-06-07
-      title: WCS Level 1 (6 x 60 min)
+      title: WCS Level 1 (6 x 60 min) | Sonntag
       location: ADTV Tanzschule Schäfer-Koch
       date: 2026-06-07T15:15:00
       duration: 01:00:00
@@ -58,7 +58,7 @@
   title: WCS Level 2
   subtitle: für Fortgeschrittene (Einstieg jederzeit)
   location: ADTV Tanzschule Schäfer-Koch
-  date: 2026-04-12T19:00:00
+  date: 2026-04-14T19:00:00
   duration: 01:00:00
   links:
     homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
@@ -67,7 +67,7 @@
   type: { regular_course: true, requires_registration: true }
   children:
     - id: adtv-tanzschule-schaefer-koch--wcs-level-2-dienstag
-      title: WCS Level 2
+      title: WCS Level 2 | Dienstag
       subtitle: für Fortgeschrittene (Einstieg jederzeit)
       location: ADTV Tanzschule Schäfer-Koch
       date: 2026-04-14T19:00:00
@@ -79,7 +79,7 @@
       type: { regular_course: true, requires_registration: true }
 
     - id: adtv-tanzschule-schaefer-koch--wcs-level-2-donnerstag
-      title: WCS Level 2
+      title: WCS Level 2 | Donnerstag
       subtitle: für Fortgeschrittene (Einstieg jederzeit)
       location: ADTV Tanzschule Schäfer-Koch
       date: 2026-04-16T18:30:00
@@ -91,7 +91,7 @@
       type: { regular_course: true, requires_registration: true }
 
     - id: adtv-tanzschule-schaefer-koch--wcs-level-2-sonntag
-      title: WCS Level 2
+      title: WCS Level 2 | Sonntag
       subtitle: für Fortgeschrittene (Einstieg jederzeit)
       location: ADTV Tanzschule Schäfer-Koch
       date: 2026-04-19T16:30:00
@@ -106,7 +106,7 @@
   title: WCS Level 3
   subtitle: für Fortgeschrittene (Einstieg jederzeit)
   location: ADTV Tanzschule Schäfer-Koch
-  date: 2026-04-12T20:00:00
+  date: 2026-04-14T20:00:00
   duration: 01:00:00
   links:
     homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
@@ -115,7 +115,7 @@
   type: { regular_course: true, requires_registration: true }
   children:
     - id: adtv-tanzschule-schaefer-koch--wcs-level-3-dienstag
-      title: WCS Level 3
+      title: WCS Level 3 | Dienstag
       subtitle: für Fortgeschrittene (Einstieg jederzeit)
       location: ADTV Tanzschule Schäfer-Koch
       date: 2026-04-14T20:00:00
@@ -139,7 +139,7 @@
     #   type: { regular_course: true, requires_registration: true }
 
     - id: adtv-tanzschule-schaefer-koch--wcs-level-3-sonntag
-      title: WCS Level 3
+      title: WCS Level 3 | Sonntag
       subtitle: für Fortgeschrittene (Einstieg jederzeit)
       location: ADTV Tanzschule Schäfer-Koch
       date: 2026-04-19T17:45:00
@@ -165,3 +165,18 @@
   duration: 01:00:00
   url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
   type: { workshop: true, requires_registration: false }
+
+- id: adtv-tanzschule-schaefer-koch-wcs-osterworkshops-schnupperkurs
+  title: WCS Schnupperworkshop | April
+  subtitle: 1-stündiger Schnupperworkshop für Neueinsteiger
+  location: ADTV Tanzschule Schäfer-Koch
+  date: 2026-03-31T19:00:00
+  duration: 01:00:00
+  image:
+    src: src/assets/workshops-ostern.jpg
+    alt: WCS Schnupperworkshop
+  links:
+      # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/
+      # facebook: https://www.facebook.com/events/1064681532344988/
+      maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
+  type: { beginner_workshop: true, requires_registration: true }
