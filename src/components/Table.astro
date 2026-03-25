@@ -170,10 +170,10 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
                     1}
                   <span class="if-large-viewport">
                     {entry.children?.length === 2
-                      ? entry.type?.regular_course
+                      ? (entry.type?.regular_course ?? entry.type?.regular_class)
                         ? " weiterer Starttermin"
                         : " weiterer Termin"
-                      : entry.type?.regular_course
+                      : (entry.type?.regular_course ?? entry.type?.regular_class)
                         ? " weitere Starttermine"
                         : " weitere Termine"}
                   </span>
