@@ -1,7 +1,7 @@
 ---
 calendar:
-    title: Workshops »Rides« mit Hanna Junk & Jérôme Speck | »Valley Weekend Swing«
-title: Workshops mit Hanna Junk & Jérôme Speck | »Valley Weekend Swing«
+    title: »Rides & Drops« mit Hanna Junk & Jérôme Speck | »Valley Weekend Swing«
+title: »Rides & Drops« mit Hanna Junk & Jérôme Speck | »Valley Weekend Swing«
 subtitle: Workshops, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
 date: 2026-04-18T17:30:00
