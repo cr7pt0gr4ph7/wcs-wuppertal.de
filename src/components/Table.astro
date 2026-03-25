@@ -602,7 +602,24 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 
   .name::after {
     content: "";
-    clear: botH;
+    clear: both;
+  }
+
+  @media (hover: hover) {
+    /* when hover is supported */
+    .name Picture {
+      filter: saturate(10%) brightness(50%);
+      transition: filter 0.4s ease-in;
+    }
+
+    .table:hover .name Picture {
+      transition: filter 1s ease-in;
+    }
+
+    .tr:hover .name Picture {
+      filter: saturate(100%);
+      transition: filter 0.3s ease-in;
+    }
   }
 
   @media (min-width: 900px) {
@@ -623,18 +640,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     }
 
     .name Picture {
-      filter: saturate(10%) brightness(50%);
-      transition: filter 0.4s ease-in;
       position: static;
-    }
-
-    .table:hover .name Picture {
-      transition: filter 1s ease-in;
-    }
-
-    .tr:hover .name Picture {
-      filter: saturate(100%);
-      transition: filter 0.3s ease-in;
     }
 
     /* -- */
