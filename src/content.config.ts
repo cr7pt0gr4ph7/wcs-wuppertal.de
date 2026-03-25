@@ -5,6 +5,8 @@ import { Temporal } from "temporal-polyfill";
 const eventTypes = [
     "festival",
     "party",
+    "weekly_class",
+    "regular_class",
     "regular_course",
     "beginner_workshop",
     "workshop",
