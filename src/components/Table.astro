@@ -605,7 +605,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     clear: both;
   }
 
-  @media (hover: hover) {
+  @media (hover: hover and pointer: fine) {
     /* when hover is supported */
     .name Picture {
       filter: saturate(10%) brightness(50%);
