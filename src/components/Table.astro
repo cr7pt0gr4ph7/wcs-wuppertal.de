@@ -596,7 +596,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   .name Picture {
     /* float: right; */
     max-width: 200px;
-    max-width: min(160px, 80vw);
+    max-width: min(160px, min(100%, 80vw));
     position: relative;
     /* top: -40px; */
   }
