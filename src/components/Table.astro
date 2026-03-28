@@ -242,16 +242,17 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
             if (children.length > 0) {
               children.push(" | ");
             }
-            children.push(
-              <span>
-                {registrationNeeded
-                  ? "Anmeldung erforderlich"
-                  : workshopRegistrationNeeded &&
-                      types?.find((t) => t === "party")
-                    ? "Anmeldung erforderlich"
-                    : "Keine Anmeldung erforderlich"}
-              </span>,
-            );
+            if (registrationNeeded) {
+              children.push(<span>Anmeldung erforderlich</span>);
+            } else if (
+              workshopRegistrationNeeded &&
+              types?.find((t) => t === "party")
+            ) {
+              children.push(<span>Workshop: Anmeldung erforderlich</span>);
+              children.push(<span>Party: Keine Anmeldung erforderlich</span>);
+            } else {
+              children.push(<span>Keine Anmeldung erforderlich</span>);
+            }
           }
           if (additionalText) {
             if (children.length > 0) {
