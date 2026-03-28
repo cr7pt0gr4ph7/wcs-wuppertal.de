@@ -31,7 +31,7 @@ type:
 ## Workshop #1: „Communication & Reaction“
 Wir verstehen WCS als Dialog zwischen Leader und Follower. Wir sprechen miteinander, hören zu und reagieren auf das Gesagte. Wie funktioniert das im West Coast Swing? Das wollen wir uns mit euch anschauen!
 
-## Workshop #2: „Dips & Tricks“ - Hanna & Jérôme Edition
+## Workshop #2: „Dips & Tricks“ - Hanna & Jérôme Edition!
 Wer Hanna und Jérôme kennt, weiß dass die beiden gerne coole Tricks wie Dips, Drops & mehr in ihre Tänze einbauen. Ein paar alltagstaugliche Moves davon möchten sie mit euch teilen!
 
 ---
