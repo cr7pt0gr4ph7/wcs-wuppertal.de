@@ -16,6 +16,8 @@ type:
     requires_registration: true
 ---
 
+[workshops-mit-hanna-und-jerome]: /events/valley-weekend-swing-april-2026/
+
 ## Osterworkshops am 30.03. und 02.04.2026
 
 In den Osterferien geht es weiter mit unseren Workshops für alle West Coast Swing-Liebhaber und solche die es werden wollen!
@@ -33,6 +35,8 @@ In den Osterferien geht es weiter mit unseren Workshops für alle West Coast Swi
 
 - 18:30 - 19:30 Uhr :: Workshop „Creative Connection“ (Level 2) mit Lukas Waslowski
 - 19:45 - 20:45 Uhr :: Workshop „Cool Whips“ (Level 2) mit Lukas Waslowski
+
+_Tipp: Verpasst nicht unseren [**Workshoptag mit Hanna & Jérôme**][workshops-mit-hanna-und-jerome] inkl. Bootcamp & Party am 18.04.2026 direkt nach den Osterferien!_ 
 
 ---
 
