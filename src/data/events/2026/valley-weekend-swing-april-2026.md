@@ -28,8 +28,6 @@ type:
 
 **Extra für euch in Wuppertal:** Die Advanced/All Star-Tänzer und -Trainer **Hanna Junk & Jérôme Speck** mit 2 Workshops zu den Themen:
 
-## „Communication, Dips & Tricks“!
-
 ## Workshop #1: „Communication & Reaction“
 Wir verstehen WCS als Dialog zwischen Leader und Follower. Wir sprechen miteinander, hören zu und reagieren auf das Gesagte. Wie funktioniert das im West Coast Swing? Das wollen wir uns mit euch anschauen!
 
