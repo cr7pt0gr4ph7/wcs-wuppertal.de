@@ -1,13 +1,13 @@
 ---
 calendar:
-    title: »Rides & Drops« mit Hanna Junk & Jérôme Speck | »Valley Weekend Swing«
-title: »Rides & Drops« mit Hanna Junk & Jérôme Speck | »Valley Weekend Swing«
+    title: Workshops »Communication, Dips & Tricks« mit Hanna Junk & Jérôme Speck | »Valley Weekend Swing«
+title: Workshops »Communication, Dips & Tricks« mit Hanna Junk & Jérôme Speck | »Valley Weekend Swing«
 subtitle: Workshops, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
 date: 2026-04-18T17:30:00
 duration: 06:30:00
 image:
-    src: src/assets/kurse-und-workshops.jpg
+    src: src/assets/hanna-junk-jerome-speck.jpg
     alt: Workshops, Bootcamp & Party
 links:
     registration: https://link.wcs-wuppertal.de/anmeldung-april-2026
@@ -21,16 +21,20 @@ type:
 ---
 
 [bootcamp]: /events/wcs-bootcamp-april-2026/
-[workshops]: /events/valley-weekend-swing-april-2026
+[workshops]: /events/valley-weekend-swing-april-2026/
 [anmeldung]: https://link.wcs-wuppertal.de/anmeldung-april-2026
 
-## Am Samstag, 18.04.2026 ab 17:30 Uhr
+## Am Samstag, 18.04.26 ab 17:30 Uhr
 
-Die Advanced/All Star-Tänzer und -Trainer **Hanna Junk & Jérôme Speck** mit Workshops zum Thema:
+**Extra für euch in Wuppertal:** Die Advanced/All Star-Tänzer und -Trainer **Hanna Junk & Jérôme Speck** mit 2 Workshops zu den Themen:
 
-## Workshop 1: „Rides“
+## „Communication, Dips & Tricks“!
 
-## Workshop 2: „Drops“
+## Workshop #1: „Communication & Reaction“
+Wir verstehen WCS als Dialog zwischen Leader und Follower. Wir sprechen miteinander, hören zu und reagieren auf das Gesagte. Wie funktioniert das im West Coast Swing? Das wollen wir uns mit euch anschauen!
+
+## Workshop #2: „Dips & Tricks“ - Hanna & Jérôme Edition
+Wer Hanna und Jérôme kennt, weiß dass die beiden gerne coole Tricks wie Dips, Drops & mehr in ihre Tänze einbauen. Ein paar alltagstaugliche Moves davon möchten sie mit euch teilen!
 
 ---
 
@@ -56,8 +60,8 @@ Bei einem insgesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootca
 
 ## Workshops für Fortgeschrittene
 
-- 18:00 - 19:00 Uhr :: Workshop „Rides“ mit Hanna Junk & Jérôme Speck
-- 19:15 - 20:15 Uhr :: Workshop „Drops“ mit Hanna Junk & Jérôme Speck
+- 18:00 - 19:00 Uhr :: Workshop „Communication & Reaction“ mit Hanna Junk & Jérôme Speck
+- 19:15 - 20:15 Uhr :: Workshop „Dips & Tricks“ mit Hanna Junk & Jérôme Speck
 
 ## Social Party
 
@@ -74,6 +78,7 @@ Bei einem insgesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootca
 Tageskasse: +5 € p.P.
 
 _Studenten & Azubis: 20 € p.P. für 2 Workshops inkl. Party_
+
 Nur Party: 10 € p.P.
 
 ## Bootcamp für Neueinsteiger

@@ -41,7 +41,7 @@ Für das Bootcamp sind keine Vorkenntnisse erforderlich!
 
 ▶ [EXTRA: WORKSHOPS FÜR FORTGESCHRITTENE][workshops]
 
-Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unseren [WCS-Workshops für Fortgeschrittene][workshops] garantiert auf seine Kosten!
+Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei den [WCS-Workshops mit Hanna & Jérôme][workshops] garantiert auf seine Kosten!
 
 ---
 
