@@ -153,7 +153,7 @@
 - id: unisport-buw-wuppertal-wcs-level-1
   title: WCS Level 1 & 2
   location: UniSport Wuppertal
-  date: 2026-04-15T19:00:00
+  date: 2026-04-15T18:00:00
   duration: 01:00:00
   url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
   type: { regular_course: true, requires_registration: true }
