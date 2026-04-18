@@ -4,7 +4,7 @@ calendar:
 title: Workshops »Communication, Dips & Tricks« mit Hanna Junk & Jérôme Speck | »Valley Weekend Swing«
 subtitle: Workshops, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
-date: 2026-04-18T17:30:00
+date: 2026-04-18T18:00:00
 duration: 06:30:00
 image:
     src: src/assets/hanna-junk-jerome-speck.jpg
