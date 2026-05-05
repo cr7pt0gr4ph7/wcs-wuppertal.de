@@ -249,6 +249,9 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
               types?.find((t) => t === "party")
             ) {
               children.push(<span>Workshop: Anmeldung erforderlich</span>);
+
+
+              children.push(" | ");
               children.push(<span>Party: Keine Anmeldung erforderlich</span>);
             } else {
               children.push(<span>Keine Anmeldung erforderlich</span>);
