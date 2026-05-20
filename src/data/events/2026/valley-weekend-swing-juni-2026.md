@@ -1,11 +1,11 @@
 ---
 calendar:
     title: »Valley Weekend Swing«
-title: »Valley Weekend Swing« | Workshops mit Lukas Waslowski
+title: »Valley Weekend Swing« | Workshop mit Lukas Waslowski
 subtitle: Workshops, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
-date: 2026-06-13T18:00:00
-duration: 06:00:00
+date: 2026-06-13T19:15:00
+duration: 04:45:00
 image:
     src: src/assets/kurse-und-workshops.jpg
     alt: Workshops, Bootcamp & Party
@@ -21,22 +21,22 @@ type:
 ---
 
 [bootcamp]: /events/wcs-bootcamp-juni-2026/
-[workshops]: /events/valley-weekend-swing-juni-2026
+[workshops]: /events/valley-weekend-swing-juni-2026/
 [anmeldung]: https://link.wcs-wuppertal.de/anmeldung-juni-2026
 
-## Am Samstag, 13.06.2026 ab 18:00 Uhr
+## Am Samstag, 13.06.26 ab 19:15 Uhr
 
 Macht euch bereit für die nächste Ausgabe unserer beliebten West Coast Swing-Party - natürlich wie immer mit Workshops für Anfänger & Fortgeschrittene!
 
 - 2-stündiges Einsteiger-Bootcamp...
-- 2 Workshops für Fortgeschrittene...
+- All-Level-Workshop für Fortgeschrittene...
 - ...und Social Party!
 
 ---
 
 # Voraussetzungen
 
-Für die Workshops solltest du mindestens 1/2 bis 1 Jahr lang schon West Coast Swing tanzen,
+Für den Workshop solltest du mindestens 1/2 bis 1 Jahr lang schon West Coast Swing tanzen,
 und mit allen Basics (Left Side Pass, Underarm Pass, Passing Tuck, Sugar Push, Sugar Tuck, Whip)
 vertraut sein.
 
@@ -52,12 +52,11 @@ Bei einem insgesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootca
 
 ## Bootcamp für Neueinsteiger
 
-- 15:30 - 17:30 Uhr :: Bootcamp-Workshop mit Lukas Waslowski
+- 17:00 - 19:00 Uhr :: Bootcamp-Workshop mit Lukas Waslowski
 
-## Workshops für Fortgeschrittene
+## Workshop für Fortgeschrittene
 
-- 18:00 - 19:00 Uhr :: Workshop „Basic Footwork“ mit Lukas Waslowski
-- 19:15 - 20:15 Uhr :: Workshop „Looking Cool to Music“ mit Lukas Waslowski
+- 19:15 - 20:15 Uhr :: All-Level-Workshop mit Lukas Waslowski
 
 ## Social Party
 
@@ -67,20 +66,20 @@ Bei einem insgesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootca
 
 # Eintritt & Anmeldung
 
-## Workshops für Fortgeschrittene
+## Workshop für Fortgeschrittene
 
-2 Workshops + Party: 30 € pro Person<br>
-1 Workshop + Party: 25 € p.P.<br>
+20 € pro Person für Workshop + Party<br>
 Tageskasse: +5 € p.P.
 
-_Studenten & Azubis: 20 € p.P. für 2 Workshops inkl. Party_
-Nur Party: 10 € p.P.
+_Studenten & Azubis: 15 € pro Person inkl. Party_
+
+Nur Party: 10 € pro Person
 
 ## Bootcamp für Neueinsteiger
 
 Normalpreis: 25 € pro Person für Bootcamp + Party
 
-_Studenten & Azubis: 15 € p.P._
+_Studenten & Azubis: 15 € pro Person_
 
 Du hast weitere Fragen oder Anmerkungen? Dann schreib uns an info(at)wcs-wuppertal.de!
 
