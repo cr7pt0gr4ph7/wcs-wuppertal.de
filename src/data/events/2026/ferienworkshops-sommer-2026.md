@@ -8,7 +8,7 @@ image:
   src: src/assets/sommerworkshops-2025.png
   alt: Sommerworkshops 2026
 links:
-    # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/
+    # homepage: https://dub.sh/sk-sommer-2026-anmeldung
     # facebook: https://www.facebook.com/events/1064681532344988/
     maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 type:
@@ -16,10 +16,14 @@ type:
     requires_registration: true
 ---
 
+[homepage]: https://dub.sh/sk-sommer-2026-anmeldung
+[flyer]: https://www.tanzschule-schaefer-koch.de/fileadmin/kunden/schaefer_elb/programm/FKK_Flyer_2026.pdf
+[registration]:  https://dub.sh/sk-sommer-2026-anmeldung
+
 ## Macht den Sommer bunter!
 
 Im Sommer haben wir ein ganz besonders WCS-Programm für Euch zusammengestellt:
 In den ersten zwei sowie den letzten zwei Ferienwochen gibt es bei uns ein buntes Programm an WCS-Workshops für Anfänger & Fortgeschrittene,
 bei dem garantiert für jeden etwas dabei ist.
 
-Das Programm sowie die Buchung werden Ende Mai 2026 veröffentlich.
+Das [Programm (PDF) findet Ihr hier][flyer], und zur [Anmeldung geht es hier][registration].
