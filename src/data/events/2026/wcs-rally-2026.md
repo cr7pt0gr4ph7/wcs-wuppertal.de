@@ -1,4 +1,6 @@
 ---
+calendar:
+    title: WCS Flashmob Training
 title: WCS Flashmob Training & Aufführung
 subtitle: für die International Rally WCS 2026 (aka. WCS Flashmob)
 location: ADTV Tanzschule Schäfer-Koch
