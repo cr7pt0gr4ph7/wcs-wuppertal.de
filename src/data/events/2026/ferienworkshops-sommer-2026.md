@@ -39,7 +39,7 @@ _10 € pro Person | ohne Voranmeldung_
 
 ### West Coast Swing Workshops für Fortgeschrittene
 
-_kein\e feste*r Partner*in notwendig! | mit [Voranmeldung][registration]_
+_kein\*e feste\*r Partner\*in notwendig! | mit [Voranmeldung][registration]_
 
 #### Preise
 
