@@ -39,6 +39,19 @@ _10 € pro Person | ohne Voranmeldung_
 
 ### West Coast Swing Workshops für Fortgeschrittene
 
+_kein\e feste*r Partner*in notwendig! | mit [Voranmeldung][registration]_
+
+#### Preise
+
+Einzelworkshops:
+- 60 Minuten-Workshop 15 € pro Person
+- 90 Minuten-Workshop 20 € pro Person
+
+Ferienflatrate (schließt alle WCS-Workshops & -Parties in dem Zeitraum ein):
+- Ferienflatrate 3 Wochen 45 € pro Person (02.07. bis 09.08.2026)
+- Ferienflatrate 6 Wochen 80 € pro Person (10.08. bis 01.09.2026)
+
+
 #### Thema »Basic Technique« (60 min)
 
 - So. 26.07.26, 17:45 - 18:45
