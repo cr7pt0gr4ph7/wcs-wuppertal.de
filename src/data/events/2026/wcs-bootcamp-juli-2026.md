@@ -70,7 +70,7 @@ Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unseren [WC
 1 Workshop + Party: 25 € p.P.<br>
 Tageskasse: +5 € p.P.
 
-_Studenten & Azubis: 20 € p.P. für 2 Workshops inkl. Party_
+_Studenten & Azubis: 20 € p.P. für 2 Workshops inkl. Party_<br>
 Nur Party: 10 € p.P.
 
 ## Bootcamp für Neueinsteiger
