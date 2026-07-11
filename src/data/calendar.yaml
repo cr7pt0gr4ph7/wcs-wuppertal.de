@@ -5,9 +5,9 @@
   date: 2026-04-16T19:45:00
   duration: 01:00:00
   links:
-    homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25063
+    homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-  url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25063
+  url: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
   type: { regular_course: true, requires_registration: true }
   children:
     - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-04-16
