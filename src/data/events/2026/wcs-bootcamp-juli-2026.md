@@ -58,7 +58,7 @@ Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unseren [WC
 
 ## Social Party
 
-- Ab 20:15 Uhr :: WCS Party
+- Ab 20:15 Uhr :: WCS Party _(ohne Voranmeldung)_
 
 ---
 
@@ -71,7 +71,7 @@ Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unseren [WC
 Tageskasse: +5 € p.P.
 
 _Studenten & Azubis: 20 € p.P. für 2 Workshops inkl. Party_<br>
-Nur Party: 10 € p.P.
+Nur Party: 10 € p.P. _(ohne Voranmeldung)_
 
 ## Bootcamp für Neueinsteiger
 
