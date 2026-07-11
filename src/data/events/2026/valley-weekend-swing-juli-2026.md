@@ -61,7 +61,7 @@ Bei einem insgesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootca
 
 ## Social Party
 
-- Ab 20:15 Uhr :: WCS Party
+- Ab 20:15 Uhr :: WCS Party _(ohne Voranmeldung)_
 
 ---
 
