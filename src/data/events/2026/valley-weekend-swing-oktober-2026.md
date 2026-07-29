@@ -70,7 +70,7 @@ Bei einem insgesamt [2-stündigen Einsteigerworkshop][bootcamp] lernt ihr die wi
 
 # Eintritt & Anmeldung
 
-## Workshops mit Laura Weber
+## Workshops für Fortgeschrittene
 
 2 Workshops + Party: 30 € pro Person<br>
 1 Workshop + Party: 25 € p.P.<br>
@@ -80,7 +80,7 @@ _Studenten & Azubis: 20 € p.P. für 2 Workshops inkl. Party_
 
 Nur Party: 10 € p.P.
 
-##  für Neueinsteiger
+## Bootcamp für Neueinsteiger
 
 Normalpreis: 25 € pro Person für Bootcamp + Party
 
