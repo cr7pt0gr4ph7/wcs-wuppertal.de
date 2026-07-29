@@ -2,7 +2,7 @@
 calendar:
     title: Intensive »Musicality« mit Laura & Lukas | »Valley Weekend Swing«
 title: Intensive »Musicality« mit Laura & Lukas | »Valley Weekend Swing«
-subtitle: Intensive, Bootcamp & Party
+subtitle: Intensive, Crashkurs & Party
 location: ADTV Tanzschule Schäfer-Koch
 date: 2026-11-14T14:00:00
 duration: 10:00:00
