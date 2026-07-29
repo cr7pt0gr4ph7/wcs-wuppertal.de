@@ -83,45 +83,45 @@
   date: 2026-04-14T19:00:00
   duration: 01:00:00
   links:
-    homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+    homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-  url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+  url: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
   type: { regular_course: true, requires_registration: true }
   children:
     - id: adtv-tanzschule-schaefer-koch--wcs-level-2-dienstag
       title: WCS Level 2 | Dienstag
       subtitle: für Fortgeschrittene (Einstieg jederzeit)
       location: ADTV Tanzschule Schäfer-Koch
-      date: 2026-04-14T19:00:00
+      date: 2026-09-08T19:00:00
       duration: 01:00:00
       links:
-        homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+        homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
         maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-      url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+      url: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
       type: { regular_course: true, requires_registration: true }
 
     - id: adtv-tanzschule-schaefer-koch--wcs-level-2-donnerstag
       title: WCS Level 2 | Donnerstag
       subtitle: für Fortgeschrittene (Einstieg jederzeit)
       location: ADTV Tanzschule Schäfer-Koch
-      date: 2026-04-16T18:30:00
+      date: 2026-09-03T18:30:00
       duration: 01:00:00
       links:
-        homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+        homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
         maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-      url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+      url: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
       type: { regular_course: true, requires_registration: true }
 
     - id: adtv-tanzschule-schaefer-koch--wcs-level-2-sonntag
       title: WCS Level 2 | Sonntag
       subtitle: für Fortgeschrittene (Einstieg jederzeit)
       location: ADTV Tanzschule Schäfer-Koch
-      date: 2026-04-19T16:30:00
+      date: 2026-09-06T16:30:00
       duration: 01:00:00
       links:
-        homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+        homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
         maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-      url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+      url: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
       type: { regular_course: true, requires_registration: true }
 
 - id: adtv-tanzschule-schaefer-koch--wcs-level-3
@@ -131,69 +131,57 @@
   date: 2026-04-14T20:00:00
   duration: 01:00:00
   links:
-    homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+    homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-  url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+  url: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
   type: { regular_course: true, requires_registration: true }
   children:
     - id: adtv-tanzschule-schaefer-koch--wcs-level-3-dienstag
       title: WCS Level 3 | Dienstag
       subtitle: für Fortgeschrittene (Einstieg jederzeit)
       location: ADTV Tanzschule Schäfer-Koch
-      date: 2026-04-14T20:00:00
+      date: 2026-09-08T20:00:00
       duration: 01:00:00
       links:
-        homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+        homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
         maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-      url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+      url: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
       type: { regular_course: true, requires_registration: true }
-
-    # - id: adtv-tanzschule-schaefer-koch--wcs-level-3-donnerstag
-    #   title: WCS Level 2
-    #   subtitle: für Fortgeschrittene (Einstieg jederzeit)
-    #   location: ADTV Tanzschule Schäfer-Koch
-    #   date: 2026-04-16T21:00:00
-    #   duration: 01:00:00
-    #   links:
-    #     homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
-    #     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-    #   url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
-    #   type: { regular_course: true, requires_registration: true }
 
     - id: adtv-tanzschule-schaefer-koch--wcs-level-3-sonntag
       title: WCS Level 3 | Sonntag
       subtitle: für Fortgeschrittene (Einstieg jederzeit)
       location: ADTV Tanzschule Schäfer-Koch
-      date: 2026-04-19T17:45:00
+      date: 2026-06-09T17:45:00
       duration: 01:00:00
       links:
-        homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+        homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
         maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
-      url: https://www.tanzschule-schaefer-koch.de/tanzkurse/spezialkurse#c25059
+      url: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
       type: { regular_course: true, requires_registration: true }
 
 - id: unisport-buw-wuppertal-wcs-level-1
-  title: WCS Level 1 & 2
+  title: WCS Level 2
   location: UniSport Wuppertal
-  date: 2026-04-15T18:00:00
+  date: 2026-07-30T17:00:00
   duration: 01:00:00
-  url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
+  url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing_Ferien.html
   type: { regular_course: true, requires_registration: true }
 
-- id: unisport-buw-wuppertal-wcs-level-1-schnupperwoche
-  title: Kostenlose Schnupperwoche im WCS Level 1 beim UniSport Wuppertal
-  subtitle: 1-stündiger Schnupperworkshop für Neueinsteiger
+- id: unisport-buw-wuppertal-wcs-level-1
+  title: WCS Level 1
   location: UniSport Wuppertal
-  date: 2026-04-15T18:00:00
+  date: 2026-10-14T18:00:00
   duration: 01:00:00
-  url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
-  type: { beginner_workshop: true, requires_registration: false }
+  # url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
+  url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing_Ferien.html
+  type: { regular_course: true, requires_registration: true }
 
-- id: adtv-tanzschule-schaefer-koch-wcs-osterworkshops-schnupperkurs
-  title: WCS Schnupperworkshop | April
-  subtitle: 1-stündiger Schnupperworkshop für Neueinsteiger
-  location: ADTV Tanzschule Schäfer-Koch
-  date: 2026-03-31T19:00:00
-  duration: 01:00:00
-  url: /events/ferienworkshops-ostern-2026/
-  type: { beginner_workshop: true, requires_registration: true }
+# - id: unisport-buw-wuppertal-wcs-level-1-schnupperwoche
+#   title: Kostenlose Schnupperwoche im WCS Level 1 beim UniSport Wuppertal
+#   subtitle: 1-stündiger Schnupperworkshop für Neueinsteiger
+#   location: UniSport Wuppertal
+#   date: 2026-04-15T18:00:00
+#   duration: 01:00:00
+#   url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
+#   type: { beginner_workshop: true, requires_registration: false }
