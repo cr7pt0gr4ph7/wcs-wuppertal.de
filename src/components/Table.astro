@@ -8,15 +8,17 @@ import { parseImageObject } from "../utils/model";
 import { getCalendarEntries, type EventType } from "../utils/content";
 
 interface Props {
+  tags?: string[][];
   types?: EventType[];
   showImages?: boolean;
   showSubtitles?: boolean;
 }
 
-const { types, showImages = true, showSubtitles = true } = Astro.props;
+const { types, tags, showImages = true, showSubtitles = true } = Astro.props;
 
 const entries = await getCalendarEntries({
   types,
+  tags,
   since: Temporal.Now.zonedDateTimeISO().subtract({ days: 1 }),
 });
 

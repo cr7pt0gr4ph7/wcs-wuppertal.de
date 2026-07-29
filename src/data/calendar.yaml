@@ -8,6 +8,7 @@
     homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
   url: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
+  tags: [ level_1, tanzschule ]
   type: { regular_course: true, requires_registration: true }
   children:
     - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-04-16
@@ -19,6 +20,7 @@
         homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
         maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
       url: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
+      tags: [ level_1, freitag, tanzschule ]
       type: { regular_course: true, requires_registration: true }
 
     - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-04-16
@@ -30,6 +32,7 @@
         homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
         maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
       url: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
+      tags: [ level_1, donnerstag, tanzschule ]
       type: { regular_course: true, requires_registration: true }
 
     - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-04-19
@@ -41,6 +44,7 @@
         homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
         maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
       url: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
+      tags: [ level_1, sonntag, tanzschule ]
       type: { regular_course: true, requires_registration: true }
 
     - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-04-16
@@ -52,6 +56,7 @@
         homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
         maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
       url: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
+      tags: [ level_1, donnerstag, tanzschule ]
       type: { regular_course: true, requires_registration: true }
 
     - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-04-16
@@ -63,6 +68,7 @@
         homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
         maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
       url: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
+      tags: [ level_1, freitag, tanzschule ]
       type: { regular_course: true, requires_registration: true }
 
     - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-04-19
@@ -74,6 +80,7 @@
         homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
         maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
       url: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
+      tags: [ level_1, sonntag, tanzschule ]
       type: { regular_course: true, requires_registration: true }
 
 - id: adtv-tanzschule-schaefer-koch--wcs-level-2
@@ -86,6 +93,7 @@
     homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
   url: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
+  tags: [ level_2, tanzschule ]
   type: { regular_course: true, requires_registration: true }
   children:
     - id: adtv-tanzschule-schaefer-koch--wcs-level-2-dienstag
@@ -98,6 +106,7 @@
         homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
         maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
       url: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
+      tags: [ level_2, dienstag, tanzschule ]
       type: { regular_course: true, requires_registration: true }
 
     - id: adtv-tanzschule-schaefer-koch--wcs-level-2-donnerstag
@@ -110,6 +119,7 @@
         homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
         maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
       url: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
+      tags: [ level_2, donnerstag, tanzschule ]
       type: { regular_course: true, requires_registration: true }
 
     - id: adtv-tanzschule-schaefer-koch--wcs-level-2-sonntag
@@ -122,6 +132,7 @@
         homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
         maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
       url: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
+      tags: [ level_2, sonntag, tanzschule ]
       type: { regular_course: true, requires_registration: true }
 
 - id: adtv-tanzschule-schaefer-koch--wcs-level-3
@@ -134,6 +145,7 @@
     homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
     maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
   url: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
+  tags: [ level_3, tanzschule ]
   type: { regular_course: true, requires_registration: true }
   children:
     - id: adtv-tanzschule-schaefer-koch--wcs-level-3-dienstag
@@ -146,6 +158,7 @@
         homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
         maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
       url: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
+      tags: [ level_3, dienstag, tanzschule ]
       type: { regular_course: true, requires_registration: true }
 
     - id: adtv-tanzschule-schaefer-koch--wcs-level-3-sonntag
@@ -158,14 +171,16 @@
         homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
         maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
       url: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
+      tags: [ level_3, sonntag, tanzschule ]
       type: { regular_course: true, requires_registration: true }
 
-- id: unisport-buw-wuppertal-wcs-level-1
+- id: unisport-buw-wuppertal-wcs-level-2
   title: WCS Level 2
   location: UniSport Wuppertal
   date: 2026-07-30T17:00:00
   duration: 01:00:00
   url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing_Ferien.html
+  tags: [ level_2, unisport ]
   type: { regular_course: true, requires_registration: true }
 
 - id: unisport-buw-wuppertal-wcs-level-1
@@ -175,6 +190,7 @@
   duration: 01:00:00
   # url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
   url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing_Ferien.html
+  tags: [ level_1, unisport ]
   type: { regular_course: true, requires_registration: true }
 
 # - id: unisport-buw-wuppertal-wcs-level-1-schnupperwoche

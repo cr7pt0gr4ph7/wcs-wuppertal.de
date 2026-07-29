@@ -5,15 +5,20 @@ export type EventType = keyof InferEntrySchema<"calendar">["type"];
 
 interface EventFilter {
     types?: EventType[];
+    tags?: string[][];
     since?: Temporal.ZonedDateTime;
 }
 
-export async function getCalendarEntries({ types, since }: EventFilter) {
-    const filter: ((entry: CollectionEntry<"calendar" | "events">) => unknown) = ({ collection, data: { type, date, dates, endDate } }) => {
+export async function getCalendarEntries({ types: typesToFilter, tags: tagsToFilter, since }: EventFilter) {
+    const filter: ((entry: CollectionEntry<"calendar" | "events">) => unknown) = ({ collection, data: { type, tags, date, dates, endDate } }) => {
         return (
             (
-                (types === undefined) ||
-                (types.some((t) => !!(type as any)[t]))
+                (typesToFilter === undefined) ||
+                (typesToFilter.some((t) => !!(type as any)[t]))
+            )
+            && (
+                (tagsToFilter === undefined) ||
+                (tagsToFilter.some((g) => g.every((t) => tags !== undefined && tags.indexOf(t) != -1)))
             )
             && (
                 (collection === "calendar") ||

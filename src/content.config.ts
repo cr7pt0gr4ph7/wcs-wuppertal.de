@@ -87,6 +87,7 @@ const eventBaseSchemaStructure = {
         alt: z.string().optional(),
     })]).optional(),
     description: z.string().optional(),
+    tags: z.array(z.string()).optional(),
     type: eventTypeSchema,
     hide: z.boolean().optional(),
 };
