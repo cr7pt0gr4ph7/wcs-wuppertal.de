@@ -22,6 +22,11 @@ const entries = await getCalendarEntries({
   since: Temporal.Now.zonedDateTimeISO().subtract({ days: 1 }),
 });
 
+const myShortDateFormatOpts: Intl.DateTimeFormatOptions = {
+  month: "2-digit",
+  day: "2-digit",
+};
+
 const myDateFormatOpts: Intl.DateTimeFormatOptions = {
   month: "2-digit",
   day: "2-digit",
@@ -37,32 +42,67 @@ const myTimeFormatOpts: Intl.DateTimeFormatOptions = {
   minute: "2-digit",
 };
 
+const treatAsSingleDay = (
+  date: Temporal.PlainDate | Temporal.PlainDateTime | Temporal.ZonedDateTime,
+  endDate: Temporal.PlainDate | Temporal.PlainDateTime | Temporal.ZonedDateTime,
+) => {
+  const start: Temporal.PlainDateTime = (date as Temporal.PlainDate | Temporal.ZonedDateTime)?.toPlainDateTime?.() ?? date;
+  const end: Temporal.PlainDateTime = (endDate as Temporal.PlainDate | Temporal.ZonedDateTime)?.toPlainDateTime?.() ?? endDate;
+
+  return Temporal.PlainDateTime.compare(start.add(Temporal.Duration.from({ hours: 14 })), end) >= 0;
+}
+
+const isSameYear = (
+  date: Temporal.PlainDate | Temporal.PlainDateTime | Temporal.ZonedDateTime,
+  endDate: Temporal.PlainDate | Temporal.PlainDateTime | Temporal.ZonedDateTime,
+) => {
+  return date.year === endDate.year;
+}
+
 const formatDate = (
   date: Temporal.PlainDate | Temporal.PlainDateTime | Temporal.ZonedDateTime,
+  endDate?: Temporal.PlainDate | Temporal.PlainDateTime | Temporal.ZonedDateTime,
 ) => {
-  return date.toLocaleString("de-DE", myDateFormatOpts);
+  if (endDate === undefined || treatAsSingleDay(date, endDate)) {
+    return date.toLocaleString("de-DE", myDateFormatOpts);
+  } else {
+    return (
+      date.toLocaleString("de-DE", isSameYear(date, endDate) ? myShortDateFormatOpts : myDateFormatOpts) +
+      " bis " +
+      endDate.toLocaleString("de-DE", myDateFormatOpts)
+    );
+  }
 };
 
 const formatWeekdayAndTime = (
   date: Temporal.PlainDateTime | Temporal.ZonedDateTime,
 ) => {
   return (
-    date.toLocaleString("de-DE", myWeekdayFormatOpts) +
-    " " +
-    date.toLocaleString("de-DE", myTimeFormatOpts) +
-    " Uhr"
+    date.toLocaleString("de-DE", myDateFormatOpts) +
+    " – " +
+    date.toLocaleString("de-DE", myDateFormatOpts)
   );
 };
 
 const formatDateTime = (
   date: Temporal.PlainDateTime | Temporal.ZonedDateTime,
+  endDate?: Temporal.PlainDateTime | Temporal.ZonedDateTime,
 ) => {
-  return (
-    date.toLocaleString("de-DE", myDateFormatOpts) +
-    " " +
-    date.toLocaleString("de-DE", myTimeFormatOpts) +
-    " Uhr"
-  );
+  if (endDate === undefined || treatAsSingleDay(date, endDate)) {
+    return (
+      date.toLocaleString("de-DE", myDateFormatOpts) +
+      " " +
+      date.toLocaleString("de-DE", myTimeFormatOpts) +
+      " Uhr"
+    );
+  } else {
+    return (
+      date.toLocaleString("de-DE", isSameYear(date, endDate) ? myShortDateFormatOpts : myDateFormatOpts) +
+      " bis " +
+      endDate.toLocaleString("de-DE", myDateFormatOpts)
+    );
+  }
+
 };
 
 interface BaseRowData {
@@ -74,6 +114,7 @@ interface BaseRowData {
   title: string;
   subtitle?: string;
   date: Temporal.ZonedDateTime;
+  endDate?: Temporal.ZonedDateTime;
   dates?: Temporal.ZonedDateTime[];
   location: string;
   url?: string;
@@ -149,14 +190,14 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
         format: (entry: RowData) =>
           entry.single_date ? (
             <div class="td dates">
-              {entry.dates ? formatDates(entry.dates) : formatDate(entry.date)}{" "}
+              {entry.dates ? formatDates(entry.dates) : formatDate(entry.date, entry.endDate)}{" "}
               <span class="additional-dates">{"+ mehr Infos"}</span>
             </div>
           ) : !entry.children && !entry.groups ? (
             <div class="td dates">
               {entry.dates
                 ? formatDates(entry.dates)
-                : formatDateTime(entry.date)}
+                : formatDateTime(entry.date, entry.endDate)}
             </div>
           ) : (
             <div class="td dates">
