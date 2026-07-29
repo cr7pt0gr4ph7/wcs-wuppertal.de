@@ -1,14 +1,14 @@
 ---
 calendar:
-    title: WCS Bootcamp + Party | 
-title: WCS Bootcamp + Party
-subtitle: 2-stündiger Crashkurs für Neueinsteiger mit anschließender Party
+    title: WCS Crashkurs + Party | 
+title: WCS Crashkurs + Party
+subtitle: 1-stündiger Crashkurs für Neueinsteiger mit anschließender Party
 location: ADTV Tanzschule Schäfer-Koch
-date: 2026-11-14T18:00:00
-duration: 06:00:00
+date: 2026-11-14T19:00:00
+duration: 05:00:00
 image:
     src: src/assets/kurse-und-workshops.jpg
-    alt: 2-stündiger Crashkurs für Neueinsteiger mit anschließender Party
+    alt: 1-stündiger Crashkurs für Neueinsteiger mit anschließender Party
 links:
     registration: https://link.wcs-wuppertal.de/anmeldung-november-2026
     # homepage:
@@ -23,10 +23,10 @@ type:
 [workshops]: /events/valley-weekend-swing-november-2026/
 [anmeldung]: https://link.wcs-wuppertal.de/anmeldung-november-2026
 
-## Am Samstag, 14.11.26 ab 18:00 Uhr
+## Am Samstag, 14.11.26 ab 19:00 Uhr
 
 Alle West Coast Swing-Liebhaber und solche die es werden wollen aufgepasst:
-Bei einem **ingesamt 2-stündigen Einsteigerworkshop aka. „Bootcamp“** (aufgeteilt in 2 x 60 min)
+Bei einem **1-stündigen Einsteigerworkshop** 
 lernt ihr die wichtigsten Basics – und bei der Party danach könnt ihr eure **neu gewonnenen Kenntnisse direkt einsetzen**!
 
 Wie für West Coast Swing üblich werden bei Workshop und Party die Tanzpartner gewechselt,
@@ -37,7 +37,7 @@ Also kommt einfach vorbei und schnuppert in diesen lässigen und zugleich vielf�
 
 # Voraussetzungen
 
-Für das Bootcamp sind keine Vorkenntnisse erforderlich!
+Für den Crashkurs sind keine Vorkenntnisse erforderlich!
 
 ▶ [EXTRA: INTENSIVE FÜR FORTGESCHRITTENE][workshops]
 
@@ -49,12 +49,12 @@ Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unseren [WC
 
 ## Bootcamp für Neueinsteiger
 
-- 18:00 - 20:00 Uhr :: Bootcamp-Workshop mit Joanna
+- 19:15 - 20:15 Uhr :: Crashkurs für Einsteiger mit Lukas
 
 ## Intensive für Fortgeschrittene
 
-- 14:00 - 16:00 Uhr :: Intensive „Musicality“ mit Lukas & Laura | Teil 1
-- 17:00 - 19:00 Uhr :: Intensive „Musicality“ mit Lukas & Laura | Teil 2
+- 14:00 - 16:00 Uhr :: Intensive „Musicality“ mit Laura & Lukas | Teil 1
+- 17:00 - 19:00 Uhr :: Intensive „Musicality“ mit Laura & Lukas | Teil 2
 
 ## Social Party
 
@@ -64,7 +64,7 @@ Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unseren [WC
 
 # Eintritt & Anmeldung
 
-## Intensive mit Lukas & Laura
+## Intensive mit Laura & Lukas
 
 Intensive + Party: 45 € pro Person<br>
 Tageskasse: +5 € p.P.
@@ -73,9 +73,9 @@ _Studenten & Azubis: 25 € p.P. für Intensive + Party_
 
 Nur Party: 10 € p.P.
 
-## Bootcamp für Neueinsteiger
+## Crashkurs für Neueinsteiger
 
-Normalpreis: 25 € pro Person für Bootcamp + Party
+Normalpreis: 20 € pro Person für Crashkurs + Party
 
 _Studenten & Azubis: 15 € p.P._
 
