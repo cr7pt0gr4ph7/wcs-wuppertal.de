@@ -2,13 +2,13 @@
 calendar:
     title: Intensive »Musicality« mit Lukas & Laura | »Valley Weekend Swing«
 title: Intensive »Musicality« mit Lukas & Laura | »Valley Weekend Swing«
-subtitle: Workshops, Bootcamp & Party
+subtitle: Intensive, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
 date: 2026-11-14T14:00:00
 duration: 10:00:00
 image:
     src: src/assets/kurse-und-workshops.jpg
-    alt: Workshops, Bootcamp & Party
+    alt: Intensive, Bootcamp & Party
 links:
     registration: https://link.wcs-wuppertal.de/anmeldung-november-2026
     # homepage:
