@@ -39,7 +39,7 @@ vertraut sein.
 ▶ [EXTRA: EINSTEIGERWORKSHOP][bootcamp]
 
 Wer bisher noch nicht West Coast Swing tanzt, für den haben wir ebenfalls ein Angebot:
-Bei einem insgesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootcamp] (aufgeteilt in 2 x 60 min) lernt ihr die wichtigsten Basics
+Bei einem insgesamt [1-stündigen Einsteigerworkshop][bootcamp] lernt ihr die wichtigsten Basics
 – und bei der Party danach könnt ihr eure neu gewonnenen Kenntnisse direkt einsetzen!
 
 ---
@@ -48,7 +48,7 @@ Bei einem insgesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootca
 
 ## Bootcamp für Neueinsteiger
 
-- 18:00 - 20:00 Uhr :: Bootcamp-Workshop mit Joanna
+- 19:15 - 20:15 Uhr :: Crashkurs für Einsteiger mit Lukas
 
 ## Intensive für Fortgeschrittene
 
@@ -72,9 +72,9 @@ _Studenten & Azubis: 25 € p.P. für Intensive + Party_
 
 Nur Party: 10 € p.P.
 
-## Bootcamp für Neueinsteiger
+## Crashkurs für Neueinsteiger
 
-Normalpreis: 25 € pro Person für Bootcamp + Party
+Normalpreis: 20 € pro Person für Crashkurs + Party
 
 _Studenten & Azubis: 15 € p.P._
 
