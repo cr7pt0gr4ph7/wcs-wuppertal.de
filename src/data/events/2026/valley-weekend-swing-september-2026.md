@@ -1,7 +1,7 @@
 ---
 calendar:
-    title: Intensive »Switch für Fortgeschrittene« mit Laura Weber & Lukas Waslowski | »Valley Weekend Swing«
-title: Intensive »Switch für Fortgeschrittene« mit Laura Weber & Lukas Waslowski | »Valley Weekend Swing«
+    title: Intensive »Switch für Fortgeschrittene« mit Laura & Lukas | »Valley Weekend Swing«
+title: Intensive »Switch für Fortgeschrittene« mit Laura & Lukas | »Valley Weekend Swing«
 subtitle: Intensive, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
 date: 2026-09-12T18:00:00
@@ -26,7 +26,7 @@ type:
 
 ## Am Samstag, 12.09.26 ab 18:00 Uhr
 
-**Extra für euch in Wuppertal:** Die Switch-TänzerInnen **Laura Weber & Lukas Waslowski** mit einem 2-stündigen Intensive zum Thema:
+**Extra für euch in Wuppertal:** Die Switch-TänzerInnen **Laura & Lukas** mit einem 2-stündigen Intensive zum Thema:
 
 ## „Switch für Fortgeschrittene“!
 
@@ -62,7 +62,7 @@ Bei einem insgesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootca
 
 ## Intensive für Fortgeschrittene
 
-- 18:00 - 20:00 Uhr :: Switch-Intensive mit Laura Weber & Lukas Waslowski
+- 18:00 - 20:00 Uhr :: Switch-Intensive mit Laura & Lukas
 
 ## Social Party
 
@@ -72,7 +72,7 @@ Bei einem insgesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootca
 
 # Eintritt & Anmeldung
 
-## Intensive mit Laura Weber & Lukas Waslowski
+## Intensive mit Laura & Lukas
 
 Intensive + Party: 25 € pro Person
 
