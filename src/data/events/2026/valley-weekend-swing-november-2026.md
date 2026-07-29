@@ -1,7 +1,7 @@
 ---
 calendar:
-    title: Intensive »Musicality« mit Lukas & Laura | »Valley Weekend Swing«
-title: Intensive »Musicality« mit Lukas & Laura | »Valley Weekend Swing«
+    title: Intensive »Musicality« mit Laura & Lukas | »Valley Weekend Swing«
+title: Intensive »Musicality« mit Laura & Lukas | »Valley Weekend Swing«
 subtitle: Intensive, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
 date: 2026-11-14T14:00:00
@@ -52,8 +52,8 @@ Bei einem insgesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootca
 
 ## Intensive für Fortgeschrittene
 
-- 14:00 - 16:00 Uhr :: Intensive „Musicality“ mit Lukas & Laura | Teil 1
-- 17:00 - 19:00 Uhr :: Intensive „Musicality“ mit Lukas & Laura | Teil 2
+- 14:00 - 16:00 Uhr :: Intensive „Musicality“ mit Laura & Lukas | Teil 1
+- 17:00 - 19:00 Uhr :: Intensive „Musicality“ mit Laura & Lukas | Teil 2
 
 ## Social Party
 
@@ -63,7 +63,7 @@ Bei einem insgesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootca
 
 # Eintritt & Anmeldung
 
-## Intensive mit Lukas & Laura
+## Intensive mit Laura & Lukas
 
 Intensive + Party: 45 € pro Person<br>
 Tageskasse: +5 € p.P.
