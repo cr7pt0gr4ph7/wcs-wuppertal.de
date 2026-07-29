@@ -3,6 +3,7 @@ title: WCS-Sommerferien-Workshops
 subtitle: Vom 20. Juli bis 1. September 2026
 location: ADTV Tanzschule Schäfer-Koch
 date: 2026-07-20T12:00:00
+endDate: 2026-08-31T12:00:00
 duration: 00:00:00
 image:
   src: src/assets/sommerworkshops-2025.png
