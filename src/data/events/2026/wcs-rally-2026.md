@@ -12,11 +12,13 @@ links:
     # facebook: https://www.facebook.com/events/1064681532344988/
     # youtube: https://www.youtube.com/watch?v=jGqNOBkUWIM
     maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
+    registration: https://link.wcs-wuppertal.de/anmeldung-flashmob-2026
 type:
     workshop: { requires_registration: true }
     requires_registration: true
 ---
 
+[registration]: https://link.wcs-wuppertal.de/anmeldung-flashmob-2026
 [yt_music]: https://www.youtube.com/watch?v=jGqNOBkUWIM
 
 # Unterstützt uns beim diesjährigen [WCS Flashmob][yt_music]!
@@ -29,7 +31,7 @@ Ihr wollt auch mitmachen & unsere Szene unterstützen? Dann kommt zu unseren unt
 
 Treffpunkt ist um **13:30 Uhr** in der Tanzschule Schäfer-Koch, Laurentiusstr. 27, 42103 Wuppertal. Dort gehen wir die Choreo noch einmal kurz gemeinsam durch, bevor wir uns um 14 Uhr in die Stadt aufmachen um den Flashmob dort an verschiedenen Orten aufzuführen.
 
-Die Anmeldung zur Teilnahme an der Aufführung (sowie optional für die Trainingstermine) erfolgt **[über das Formular hier](https://link.wcs-wuppertal.de/anmeldung-flashmob-2026)**! Die Teilnahme an allen Flashmob-Trainings kostet einmalig 10,- € als Aufwangsentschädigung. Die Teilnahme an der Aufführung ist kostenlos!
+Die Anmeldung zur Teilnahme an der Aufführung (sowie optional für die Trainingstermine) erfolgt **[über das Formular hier][registration]**! Die Teilnahme an allen Flashmob-Trainings kostet einmalig 10,- € als Aufwangsentschädigung. Die Teilnahme an der Aufführung ist kostenlos!
 
 ## Trainings-Termine
 
