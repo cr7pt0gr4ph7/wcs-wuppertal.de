@@ -26,13 +26,9 @@ type:
 
 ## Am Samstag, 10.10.26 ab 17:30 Uhr
 
-**Extra für euch in Wuppertal:** Die Intermediate-Tänzer Laura Weber mit Workshops zu den Themen:
+**Extra für euch in Wuppertal:** Die Intermediate-Tänzer Laura Weber mit einem Intensive zum Thema:
 
-## **Body Movement & Follower-Styling**
-
-sowie parallel zur Follower-Styling-Class ein Workshop mit Lukas zum Thema:
-
-## **Leader-Styling!**
+## **Body Movement!**
 
 ---
 
