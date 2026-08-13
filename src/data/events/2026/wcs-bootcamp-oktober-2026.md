@@ -53,25 +53,21 @@ Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unseren [WC
 
 ## Workshops für Fortgeschrittene
 
-- 17:30 - 18:30 Uhr :: Workshop „Body Movement“ mit Laura & Lukas
-- 18:45 - 20:15 Uhr :: Intensive „Follower Styling“ mit Laura Weber
-- 18:45 - 20:15 Uhr :: Intensive „Leader Styling“ mit Lukas Waslowski
+- 17:45 - 19:45 Uhr :: Intensive „Body Movement“ mit Laura & Lukas
 
 ## Social Party
 
-- Ab 20:15 Uhr :: WCS Party
+- Ab 20:00 Uhr :: WCS Party
 
 ---
 
 # Eintritt & Anmeldung
 
-## Workshops für Fortgeschrittene
+## Workshops mit Laura Weber
 
-2 Workshops + Party: 30 € pro Person<br>
-1 Workshop + Party: 25 € p.P.<br>
-Tageskasse: +5 € p.P.
+Intensive + Party: 30 € pro Person
 
-_Studenten & Azubis: 20 € p.P. für 2 Workshops inkl. Party_
+_Studenten & Azubis: 20 € p.P. für Intensive inkl. Party_
 
 Nur Party: 10 € p.P.
 
