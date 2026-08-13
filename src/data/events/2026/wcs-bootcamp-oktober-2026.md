@@ -39,7 +39,7 @@ Also kommt einfach vorbei und schnuppert in diesen lässigen und zugleich vielf�
 
 Für das Bootcamp sind keine Vorkenntnisse erforderlich!
 
-▶ [EXTRA: WORKSHOPS FÜR FORTGESCHRITTENE][workshops]
+▶ [EXTRA: INTENSIVE FÜR FORTGESCHRITTENE][workshops]
 
 Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unseren [WCS-Workshops für Fortgeschrittene][workshops] garantiert auf seine Kosten!
 
@@ -51,7 +51,7 @@ Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unseren [WC
 
 - 15:30 - 17:30 Uhr :: Bootcamp-Workshop mit Lukas Waslowski
 
-## Workshops für Fortgeschrittene
+## Intensive für Fortgeschrittene
 
 - 17:45 - 19:45 Uhr :: Intensive „Body Movement“ mit Laura & Lukas
 
@@ -63,7 +63,7 @@ Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unseren [WC
 
 # Eintritt & Anmeldung
 
-## Workshops mit Laura Weber
+## Intensive mit Laura Weber
 
 Intensive + Party: 30 € pro Person
 
