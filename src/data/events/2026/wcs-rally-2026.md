@@ -77,8 +77,6 @@ Ihr wollt auch mitmachen & unsere Szene unterstützen? Dann kommt zu unseren unt
 
 Treffpunkt ist um **13:30 Uhr** in der Tanzschule Schäfer-Koch, Laurentiusstr. 27, 42103 Wuppertal. Dort gehen wir die Choreo noch einmal kurz gemeinsam durch, bevor wir uns um 14 Uhr in die Stadt aufmachen um den Flashmob dort an verschiedenen Orten aufzuführen.
 
-Die Anmeldung zur Teilnahme an der Aufführung (sowie optional für die Trainingstermine) erfolgt **[über das Formular hier][registration]**! Die Teilnahme an allen Flashmob-Trainings kostet einmalig 10,- € als Aufwangsentschädigung. Die Teilnahme an der Aufführung ist kostenlos!
-
 ## Trainings-Termine
 
 An folgenden Terminen könnt Ihr bei uns die Choreographie für den Flashmob lernen:
@@ -90,5 +88,9 @@ An folgenden Terminen könnt Ihr bei uns die Choreographie für den Flashmob ler
 - Do. 27.08.26, 19:45 - 20:45
 
 Die Choreotrainings finden alle statt in der Tanzschule Schäfer-Koch in Wuppertal-Elberfeld (Adresse siehe unten).
+
+## Anmeldung
+
+Die Anmeldung zur Teilnahme an der Aufführung (sowie für die Trainingstermine) erfolgt **[über das Formular hier][registration]**! Die Teilnahme an allen Flashmob-Trainings kostet einmalig 10,- € als Aufwangsentschädigung. Die Teilnahme an der Aufführung ist kostenlos!
 
 Bei Fragen könnt Ihr uns gerne über info(at)wcs-wuppertal.de oder via [@wcs_wuppertal](https://instagram.com/wcs_wuppertal) auf Instagram erreichen.
