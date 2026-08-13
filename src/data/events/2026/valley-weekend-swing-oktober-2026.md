@@ -1,7 +1,7 @@
 ---
 calendar:
-    title: Workshops »Body Movement, Follower-Styling & Leader-Styling« mit Laura Weber | »Valley Weekend Swing«
-title: Workshops »Body Movement, Follower-Styling & Leader-Styling« mit Laura Weber | »Valley Weekend Swing«
+    title: Intensive »Body Movement, Follower-Styling & Leader-Styling« mit Laura Weber | »Valley Weekend Swing«
+title: Intensive »Body Movement, Follower-Styling & Leader-Styling« mit Laura Weber | »Valley Weekend Swing«
 subtitle: Workshops, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
 date: 2026-10-10T17:30:00
@@ -38,7 +38,7 @@ sowie parallel zur Follower-Styling-Class ein Workshop mit Lukas zum Thema:
 
 # Voraussetzungen
 
-Für die Workshops solltest du mindestens 1/2 bis 1 Jahr lang schon West Coast Swing tanzen,
+Für das Intensive solltest du mindestens 1/2 bis 1 Jahr lang schon West Coast Swing tanzen,
 und mit allen Basics (Left Side Pass, Underarm Pass, Passing Tuck, Sugar Push, Sugar Tuck, Whip)
 vertraut sein.
 
@@ -56,7 +56,7 @@ Bei einem insgesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootca
 
 - 15:30 - 17:30 Uhr :: Bootcamp-Workshop mit Lukas Waslowski
 
-## Workshops für Fortgeschrittene
+## Intensive für Fortgeschrittene
 
 - 17:45 - 19:45 Uhr :: Intensive „Body Movement“ mit Laura & Lukas
 
@@ -68,7 +68,7 @@ Bei einem insgesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootca
 
 # Eintritt & Anmeldung
 
-## Workshops mit Laura Weber
+## Intensive mit Laura Weber
 
 Intensive + Party: 30 € pro Person
 
