@@ -1,7 +1,7 @@
 ---
 calendar:
-    title: Intensive »Body Movement, Follower-Styling & Leader-Styling« mit Laura Weber | »Valley Weekend Swing«
-title: Intensive »Body Movement, Follower-Styling & Leader-Styling« mit Laura Weber | »Valley Weekend Swing«
+    title: Intensive »Body Movement« mit Laura Weber | »Valley Weekend Swing«
+title: Intensive »Body Movement« mit Laura Weber | »Valley Weekend Swing«
 subtitle: Workshops, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
 date: 2026-10-10T17:30:00
