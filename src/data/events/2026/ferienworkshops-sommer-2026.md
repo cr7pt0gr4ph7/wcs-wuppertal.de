@@ -11,6 +11,7 @@ image:
 links:
     # homepage: https://dub.sh/sk-sommer-2026-anmeldung
     # facebook: https://www.facebook.com/events/1064681532344988/
+    registration: https://dub.sh/sk-sommer-2026-anmeldung
     maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 type:
     workshop: { requires_registration: true }
