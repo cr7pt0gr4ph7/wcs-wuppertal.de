@@ -10,7 +10,7 @@ interface EventFilter {
 }
 
 export async function getCalendarEntries({ types: typesToFilter, tags: tagsToFilter, since }: EventFilter) {
-    const filter: ((entry: CollectionEntry<"calendar" | "events">) => unknown) = ({ collection, data: { type, tags, date, dates, endDate } }) => {
+    const filter: (<C extends "calendar" | "events">(entry: CollectionEntry<C>) => unknown) = ({ collection, data: { type, tags, date, dates, endDate } }) => {
         return (
             (
                 (typesToFilter === undefined) ||
@@ -31,14 +31,26 @@ export async function getCalendarEntries({ types: typesToFilter, tags: tagsToFil
     };
 
     const calendarEntries = await getCollection("calendar", filter);
-    const eventEntries = (await getCollection("events", filter)).map(e => {
-        return {
+    const eventEntries = (await getCollection("events", filter)).flatMap(e => {
+        const entries = [{
             ...e,
             data: {
                 ...e.data,
                 url: e.data.url ?? `/events/${e.id}/`,
             }
-        };
+        }];
+        if (e.data.additional_events) {
+            entries.push(...e.data.additional_events.map(e2 => {
+                return {
+                    ...e,
+                    data: {
+                        ...e2,
+                        url: e2.url ??  e.data.url ?? `/events/${e.id}/`,
+                    }
+                };
+            }));
+        }
+        return entries;
     });
 
     return [...calendarEntries, ...eventEntries].filter((entry) => {

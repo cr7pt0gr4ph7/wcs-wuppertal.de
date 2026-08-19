@@ -92,10 +92,6 @@ const eventBaseSchemaStructure = {
     hide: z.boolean().optional(),
 };
 
-const eventBaseSchema = z.object({
-    ...eventBaseSchemaStructure,
-});
-
 const transformEndDate = <T extends { date?: Temporal.ZonedDateTime, duration?: Temporal.Duration }>(arg: T) => {
     return {
         endDate: (arg.date && arg.duration ? arg.date.add(arg.duration) : undefined) as T["date"],
@@ -103,23 +99,33 @@ const transformEndDate = <T extends { date?: Temporal.ZonedDateTime, duration?: 
     };
 };
 
-const eventFileSchema = z.object({
+const eventBaseSchema = z.object({
     ...eventBaseSchemaStructure,
-    // date: eventBaseSchemaStructure.date.optional(),
-    // duration: eventBaseSchemaStructure.duration.optional(),
 }).transform(transformEndDate);
 
-const withEndDate = <T extends typeof eventBaseSchema>(schema: T) => schema.transform(transformEndDate);
-
-const eventSchema = eventBaseSchema.extend({
+const eventSchemaStructure = {
+    ...eventBaseSchemaStructure,
     groups: z.array(z.object({
         title: z.string(),
         subtitle: z.string().optional(),
-        children: z.array(withEndDate(eventBaseSchema)).optional()
+        children: z.array(eventBaseSchema).optional(),
     })).optional(),
-    children: z.array(withEndDate(eventBaseSchema)).optional(),
+    children: z.array(eventBaseSchema).optional(),
     single_date: z.boolean().optional(),
-}).transform(transformEndDate);
+};
+
+const eventSchema = z.object(eventSchemaStructure);
+
+const eventEntrySchema = eventSchema
+    .transform(transformEndDate);
+
+const eventFileSchemaStructure = {
+    ...eventSchemaStructure,
+    additional_events: z.array(eventSchema.transform(transformEndDate)).optional(),
+};
+
+const eventFileSchema = z.object(eventFileSchemaStructure)
+    .transform(transformEndDate);
 
 const locationSchema = z.object({
     name: z.string(),
@@ -156,7 +162,7 @@ export const locations = defineCollection({
 // Internal and external events
 const calendar = defineCollection({
     loader: file("src/data/calendar.yaml"),
-    schema: eventSchema,
+    schema: eventEntrySchema,
 });
 
 // Internal events
