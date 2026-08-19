@@ -74,7 +74,7 @@ Bei der alljährlichen „International Rally WCS“ wird seit 2010 immer Anfang
 
 Ihr wollt auch mitmachen & unsere Szene unterstützen? Dann kommt zu unseren untenstehenden Trainingsterminen - und natürlich auch zur Aufführung! Ihr müsst nicht bei uns in der Tanzschule tanzen, um an den Trainings oder der Aufführung teilzunehmen.
 
-## Aufführung am 05.09.2025 zwischen 14 und 16 Uhr
+## Aufführung am 05.09.2026 zwischen 14 und 16 Uhr
 
 Treffpunkt ist um **13:30 Uhr** in der Tanzschule Schäfer-Koch, Laurentiusstr. 27, 42103 Wuppertal. Dort gehen wir die Choreo noch einmal kurz gemeinsam durch, bevor wir uns um 14 Uhr in die Stadt aufmachen um den Flashmob dort an verschiedenen Orten aufzuführen.
 
