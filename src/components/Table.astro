@@ -201,7 +201,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
             </div>
           ) : (
             <div class="td dates">
-              {formatDate(entry.date)}{" "}
+              {formatDate(entry.date, entry.endDate)}{" "}
               <span class="additional-dates">
                 {"+ "}
                 <span>
