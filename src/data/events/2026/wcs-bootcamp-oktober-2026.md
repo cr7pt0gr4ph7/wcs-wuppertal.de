@@ -1,22 +1,21 @@
 ---
 calendar:
-    title: Intensive »Body Movement« mit Laura Weber | »Valley Weekend Swing«
-title: Intensive »Body Movement« mit Laura Weber | »Valley Weekend Swing«
-subtitle: Workshops, Bootcamp & Party
+    title: WCS Bootcamp + Party | 
+title: WCS Bootcamp + Party
+subtitle: 2-stündiger Crashkurs für Neueinsteiger mit anschließender Party
 location: ADTV Tanzschule Schäfer-Koch
-date: 2026-10-10T17:30:00
-duration: 06:30:00
+date: 2026-10-10T15:30:00
+duration: 08:30:00
 image:
     src: src/assets/kurse-und-workshops.jpg
-    alt: Workshops, Bootcamp & Party
+    alt: 2-stündiger Crashkurs für Neueinsteiger mit anschließender Party
 links:
     registration: https://link.wcs-wuppertal.de/anmeldung-oktober-2026
     # homepage:
     # facebook:
     # community:
 type:
-    party: { requires_registration: false, more_infos: true }
-    workshop: { requires_registration: true }
+    beginner_workshop: { requires_registration: true }
     requires_registration: true
 ---
 
@@ -24,25 +23,25 @@ type:
 [workshops]: /events/valley-weekend-swing-oktober-2026/
 [anmeldung]: https://link.wcs-wuppertal.de/anmeldung-oktober-2026
 
-## Am Samstag, 10.10.26 ab 17:30 Uhr
+## Am Samstag, 10.10.26 ab 15:30 Uhr
 
-**Extra für euch in Wuppertal:** Die Intermediate-Tänzer Laura Weber mit einem Intensive zum Thema:
+Alle West Coast Swing-Liebhaber und solche die es werden wollen aufgepasst:
+Bei einem **ingesamt 2-stündigen Einsteigerworkshop aka. "Bootcamp"** (aufgeteilt in 2 x 60 min) 
+lernt ihr die wichtigsten Basics – und bei der Party danach könnt ihr eure **neu gewonnenen Kenntnisse direkt einsetzen**!
 
-## **Body Movement!**
+Wie für West Coast Swing üblich werden bei Workshop und Party die Tanzpartner gewechselt,
+ihr könnt daher sowohl einzeln als auch zu zweit oder gleich in einer größeren Gruppe kommen.
+Also kommt einfach vorbei und schnuppert in diesen lässigen und zugleich vielfältigen Tanz rein!
 
 ---
 
 # Voraussetzungen
 
-Für das Intensive solltest du mindestens 1/2 bis 1 Jahr lang schon West Coast Swing tanzen,
-und mit allen Basics (Left Side Pass, Underarm Pass, Passing Tuck, Sugar Push, Sugar Tuck, Whip)
-vertraut sein.
+Für das Bootcamp sind keine Vorkenntnisse erforderlich!
 
-▶ [EXTRA: EINSTEIGERWORKSHOP][bootcamp]
+▶ [EXTRA: INTENSIVE FÜR FORTGESCHRITTENE][workshops]
 
-Wer bisher noch nicht West Coast Swing tanzt, für den haben wir ebenfalls ein Angebot:
-Bei einem insgesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootcamp] (aufgeteilt in 2 x 60 min) lernt ihr die wichtigsten Basics
-– und bei der Party danach könnt ihr eure neu gewonnenen Kenntnisse direkt einsetzen!
+Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unseren [WCS-Workshops für Fortgeschrittene][workshops] garantiert auf seine Kosten!
 
 ---
 
