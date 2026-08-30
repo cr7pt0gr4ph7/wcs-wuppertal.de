@@ -9,7 +9,7 @@ duration: 06:00:00
 image:
     src: src/assets/kurse-und-workshops.jpg
     alt: Intensive, Bootcamp & Party
-links:
+links: {}
     # registration:
     # homepage:
     # facebook:
