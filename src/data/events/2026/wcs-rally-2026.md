@@ -53,10 +53,19 @@ children:
     type:
         workshop: { requires_registration: true }
         requires_registration: true
+  - title: WCS Flashmob Training
+    subtitle: für die International Rally WCS 2026 (aka. WCS Flashmob)
+    location: ADTV Tanzschule Schäfer-Koch
+    date: 2026-09-01T18:00:00
+    duration: 01:00:00
+    image: src/assets/irwcs-logo-large.jpg
+    type:
+        workshop: { requires_registration: true }
+        requires_registration: true
   - title: WCS Flashmob Aufführung
     subtitle: für die International Rally WCS 2026 (aka. WCS Flashmob)
     location: ADTV Tanzschule Schäfer-Koch
-    date: 2026-09-05T14:00:00
+    date: 2026-09-26T14:00:00
     duration: 02:00:00
     image: src/assets/irwcs-logo-large.jpg
     type:
@@ -95,7 +104,7 @@ Bei der alljährlichen „International Rally WCS“ wird seit 2010 immer Anfang
 
 Ihr wollt auch mitmachen & unsere Szene unterstützen? Dann kommt zu unseren untenstehenden Trainingsterminen - und natürlich auch zur Aufführung! Ihr müsst nicht bei uns in der Tanzschule tanzen, um an den Trainings oder der Aufführung teilzunehmen.
 
-## Aufführung am 05.09.2026 zwischen 14 und 16 Uhr
+## Aufführung am 26.09.2026 zwischen 14 und 16 Uhr
 
 Treffpunkt ist um **13:30 Uhr** in der Tanzschule Schäfer-Koch, Laurentiusstr. 27, 42103 Wuppertal. Dort gehen wir die Choreo noch einmal kurz gemeinsam durch, bevor wir uns um 14 Uhr in die Stadt aufmachen um den Flashmob dort an verschiedenen Orten aufzuführen.
 
@@ -108,6 +117,7 @@ An folgenden Terminen könnt Ihr bei uns die Choreographie für den Flashmob ler
 - So. 23.08.26, 17:45 - 18:45
 - Di. 25.08.26, 19:00 - 20:00
 - Do. 27.08.26, 19:45 - 20:45
+- Di. 01.09.26, 18:00 - 19:00
 
 Die Choreotrainings finden alle statt in der Tanzschule Schäfer-Koch in Wuppertal-Elberfeld (Adresse siehe unten).
 
