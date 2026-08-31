@@ -4,7 +4,7 @@ calendar:
 title: WCS Social Party
 subtitle: ""
 location: ADTV Tanzschule Schäfer-Koch
-date: 2026-09-12T18:00:00
+date: 2026-09-01T18:00:00
 duration: 06:00:00
 image:
     src: src/assets/kurse-und-workshops.jpg
