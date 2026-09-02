@@ -1,0 +1,27 @@
+form.event-filter + .table {
+    background: red;
+}
+
+form.event-filter:has(input[type="radio"][value="workshop"]:checked) + .table > .tbody > :not(.event-type-workshop) {
+    display: none;
+}
+
+form.event-filter:has(input[type="radio"][value="workshop"]:checked) + .table > .tbody > :not(.event-type-workshop) {
+    display: none;
+}
+
+form.event-filter:has(input[type="radio"][value="intensive"]:checked) + .table > .tbody > :not(.event-type-intensive) {
+    display: none;
+}
+
+form.event-filter:has(input[type="radio"][value="beginner_workshop"]:checked) + .table > .tbody > :not(.event-type-beginner-workshop) {
+    display: none;
+}
+
+form.event-filter:has(input[type="radio"][value="party"]:checked) + .table > .tbody > :not(.event-type-party) {
+    display: none;
+}
+
+form.event-filter:has(input[type="radio"][value="festival"]:checked) + .table > .tbody > :not(.event-type-festival) {
+    display: none;
+}

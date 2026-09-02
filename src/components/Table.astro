@@ -321,8 +321,8 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
       </>
     );
 
-    const formatRow = (entry: RowData) => {
-      return <div class="tr primary">{formatRowContent(entry)}</div>;
+    const formatRowClass = (prefix: string, entry: RowData) => {
+      return prefix + " " + Object.keys(entry.type ?? {}).map(type => "event-type-" + type.replaceAll("_", "-")).join(" ");
     };
 
     return (
@@ -331,26 +331,26 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
         <div class="tbody">
           {sortByDate(entries.map((entry) => entry.data)).map((entry) => {
             if (!(entry as any)?.children && !(entry as any)?.groups) {
-              return <div class="tr primary">{formatRowContent(entry)}</div>;
+              return <div class={formatRowClass("tr primary", entry)}>{formatRowContent(entry)}</div>;
             } else {
               return (
-                <div class="tr-parent">
+                <div class={formatRowClass("tr-parent", entry)}>
                   <details>
-                    <summary class="tr primary">
+                    <summary class={formatRowClass("tr primary", entry)}>
                       {formatRowContent(entry)}
                     </summary>
                   </details>
                   <div class="expander">
                     <div class="sub-table">
                       {sortByDate((entry as any)?.children ?? []).map((child) => (
-                        <div class="tr">{formatRowContent(child)}</div>
+                        <div class={formatRowClass("tr", entry)}>{formatRowContent(child)}</div>
                       ))}
                       {((entry as any)?.groups ?? []).map((group: any) => {
                         return (
                           <div class="group">
                             <div class="group-header tr">{group.title}</div>
                             {sortByDate(group.children ?? []).map((child) => (
-                              <div class="tr">{formatRowContent(child)}</div>
+                              <div class={formatRowClass("tr", child)}>{formatRowContent(child)}</div>
                             ))}
                           </div>
                         );

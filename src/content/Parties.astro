@@ -1,4 +1,5 @@
 ---
+import { Icon } from "astro-icon/components";
 import "../styles/section.css";
 import Table from "../components/Table.astro";
 ---
@@ -13,7 +14,34 @@ import Table from "../components/Table.astro";
       <span class="strong">Events</span>
     </a>
   </h2>
-  <Table types={["party", "festival"]} />
+  <form class="event-filter">
+    <div class="event-filter-group">
+      <span class="filter-icon">
+        <Icon size="2em" name="material-symbols:filter-alt" />
+      </span>
+      <label class="event-filter-option" style="min-width: calc(29/16*1rem)">
+        <input type="radio" name="type" value="all" checked />
+        <span>Alle</span>
+      </label>
+      <label class="event-filter-option" style="min-width: calc(173/16*1rem)">
+        <input type="radio" name="type" value="workshop" />
+        <span>Workshops &amp; Intensives</span>
+      </label>
+      <label class="event-filter-option" style="min-width: calc(151/16*1rem)">
+        <input type="radio" name="type" value="beginner_workshop" />
+        <span>Einsteigerworkshops</span>
+      </label>
+      <label class="event-filter-option" style="min-width: calc(52/16*1rem)">
+        <input type="radio" name="type" value="party" />
+        <span>Parties</span>
+      </label>
+      <label class="event-filter-option" style="min-width: calc(65/16*1rem)">
+        <input type="radio" name="type" value="festival" />
+        <span>Festivals</span>
+      </label>
+    </div>
+  </form>
+  <Table types={["workshop", "beginner_workshop", "party", "festival"]} />
   <p>
     Weitere Parties &amp; Workshops in ganz NRW findet ihr bei <a
       href="https://westiecommunity.de/"
@@ -21,3 +49,44 @@ import Table from "../components/Table.astro";
     >!
   </p>
 </section>
+
+<style>
+  .filter-icon {
+    color: #606060;
+    align-self: center;
+  }
+
+  .event-filter-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
+    font-size: 1.125rem;
+  }
+
+  .event-filter-option {
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: 2px solid #606060;
+    border-radius: calc(20px + 1em);
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .event-filter-option input[type="radio"] {
+    display: none;
+  }
+
+  .event-filter-option input[type="radio"]:checked + span {
+    font-weight: bold;
+  }
+
+  .event-filter-option:has(input[type="radio"]:checked) {
+    border-color: #eee;
+    /* border-color: #007bff; */
+    /* background-color: #e7f1ff; */
+    /* color: #007bff; */
+  }
+</style>
