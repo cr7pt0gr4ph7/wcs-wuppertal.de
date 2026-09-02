@@ -7,7 +7,7 @@ location: ADTV Tanzschule Schäfer-Koch
 date: 2026-11-14T14:00:00
 duration: 10:00:00
 image:
-    src: src/assets/kurse-und-workshops.jpg
+    src: src/assets/laura-lukas-teaser2-landscape.jpg
     alt: Intensive, Bootcamp & Party
 links:
     registration: https://link.wcs-wuppertal.de/anmeldung-november-2026
