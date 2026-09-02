@@ -884,12 +884,15 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     }
     .merged.table .date-and-location .date,
     .merged.table .date-and-location .dates {
-      margin-bottom: 0.75rem;
+      margin-bottom: 0.5rem;
     }
     .merged-table .name-and-location {
     }
     .merged.table .date-and-location .location {
-      font-size: 1.125rem;
+      font-size: 1rem;
+      font-style: italic;
+      line-height: calc(0.5 * 1.5 * 1.5rem);
+      color: var(--secondary-subdued);
     }
     .merged.table .name,
     .merged.table .description {
