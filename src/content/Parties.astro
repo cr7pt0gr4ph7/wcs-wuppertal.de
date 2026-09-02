@@ -42,7 +42,7 @@ import Table from "../components/Table.astro";
       </label>
     </div>
   </form>
-  <Table types={["workshop", "beginner_workshop", "party", "festival"]} />
+  <Table merged={true} types={["workshop", "beginner_workshop", "party", "festival"]} />
   <p>
     Weitere Parties &amp; Workshops in ganz NRW findet ihr bei <a
       href="https://westiecommunity.de/"
@@ -59,6 +59,7 @@ import Table from "../components/Table.astro";
 
   .event-filter-group {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 2rem;
     font-size: 1.125rem;

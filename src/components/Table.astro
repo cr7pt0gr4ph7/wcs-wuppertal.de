@@ -8,13 +8,20 @@ import { parseImageObject } from "../utils/model";
 import { getCalendarEntries, type EventType } from "../utils/content";
 
 interface Props {
+  merged?: boolean;
   tags?: string[][];
   types?: EventType[];
   showImages?: boolean;
   showSubtitles?: boolean;
 }
 
-const { types, tags, showImages = true, showSubtitles = true } = Astro.props;
+const {
+  merged = false,
+  types,
+  tags,
+  showImages = true,
+  showSubtitles = true,
+} = Astro.props;
 
 const entries = await getCalendarEntries({
   types,
@@ -46,28 +53,43 @@ const treatAsSingleDay = (
   date: Temporal.PlainDate | Temporal.PlainDateTime | Temporal.ZonedDateTime,
   endDate: Temporal.PlainDate | Temporal.PlainDateTime | Temporal.ZonedDateTime,
 ) => {
-  const start: Temporal.PlainDateTime = (date as Temporal.PlainDate | Temporal.ZonedDateTime)?.toPlainDateTime?.() ?? date;
-  const end: Temporal.PlainDateTime = (endDate as Temporal.PlainDate | Temporal.ZonedDateTime)?.toPlainDateTime?.() ?? endDate;
+  const start: Temporal.PlainDateTime =
+    (
+      date as Temporal.PlainDate | Temporal.ZonedDateTime
+    )?.toPlainDateTime?.() ?? date;
+  const end: Temporal.PlainDateTime =
+    (
+      endDate as Temporal.PlainDate | Temporal.ZonedDateTime
+    )?.toPlainDateTime?.() ?? endDate;
 
-  return Temporal.PlainDateTime.compare(start.add(Temporal.Duration.from({ hours: 14 })), end) >= 0;
-}
+  return (
+    Temporal.PlainDateTime.compare(
+      start.add(Temporal.Duration.from({ hours: 14 })),
+      end,
+    ) >= 0
+  );
+};
 
 const isSameYear = (
   date: Temporal.PlainDate | Temporal.PlainDateTime | Temporal.ZonedDateTime,
   endDate: Temporal.PlainDate | Temporal.PlainDateTime | Temporal.ZonedDateTime,
 ) => {
   return date.year === endDate.year;
-}
+};
 
 const formatDate = (
   date: Temporal.PlainDate | Temporal.PlainDateTime | Temporal.ZonedDateTime,
-  endDate?: Temporal.PlainDate | Temporal.PlainDateTime | Temporal.ZonedDateTime,
+  endDate?:
+    Temporal.PlainDate | Temporal.PlainDateTime | Temporal.ZonedDateTime,
 ) => {
   if (endDate === undefined || treatAsSingleDay(date, endDate)) {
     return date.toLocaleString("de-DE", myDateFormatOpts);
   } else {
     return (
-      date.toLocaleString("de-DE", isSameYear(date, endDate) ? myShortDateFormatOpts : myDateFormatOpts) +
+      date.toLocaleString(
+        "de-DE",
+        isSameYear(date, endDate) ? myShortDateFormatOpts : myDateFormatOpts,
+      ) +
       " bis " +
       endDate.toLocaleString("de-DE", myDateFormatOpts)
     );
@@ -97,12 +119,14 @@ const formatDateTime = (
     );
   } else {
     return (
-      date.toLocaleString("de-DE", isSameYear(date, endDate) ? myShortDateFormatOpts : myDateFormatOpts) +
+      date.toLocaleString(
+        "de-DE",
+        isSameYear(date, endDate) ? myShortDateFormatOpts : myDateFormatOpts,
+      ) +
       " bis " +
       endDate.toLocaleString("de-DE", myDateFormatOpts)
     );
   }
-
 };
 
 interface BaseRowData {
@@ -170,18 +194,22 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
           const subtitle = entry.calendar?.subtitle ?? entry.subtitle;
           let imageProps = toImageProps(parseImageObject(entry.image));
           return (
-            <div class="td name">
-              {showImages && imageProps ? (
-                <Picture class="teaser-image" {...imageProps} />
-              ) : null}
-              {subtitle && showSubtitles ? (
-                <div class="title-box">
-                  <div class="title">{hyphenate(title)}</div>
-                  <div class="subtitle">{hyphenate(subtitle)}</div>
-                </div>
-              ) : (
-                <div class="title-box">{hyphenate(title)}</div>
-              )}
+            <div class="td name-and-image">
+              <div class="td image">
+                {showImages && imageProps ? (
+                  <Picture class="teaser-image" {...imageProps} />
+                ) : null}
+              </div>
+              <div class="td name">
+                {subtitle && showSubtitles ? (
+                  <div class="title-box">
+                    <div class="title">{hyphenate(title)}</div>
+                    <div class="subtitle">{hyphenate(subtitle)}</div>
+                  </div>
+                ) : (
+                  <div class="title-box">{hyphenate(title)}</div>
+                )}
+              </div>
             </div>
           );
         },
@@ -190,7 +218,9 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
         format: (entry: RowData) =>
           entry.single_date ? (
             <div class="td dates">
-              {entry.dates ? formatDates(entry.dates) : formatDate(entry.date, entry.endDate)}{" "}
+              {entry.dates
+                ? formatDates(entry.dates)
+                : formatDate(entry.date, entry.endDate)}{" "}
               <span class="additional-dates">{"+ mehr Infos"}</span>
             </div>
           ) : !entry.children && !entry.groups ? (
@@ -213,10 +243,12 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
                     1}
                   <span class="if-large-viewport">
                     {entry.children?.length === 2
-                      ? (entry.type?.regular_course ?? entry.type?.regular_class)
+                      ? (entry.type?.regular_course ??
+                        entry.type?.regular_class)
                         ? " weiterer Starttermin"
                         : " weiterer Termin"
-                      : (entry.type?.regular_course ?? entry.type?.regular_class)
+                      : (entry.type?.regular_course ??
+                          entry.type?.regular_class)
                         ? " weitere Starttermine"
                         : " weitere Termine"}
                   </span>
@@ -293,7 +325,6 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
             ) {
               children.push(<span>Workshop: Anmeldung erforderlich</span>);
 
-
               children.push(" | ");
               children.push(<span>Party: Keine Anmeldung erforderlich</span>);
             } else {
@@ -312,26 +343,46 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
       },
     } satisfies Columns;
 
-    const formatRowContent = (entry: RowData) => (
-      <>
-        {columns.name.format(entry)}
-        {columns.dates.format(entry)}
-        {columns.location.format(entry)}
-        {columns.link.format(entry)}
-      </>
-    );
+    const formatRowContent = (entry: RowData) =>
+      merged ? (
+        <>
+          {columns.name.format(entry)}
+          <div class="td date-and-location">
+            {columns.dates.format(entry)}
+            {columns.location.format(entry)}
+          </div>
+          {columns.link.format(entry)}
+        </>
+      ) : (
+        <>
+          {columns.name.format(entry)}
+          {columns.dates.format(entry)}
+          {columns.location.format(entry)}
+          {columns.link.format(entry)}
+        </>
+      );
 
     const formatRowClass = (prefix: string, entry: RowData) => {
-      return prefix + " " + Object.keys(entry.type ?? {}).map(type => "event-type-" + type.replaceAll("_", "-")).join(" ");
+      return (
+        prefix +
+        " " +
+        Object.keys(entry.type ?? {})
+          .map((type) => "event-type-" + type.replaceAll("_", "-"))
+          .join(" ")
+      );
     };
 
     return (
-      <div class="table">
+      <div class={merged ? "table merged" : "table"}>
         <div class="thead" />
         <div class="tbody">
           {sortByDate(entries.map((entry) => entry.data)).map((entry) => {
             if (!(entry as any)?.children && !(entry as any)?.groups) {
-              return <div class={formatRowClass("tr primary", entry)}>{formatRowContent(entry)}</div>;
+              return (
+                <div class={formatRowClass("tr primary", entry)}>
+                  {formatRowContent(entry)}
+                </div>
+              );
             } else {
               return (
                 <div class={formatRowClass("tr-parent", entry)}>
@@ -342,15 +393,21 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
                   </details>
                   <div class="expander">
                     <div class="sub-table">
-                      {sortByDate((entry as any)?.children ?? []).map((child) => (
-                        <div class={formatRowClass("tr", entry)}>{formatRowContent(child)}</div>
-                      ))}
+                      {sortByDate((entry as any)?.children ?? []).map(
+                        (child) => (
+                          <div class={formatRowClass("tr", entry)}>
+                            {formatRowContent(child)}
+                          </div>
+                        ),
+                      )}
                       {((entry as any)?.groups ?? []).map((group: any) => {
                         return (
                           <div class="group">
                             <div class="group-header tr">{group.title}</div>
                             {sortByDate(group.children ?? []).map((child) => (
-                              <div class={formatRowClass("tr", child)}>{formatRowContent(child)}</div>
+                              <div class={formatRowClass("tr", child)}>
+                                {formatRowContent(child)}
+                              </div>
                             ))}
                           </div>
                         );
@@ -412,11 +469,15 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     margin-bottom: 0.125rem;
   }
 
-  .group .tr .name {
+  .group .tr .name,
+  .group .tr .name-and-image,
+  .group .tr .image {
     font-weight: 350;
   }
 
-  .group .group-header + .tr .name {
+  .group .group-header + .tr .name,
+  .group .group-header + .tr .name-and-image,
+  .group .group-header + .tr .image {
     font-weight: 500;
   }
 
@@ -640,15 +701,18 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     margin-top: 8px;
   }
 
-  .name Picture {
+  .name Picture,
+  .image Picture {
     /* float: right; */
-    max-width: 200px;
-    max-width: min(160px, min(100%, 80vw));
+    /* max-width: 200px; */
+    max-width: min(240px, min(100%, 80vw));
     position: relative;
+    display: block;
     /* top: -40px; */
   }
 
-  .name Picture img {
+  .name Picture img,
+  .image Picture img {
     box-shadow: 2px 2px 8px black;
   }
 
@@ -659,39 +723,62 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 
   @media (hover: hover and pointer: fine) {
     /* when hover is supported */
-    .name Picture {
+    .name Picture,
+    .image Picture {
       filter: saturate(10%) brightness(50%);
       transition: filter 0.4s ease-in;
     }
 
-    .table:hover .name Picture {
+    .table:hover .name Picture,
+    .table:hover .image Picture {
       transition: filter 1s ease-in;
     }
 
-    .tr:hover .name Picture {
+    .tr:hover .name Picture,
+    .tr:hover .image Picture {
       filter: saturate(100%);
       transition: filter 0.3s ease-in;
     }
   }
 
+  .image {
+    padding-top: 1rem;
+  }
+
+  @media (max-width: 600px) {
+    .image Picture {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
   @media (min-width: 900px) {
-    .name {
+    .name,
+    .name-and-image,
+    .image {
       display: flex;
       flex-direction: row;
     }
 
-    .name Picture {
+    .image {
+      padding-top: 0px;
+    }
+
+    .name Picture,
+    .image Picture {
       max-width: 160px;
       margin-left: -0.5em;
       margin-right: 1em;
       align-self: center;
     }
 
-    .name Picture img {
+    .name Picture img,
+    .image Picture img {
       box-shadow: 2px 2px 8px black;
     }
 
-    .name Picture {
+    .name Picture,
+    .image Picture {
       position: static;
     }
 
@@ -719,7 +806,9 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
       padding-right: 2rem;
     }
 
-    .name {
+    .name,
+    .name-and-image,
+    .image {
       grid-column: name;
     }
     .dates {
@@ -772,6 +861,41 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     .link {
       --indent: 0px;
       padding-right: 0.5em;
+    }
+
+    .name-and-image .image {
+      flex-shrink: 0;
+    }
+
+    .merged.table .name-and-image {
+      padding-right: 1.5rem;
+    }
+
+    .merged.table .image Picture {
+      margin-right: 2rem;
+    }
+
+    .merged.table,
+    .merged.table details summary.tr {
+      display: grid;
+      grid-template-columns:
+        [start name name-start] 27fr
+        [datetime datetime-start name-end location location-start] 15fr
+        [link link-start datetime-end location-end] 8fr
+        [end link-end];
+    }
+    .merged.table .date-and-location .date,
+    .merged.table .date-and-location .dates {
+      margin-bottom: 0.75rem;
+    }
+    .merged-table .name-and-location {
+    }
+    .merged.table .date-and-location .location {
+      font-size: 1.125rem;
+    }
+    .merged.table .name,
+    .merged.table .description {
+      grid-row-end: span 2;
     }
   }
 
