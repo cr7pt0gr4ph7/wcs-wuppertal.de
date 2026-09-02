@@ -1,7 +1,3 @@
-form.event-filter + .table {
-    background: red;
-}
-
 form.event-filter:has(input[type="radio"][value="workshop"]:checked) + .table > .tbody > :not(.event-type-workshop) {
     display: none;
 }
