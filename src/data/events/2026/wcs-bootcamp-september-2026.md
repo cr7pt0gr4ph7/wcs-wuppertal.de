@@ -1,6 +1,6 @@
 ---
 calendar:
-    title: WCS Bootcamp + Party | 
+    title: WCS Bootcamp + Party | »Valley Weekend Swing«
 title: WCS Bootcamp + Party
 subtitle: 2-stündiger Crashkurs für Neueinsteiger mit anschließender Party
 location: ADTV Tanzschule Schäfer-Koch
