@@ -5,7 +5,7 @@ title: WCS Flashmob Training & Aufführung
 subtitle: für die International Rally WCS 2026 (aka. WCS Flashmob)
 location: ADTV Tanzschule Schäfer-Koch
 date: 2026-07-28T20:00:00
-endDate: 2026-09-05T16:00:00
+endDate: 2026-09-25T16:00:00
 duration: 01:00:00
 children:
   - title: WCS Flashmob Training
@@ -75,7 +75,7 @@ additional_events:
   - title: WCS Flashmob Aufführung
     subtitle: für die International Rally WCS 2026 (aka. WCS Flashmob)
     location: ADTV Tanzschule Schäfer-Koch
-    date: 2026-09-05T14:00:00
+    date: 2026-09-25T14:00:00
     duration: 02:00:00
     image: src/assets/irwcs-logo-large.jpg
     links:
