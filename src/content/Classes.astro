@@ -1,4 +1,5 @@
 ---
+import { Icon } from "astro-icon/components";
 import "../styles/section.css";
 import Table from "../components/Table.astro";
 ---
@@ -12,41 +13,94 @@ import Table from "../components/Table.astro";
       <span class="strong">Work&shy;shops</span>
     </a>
   </h2>
+  <div class="link-pill-group">
+    <span class="link-pill-group-icon">
+      <Icon size="2em" name="material-symbols:link-2" />
+    </span>
+    <a href="#kurse-erklaerung" class="link-pill">Erklärung der Kurslevel</a>
+    <a href="#level-1" class="link-pill">Level 1 (Einsteiger)</a>
+    <a href="#level-2" class="link-pill">Level 2</a>
+    <a href="#level-3" class="link-pill">Level 3</a>
+    <a href="#einsteigerworkshops" class="link-pill">Schnupperworkshops</a>
+  </div>
   <p>Hier sind Eure nächsten Gelegenheiten, um West Coast Swing zu lernen!</p>
+  <a name="kurse-erklaerung"></a>
   <h3>Kurse</h3>
   <p>Unsere regelmäßigen Kursen sind wie folgt aufgeteilt:</p>
   <ul>
-    <li>Im <strong>Level 1</strong> lernst Du in 6 x 60 Minuten alle wichtigen Basics – von Left Side Pass bis Whip – und außerdem den besonderen „West Coast Swing-Spirit” kennen. Danach kannst Du direkt weiter in den Level 2!</li>
-    <li>Im <strong>Level 2</strong> lernst Du über mehrere Monate weitere fortgeschrittene Basics wie Verlängerungen, Inside Turns, Rock'n'Gos und mehr kennen. Durch unser flexibles Kursysstem gilt ab hier: Der Einstieg ist jederzeit möglich.</li>
-    <li>Im <strong>Level 3</strong> kommen dann fortlaufend neue Elemente, Figuren &amp; Technik hinzu. Der Einstieg ist jederzeit möglich.</li>
+    <li>
+      Im <strong>Level 1</strong> lernst Du in 6 x 60 Minuten alle wichtigen Basics
+      – von Left Side Pass bis Whip – und außerdem den besonderen „West Coast Swing-Spirit”
+      kennen. Danach kannst Du direkt weiter in den Level 2!
+    </li>
+    <li>
+      Im <strong>Level 2</strong> lernst Du über mehrere Monate weitere fortgeschrittene
+      Basics wie Verlängerungen, Inside Turns, Rock'n'Gos und mehr kennen. Durch unser
+      flexibles Kursysstem gilt ab hier: Der Einstieg ist jederzeit möglich.
+    </li>
+    <li>
+      Im <strong>Level 3</strong> kommen dann fortlaufend neue Elemente, Figuren &amp;
+      Technik hinzu. Der Einstieg ist jederzeit möglich.
+    </li>
   </ul>
-  <p>Für die Kurse benötigst Du keine feste Tanzpartnerin oder Tanzpartner! Aufgrund unseres flexiblen Kurssystems bist Du auch nicht an einen bestimmten Wochentag gebunden, sondern kannst flexibel wechselnde oder auch mehrere der verfügbaren Kurstage pro Woche besuchen. In einer Woche werden pro Level an allen Tagen die gleichen Inhalte unterrichtet. Du kannst also selbst entscheiden, wann und wie oft Du kommen möchtest.</p>
+  <p>
+    Für die Kurse benötigst Du keine feste Tanzpartnerin oder Tanzpartner!
+    Aufgrund unseres flexiblen Kurssystems bist Du auch nicht an einen
+    bestimmten Wochentag gebunden, sondern kannst flexibel wechselnde oder auch
+    mehrere der verfügbaren Kurstage pro Woche besuchen. In einer Woche werden
+    pro Level an allen Tagen die gleichen Inhalte unterrichtet. Du kannst also
+    selbst entscheiden, wann und wie oft Du kommen möchtest.
+  </p>
   <a name="level-1"></a>
   <h4><a class="anchor" href="#level-1">Level 1</a></h4>
-  <p>Hier bist Du richtig, wenn Du neu in West Coast Swing einsteigen möchtest!</p>
   <p>
-    In unseren Level 1-Kursen lernst Du in 6 x 60 Minuten alle wichtigen Basics – von Left Side Pass bis Whip – und außerdem den besonderen „West Coast Swing-Spirit” kennen.
-    Danach kannst Du direkt weiter in den Level 2!
-    Oder schnuppere bei unseren regelmäßigen <a href="#einsteigerworkshops">Einsteigerworkshops</a> in diesen coolen Tanz rein.
+    Hier bist Du richtig, wenn Du neu in West Coast Swing einsteigen möchtest!
   </p>
-  <p class="small">Für die Kurse benötigst Du keine feste Tanzpartnerin oder Tanzpartner!</p>
+  <p>
+    In unseren Level 1-Kursen lernst Du in 6 x 60 Minuten alle wichtigen Basics
+    – von Left Side Pass bis Whip – und außerdem den besonderen „West Coast
+    Swing-Spirit” kennen. Danach kannst Du direkt weiter in den Level 2! Oder
+    schnuppere bei unseren regelmäßigen <a href="#einsteigerworkshops"
+      >Einsteigerworkshops</a
+    > in diesen coolen Tanz rein.
+  </p>
+  <p class="small">
+    Für die Kurse benötigst Du keine feste Tanzpartnerin oder Tanzpartner!
+  </p>
   <Table types={["regular_course"]} tags={[["level_1"]]} />
   <a name="level-2"></a>
   <h4><a class="anchor" href="#level-2">Level 2</a></h4>
-  <p>Du kannst bereits die Grundlagen und möchtest mehr? Im Level 2 lernst Du aufbauend auf den Grundlagen über mehrere Monate weitere fortgeschrittene Basics wie Verlängerungen, Inside Turns, Rock'n'Gos und mehr kennen.</p>
-  <p>Durch unser flexibles Kursysstem gilt ab hier sowie für die höheren Kurse: Der Einstieg ist jederzeit möglich.</p>
-  <p class="small">Für die Kurse benötigst Du keine feste Tanzpartnerin oder Tanzpartner! &bullet; Einstieg jederzeit möglich.</p>
+  <p>
+    Du kannst bereits die Grundlagen und möchtest mehr? Im Level 2 lernst Du
+    aufbauend auf den Grundlagen über mehrere Monate weitere fortgeschrittene
+    Basics wie Verlängerungen, Inside Turns, Rock'n'Gos und mehr kennen.
+  </p>
+  <p>
+    Durch unser flexibles Kursysstem gilt ab hier sowie für die höheren Kurse:
+    Der Einstieg ist jederzeit möglich.
+  </p>
+  <p class="small">
+    Für die Kurse benötigst Du keine feste Tanzpartnerin oder Tanzpartner!
+    &bullet; Einstieg jederzeit möglich.
+  </p>
   <Table types={["regular_course"]} tags={[["level_2"]]} />
   <a name="level-3"></a>
   <h4><a class="anchor" href="#level-3">Level 3</a></h4>
-  <p>Im Level 3 verfeinerst Du fortlaufend Deine Technik, Ausdrucksmögpchkeiten & Figurenrepertoire.</p>
-  <p class="small">Für die Kurse benötigst Du keine feste Tanzpartnerin oder Tanzpartner! &bullet; Einstieg jederzeit möglich.</p>
+  <p>
+    Im Level 3 verfeinerst Du fortlaufend Deine Technik, Ausdrucksmögpchkeiten &
+    Figurenrepertoire.
+  </p>
+  <p class="small">
+    Für die Kurse benötigst Du keine feste Tanzpartnerin oder Tanzpartner!
+    &bullet; Einstieg jederzeit möglich.
+  </p>
   <Table types={["regular_course"]} tags={[["level_3"]]} />
   <a name="einsteigerworkshops"></a>
   <h3><a class="anchor" href="#einsteigerworkshops">Einsteigerworkshops</a></h3>
   <p>
-    Bei unseren Einsteigerworkshops hast Du die Gelegenheit, den Tanz ganz unkompliziert kennenzulernen.
-    Im Anschluss daran gibt es eine Party, bei der Du deine neu gewonnenen Fähigkeiten direkt einsetzen kannst!
+    Bei unseren Einsteigerworkshops hast Du die Gelegenheit, den Tanz ganz
+    unkompliziert kennenzulernen. Im Anschluss daran gibt es eine Party, bei der
+    Du deine neu gewonnenen Fähigkeiten direkt einsetzen kannst!
   </p>
   <Table types={["beginner_workshop"]} showImages={false} />
   <h3>
@@ -57,10 +111,52 @@ import Table from "../components/Table.astro";
       <span>für Fort&shy;ge&shy;schrit&shy;te&shy;ne</span>
     </a>
   </h3>
-  <p>Alle Workshops für Fortgeschrittene findest du unter <a href="#parties">Parties & Events</a>!</p>
+  <p>
+    Alle Workshops für Fortgeschrittene findest du unter <a href="#parties"
+      >Parties & Events</a
+    >!
+  </p>
 </section>
 <style type="text/css">
   strong {
     font-weight: 450;
+  }
+
+  .link-pill-group-icon {
+    color: #606060;
+    align-self: center;
+  }
+
+  .link-pill-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 2rem;
+    font-size: 1.125rem;
+  }
+
+  a.link-pill {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  .link-pill,
+  a.link-pill {
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: 2px solid #606060;
+    border-radius: calc(20px + 1em);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: #aaa;
+  }
+
+
+  .link-pill:hover {
+    color: #fff;
+    border-color: #aaa;
   }
 </style>
