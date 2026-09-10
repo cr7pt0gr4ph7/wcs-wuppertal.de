@@ -1,6 +1,6 @@
 ---
 calendar:
-    title: WCS Bootcamp + Party | »Valley Weekend Swing«
+    title: WCS Bootcamp + Party | 
 title: WCS Bootcamp + Party
 subtitle: 2-stündiger Crashkurs für Neueinsteiger mit anschließender Party
 location: ADTV Tanzschule Schäfer-Koch
@@ -26,7 +26,7 @@ type:
 ## Am Samstag, 12.09.26 ab 15:30 Uhr
 
 Alle West Coast Swing-Liebhaber und solche die es werden wollen aufgepasst:
-Bei einem **ingesamt 2-stündigen Einsteigerworkshop aka. „Bootcamp“** (aufgeteilt in 2 x 60 min)
+Bei einem **ingesamt 2-stündigen Einsteigerworkshop aka. "Bootcamp"** (aufgeteilt in 2 x 60 min) 
 lernt ihr die wichtigsten Basics – und bei der Party danach könnt ihr eure **neu gewonnenen Kenntnisse direkt einsetzen**!
 
 Wie für West Coast Swing üblich werden bei Workshop und Party die Tanzpartner gewechselt,
@@ -49,11 +49,11 @@ Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unseren [WC
 
 ## Bootcamp für Neueinsteiger
 
-- 14:30 - 16:30 Uhr :: Bootcamp-Workshop mit Lukas Waslowski
+- 15:30 - 17:30 Uhr :: Bootcamp-Workshop mit Lukas Waslowski
 
 ## Intensive für Fortgeschrittene
 
-- 18:00 - 20:00 Uhr :: Switch-Intensive mit Laura Weber & Lukas Waslowski
+- 18:00 - 20:00 Uhr :: Switch-Intensive mit Laura & Lukas
 
 ## Social Party
 
@@ -63,7 +63,7 @@ Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unseren [WC
 
 # Eintritt & Anmeldung
 
-## Intensive mit Laura Weber & Lukas Waslowski
+## Intensive mit Laura & Lukas
 
 Intensive + Party: 25 € pro Person
 
