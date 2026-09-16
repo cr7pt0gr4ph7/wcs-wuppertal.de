@@ -1,6 +1,6 @@
 ---
 calendar:
-    title: WCS Bootcamp + Party | »Valley Weekend Swing«
+    title: WCS Bootcamp + Party |
 title: WCS Bootcamp + Party
 subtitle: 2-stündiger Crashkurs für Neueinsteiger mit anschließender Party
 location: ADTV Tanzschule Schäfer-Koch
@@ -65,7 +65,8 @@ Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unseren [WC
 
 ## Intensive mit Laura Weber
 
-Intensive + Party: 30 € pro Person
+Early Bird (bis 27.09.): 25 € pro Person für Intensive + Party<br>
+Late Bird (ab 28.09.): 30 € für Intensive + Party
 
 _Studenten & Azubis: 20 € p.P. für Intensive inkl. Party_
 

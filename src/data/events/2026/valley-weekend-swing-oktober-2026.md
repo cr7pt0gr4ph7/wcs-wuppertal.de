@@ -7,7 +7,7 @@ location: ADTV Tanzschule Schäfer-Koch
 date: 2026-10-10T17:30:00
 duration: 06:30:00
 image:
-    src: src/assets/laura-lukas-teaser2-landscape.jpg
+    src: src/assets/body-movement-intensive-laura.jpg
     alt: Workshops, Bootcamp & Party
 links:
     registration: https://link.wcs-wuppertal.de/anmeldung-oktober-2026
@@ -26,9 +26,15 @@ type:
 
 ## Am Samstag, 10.10.26 ab 17:30 Uhr
 
-**Extra für euch in Wuppertal:** Die Intermediate-Tänzer Laura Weber mit einem Intensive zum Thema:
+**Extra für euch in Wuppertal:** Die Intermediate-Tänzer Laura Weber mit einem zweistündigen Intensive zum Thema:
 
 ## **Body Movement!**
+
+🌊 Finde Deinen eigenen individuellen Flow
+
+In diesem Intensive geht es darum, Deinen Körper zu spüren, Dich frei zu bewegen und Deinen ganz eigenen Ausdruck im Tanz zu entdecken.
+
+Egal, ob Du bereits Erfahrung hast oder einfach Lust auf etwas Neues – komm vorbei und lass Dich auf die vielen verschiedenen Facetten unserer Körpersprache ein! ✨
 
 ---
 
@@ -66,7 +72,8 @@ Bei einem insgesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootca
 
 ## Intensive mit Laura Weber
 
-Intensive + Party: 30 € pro Person
+Early Bird (bis 27.09.): 25 € pro Person für Intensive + Party<br>
+Late Bird (ab 28.09.): 30 € für Intensive + Party
 
 _Studenten & Azubis: 20 € p.P. für Intensive inkl. Party_
 
