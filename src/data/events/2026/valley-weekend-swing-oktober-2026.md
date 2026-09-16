@@ -4,8 +4,8 @@ calendar:
 title: Intensive »Body Movement« mit Laura Weber | »Valley Weekend Swing«
 subtitle: Workshops, Bootcamp & Party
 location: ADTV Tanzschule Schäfer-Koch
-date: 2026-10-10T17:30:00
-duration: 06:30:00
+date: 2026-10-10T18:00:00
+duration: 06:00:00
 image:
     src: src/assets/body-movement-intensive-laura.jpg
     alt: Workshops, Bootcamp & Party
@@ -24,7 +24,7 @@ type:
 [workshops]: /events/valley-weekend-swing-oktober-2026/
 [anmeldung]: https://link.wcs-wuppertal.de/anmeldung-oktober-2026
 
-## Am Samstag, 10.10.26 ab 17:30 Uhr
+## Am Samstag, 10.10.26 ab 18:00 Uhr
 
 **Extra für euch in Wuppertal:** Die Intermediate-Tänzer Laura Weber mit einem zweistündigen Intensive zum Thema:
 
@@ -60,7 +60,7 @@ Bei einem insgesamt [2-stündigen Einsteigerworkshop aka. „Bootcamp“][bootca
 
 ## Intensive für Fortgeschrittene
 
-- 17:45 - 19:45 Uhr :: Intensive „Body Movement“ mit Laura & Lukas
+- 18:00 - 20:00 Uhr :: Intensive „Body Movement“ mit Laura & Lukas
 
 ## Social Party
 

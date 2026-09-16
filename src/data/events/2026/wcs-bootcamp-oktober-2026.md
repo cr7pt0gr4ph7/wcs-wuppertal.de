@@ -53,7 +53,7 @@ Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unseren [WC
 
 ## Intensive für Fortgeschrittene
 
-- 17:45 - 19:45 Uhr :: Intensive „Body Movement“ mit Laura & Lukas
+- 18:00 - 20:00 Uhr :: Intensive „Body Movement“ mit Laura & Lukas
 
 ## Social Party
 
