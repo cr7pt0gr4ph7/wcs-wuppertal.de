@@ -8,7 +8,7 @@ date: 2026-11-14T14:00:00
 duration: 10:00:00
 image:
     src: src/assets/laura-lukas-teaser2-landscape.jpg
-    alt: Intensive, Bootcamp & Party
+    alt: Intensive, Crashkurs & Party
 links:
     registration: https://link.wcs-wuppertal.de/anmeldung-november-2026
     # homepage:
@@ -65,10 +65,10 @@ Bei einem insgesamt [1-stündigen Einsteigerworkshop][bootcamp] lernt ihr die wi
 
 ## Intensive mit Laura & Lukas
 
-Intensive + Party: 45 € pro Person<br>
-Tageskasse: +5 € p.P.
+Early Bird (bis 18.10.): 38 € für 4 Stunden Intensive + Party<br>
+Late Bird (ab 19.10.): 45 € für 4 Stunden Intensive + Party
 
-_Studenten & Azubis: 25 € p.P. für Intensive + Party_
+_Studenten & Azubis: 25 € p.P. für 4 Stunden Intensive + Party_
 
 Nur Party: 10 € p.P.
 

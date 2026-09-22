@@ -1,6 +1,6 @@
 ---
 calendar:
-    title: WCS Crashkurs + Party | 
+    title: WCS Crashkurs + Party |
 title: WCS Crashkurs + Party
 subtitle: 1-stündiger Crashkurs für Neueinsteiger mit anschließender Party
 location: ADTV Tanzschule Schäfer-Koch
@@ -26,7 +26,7 @@ type:
 ## Am Samstag, 14.11.26 ab 19:00 Uhr
 
 Alle West Coast Swing-Liebhaber und solche die es werden wollen aufgepasst:
-Bei einem **1-stündigen Einsteigerworkshop** 
+Bei einem **1-stündigen Einsteigerworkshop**
 lernt ihr die wichtigsten Basics – und bei der Party danach könnt ihr eure **neu gewonnenen Kenntnisse direkt einsetzen**!
 
 Wie für West Coast Swing üblich werden bei Workshop und Party die Tanzpartner gewechselt,
@@ -66,10 +66,10 @@ Wer bereits schon ein Weilchen West Coast Swing tanzt, der kommt bei unseren [WC
 
 ## Intensive mit Laura & Lukas
 
-Intensive + Party: 45 € pro Person<br>
-Tageskasse: +5 € p.P.
+Early Bird (bis 18.10.): 38 € für 4 Stunden Intensive + Party<br>
+Late Bird (ab 19.10.): 45 € für 4 Stunden Intensive + Party
 
-_Studenten & Azubis: 25 € p.P. für Intensive + Party_
+_Studenten & Azubis: 25 € p.P. für 4 Stunden Intensive + Party_
 
 Nur Party: 10 € p.P.
 
