@@ -1,8 +1,15 @@
 section {
-    margin-top: 153px;
-    margin-bottom: 153px;
-    margin-top: 180px;
-    margin-bottom: 180px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 600px) {
+    section {
+        margin-top: 153px;
+        margin-bottom: 153px;
+        margin-top: 180px;
+        margin-bottom: 180px;
+    }
 }
 
 sup a[data-footnote-ref] {
@@ -37,8 +44,9 @@ section>a[name] {
 
 h2 {
     font-size: 3.5rem;
-    line-height: calc(1.25 * 4rem);
-    margin-bottom: 3rem;
+    line-height: calc(1.125 * 4rem);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 @media (min-width: 600px) {
@@ -46,6 +54,7 @@ h2 {
         font-size: 6rem;
         line-height: 1.25;
         margin-bottom: 3rem;
+        margin-top: 3rem;
     }
 }
 

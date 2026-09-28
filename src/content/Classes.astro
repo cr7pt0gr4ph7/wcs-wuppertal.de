@@ -17,11 +17,13 @@ import Table from "../components/Table.astro";
     <span class="link-pill-group-icon">
       <Icon size="2em" name="material-symbols:link-2" />
     </span>
-    <a href="#kurse-erklaerung" class="link-pill">Erklärung der Kurslevel</a>
-    <a href="#level-1" class="link-pill">Level 1 (Einsteiger)</a>
-    <a href="#level-2" class="link-pill">Level 2</a>
-    <a href="#level-3" class="link-pill">Level 3</a>
-    <a href="#einsteigerworkshops" class="link-pill">Schnupperworkshops</a>
+    <div class="link-pill-group-items">
+      <a href="#kurse-erklaerung" class="link-pill">Erklärung der Kurslevel</a>
+      <a href="#level-1" class="link-pill">Level 1 (Einsteiger)</a>
+      <a href="#level-2" class="link-pill">Level 2</a>
+      <a href="#level-3" class="link-pill">Level 3</a>
+      <a href="#einsteigerworkshops" class="link-pill">Schnupperworkshops</a>
+    </div>
   </div>
   <p>Hier sind Eure nächsten Gelegenheiten, um West Coast Swing zu lernen!</p>
   <a name="kurse-erklaerung"></a>
@@ -124,15 +126,24 @@ import Table from "../components/Table.astro";
 
   .link-pill-group-icon {
     color: #606060;
-    align-self: center;
+    align-self: top;
+    margin-top: calc((2em - 1em - 10px) / 2);
+    display: inline-block;
+    margin-right: 10px;
   }
 
   .link-pill-group {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    flex-wrap: nowrap;
+    margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: 1.125rem;
+  }
+
+  .link-pill-group-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
   }
 
   a.link-pill {
@@ -154,9 +165,86 @@ import Table from "../components/Table.astro";
     color: #aaa;
   }
 
-
   .link-pill:hover {
     color: #fff;
     border-color: #aaa;
   }
+
+  /** Variant 1: Variable size */
+  /*
+  @media (max-width: 600px) {
+    .link-pill-group {
+      font-size: 1rem;
+    }
+
+    .link-pill,
+    a.link-pill {
+      padding: 8px 20px;
+      border-radius: calc(10px + 1em);
+    }
+
+    .link-pill-group-icon {
+      height: calc(10px + 1em);
+    }
+  }
+
+  @media (max-width: 400px) {
+    .link-pill-group {
+      font-size: 0.8rem;
+    }
+
+    .link-pill,
+    a.link-pill {
+      padding: 5px 12px;
+      border-radius: calc(10px + 1em);
+    }
+
+    .link-pill-group-icon {
+      height: calc(10px + 1em);
+    }
+  }
+  */
+
+  /** Variant 2: Scrollable container */
+  .link-pill-group-items {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+
+  .link-pill,
+  a.link-pill {
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 600px) {
+    .link-pill-group {
+      font-size: 1rem;
+    }
+
+    .link-pill,
+    a.link-pill {
+      padding: 8px 20px;
+      border-radius: calc(10px + 1em);
+    }
+
+    .link-pill-group-icon {
+      height: calc(10px + 1em);
+    }
+  }
+
+  /* @media (max-width: 400px) {
+    .link-pill-group {
+      font-size: 0.8rem;
+    }
+
+    .link-pill,
+    a.link-pill {
+      padding: 5px 12px;
+      border-radius: calc(10px + 1em);
+    }
+
+    .link-pill-group-icon {
+      height: calc(10px + 1em);
+    }
+  } */
 </style>
