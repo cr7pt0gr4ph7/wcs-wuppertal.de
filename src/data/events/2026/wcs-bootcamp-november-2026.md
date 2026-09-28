@@ -1,11 +1,11 @@
 ---
 calendar:
-    title: WCS Crashkurs + Party |
+    title: WCS Crashkurs + Party | 
 title: WCS Crashkurs + Party
 subtitle: 1-stündiger Crashkurs für Neueinsteiger mit anschließender Party
 location: ADTV Tanzschule Schäfer-Koch
-date: 2026-11-14T19:00:00
-duration: 05:00:00
+date: 2026-11-14T19:15:00
+duration: 04:45:00
 image:
     src: src/assets/kurse-und-workshops.jpg
     alt: 1-stündiger Crashkurs für Neueinsteiger mit anschließender Party
@@ -23,10 +23,10 @@ type:
 [workshops]: /events/valley-weekend-swing-november-2026/
 [anmeldung]: https://link.wcs-wuppertal.de/anmeldung-november-2026
 
-## Am Samstag, 14.11.26 ab 19:00 Uhr
+## Am Samstag, 14.11.26 ab 19:15 Uhr
 
 Alle West Coast Swing-Liebhaber und solche die es werden wollen aufgepasst:
-Bei einem **1-stündigen Einsteigerworkshop**
+Bei einem **1-stündigen Einsteigerworkshop** 
 lernt ihr die wichtigsten Basics – und bei der Party danach könnt ihr eure **neu gewonnenen Kenntnisse direkt einsetzen**!
 
 Wie für West Coast Swing üblich werden bei Workshop und Party die Tanzpartner gewechselt,
