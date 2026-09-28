@@ -21,3 +21,29 @@ form.event-filter:has(input[type="radio"][value="party"]:checked) + .table > .tb
 form.event-filter:has(input[type="radio"][value="festival"]:checked) + .table > .tbody > :not(.event-type-festival) {
     display: none;
 }
+
+.event-filter-no-entries {
+    display: none;
+}
+form.event-filter:has(input[type="radio"][value="workshop"]:checked) + .table:not(:has(* > .tbody > .event-type-workshop)) + .event-filter-no-entries {
+    display: block;
+}
+
+form.event-filter:has(input[type="radio"][value="workshop"]:checked) + .table:not(:has(* > .tbody > .event-type-workshop)) + .event-filter-no-entries {
+    display: block;
+}
+
+form.event-filter:has(input[type="radio"][value="intensive"]:checked) + .table:not(:has(* > .tbody > .event-type-intensive)) + .event-filter-no-entries {
+    display: block;
+}
+
+form.event-filter:has(input[type="radio"][value="beginner_workshop"]:checked) + .table:not(:has(* > .tbody > :not(type-beginner-workshop)) + .event-filter-no-entries {
+    display: block;
+}
+
+form.event-filter:has(input[type="radio"][value="party"]:checked) + .table:not(:has(* > .tbody > .event-type-party)) + .event-filter-no-entries {
+    display: block;
+}
+form.event-filter:has(input[type="radio"][value="festival"]:checked) + .table:not(:has(* > .tbody > .event-type-festival)) + .event-filter-no-entries {
+    display: block;
+}

@@ -20,29 +20,35 @@ import Table from "../components/Table.astro";
       <span class="filter-icon">
         <Icon size="2em" name="material-symbols:filter-alt" />
       </span>
-      <label class="event-filter-option" style="min-width: calc(29/16*1rem)">
-        <input type="radio" name="type" value="all" checked />
-        <span>Alle</span>
-      </label>
-      <label class="event-filter-option" style="min-width: calc(173/16*1rem)">
-        <input type="radio" name="type" value="workshop" />
-        <span>Workshops &amp; Intensives</span>
-      </label>
-      <label class="event-filter-option" style="min-width: calc(151/16*1rem)">
-        <input type="radio" name="type" value="beginner_workshop" />
-        <span>Einsteigerworkshops</span>
-      </label>
-      <label class="event-filter-option" style="min-width: calc(52/16*1rem)">
-        <input type="radio" name="type" value="party" />
-        <span>Parties</span>
-      </label>
-      <label class="event-filter-option" style="min-width: calc(65/16*1rem)">
-        <input type="radio" name="type" value="festival" />
-        <span>Festivals</span>
-      </label>
+      <div class="event-filter-group-items">
+        <label class="event-filter-option" style="min-width: calc(29/16*1rem*var(--factor)/1.25)">
+          <input type="radio" name="type" value="all" checked />
+          <span>Alle</span>
+        </label>
+        <label class="event-filter-option" style="min-width: calc(173/16*1rem*var(--factor)/1.25)">
+          <input type="radio" name="type" value="workshop" />
+          <span>Workshops &amp; Intensives</span>
+        </label>
+        <label class="event-filter-option" style="min-width: calc(151/16*1rem*var(--factor)/1.25)">
+          <input type="radio" name="type" value="beginner_workshop" />
+          <span>Einsteigerworkshops</span>
+        </label>
+        <label class="event-filter-option" style="min-width: calc(52/16*1rem*var(--factor)/1.25)">
+          <input type="radio" name="type" value="party" />
+          <span>Parties</span>
+        </label>
+        <label class="event-filter-option" style="min-width: calc(65/16*1rem*var(--factor)/1.25)">
+          <input type="radio" name="type" value="festival" />
+          <span>Festivals</span>
+        </label>
+      </div>
     </div>
   </form>
-  <Table merged={true} types={["workshop", "beginner_workshop", "party", "festival"]} />
+  <Table
+    merged={true}
+    types={["workshop", "beginner_workshop", "party", "festival"]}
+  />
+  <p class="small subdued event-filter-no-entries">In der von Dir gewählten Kategorie gibt es aktuell keine anstehenden Veranstaltungen.</p>
   <p>
     Weitere Parties &amp; Workshops in ganz NRW findet ihr bei <a
       href="https://westiecommunity.de/"
@@ -59,10 +65,16 @@ import Table from "../components/Table.astro";
 
   .event-filter-group {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    flex-wrap: nowrap;
     margin-bottom: 2rem;
     font-size: 1.125rem;
+    --factor: 1.125;
+  }
+
+  .event-filter-group-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
   }
 
   .event-filter-option {
@@ -75,6 +87,31 @@ import Table from "../components/Table.astro";
     border-radius: calc(20px + 1em);
     cursor: pointer;
     transition: all 0.2s ease;
+  }
+
+  .event-filter-group-items {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+
+  .event-filter-option {
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 600px) {
+    .event-filter-group {
+      font-size: 1rem;
+      --factor: 1;
+    }
+
+    .event-filter-option {
+      padding: 8px 20px;
+      border-radius: calc(10px + 1em);
+    }
+
+    .filter-icon {
+      height: calc(10px + 1em);
+    }
   }
 
   .event-filter-option input[type="radio"] {
