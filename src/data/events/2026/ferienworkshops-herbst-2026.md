@@ -3,7 +3,7 @@ title: WCS Herbstferien-Workshops
 subtitle: Während der Herbstferien 2026 in NRW
 location: ADTV Tanzschule Schäfer-Koch
 date: 2026-10-19T12:00:00
-date: 2026-11-01T12:00:00
+endDate: 2026-11-01T12:00:00
 duration: 00:00:00
 image:
   src: src/assets/kurse-und-workshops.jpg
