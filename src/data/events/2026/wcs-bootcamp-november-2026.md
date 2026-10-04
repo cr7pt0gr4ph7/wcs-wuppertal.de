@@ -75,7 +75,7 @@ Nur Party: 10 € p.P.
 
 ## Crashkurs für Neueinsteiger
 
-Normalpreis: 20 € pro Person für Crashkurs + Party
+Normalpreis: 18 € pro Person für Crashkurs + Party
 
 _Studenten & Azubis: 15 € p.P._
 
