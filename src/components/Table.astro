@@ -570,7 +570,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   /* Groups */
   .group-header {
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: var(--table-font-size);
     line-height: 1;
   }
 
@@ -589,7 +589,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   .link span {
     font-weight: 300;
     font-size: 1rem;
-    line-height: calc(0.5 * 1.5 * 1.5rem);
+    line-height: var(--table-line-height-absolute);
   }
 
   /* Columns */
@@ -604,6 +604,88 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   /** LAYOUT: INLINE COLUMN TITLES */
   .td::before {
     padding-right: 0.25em;
+  }
+
+  .td::before {
+    font-weight: 700;
+  }
+</style>
+
+<style>
+  /* LAYOUT: TABLE */
+  @media (min-width: 900px) {
+    .table,
+    .table details summary.tr {
+      display: grid;
+      grid-template-columns:
+        [start name name-start] 18fr
+        [datetime datetime-start name-end] 11fr
+        [location location-start datetime-end] 13fr
+        [link link-start location-end] 8fr
+        [end link-end];
+    }
+
+    .name,
+    .name-and-image,
+    .image {
+      grid-column: name;
+    }
+    .dates {
+      grid-column: datetime;
+    }
+    .date {
+      grid-column: datetime;
+    }
+    .time,
+    .times {
+      grid-column: datetime;
+    }
+    .location {
+      grid-column: location;
+    }
+    .link {
+      grid-column: link;
+      margin-top: 0;
+    }
+    .description {
+      grid-column: start / end;
+    }
+
+    .tbody,
+    .thead,
+    .tr-parent,
+    .tr,
+    .expander,
+    .extended,
+    .sub-table,
+    .group,
+    .group-header,
+    details,
+    summary {
+      grid-column: start / end;
+      display: grid;
+      grid-template-columns: subgrid;
+    }
+  }
+</style>
+
+<style>
+  /* LAYOUT: COMPACT TABLE */
+  @media (min-width: 900px) {
+    .merged.table,
+    .merged.table details summary.tr {
+      display: grid;
+      grid-template-columns:
+        [start name name-start] 27fr
+        [datetime datetime-start name-end location location-start] 15fr
+        [link link-start datetime-end location-end] 8fr
+        [end link-end];
+    }
+
+    .merged.table .name,
+    .merged.table .description {
+      grid-row-end: span 2;
+    }
   }
 </style>
 
@@ -796,17 +878,6 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 
     /* -- */
 
-    .table,
-    .table details summary.tr {
-      display: grid;
-      grid-template-columns:
-        [start name name-start] 18fr
-        [datetime datetime-start name-end] 11fr
-        [location location-start datetime-end] 13fr
-        [link link-start location-end] 8fr
-        [end link-end];
-    }
-
     .table details summary.tr {
       padding-left: 0;
       padding-right: 0;
@@ -816,48 +887,6 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     }
     .table details summary.tr > .td:last-child {
       padding-right: 2rem;
-    }
-
-    .name,
-    .name-and-image,
-    .image {
-      grid-column: name;
-    }
-    .dates {
-      grid-column: datetime;
-    }
-    .date {
-      grid-column: datetime;
-    }
-    .time,
-    .times {
-      grid-column: datetime;
-    }
-    .location {
-      grid-column: location;
-    }
-    .link {
-      grid-column: link;
-      margin-top: 0;
-    }
-    .description {
-      grid-column: start / end;
-    }
-
-    .tbody,
-    .thead,
-    .tr-parent,
-    .tr,
-    .expander,
-    .extended,
-    .sub-table,
-    .group,
-    .group-header,
-    details,
-    summary {
-      grid-column: start / end;
-      display: grid;
-      grid-template-columns: subgrid;
     }
 
     .name,
@@ -883,15 +912,6 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
       margin-right: 2rem;
     }
 
-    .merged.table,
-    .merged.table details summary.tr {
-      display: grid;
-      grid-template-columns:
-        [start name name-start] 27fr
-        [datetime datetime-start name-end location location-start] 15fr
-        [link link-start datetime-end location-end] 8fr
-        [end link-end];
-    }
     .merged.table .date-and-location .date,
     .merged.table .date-and-location .dates {
       margin-bottom: 0.5rem;
@@ -903,10 +923,6 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
       font-style: italic;
       line-height: calc(0.5 * 1.5 * 1.5rem);
       color: var(--secondary-subdued);
-    }
-    .merged.table .name,
-    .merged.table .description {
-      grid-row-end: span 2;
     }
   }
 </style>
@@ -955,6 +971,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   }
 
   @media (min-width: 900px) {
+    /* LAYOUT: TABLE - ADAPTIONS */
     .td::before {
       padding-right: 0;
       content: none !important;
