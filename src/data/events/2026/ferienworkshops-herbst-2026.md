@@ -6,7 +6,7 @@ date: 2026-10-19T12:00:00
 endDate: 2026-11-01T12:00:00
 duration: 00:00:00
 image:
-  src: src/assets/kurse-und-workshops.jpg
+  src: src/assets/calendar/2026/herbstferien.jpg
   alt: WCS Herbstferien-Workshops 2026
 links:
     # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/

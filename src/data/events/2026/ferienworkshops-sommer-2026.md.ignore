@@ -6,7 +6,7 @@ date: 2026-07-20T12:00:00
 endDate: 2026-08-31T12:00:00
 duration: 00:00:00
 image:
-  src: src/assets/sommerworkshops-2025.png
+  src: src/assets/calendar/sommerworkshops.png
   alt: Sommerworkshops 2026
 links:
     # homepage: https://dub.sh/sk-sommer-2026-anmeldung

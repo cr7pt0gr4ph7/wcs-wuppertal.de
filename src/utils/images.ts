@@ -51,9 +51,9 @@ export function toImageProps(image: ImageSpec | undefined): ImageProps | null {
     if (image && image.src) {
         if (isLocalImage(image.src)) {
             const normalizedPath = image.src.startsWith("/") ? image.src : "/" + image.src;
-            const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/*.{jpeg,jpg,png,gif}');
+            const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/**/*.{jpeg,jpg,png,gif}');
             if (!images[normalizedPath]) {
-                throw new Error(`"${image.src}" does not exist in glob: "src/assets/*.{jpeg,jpg,png,gif}"`);
+                throw new Error(`"${image.src}" does not exist in glob: "src/assets/**/*.{jpeg,jpg,png,gif}"`);
             }
             return {
                 src: images[normalizedPath](),

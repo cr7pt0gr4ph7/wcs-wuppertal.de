@@ -7,7 +7,7 @@ location: ADTV Tanzschule Schäfer-Koch
 date: 2026-11-14T14:00:00
 duration: 10:00:00
 image:
-    src: src/assets/musicality-intensive.jpg
+    src: src/assets/calendar/2026/musicality-intensive-laura-und-lukas.jpg
     alt: Intensive, Crashkurs & Party
 links:
     registration: https://link.wcs-wuppertal.de/anmeldung-november-2026

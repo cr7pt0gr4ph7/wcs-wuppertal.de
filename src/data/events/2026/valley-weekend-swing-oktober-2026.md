@@ -7,7 +7,7 @@ location: ADTV Tanzschule Schäfer-Koch
 date: 2026-10-10T18:00:00
 duration: 06:00:00
 image:
-    src: src/assets/body-movement-intensive-laura.jpg
+    src: src/assets/calendar/2026/body-movement-intensive-laura.jpg
     alt: Workshops, Bootcamp & Party
 links:
     registration: https://link.wcs-wuppertal.de/anmeldung-oktober-2026

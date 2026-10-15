@@ -13,7 +13,7 @@ children:
     location: ADTV Tanzschule Schäfer-Koch
     date: 2026-07-28T20:00:00
     duration: 01:00:00
-    image: src/assets/irwcs-logo-large.jpg
+    image: src/assets/calendar/irwcs-logo-large.jpg
     type:
         workshop: { requires_registration: true }
         requires_registration: true
@@ -22,7 +22,7 @@ children:
     location: ADTV Tanzschule Schäfer-Koch
     date: 2026-08-18T20:00:00
     duration: 01:00:00
-    image: src/assets/irwcs-logo-large.jpg
+    image: src/assets/calendar/irwcs-logo-large.jpg
     type:
         workshop: { requires_registration: true }
         requires_registration: true
@@ -31,7 +31,7 @@ children:
     location: ADTV Tanzschule Schäfer-Koch
     date: 2026-08-23T17:45:00
     duration: 01:00:00
-    image: src/assets/irwcs-logo-large.jpg
+    image: src/assets/calendar/irwcs-logo-large.jpg
     type:
         workshop: { requires_registration: true }
         requires_registration: true
@@ -40,7 +40,7 @@ children:
     location: ADTV Tanzschule Schäfer-Koch
     date: 2026-08-25T19:00:00
     duration: 01:00:00
-    image: src/assets/irwcs-logo-large.jpg
+    image: src/assets/calendar/irwcs-logo-large.jpg
     type:
         workshop: { requires_registration: true }
         requires_registration: true
@@ -49,7 +49,7 @@ children:
     location: ADTV Tanzschule Schäfer-Koch
     date: 2026-08-27T19:45:00
     duration: 01:00:00
-    image: src/assets/irwcs-logo-large.jpg
+    image: src/assets/calendar/irwcs-logo-large.jpg
     type:
         workshop: { requires_registration: true }
         requires_registration: true
@@ -58,7 +58,7 @@ children:
     location: ADTV Tanzschule Schäfer-Koch
     date: 2026-09-01T18:00:00
     duration: 01:00:00
-    image: src/assets/irwcs-logo-large.jpg
+    image: src/assets/calendar/irwcs-logo-large.jpg
     type:
         workshop: { requires_registration: true }
         requires_registration: true
@@ -67,7 +67,7 @@ children:
     location: ADTV Tanzschule Schäfer-Koch
     date: 2026-09-26T14:00:00
     duration: 02:00:00
-    image: src/assets/irwcs-logo-large.jpg
+    image: src/assets/calendar/irwcs-logo-large.jpg
     type:
         workshop: { requires_registration: true }
         requires_registration: true
@@ -77,13 +77,13 @@ additional_events:
     location: ADTV Tanzschule Schäfer-Koch
     date: 2026-09-25T14:00:00
     duration: 02:00:00
-    image: src/assets/irwcs-logo-large.jpg
+    image: src/assets/calendar/irwcs-logo-large.jpg
     links:
         registration: https://link.wcs-wuppertal.de/anmeldung-flashmob-2026
     type:
         workshop: { requires_registration: true }
         requires_registration: true
-image: src/assets/irwcs-logo-large.jpg
+image: src/assets/calendar/irwcs-logo-large.jpg
 links:
     # homepage: https://www.tanzschule-schaefer-koch.de/events/paare-und-singles/
     # facebook: https://www.facebook.com/events/1064681532344988/
