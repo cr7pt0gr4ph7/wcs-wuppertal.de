@@ -423,7 +423,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 }
 
 <style>
-  /* Rounded edges for the whole table */
+  /* COMPONENT: ROUNDED EDGES FOR THE WHOLE TABLE */
   .table {
     border-radius: var(--table-border-radius);
   }
@@ -442,7 +442,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 </style>
 
 <style>
-  /* "Additional dates" pill */
+  /* COMPONENT: "ADDITIONAL DATES" PILL */
   .additional-dates {
     font-weight: var(--pill-font-weight);
     font-size: var(--pill-font-size);
@@ -473,7 +473,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 </style>
 
 <style>
-  /* Links */
+  /* COMPONENT: LINKS */
   .table a,
   .table a:active,
   .table a:visited,
@@ -516,12 +516,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 </style>
 
 <style>
-  .group-header {
-    display: none !important;
-  }
-</style>
-
-<style>
+  /* COMPONENT: VIEWPORT-DEPENDENT VISIBILITY */
   .if-small-viewport {
     display: inline;
   }
@@ -540,6 +535,54 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     }
   }
 </style>
+
+<style>
+  /* COMPONENT: EXPANDER */
+  details:not([open]) + .expander {
+    display: none;
+  }
+</style>
+
+<style>
+  /* LAYOUT: EXPANDER w/ SPACE AFTER OPEN EXPANDER */
+  details + .expander {
+    margin-bottom: 0.25rem;
+  }
+</style>
+
+
+<style>
+  /* COMPONENT/LAYOUT: TABLE w/ EXPANDER INSIDE TABLE */
+  .table details summary {
+    list-style: none;
+  }
+  .table details summary::marker,
+  .table details summary::-webkit-details-marker {
+    content: none;
+  }
+  .table details summary::before {
+    content: "\0025BA";
+  }
+  .table details[open] summary::before {
+    content: "\0025BC";
+  }
+
+  @media (min-width: 900px) {
+    /* LAYOUT: TABLE - ADAPTIONS */
+    .table details summary::before {
+      padding-left: 0.25rem;
+      grid-column: expander;
+    }
+  }
+</style>
+
+<style>
+  /* LAYOUT: GROUPS w/ NO GROUP HEADERS */
+  .group-header {
+    display: none !important;
+  }
+</style>
+
 
 <style>
   /* Variables */
@@ -614,11 +657,21 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 <style>
   /* LAYOUT: TABLE */
   @media (min-width: 900px) {
-    .table,
-    .table details summary.tr {
+    .table {
       display: grid;
       grid-template-columns:
-        [start name name-start] 18fr
+        [start expander expander-start] 2rem
+        [name expander-end name-start] 18fr
+        [datetime datetime-start name-end] 11fr
+        [location location-start datetime-end] 13fr
+        [link link-start location-end] 8fr
+        [end link-end];
+    }
+
+    .table details summary.tr {
+      grid-template-columns:
+        [start expander expander-start] 2rem
+        [name expander-end name-start] 18fr
         [datetime datetime-start name-end] 11fr
         [location location-start datetime-end] 13fr
         [link link-start location-end] 8fr
@@ -660,8 +713,8 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     .sub-table,
     .group,
     .group-header,
-    details,
-    summary {
+    .table details,
+    .table details summary {
       grid-column: start / end;
       display: grid;
       grid-template-columns: subgrid;
@@ -676,7 +729,8 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     .merged.table details summary.tr {
       display: grid;
       grid-template-columns:
-        [start name name-start] 27fr
+        [start expander expander-end] 1em
+        [name name-start expander-end] 27fr
         [datetime datetime-start name-end location location-start] 15fr
         [link link-start datetime-end location-end] 8fr
         [end link-end];
@@ -691,7 +745,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 
 <style>
   .group-header {
-    /* /* margin-top: 0.75rem;
+    /* margin-top: 0.75rem;
     margin-bottom: 0.5rem; */
 
     padding-top: calc((3rem - 1em) / 2);
@@ -721,17 +775,6 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   .group .group-header + .tr .name-and-image,
   .group .group-header + .tr .image {
     font-weight: 500;
-  }
-
-  /* -- */
-
-  details + .expander {
-    display: none;
-    margin-bottom: 0.25rem;
-  }
-
-  details[open] + .expander {
-    display: grid;
   }
 
   /* -- */
@@ -928,7 +971,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 </style>
 
 <style>
-  /* Columns */
+  /* LAYOUT: TABLE w/ LEFT PADDING FOR CELLS */
   .name,
   .date,
   .dates,
@@ -944,7 +987,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 </style>
 
 <style>
-  /* Column titles */
+  /* COMPONENT: COLUMN TITLES */
   *[data-column-name]::before {
     content: attr(data-column-name);
   }
