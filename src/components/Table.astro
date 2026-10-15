@@ -30,11 +30,13 @@ const entries = await getCalendarEntries({
 });
 
 const myShortDateFormatOpts: Intl.DateTimeFormatOptions = {
+  weekday: "short",
   month: "2-digit",
   day: "2-digit",
 };
 
 const myDateFormatOpts: Intl.DateTimeFormatOptions = {
+  weekday: "short",
   month: "2-digit",
   day: "2-digit",
   year: "numeric",
