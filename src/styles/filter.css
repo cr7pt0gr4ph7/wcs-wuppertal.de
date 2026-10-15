@@ -37,7 +37,7 @@ form.event-filter:has(input[type="radio"][value="intensive"]:checked) + .table:n
     display: block;
 }
 
-form.event-filter:has(input[type="radio"][value="beginner_workshop"]:checked) + .table:not(:has(* > .tbody > :not(type-beginner-workshop)) + .event-filter-no-entries {
+form.event-filter:has(input[type="radio"][value="beginner_workshop"]:checked) + .table:not(:has(* > .tbody > .event-type-beginner-workshop)) + .event-filter-no-entries {
     display: block;
 }
 
