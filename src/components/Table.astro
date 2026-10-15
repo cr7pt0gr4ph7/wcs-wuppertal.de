@@ -551,13 +551,15 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     --pill-font-weight: 400;
     --pill-line-height: var(--table-line-height-absolute);
     /* -- */
-    --table-line-height-absolute: calc(var(--table-line-height) * var(--table-font-size))
+    --table-line-height-absolute: calc(
+      var(--table-line-height) * var(--table-font-size)
+    );
   }
 
   /* Base style */
   .table {
     font-size: var(--table-font-size);
-    line-height: (--table-line-height);
+    line-height: var(--table-line-height);
   }
 
   .sub-table {
@@ -595,6 +597,13 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     font-weight: 400;
     font-size: 1.25rem;
     line-height: 1.5;
+  }
+</style>
+
+<style>
+  /** LAYOUT: INLINE COLUMN TITLES */
+  .td::before {
+    padding-right: 0.25em;
   }
 </style>
 
@@ -903,7 +912,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 </style>
 
 <style>
-  /* Column titles */
+  /* Columns */
   .name,
   .date,
   .dates,
@@ -916,31 +925,12 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     --indent: 0.5rem;
     margin-left: var(--indent);
   }
+</style>
 
+<style>
+  /* Column titles */
   *[data-column-name]::before {
     content: attr(data-column-name);
-  }
-
-  .name::before {
-    content: "Kurs";
-  }
-  .date::before,
-  .dates::before {
-    content: "Datum";
-    content: "Datum";
-  }
-  .time::before,
-  .times::before {
-    content: "Uhrzeit";
-  }
-  .location::before {
-    content: "Ort";
-  }
-  .link::before {
-    content: "";
-  }
-  .description::before {
-    content: "Beschreibung";
   }
 
   .name::before {
@@ -952,14 +942,21 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   }
   .time::before,
   .times::before {
-    content: "";
+    /* content: ""; */
   }
   .location::before {
     content: "Wo?";
   }
+  .link::before {
+    /* content: ""; */
+  }
+  .description::before {
+    content: "Beschreibung";
+  }
 
   @media (min-width: 900px) {
     .td::before {
+      padding-right: 0;
       content: none !important;
     }
   }
