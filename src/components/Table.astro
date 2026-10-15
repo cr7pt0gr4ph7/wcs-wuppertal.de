@@ -866,14 +866,14 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 
   .name .subtitle {
     font-weight: 400;
-    color: var(--table-color-current);
+    color: var(--table-color-current-normal);
   }
 
   .sub-table .name,
   .sub-table .name .title,
   .sub-table .name .subtitle {
     font-weight: 300;
-    color: var(--table-color-current);
+    color: var(--table-color-current-normal);
   }
 
   @media (min-width: 900px) {
@@ -889,7 +889,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 
     .sub-table .name .subtitle {
       font-weight: 350;
-      color: var(--table-color-current);
+      color: var(--table-color-current-normal);
     }
   }
 </style>
