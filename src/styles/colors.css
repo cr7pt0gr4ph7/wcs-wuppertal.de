@@ -60,6 +60,7 @@
     --table-color-highlight: var(--secondary-color-highlight);
     --table-color-hover: var(--secondary-color-hover);
     --table-color-underline: var(--secondary-color-underline);
+    --sub-table-marker-color: var(--secondary-color-underline);
     --mock-table-background: var(--secondary-inverted-background);
 
     /* Pills */

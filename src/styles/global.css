@@ -41,6 +41,7 @@ a.implicit-link:focus-within {
     text-decoration: inherit;
     color: inherit;
 }
+
 :root {
     --text-font-size: 1.25rem;
     --text-line-height: 1.75rem;
@@ -50,8 +51,9 @@ a.implicit-link:focus-within {
     --table-line-height: 1.5625rem;
     --table-line-gap: 0.125rem;
     /** -- */
-    --table-font-weight: 500;
-    --sub-table-font-weight: 300;
+    --text-font-weight: 300;
+    --table-font-weight: 400;
+    --sub-table-font-weight: var(--text-font-weight);
 }
 
 @media (min-width: 600px) {
@@ -68,6 +70,8 @@ a.implicit-link:focus-within {
         /* -- */
         --table-line-height: calc(1.25 * var(--table-font-size));
         --table-line-height: 1.875rem;
+        /* -- */
+        --table-font-weight: 500;
     }
 }
 
@@ -79,7 +83,7 @@ main section ul,
 main section ol {
     font-size: var(--text-font-size);
     line-height: var(--text-line-height);
-    font-weight: 300;
+    font-weight: var(--text-font-weight);
 }
 
 p.small {

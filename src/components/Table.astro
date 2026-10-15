@@ -541,6 +541,27 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   details:not([open]) + .expander {
     display: none;
   }
+
+  .tr-parent {
+    cursor: pointer;
+  }
+</style>
+
+<style>
+  /* LAYOUT: EXPANDER - BORDER */
+  .table {
+    --table-extra-indent: 0px;
+    --sub-table-marker-width: 0.4rem;
+  }
+
+  details[open],
+  details[open] + .expander {
+  }
+
+  details + .expander .tr {
+    border-left: var(--sub-table-marker-width) solid
+      var(--sub-table-marker-color);
+  }
 </style>
 
 <style>
@@ -577,6 +598,13 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     padding-left: var(--expander-column-width);
   }
 
+  /* LAYOUT: EXPANDER - CUSTOM BORDER - ADAPTIONS */
+  .table details + .expander > .sub-table > .tr {
+    padding-left: calc(
+      var(--expander-column-width) - var(--sub-table-marker-width)
+    );
+  }
+
   @media (min-width: 900px) {
     /* LAYOUT: EXPANDER INSIDE (LAYOUT: TABLE) - ADAPTIONS */
     .table details summary {
@@ -602,6 +630,11 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 </style>
 
 <style>
+  /* COMPONENT: GROUP HEADER */}
+  .group-header {
+    color: var(--primary-subdued);
+  }
+
   /* LAYOUT: GROUPS w/ NO GROUP HEADERS */
   .group-header {
     display: none !important;
@@ -783,28 +816,8 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   }
 </style>
 
+<!--
 <style>
-  .group-header {
-    /* margin-top: 0.75rem;
-    margin-bottom: 0.5rem; */
-
-    padding-top: calc((3rem - 1em) / 2);
-    padding-bottom: calc((3rem - 1em) / 2);
-    color: var(--primary-subdued);
-    /* padding-left: calc(2rem + var(--table-border-width)); */
-  }
-
-  .group .tr {
-    /* padding-left: 3rem; */
-    padding-top: calc((3rem - 1.25em) / 2);
-    padding-bottom: calc((3rem - 1.25em) / 2);
-  }
-
-  .group {
-    margin-top: 0.125rem;
-    margin-bottom: 0.125rem;
-  }
-
   .group .tr .name,
   .group .tr .name-and-image,
   .group .tr .image {
@@ -815,6 +828,53 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   .group .group-header + .tr .name-and-image,
   .group .group-header + .tr .image {
     font-weight: 500;
+  }
+
+
+  .name {
+    font-weight: 450;
+    color: var(--table-color-highlight);
+  }
+
+  .name .title {
+    font-weight: 500;
+    color: var(--table-color-highlight);
+  }
+
+  .name .subtitle {
+    font-weight: 400;
+    color: var(--table-color);
+  }
+</style>
+-->
+
+<style>
+  /* LAYOUT: BLOCK COLUMN TITLES - LARGE SPACING */
+  /*
+  .td::before {
+    display: block;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 50px;
+  }
+  */
+</style>
+
+<!--
+<style>
+  .group-header {
+    padding-top: calc((3rem - 1em) / 2);
+    padding-bottom: calc((3rem - 1em) / 2);
+  }
+
+  .group .tr {
+    padding-top: calc((3rem - 1.25em) / 2);
+    padding-bottom: calc((3rem - 1.25em) / 2);
+  }
+
+  .group {
+    margin-top: 0.125rem;
+    margin-bottom: 0.125rem;
   }
 
   /* -- */
@@ -837,47 +897,19 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 
   /* -- */
 
-  .tr-parent {
-    cursor: pointer;
-  }
-
-  /* -- */
-
-  .name {
-    font-weight: 450;
-    color: var(--table-color-highlight);
-  }
-
-  .name .title {
-    font-weight: 500;
-    color: var(--table-color-highlight);
-  }
-
-  .name .subtitle {
-    font-weight: 400;
-    color: var(--table-color);
-  }
-
-  *[data-column-name]::before,
-  .name::before,
-  .date::before,
-  .dates::before,
-  .time::before,
-  .times::before,
-  .location::before,
-  .link::before,
-  .description::before {
-    display: block;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 50px;
+  .td::before {
     margin-left: calc(-1 * var(--indent));
   }
 
   .link {
     margin-top: 8px;
   }
+</style>
+-->
 
+<!--
+<style>
+  /** COMPONENT: PICTURE */
   .name Picture,
   .image Picture {
     /* float: right; */
@@ -959,8 +991,16 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
       position: static;
     }
 
-    /* -- */
+    .name-and-image .image {
+      flex-shrink: 0;
+    }
+  }
+</style>
+-->
 
+<!--
+<style>
+  @media (min-width: 900px) {
     .table details summary.tr {
       padding-left: 0;
       padding-right: 0;
@@ -982,11 +1022,13 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
       --indent: 0px;
       padding-right: 0.5em;
     }
+  }
+</style>
+-->
 
-    .name-and-image .image {
-      flex-shrink: 0;
-    }
-
+<!--
+<style>
+  @media (min-width: 900px) {
     .merged.table .name-and-image {
       padding-right: 1.5rem;
     }
@@ -1009,6 +1051,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     }
   }
 </style>
+-->
 
 <style>
   /* LAYOUT: TABLE w/ LEFT PADDING FOR CELLS */
