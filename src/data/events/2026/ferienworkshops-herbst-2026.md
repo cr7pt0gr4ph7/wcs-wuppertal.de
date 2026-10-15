@@ -13,7 +13,7 @@ links:
     # facebook: https://www.facebook.com/events/1064681532344988/
     maps: https://maps.app.goo.gl/GaKyzFyhZQFCFY6d9
 type:
-    workshop: { requires_registration: true }
+    workshop: { requires_registration: true,  more_infos: true }
     requires_registration: true
 ---
 
