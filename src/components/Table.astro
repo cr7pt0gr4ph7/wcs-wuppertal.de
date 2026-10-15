@@ -13,6 +13,7 @@ interface Props {
   types?: EventType[];
   showImages?: boolean;
   showSubtitles?: boolean;
+  expandByDefault?: boolean;
 }
 
 const {
@@ -21,6 +22,7 @@ const {
   tags,
   showImages = true,
   showSubtitles = true,
+  expandByDefault = true,
 } = Astro.props;
 
 const entries = await getCalendarEntries({
@@ -397,7 +399,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
             } else {
               return (
                 <div class={formatRowClass("tr-parent", entry)}>
-                  <details>
+                  <details open={expandByDefault}>
                     <summary class={formatRowClass("tr primary", entry)}>
                       {formatRowContent(entry)}
                     </summary>
