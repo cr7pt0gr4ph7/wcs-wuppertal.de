@@ -203,8 +203,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
               <div class="td name">
                 {subtitle && showSubtitles ? (
                   <span class="title-box">
-                    <span class="title">{hyphenate(title)}</span>
-                    {" "}
+                    <span class="title">{hyphenate(title)}</span>{" "}
                     <span class="subtitle">{hyphenate(subtitle)}</span>
                   </span>
                 ) : (
@@ -445,18 +444,18 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 <style>
   /* "Additional dates" pill */
   .additional-dates {
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: calc(28 * 1rem / 16);
+    font-weight: var(--pill-font-weight);
+    font-size: var(--pill-font-size);
+    line-height: var(--pill-line-height);
     /* -- */
-    padding-top: calc(5 * 1rem / 16);
-    padding-bottom: calc(4 * 1rem / 16);
-    padding-left: 0.75rem;
-    padding-right: 1rem;
-    border-radius: 1.5rem;
+    padding-top: calc(0.3125 * var(--pill-font-size));
+    padding-bottom: calc(0.25 * var(--pill-font-size));
+    padding-left: calc(0.75 * var(--pill-font-size));
+    padding-right: calc(1 * var(--pill-font-size));
+    border-radius: calc(1.5 * var(--pill-font-size));
     /* -- */
     position: relative;
-    bottom: calc(1 * 1rem / 16);
+    bottom: calc(2 / 16 * var(--pill-font-size));
   }
 
   .additional-dates {
@@ -543,10 +542,22 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 </style>
 
 <style>
+  /* Variables */
+  .table {
+    --table-font-size: 1.5rem;
+    --table-line-height: 1.25;
+    /* -- */
+    --pill-font-size: 1rem;
+    --pill-font-weight: 400;
+    --pill-line-height: var(--table-line-height-absolute);
+    /* -- */
+    --table-line-height-absolute: calc(var(--table-line-height) * var(--table-font-size))
+  }
+
   /* Base style */
   .table {
-    font-size: 1.5rem;
-    line-height: 1.25;
+    font-size: var(--table-font-size);
+    line-height: (--table-line-height);
   }
 
   .sub-table {
