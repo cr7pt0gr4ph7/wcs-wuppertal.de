@@ -544,15 +544,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 </style>
 
 <style>
-  /* LAYOUT: EXPANDER w/ SPACE AFTER OPEN EXPANDER */
-  details + .expander {
-    margin-bottom: 0.25rem;
-  }
-</style>
-
-
-<style>
-  /* COMPONENT/LAYOUT: TABLE w/ EXPANDER INSIDE TABLE */
+  /* LAYOUT: EXPANDER - CUSTOM MARKER */
   .table details summary {
     list-style: none;
   }
@@ -561,16 +553,49 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     content: none;
   }
   .table details summary::before {
+    font-size: var(--expander-font-size);
     content: "\0025BA";
   }
   .table details[open] summary::before {
     content: "\0025BC";
   }
+</style>
 
+<style>
+  /* LAYOUT: EXPANDER OUTSIDE (LAYOUT: TABLE) */
+  .table details summary {
+    padding-left: var(--expander-column-width);
+    position: relative;
+  }
+  .table details summary::before {
+    position: absolute;
+    width: 0;
+    left: var(--expander-column-padding-left);
+    display: block;
+  }
+  .table details + .expander > .sub-table > .tr {
+    padding-left: var(--expander-column-width);
+  }
+
+  @media (min-width: 900px) {
+    /* LAYOUT: EXPANDER INSIDE (LAYOUT: TABLE) - ADAPTIONS */
+    .table details summary {
+      padding-left: 0;
+      position: static;
+    }
+    .table details summary::before {
+      position: static;
+      left: auto;
+    }
+  }
+</style>
+
+<style>
+  /* LAYOUT: EXPANDER INSIDE (LAYOUT: TABLE) */
   @media (min-width: 900px) {
     /* LAYOUT: TABLE - ADAPTIONS */
     .table details summary::before {
-      padding-left: 0.25rem;
+      padding-left: var(--expander-column-padding-left);
       grid-column: expander;
     }
   }
@@ -583,7 +608,6 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   }
 </style>
 
-
 <style>
   /* Variables */
   .table {
@@ -593,6 +617,10 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     --pill-font-size: 1rem;
     --pill-font-weight: 400;
     --pill-line-height: var(--table-line-height-absolute);
+    /* -- */
+    --expander-font-size: 1em;
+    --expander-column-width: 2rem;
+    --expander-column-padding-left: 0.25rem;
     /* -- */
     --table-line-height-absolute: calc(
       var(--table-line-height) * var(--table-font-size)
@@ -640,6 +668,13 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     font-weight: 400;
     font-size: 1.25rem;
     line-height: 1.5;
+  }
+</style>
+
+<style>
+  /* LAYOUT: EXPANDER w/ SPACE AFTER OPEN EXPANDER */
+  details + .expander {
+    margin-bottom: 0.25rem;
   }
 </style>
 
