@@ -1,5 +1,4 @@
 import type { GetImageResult } from "astro";
-import type { LocalImageProps, RemoteImageProps } from "astro:assets";
 
 type SrcSetValue = GetImageResult["srcSet"]["values"][number]
 
