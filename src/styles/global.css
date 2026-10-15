@@ -50,6 +50,15 @@ a.implicit-link:focus-within {
     --table-line-height: calc(1.25 * var(--table-font-size));
     --table-line-height: 1.5625rem;
     --table-line-gap: 0.125rem;
+    --table-row-gap: 3px;
+    --table-row-padding: calc((2rem - var(--table-line-height)) / 2);
+    --table-row-padding: 0.21875rem;
+    --table-row-padding: 0.45rem;
+    --table-group-header-padding: calc((3rem - 1em) / 2);
+    --table-group-row-padding: calc((3rem - 1.25em) / 2);
+    --table-group-margin-top: 0.125rem;
+    --table-group-margin-bottom: 0.125rem;
+    --table-margin-bottom: 3rem;
     /** -- */
     --text-font-weight: 300;
     --table-font-weight: 400;
@@ -60,16 +69,30 @@ a.implicit-link:focus-within {
     :root {
         --text-font-size: 1.25rem;
         --text-line-height: 2rem;
+        /* -- */
+        --table-row-padding: calc((3rem - var(--table-line-height)) / 2);
+        --table-row-padding: 0.71875rem;
+        --table-row-padding: 0.8785rem;
     }
 }
 
-@media(min-width: 900px) {
+@media (min-width: 900px) {
+    :root {
+        --table-row-padding: calc((4rem - var(--table-line-height)) / 2);
+        --table-row-padding: 1.21875rem;
+        --table-row-padding: 1.25rem;
+    }
+}
+
+@media(min-width: 2000px) {
     :root {
         --text-font-size: 1.5rem;
         --text-line-height: 2.25rem;
         /* -- */
         --table-line-height: calc(1.25 * var(--table-font-size));
         --table-line-height: 1.875rem;
+        --table-row-padding: 1.0625rem;
+        --table-row-padding: 1.125rem;
         /* -- */
         --table-font-weight: 500;
     }

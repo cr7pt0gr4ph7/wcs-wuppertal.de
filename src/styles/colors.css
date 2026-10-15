@@ -15,6 +15,7 @@
     --secondary-color: #b3b3b3;
     --secondary-color-highlight: #e3e3e3;
     --secondary-color-hover: #f3f3f3;
+    --secondary-color-highlight-hover: #ffffff;
     --secondary-color-underline: #505050;
     --secondary-subdued: #606060;
 
@@ -58,6 +59,7 @@
     --table-border-radius: 5px;
     --table-color: var(--secondary-color);
     --table-color-highlight: var(--secondary-color-highlight);
+    --table-color-highlight-hover: var(--secondary-color-highlight-hover);
     --table-color-hover: var(--secondary-color-hover);
     --table-color-underline: var(--secondary-color-underline);
     --sub-table-marker-color: var(--secondary-color-underline);

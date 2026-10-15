@@ -371,7 +371,12 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     };
 
     return (
-      <div class={(merged ? "table merged" : "table") + " o-expander-border o-inline-column-titles"}>
+      <div
+        class={
+          (merged ? "table merged" : "table") +
+          " o-expander-border o-inline-column-titles"
+        }
+      >
         <div class="thead" />
         <div class="tbody">
           {sortByDate(entries.map((entry) => entry.data)).map((entry) => {
@@ -474,6 +479,11 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 
 <style>
   /* COMPONENT: LINKS */
+  .table {
+    --table-color-current-normal: var(--table-color);
+    --table-color-current-highlight: var(--table-color-highlight);
+  }
+
   .table a,
   .table a:active,
   .table a:visited,
@@ -506,12 +516,26 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     background-color: var(--table-background);
     color: var(--table-color);
     border: var(--table-border);
+
+    --table-color-current-normal: var(--table-color);
+    --table-color-current-highlight: var(--table-color-highlight);
   }
 
   .tr:hover {
     background-color: var(--table-background-hover);
     color: var(--table-color-hover);
     border: var(--table-border-hover);
+
+    --table-color-current-normal: var(--table-color-hover);
+    --table-color-current-highlight: var(--table-color-highlight-hover);
+  }
+
+  .tr .link a {
+    color: var(--table-color-current-normal);
+  }
+
+  .tr .link a:hover {
+    color: var(--table-color-current-highlight);
   }
 </style>
 
@@ -547,6 +571,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 
   /* LAYOUT: EXPANDER w/ SPACE AFTER OPEN EXPANDER */
   details + .expander {
+    /* TODO: Can we get rid of this? */
     margin-bottom: var(--expander-open-gap);
   }
 </style>
@@ -708,10 +733,6 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 </style>
 
 <style>
-
-</style>
-
-<style>
   /** LAYOUT: INLINE COLUMN TITLES */
   .o-inline-column-titles .td::before {
     padding-right: 0.25em;
@@ -723,22 +744,27 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 </style>
 
 <style>
+  /* LAYOUT: BLOCK COLUMN TITLES - LARGE SPACING */
+  .o-block-column-titles .td::before {
+    display: block;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 50px;
+  }
+
+  /* LAYOUT: BLOCK COLUMN TITLES - INDENT */
+  .o-block-column-titles .td::before {
+    margin-left: calc(-1 * var(--indent));
+  }
+</style>
+
+<style>
   /* LAYOUT: TABLE */
   @media (min-width: 900px) {
     .table {
       display: grid;
       grid-template-columns:
-        [start expander expander-start] 2rem
-        [name expander-end name-start] 18fr
-        [datetime datetime-start name-end] 11fr
-        [location location-start datetime-end] 13fr
-        [link link-start location-end] 8fr
-        [end link-end];
-    }
-
-    .table details summary.tr {
-      grid-template-columns:
-        [start expander expander-start] 2rem
+        [start expander expander-start] var(--expander-column-width)
         [name expander-end name-start] 18fr
         [datetime datetime-start name-end] 11fr
         [location location-start datetime-end] 13fr
@@ -797,7 +823,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     .merged.table details summary.tr {
       display: grid;
       grid-template-columns:
-        [start expander expander-end] 1em
+        [start expander expander-end] var(--expander-column-width)
         [name name-start expander-end] 27fr
         [datetime datetime-start name-end location location-start] 15fr
         [link link-start datetime-end location-end] 8fr
@@ -830,71 +856,82 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   /* COMPONENT/LAYOUT: COLUMN TITLES - HIGHLIGHT MAIN COLUMN TITLE */
   .name {
     font-weight: 450;
-    color: var(--table-color-highlight);
+    color: var(--table-color-current-highlight);
   }
 
   .name .title {
     font-weight: 500;
-    color: var(--table-color-highlight);
+    color: var(--table-color-current-highlight);
   }
 
   .name .subtitle {
     font-weight: 400;
-    color: var(--table-color);
-  }
-</style>
-
-<style>
-  /* LAYOUT: BLOCK COLUMN TITLES - LARGE SPACING */
-  .o-block-column-titles .td::before {
-    display: block;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 50px;
+    color: var(--table-color-current);
   }
 
-  /* LAYOUT: BLOCK COLUMN TITLES - INDENT */
-  .o-block-column-titles .td::before {
-    margin-left: calc(-1 * var(--indent));
+  .sub-table .name,
+  .sub-table .name .title,
+  .sub-table .name .subtitle {
+    font-weight: 300;
+    color: var(--table-color-current);
+  }
+
+  @media (min-width: 900px) {
+    .sub-table .name {
+      font-weight: 400;
+      color: var(--table-color-current-current);
+    }
+
+    .sub-table .name .title {
+      font-weight: 450;
+      color: var(--table-color-current-highlight);
+    }
+
+    .sub-table .name .subtitle {
+      font-weight: 350;
+      color: var(--table-color-current);
+    }
   }
 </style>
 
 <style>
   /** COMPONENT/LAYOUT: GROUPS - LARGE SPACING */
   .group-header {
-    padding-top: calc((3rem - 1em) / 2);
-    padding-bottom: calc((3rem - 1em) / 2);
+    padding-top: var(--table-group-header-padding);
+    padding-bottom: var(--table-group-header-padding);
   }
 
   .group .tr {
-    padding-top: calc((3rem - 1.25em) / 2);
-    padding-bottom: calc((3rem - 1.25em) / 2);
+    padding-top: var(--table-group-row-padding);
+    padding-bottom: var(--table-group-row-padding);
   }
 
   .group {
-    margin-top: 0.125rem;
-    margin-bottom: 0.125rem;
+    margin-top: var(--table-group-margin-top);
+    margin-bottom: var(--table-group-margin-bottom);
   }
 
   /* LAYOUT: SPACING */
   .table {
-    margin-bottom: 3rem;
-    margin-top: -3px;
+    margin-bottom: var(--table-margin-bottom);
+    margin-top: calc(-1 * var(--table-row-gap));
   }
 
   .tr {
-    margin-top: 3px;
-    padding-top: calc((4rem - 1.25 * 1em) / 2);
-    padding-bottom: calc((4rem - 1.25 * 1em) / 2);
+    margin-top: var(--table-row-gap);
+    padding-top: var(--table-row-padding);
+    padding-bottom: var(--table-row-padding);
   }
 
   .tr {
+    /* TODO: Can we get rid of this? */
     padding-left: 2rem;
     padding-right: 2rem;
   }
 
+  /* COMPONENT/LAYOUT: LINK - SPACING */
   .link {
-    margin-top: 8px;
+    margin-top: 0.5rem;
   }
 </style>
 
