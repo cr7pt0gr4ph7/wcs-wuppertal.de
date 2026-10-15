@@ -371,7 +371,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     };
 
     return (
-      <div class={merged ? "table merged" : "table"}>
+      <div class={(merged ? "table merged" : "table") + " o-expander-border o-inline-column-titles"}>
         <div class="thead" />
         <div class="tbody">
           {sortByDate(entries.map((entry) => entry.data)).map((entry) => {
@@ -541,24 +541,27 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   details:not([open]) + .expander {
     display: none;
   }
-
   .tr-parent {
     cursor: pointer;
+  }
+
+  /* LAYOUT: EXPANDER w/ SPACE AFTER OPEN EXPANDER */
+  details + .expander {
+    margin-bottom: var(--expander-open-gap);
   }
 </style>
 
 <style>
   /* LAYOUT: EXPANDER - BORDER */
   .table {
-    --table-extra-indent: 0px;
-    --sub-table-marker-width: 0.4rem;
+    --sub-table-marker-width: 0px;
   }
 
-  details[open],
-  details[open] + .expander {
+  .o-expander-border.table {
+    --sub-table-marker-width: var(--expander-border-marker-width);
   }
 
-  details + .expander .tr {
+  .o-expander-border details + .expander .tr {
     border-left: var(--sub-table-marker-width) solid
       var(--sub-table-marker-color);
   }
@@ -630,11 +633,6 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 </style>
 
 <style>
-  /* COMPONENT: GROUP HEADER */}
-  .group-header {
-    color: var(--primary-subdued);
-  }
-
   /* LAYOUT: GROUPS w/ NO GROUP HEADERS */
   .group-header {
     display: none !important;
@@ -646,15 +644,14 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   .table {
     --pill-font-size: 1rem;
     --pill-font-weight: 400;
-    --pill-line-height: var(--table-line-height-absolute);
+    --pill-line-height: var(--table-line-height);
     /* -- */
     --expander-font-size: 1em;
     --expander-column-width: 2rem;
     --expander-column-padding-left: 0.25rem;
+    --expander-open-gap: 0.25rem;
+    --expander-border-marker-width: 0.4rem;
     /* -- */
-    --table-line-height-absolute: calc(
-      var(--table-line-height) * var(--table-font-size)
-    );
   }
 
   /* Base style */
@@ -674,6 +671,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     font-weight: 400;
     font-size: var(--table-font-size);
     line-height: 1;
+    color: var(--primary-subdued);
   }
 
   .group .tr {
@@ -691,7 +689,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   .link span {
     font-weight: 300;
     font-size: 1rem;
-    line-height: var(--table-line-height-absolute);
+    line-height: var(--table-line-height);
   }
 
   /* Columns */
@@ -710,19 +708,16 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 </style>
 
 <style>
-  /* LAYOUT: EXPANDER w/ SPACE AFTER OPEN EXPANDER */
-  details + .expander {
-    margin-bottom: 0.25rem;
-  }
+
 </style>
 
 <style>
   /** LAYOUT: INLINE COLUMN TITLES */
-  .td::before {
+  .o-inline-column-titles .td::before {
     padding-right: 0.25em;
   }
 
-  .td::before {
+  .o-inline-column-titles .td::before {
     font-weight: 700;
   }
 </style>
@@ -816,8 +811,8 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   }
 </style>
 
-<!--
 <style>
+  /* COMPONENT/LAYOUT: GROUPS - HIGHLIGHT GROUP HEADERS */
   .group .tr .name,
   .group .tr .name-and-image,
   .group .tr .image {
@@ -829,8 +824,10 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   .group .group-header + .tr .image {
     font-weight: 500;
   }
+</style>
 
-
+<style>
+  /* COMPONENT/LAYOUT: COLUMN TITLES - HIGHLIGHT MAIN COLUMN TITLE */
   .name {
     font-weight: 450;
     color: var(--table-color-highlight);
@@ -846,22 +843,24 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     color: var(--table-color);
   }
 </style>
--->
 
 <style>
   /* LAYOUT: BLOCK COLUMN TITLES - LARGE SPACING */
-  /*
-  .td::before {
+  .o-block-column-titles .td::before {
     display: block;
     font-weight: 800;
     font-size: 16px;
     line-height: 50px;
   }
-  */
+
+  /* LAYOUT: BLOCK COLUMN TITLES - INDENT */
+  .o-block-column-titles .td::before {
+    margin-left: calc(-1 * var(--indent));
+  }
 </style>
 
-<!--
 <style>
+  /** COMPONENT/LAYOUT: GROUPS - LARGE SPACING */
   .group-header {
     padding-top: calc((3rem - 1em) / 2);
     padding-bottom: calc((3rem - 1em) / 2);
@@ -877,8 +876,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     margin-bottom: 0.125rem;
   }
 
-  /* -- */
-
+  /* LAYOUT: SPACING */
   .table {
     margin-bottom: 3rem;
     margin-top: -3px;
@@ -895,17 +893,10 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     padding-right: 2rem;
   }
 
-  /* -- */
-
-  .td::before {
-    margin-left: calc(-1 * var(--indent));
-  }
-
   .link {
     margin-top: 8px;
   }
 </style>
--->
 
 <!--
 <style>
