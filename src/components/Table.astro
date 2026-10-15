@@ -961,45 +961,67 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   }
 </style>
 
-<!--
 <style>
-  /* COMPONENT: PICTURE */
-  .name::after {
-    content: "";
-    clear: both;
-  }
-
+  /* COMPONENT/LAYOUT: PICTURE - HOVER EFFECT */
   @media (hover: hover and pointer: fine) {
     /* when hover is supported */
-    .name Picture,
-    .image Picture {
+    .o-picture-hovereffect .name Picture,
+    .o-picture-hovereffect .image Picture {
       filter: saturate(10%) brightness(50%);
       transition: filter 0.4s ease-in;
     }
 
-    .table:hover .name Picture,
-    .table:hover .image Picture {
+    .o-picture-hovereffect.table:hover .name Picture,
+    .o-picture-hovereffect.table:hover .image Picture {
       transition: filter 1s ease-in;
     }
 
-    .tr:hover .name Picture,
-    .tr:hover .image Picture {
+    .o-picture-hovereffect .tr:hover .name Picture,
+    .o-picture-hovereffect .tr:hover .image Picture {
       filter: saturate(100%);
       transition: filter 0.3s ease-in;
     }
   }
+</style>
 
+<!--
+<style>
+  /* COMPONENT/LAYOUT: PICTURE - PADDING */
   .image {
     padding-top: 1rem;
   }
 
-  @media (max-width: 600px) {
+  @media (min-width: 900px) {
+    .image {
+      padding-top: 0px;
+    }
+  }
+</style>
+-->
+
+<style>
+  /* COMPONENT/LAYOUT: PICTURE OUTSIDE (LAYOUT: TABLE) */
+  .name-and-image {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .name Picture,
+  .image Picture {
+    max-width: 400px;
+    justify-self: center;
+    display: block;
+  }
+
+  @media (min-width: 900px) {
+    /* COMPONENT/LAYOUT: PICTURE INSIDE (LAYOUT: TABLE) - ADAPTIONS */
+    .name Picture,
     .image Picture {
-      margin-left: auto;
-      margin-right: auto;
+      justify-self: auto;
     }
   }
 
+  /* COMPONENT/LAYOUT: PICTURE INSIDE (LAYOUT: TABLE) */
   @media (min-width: 900px) {
     .name,
     .name-and-image,
@@ -1008,21 +1030,13 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
       flex-direction: row;
     }
 
-    .image {
-      padding-top: 0px;
-    }
-
     .name Picture,
     .image Picture {
       max-width: 160px;
       margin-left: -0.5em;
       margin-right: 1em;
       align-self: center;
-    }
-
-    .name Picture img,
-    .image Picture img {
-      box-shadow: 2px 2px 8px black;
+      display: block;
     }
 
     .name Picture,
@@ -1035,9 +1049,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     }
   }
 </style>
--->
 
-<!--
 <style>
   @media (min-width: 900px) {
     .table details summary.tr {
@@ -1063,9 +1075,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     }
   }
 </style>
--->
 
-<!--
 <style>
   @media (min-width: 900px) {
     .merged.table .name-and-image {
@@ -1090,7 +1100,6 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     }
   }
 </style>
--->
 
 <style>
   /* LAYOUT: TABLE w/ LEFT PADDING FOR CELLS */

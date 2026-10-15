@@ -78,9 +78,26 @@ a.implicit-link:focus-within {
 
 @media (min-width: 900px) {
     :root {
+        --table-font-size: 1.5rem;
+        --table-line-height: calc(1.25 * var(--table-font-size));
+        /* -- */
         --table-row-padding: calc((4rem - var(--table-line-height)) / 2);
         --table-row-padding: 1.21875rem;
         --table-row-padding: 1.25rem;
+    }
+}
+
+@media(min-width: 2000px) {
+    :root {
+        --text-font-size: 1.5rem;
+        --text-line-height: 2.25rem;
+        /* -- */
+        --table-line-height: calc(1.25 * var(--table-font-size));
+        --table-line-height: 1.875rem;
+        --table-row-padding: 1.0625rem;
+        --table-row-padding: 1.125rem;
+        /* -- */
+        --table-font-weight: 500;
     }
 }
 
