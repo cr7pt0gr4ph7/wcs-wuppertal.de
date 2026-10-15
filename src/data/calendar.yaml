@@ -177,21 +177,21 @@
 - id: unisport-buw-wuppertal-wcs-level-2
   title: WCS Level 2
   location: UniSport Wuppertal
-  date: 2026-07-30T17:00:00
+  date: 2026-10-29T16:30:00
   duration: 01:00:00
-  url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing_Ferien.html
+  url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
   tags: [ level_2, unisport ]
   type: { regular_course: true, requires_registration: true }
 
-- id: unisport-buw-wuppertal-wcs-level-1
-  title: WCS Level 1
-  location: UniSport Wuppertal
-  date: 2026-10-14T18:00:00
-  duration: 01:00:00
-  # url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
-  url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing_Ferien.html
-  tags: [ level_1, unisport ]
-  type: { regular_course: true, requires_registration: true }
+# - id: unisport-buw-wuppertal-wcs-level-1
+#   title: WCS Level 1
+#   location: UniSport Wuppertal
+#   date: 2026-10-14T18:00:00
+#   duration: 01:00:00
+#   # url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing.html
+#   url: https://buchung.hochschulsport.uni-wuppertal.de/sportarten/aktueller_zeitraum/_West_Coast_Swing_Ferien.html
+#   tags: [ level_1, unisport ]
+#   type: { regular_course: true, requires_registration: true }
 
 # - id: unisport-buw-wuppertal-wcs-level-1-schnupperwoche
 #   title: Kostenlose Schnupperwoche im WCS Level 1 beim UniSport Wuppertal
