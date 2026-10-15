@@ -522,10 +522,35 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 </style>
 
 <style>
+  .if-small-viewport {
+    display: inline;
+  }
+
+  .if-large-viewport {
+    display: none;
+  }
+
+  @media (min-width: 1120px) {
+    .if-small-viewport {
+      display: none;
+    }
+
+    .if-large-viewport {
+      display: inline;
+    }
+  }
+</style>
+
+<style>
   /* Base style */
   .table {
     font-size: 1.5rem;
     line-height: 1.25;
+  }
+
+  .sub-table {
+    font-weight: 300;
+    /* font-size: 1.25rem; */
   }
 
   /* Groups */
@@ -551,6 +576,13 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     font-weight: 300;
     font-size: 1rem;
     line-height: calc(0.5 * 1.5 * 1.5rem);
+  }
+
+  /* Columns */
+  .description {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5;
   }
 </style>
 
@@ -619,20 +651,11 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 
   /* -- */
 
-
-  /* -- */
-
   .tr-parent {
     cursor: pointer;
   }
 
   /* -- */
-
-  .description {
-    font-size: 1.25rem;
-    line-height: 1.5;
-    font-weight: 400;
-  }
 
   .name {
     font-weight: 450;
@@ -663,27 +686,6 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     font-size: 16px;
     line-height: 50px;
     margin-left: calc(-1 * var(--indent));
-  }
-
-  .if-small-viewport {
-    display: none;
-    font-size: 1.25rem;
-    position: relative;
-    top: 0.15em;
-  }
-
-  .if-large-viewport {
-    display: none;
-  }
-
-  @media (min-width: 1120px) {
-    .if-small-viewport {
-      display: none;
-    }
-
-    .if-large-viewport {
-      display: inline;
-    }
   }
 
   .link {
@@ -885,13 +887,6 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     .merged.table .description {
       grid-row-end: span 2;
     }
-  }
-
-  /** -- */
-
-  .sub-table {
-    font-weight: 300;
-    /* font-size: 1.25rem; */
   }
 </style>
 
