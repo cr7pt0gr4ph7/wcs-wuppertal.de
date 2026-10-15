@@ -935,24 +935,27 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   }
 </style>
 
-<!--
 <style>
-  /** COMPONENT: PICTURE */
-  .name Picture,
-  .image Picture {
-    /* float: right; */
-    /* max-width: 200px; */
+  /* COMPONENT/LAYOUT: PICTURE - ENFORCE MAX SIZE */
+  .o-picture-maxsize .name Picture,
+  .o-picture-maxsize .image Picture {
     max-width: min(240px, min(100%, 80vw));
     position: relative;
     display: block;
-    /* top: -40px; */
   }
+</style>
 
-  .name Picture img,
-  .image Picture img {
+<style>
+  /* COMPONENT/LAYOUT: PICTURE - SHADOW */
+  .o-picture-shadow .name Picture img,
+  .o-picture-shadow .image Picture img {
     box-shadow: 2px 2px 8px black;
   }
+</style>
 
+<!--
+<style>
+  /* COMPONENT: PICTURE */
   .name::after {
     content: "";
     clear: both;
