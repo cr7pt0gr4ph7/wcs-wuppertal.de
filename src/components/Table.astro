@@ -611,9 +611,6 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 <style>
   /* Variables */
   .table {
-    --table-font-size: 1.5rem;
-    --table-line-height: 1.25;
-    /* -- */
     --pill-font-size: 1rem;
     --pill-font-weight: 400;
     --pill-line-height: var(--table-line-height-absolute);
@@ -631,10 +628,11 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   .table {
     font-size: var(--table-font-size);
     line-height: var(--table-line-height);
+    font-weight: var(--table-font-weight);
   }
 
   .sub-table {
-    font-weight: 300;
+    font-weight: var(--sub-table-font-weight);
     /* font-size: 1.25rem; */
   }
 
@@ -668,6 +666,13 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     font-weight: 400;
     font-size: 1.25rem;
     line-height: 1.5;
+  }
+</style>
+
+<style>
+  /* LAYOUT: SPACING */
+  .table .td {
+    padding-bottom: var(--table-line-gap);
   }
 </style>
 

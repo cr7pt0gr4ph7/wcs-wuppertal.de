@@ -41,14 +41,44 @@ a.implicit-link:focus-within {
     text-decoration: inherit;
     color: inherit;
 }
+:root {
+    --text-font-size: 1.25rem;
+    --text-line-height: 1.75rem;
+    /* -- */
+    --table-font-size: var(--text-font-size);
+    --table-line-height: calc(1.25 * var(--table-font-size));
+    --table-line-height: 1.5625rem;
+    --table-line-gap: 0.125rem;
+    /** -- */
+    --table-font-weight: 500;
+    --sub-table-font-weight: 300;
+}
+
+@media (min-width: 600px) {
+    :root {
+        --text-font-size: 1.25rem;
+        --text-line-height: 2rem;
+    }
+}
+
+@media(min-width: 900px) {
+    :root {
+        --text-font-size: 1.5rem;
+        --text-line-height: 2.25rem;
+        /* -- */
+        --table-line-height: calc(1.25 * var(--table-font-size));
+        --table-line-height: 1.875rem;
+    }
+}
+
 
 p,
 article ul,
 article ol,
 main section ul,
 main section ol {
-    font-size: 1.5rem;
-    line-height: 2.25rem;
+    font-size: var(--text-font-size);
+    line-height: var(--text-line-height);
     font-weight: 300;
 }
 
@@ -111,39 +141,19 @@ main section ul span.thin {
     font-weight: 200;
 }
 
-@media(max-width: 900px) {
-
-    p,
-    article ul,
-    main section ul {
-        font-size: 1.25rem;
-        line-height: 2rem;
-    }
-}
-
-@media(max-width: 600px) {
-
-    p,
-    article ul,
-    main section ul {
-        font-size: 1.25rem;
-        line-height: 1.75rem;
-    }
-}
-
 article table a,
 main section table a {
-  color: #eee;
-  font-weight: 400;
-  text-underline-offset: 2px;
-  text-decoration-thickness: 2px;
-  text-decoration-color: #999;
+    color: #eee;
+    font-weight: 400;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #999;
 }
 
 article table a:hover,
 main section table a:hover {
-  color: #fff;
-  text-decoration-color: #fff;
+    color: #fff;
+    text-decoration-color: #fff;
 }
 
 h1 a,
