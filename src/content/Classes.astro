@@ -17,12 +17,15 @@ import Table from "../components/Table.astro";
     <span class="link-pill-group-icon">
       <Icon size="2em" name="material-symbols:link-2" />
     </span>
-    <div class="link-pill-group-items">
-      <a href="#kurse-erklaerung" class="link-pill">Erklärung der Kurslevel</a>
-      <a href="#level-1" class="link-pill">Level 1 (Einsteiger)</a>
-      <a href="#level-2" class="link-pill">Level 2</a>
-      <a href="#level-3" class="link-pill">Level 3</a>
-      <a href="#einsteigerworkshops" class="link-pill">Schnupperworkshops</a>
+    <div class="link-pill-scroll">
+      <div class="link-pill-group-items">
+        <a href="#kurse-erklaerung" class="link-pill">Erklärung der Kurslevel</a
+        >
+        <a href="#level-1" class="link-pill">Level 1 (Einsteiger)</a>
+        <a href="#level-2" class="link-pill">Level 2</a>
+        <a href="#level-3" class="link-pill">Level 3</a>
+        <a href="#einsteigerworkshops" class="link-pill">Schnupperworkshops</a>
+      </div>
     </div>
   </div>
   <p>Hier sind Eure nächsten Gelegenheiten, um West Coast Swing zu lernen!</p>
@@ -119,6 +122,20 @@ import Table from "../components/Table.astro";
     >!
   </p>
 </section>
+<script>
+  import { ScrollBooster } from "scrollbooster";
+
+  const viewport = document.querySelector(
+    ".link-pill-scroll",
+  ) as HTMLElement;
+  viewport.classList.add("js-scroll");
+  const sb = new ScrollBooster({
+    viewport,
+    direction: "horizontal",
+    inputsFocus: true,
+    wheel: "horizontal",
+  });
+</script>
 <style type="text/css">
   strong {
     font-weight: 450;
@@ -208,7 +225,18 @@ import Table from "../components/Table.astro";
   /** Variant 2: Scrollable container */
   .link-pill-group-items {
     flex-wrap: nowrap;
-    overflow-x: scroll;
+  }
+  .link-pill-scroll {
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .link-pill-scroll.js-scroll {
+    overflow: hidden;
+  }
+  .link-pill-scroll.js-scroll .link-pill-group-items {
+    display: flex;
+    width: max-content;
+    overflow: hidden;
   }
 
   .link-pill,

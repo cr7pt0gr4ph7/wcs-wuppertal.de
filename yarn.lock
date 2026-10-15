@@ -4259,6 +4259,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"scrollbooster@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "scrollbooster@npm:4.0.0"
+  checksum: 10c0/eea0dc2540e424254a1dbe0d33d5732146c01196759e69b24805114b7a1d544167185fa088a32ee279b19afcc43ddf4a03313f76cbfdc616ec3c68f0341a3bf4
+  languageName: node
+  linkType: hard
+
 "semver@npm:^7.3.5, semver@npm:^7.3.8, semver@npm:^7.6.2, semver@npm:^7.6.3":
   version: 7.8.5
   resolution: "semver@npm:7.8.5"
@@ -5209,6 +5216,7 @@ __metadata:
     hyphen: "npm:^1.10.6"
     remark-extended-table: "npm:^2.0.3"
     schema-dts: "npm:^1.1.2"
+    scrollbooster: "npm:^4.0.0"
     temporal-polyfill: "npm:^0.2.5"
     typescript: "npm:^5.7.3"
   languageName: unknown
