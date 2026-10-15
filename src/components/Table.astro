@@ -442,6 +442,37 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 </style>
 
 <style>
+  /* "Additional dates" pill */
+  .additional-dates {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: calc(28 * 1rem / 16);
+    /* -- */
+    padding-top: calc(5 * 1rem / 16);
+    padding-bottom: calc(4 * 1rem / 16);
+    padding-left: 0.75rem;
+    padding-right: 1rem;
+    border-radius: 1.5rem;
+    /* -- */
+    position: relative;
+    bottom: calc(1 * 1rem / 16);
+  }
+
+  .additional-dates {
+    text-wrap: nowrap;
+    /* word-break: break-all; */ /* "word-wrap: break-all" causes line breaks at unintended positions in Firefox 136 */
+    /* -- */
+    background-color: var(--pill-background);
+    color: var(--pill-color);
+  }
+
+  .tr:hover .additional-dates {
+    background-color: var(--pill-background-hover);
+    color: var(--pill-color-hover);
+  }
+</style>
+
+<style>
   .group-header {
     font-size: 1.5rem;
     line-height: 1;
@@ -554,27 +585,6 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 
   /* -- */
 
-  .additional-dates {
-    background-color: var(--pill-background);
-    color: var(--pill-color);
-    border-radius: 1.5rem;
-    padding-left: 0.75rem;
-    padding-right: 1rem;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: calc(28 * 1rem / 16);
-    padding-top: calc(5 * 1rem / 16);
-    padding-bottom: calc(4 * 1rem / 16);
-    position: relative;
-    bottom: calc(1 * 1rem / 16);
-    text-wrap: nowrap;
-    /* word-break: break-all; */ /* "word-wrap: break-all" causes line breaks at unintended positions in Firefox 136 */
-  }
-
-  .tr:hover .additional-dates {
-    background-color: var(--pill-background-hover);
-    color: var(--pill-color-hover);
-  }
 
   /* -- */
 
