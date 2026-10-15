@@ -202,12 +202,13 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
               </div>
               <div class="td name">
                 {subtitle && showSubtitles ? (
-                  <div class="title-box">
-                    <div class="title">{hyphenate(title)}</div>
-                    <div class="subtitle">{hyphenate(subtitle)}</div>
-                  </div>
+                  <span class="title-box">
+                    <span class="title">{hyphenate(title)}</span>
+                    {" "}
+                    <span class="subtitle">{hyphenate(subtitle)}</span>
+                  </span>
                 ) : (
-                  <div class="title-box">{hyphenate(title)}</div>
+                  <span class="title-box">{hyphenate(title)}</span>
                 )}
               </div>
             </div>
