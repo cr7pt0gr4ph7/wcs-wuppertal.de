@@ -473,10 +473,89 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 </style>
 
 <style>
+  /* Links */
+  .table a,
+  .table a:active,
+  .table a:visited,
+  .table a:target {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: var(--table-color-underline);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+  }
+
+  .link span {
+    font-style: italic;
+    color: var(--secondary-subdued);
+  }
+
+  .tr:hover link span {
+    color: #808080;
+  }
+
+  .table a:hover,
+  .table a:focus {
+    text-decoration: underline;
+    text-decoration-color: var(--table-color);
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+  }
+
+  .tr {
+    background-color: var(--table-background);
+    color: var(--table-color);
+    border: var(--table-border);
+  }
+
+  .tr:hover {
+    background-color: var(--table-background-hover);
+    color: var(--table-color-hover);
+    border: var(--table-border-hover);
+  }
+</style>
+
+<style>
   .group-header {
+    display: none !important;
+  }
+</style>
+
+<style>
+  /* Base style */
+  .table {
+    font-size: 1.5rem;
+    line-height: 1.25;
+  }
+
+  /* Groups */
+  .group-header {
+    font-weight: 400;
     font-size: 1.5rem;
     line-height: 1;
-    font-weight: 400;
+  }
+
+  .group .tr {
+    font-size: 1.4rem;
+  }
+
+  /** Links */
+  .table a,
+  .table a:active,
+  .table a:visited,
+  .table a:target {
+    font-weight: 700;
+  }
+
+  .link span {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: calc(0.5 * 1.5 * 1.5rem);
+  }
+</style>
+
+<style>
+  .group-header {
     /* /* margin-top: 0.75rem;
     margin-bottom: 0.5rem; */
 
@@ -484,12 +563,10 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
     padding-bottom: calc((3rem - 1em) / 2);
     color: var(--primary-subdued);
     /* padding-left: calc(2rem + var(--table-border-width)); */
-    display: none !important;
   }
 
   .group .tr {
     /* padding-left: 3rem; */
-    font-size: 1.4rem;
     padding-top: calc((3rem - 1.25em) / 2);
     padding-bottom: calc((3rem - 1.25em) / 2);
   }
@@ -524,58 +601,15 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 
   /* -- */
 
-  .table a,
-  .table a:active,
-  .table a:visited,
-  .table a:target {
-    color: inherit;
-    font-weight: 700;
-    text-decoration: underline;
-    text-decoration-color: var(--table-color-underline);
-    text-decoration-thickness: 1px;
-    text-underline-offset: 2px;
-  }
-
-  .link span {
-    font-weight: 300;
-    font-style: italic;
-    font-size: 1rem;
-    line-height: calc(0.5 * 1.5 * 1.5rem);
-    color: var(--secondary-subdued);
-  }
-
-  .tr:hover link span {
-    color: #808080;
-  }
-
-  .table a:hover,
-  .table a:focus {
-    text-decoration: underline;
-    text-decoration-color: var(--table-color);
-    text-decoration-thickness: auto;
-    text-underline-offset: auto;
-  }
-
   .table {
-    font-size: 1.5rem;
-    line-height: 1.25;
     margin-bottom: 3rem;
     margin-top: -3px;
   }
 
   .tr {
     margin-top: 3px;
-    background-color: var(--table-background);
-    color: var(--table-color);
-    border: var(--table-border);
     padding-top: calc((4rem - 1.25 * 1em) / 2);
     padding-bottom: calc((4rem - 1.25 * 1em) / 2);
-  }
-
-  .tr:hover {
-    background-color: var(--table-background-hover);
-    color: var(--table-color-hover);
-    border: var(--table-border-hover);
   }
 
   .tr {
