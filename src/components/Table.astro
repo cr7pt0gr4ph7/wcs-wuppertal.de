@@ -195,13 +195,19 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
           const title = entry.calendar?.title ?? entry.title;
           const subtitle = entry.calendar?.subtitle ?? entry.subtitle;
           let imageProps = toImageProps(parseImageObject(entry.image));
+          let imageElement =
+            showImages && imageProps ? (
+              <Picture class="teaser-image" {...imageProps} />
+            ) : null;
+          let imageLinkUrl = entry.url ?? entry.links?.registration;
+          let imageLinkElement = imageLinkUrl ? (
+            <a href={imageLinkUrl}>{imageElement}</a>
+          ) : (
+            imageElement
+          );
           return (
             <div class="td name-and-image">
-              <div class="td image">
-                {showImages && imageProps ? (
-                  <Picture class="teaser-image" {...imageProps} />
-                ) : null}
-              </div>
+              <div class="td image">{imageLinkElement}</div>
               <div class="td name">
                 {subtitle && showSubtitles ? (
                   <span class="title-box">
@@ -904,7 +910,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   }
 
   .group .tr {
-    padding-top: var(--table-group-row-padding);
+    padding-top: var(--table-group-ro<w-padding);
     padding-bottom: var(--table-group-row-padding);
   }
 
