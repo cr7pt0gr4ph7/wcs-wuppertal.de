@@ -423,6 +423,7 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
 }
 
 <style>
+  /* Rounded edges for the whole table */
   .table {
     border-radius: var(--table-border-radius);
   }
@@ -602,60 +603,6 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   .name .subtitle {
     font-weight: 400;
     color: var(--table-color);
-  }
-
-  .name,
-  .date,
-  .dates,
-  .time,
-  .times,
-  .location,
-  .link,
-  .description,
-  *[data-column-name] {
-    --indent: 0.5rem;
-    margin-left: var(--indent);
-  }
-
-  *[data-column-name]::before {
-    content: attr(data-column-name);
-  }
-
-  .name::before {
-    content: "Kurs";
-  }
-  .date::before,
-  .dates::before {
-    content: "Datum";
-    content: "Datum";
-  }
-  .time::before,
-  .times::before {
-    content: "Uhrzeit";
-  }
-  .location::before {
-    content: "Ort";
-  }
-  .link::before {
-    content: "";
-  }
-  .description::before {
-    content: "Beschreibung";
-  }
-
-  .name::before {
-    content: "Was?";
-  }
-  .date::before,
-  .dates::before {
-    content: "Wann?";
-  }
-  .time::before,
-  .times::before {
-    content: "";
-  }
-  .location::before {
-    content: "Wo?";
   }
 
   *[data-column-name]::before,
@@ -846,10 +793,6 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
       grid-template-columns: subgrid;
     }
 
-    .td::before {
-      content: none !important;
-    }
-
     .name,
     .date,
     .dates,
@@ -905,5 +848,68 @@ type Columns = Record<string, { format: (entry: RowData) => any }>;
   .sub-table {
     font-weight: 300;
     /* font-size: 1.25rem; */
+  }
+</style>
+
+<style>
+  /* Column titles */
+  .name,
+  .date,
+  .dates,
+  .time,
+  .times,
+  .location,
+  .link,
+  .description,
+  *[data-column-name] {
+    --indent: 0.5rem;
+    margin-left: var(--indent);
+  }
+
+  *[data-column-name]::before {
+    content: attr(data-column-name);
+  }
+
+  .name::before {
+    content: "Kurs";
+  }
+  .date::before,
+  .dates::before {
+    content: "Datum";
+    content: "Datum";
+  }
+  .time::before,
+  .times::before {
+    content: "Uhrzeit";
+  }
+  .location::before {
+    content: "Ort";
+  }
+  .link::before {
+    content: "";
+  }
+  .description::before {
+    content: "Beschreibung";
+  }
+
+  .name::before {
+    content: "Was?";
+  }
+  .date::before,
+  .dates::before {
+    content: "Wann?";
+  }
+  .time::before,
+  .times::before {
+    content: "";
+  }
+  .location::before {
+    content: "Wo?";
+  }
+
+  @media (min-width: 900px) {
+    .td::before {
+      content: none !important;
+    }
   }
 </style>
