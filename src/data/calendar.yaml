@@ -2,7 +2,7 @@
   title: WCS Level 1 | Donnerstag
   subtitle: für Einsteiger (6 x 60 min)
   location: ADTV Tanzschule Schäfer-Koch
-  date: 2026-09-10T19:45:00
+  date: 2026-11-05T19:45:00
   duration: 01:00:00
   links:
     homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
@@ -11,10 +11,10 @@
   tags: [ level_1, donnerstag, tanzschule ]
   type: { regular_course: true, requires_registration: true }
   children:
-    - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-04-16
+    - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-11-05
       title: WCS Level 1 (6 x 60 min) | Donnerstag
       location: ADTV Tanzschule Schäfer-Koch
-      date: 2026-09-10T19:45:00
+      date: 2026-11-05T19:45:00
       duration: 01:00:00
       links:
         homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
@@ -23,10 +23,10 @@
       tags: [ level_1, donnerstag, tanzschule ]
       type: { regular_course: true, requires_registration: true }
 
-    - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-04-16
+    - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2027-01-07
       title: WCS Level 1 (6 x 60 min) | Donnerstag
       location: ADTV Tanzschule Schäfer-Koch
-      date: 2026-11-05T19:45:00
+      date: 2027-01-07T19:45:00
       duration: 01:00:00
       links:
         homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
@@ -39,7 +39,7 @@
   title: WCS Level 1 | Freitag
   subtitle: für Einsteiger (6 x 60 min)
   location: ADTV Tanzschule Schäfer-Koch
-  date: 2026-09-04T20:30:00
+  date: 2026-11-06T20:30:00
   duration: 01:00:00
   links:
     homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
@@ -48,10 +48,10 @@
   tags: [ level_1, freitag, tanzschule ]
   type: { regular_course: true, requires_registration: true }
   children:
-    - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-04-16
+    - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-11-06
       title: WCS Level 1 (6 x 60 min) | Freitag
       location: ADTV Tanzschule Schäfer-Koch
-      date: 2026-09-04T20:30:00
+      date: 2026-11-06T20:30:00
       duration: 01:00:00
       links:
         homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
@@ -60,10 +60,10 @@
       tags: [ level_1, freitag, tanzschule ]
       type: { regular_course: true, requires_registration: true }
 
-    - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-04-16
+    - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2027-01-08
       title: WCS Level 1 (6 x 60 min) | Freitag
       location: ADTV Tanzschule Schäfer-Koch
-      date: 2026-11-06T20:30:00
+      date: 2027-01-08T20:30:00
       duration: 01:00:00
       links:
         homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
@@ -76,7 +76,7 @@
   title: WCS Level 1 | Sonntag
   subtitle: für Einsteiger (6 x 60 min)
   location: ADTV Tanzschule Schäfer-Koch
-  date: 2026-09-13T15:15:00
+  date: 2026-11-08T15:15:00
   duration: 01:00:00
   links:
     homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
@@ -85,10 +85,10 @@
   tags: [ level_1, sonntag, tanzschule ]
   type: { regular_course: true, requires_registration: true }
   children:
-    - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-04-19
+    - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-11-08
       title: WCS Level 1 (6 x 60 min) | Sonntag
       location: ADTV Tanzschule Schäfer-Koch
-      date: 2026-09-13T15:15:00
+      date: 2026-11-08T15:15:00
       duration: 01:00:00
       links:
         homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
@@ -97,10 +97,22 @@
       tags: [ level_1, sonntag, tanzschule ]
       type: { regular_course: true, requires_registration: true }
 
-    - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2026-04-19
+    - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2027-01-10
       title: WCS Level 1 (6 x 60 min) | Sonntag
       location: ADTV Tanzschule Schäfer-Koch
-      date: 2026-11-08T15:15:00
+      date: 2027-01-10T15:15:00
+      duration: 01:00:00
+      links:
+        homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
+        maps: https://maps.app.goo.gl/EEQY8BBpWBj3F3ie6
+      url: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
+      tags: [ level_1, sonntag, tanzschule ]
+      type: { regular_course: true, requires_registration: true }
+
+    - id: adtv-tanzschule-schaefer-koch--wcs-level-1--2027-02-28
+      title: WCS Level 1 (6 x 60 min) | Sonntag
+      location: ADTV Tanzschule Schäfer-Koch
+      date: 2027-02-28T15:15:00
       duration: 01:00:00
       links:
         homepage: https://www.tanzschule-schaefer-koch.de/tanzkurse/west-coast-swing
